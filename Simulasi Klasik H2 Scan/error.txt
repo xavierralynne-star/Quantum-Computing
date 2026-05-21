@@ -1,2 +1,0 @@
-[file orca_main/run.cpp, line 380]: Cannot open input file: Hidrogen_scan.inp
-
