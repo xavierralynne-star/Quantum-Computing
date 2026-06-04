@@ -1,0 +1,16 @@
+*.gbw
+*.densities
+*.densitiesinfo
+*.bibtex
+*.property.txt
+*.trjact.dat
+*.trjscf.dat
+*.wpolfit_inp.dat
+slurm-*.out
+*.ges
+*.engrad
+*.hess
+*.opt
+*.xyz
+*.png
+*.gif
