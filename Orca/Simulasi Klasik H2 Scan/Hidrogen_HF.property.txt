@@ -1,0 +1,810 @@
+*************************************************
+******************* ORCA 6.0.1 ******************
+*************************************************
+$Calculation_Status
+   &GeometryIndex 16
+   &ListStatus       OUT
+   &VERSION [&Type "String"] "6.0.1"
+   &PROGNAME [&Type "String"] "LeanSCF"
+   &STATUS [&Type "String"] "NORMAL TERMINATION"
+$End
+$Geometry
+   &GeometryIndex 1
+   &ListStatus       OUT
+   &NATOMS [&Type "Integer"] 2
+   &NCORELESSECP [&Type "Integer"] 0
+   &NGHOSTATOMS [&Type "Integer"] 0
+   &CartesianCoordinates [&Type "Coordinates", &Dim(2,4), &Units "Bohr"] 
+              H      0.000000000000    0.000000000000    0.000000000000
+              H      0.000000000000    0.000000000000    0.377945226784
+$End
+$SCF_Energy
+   &GeometryIndex 1
+   &ListStatus       OUT
+   &SCF_ENERGY [&Type "Double"]       1.6417500009077823e-01
+$End
+$Mulliken_Population_Analysis
+   &GeometryIndex 1
+   &ListStatus       OUT
+   &NATOMS [&Type "Integer"] 2
+   &ATNO [&Type "ArrayOfIntegers", &Dim (2,1)] 
+                                                         0
+
+0                                                        1
+1                                                        1
+   &ATOMICCHARGES [&Type "ArrayOfDoubles", &Dim (2,1)] 
+                                                         0
+
+0                                      0.0000000000000000e+00
+1                                      0.0000000000000000e+00
+$End
+$Loewdin_Population_Analysis
+   &GeometryIndex 1
+   &ListStatus       OUT
+   &NATOMS [&Type "Integer"] 2
+   &ATNO [&Type "ArrayOfIntegers", &Dim (2,1)] 
+                                                         0
+
+0                                                        1
+1                                                        1
+   &ATOMICCHARGES [&Type "ArrayOfDoubles", &Dim (2,1)] 
+                                                         0
+
+0                                      0.0000000000000000e+00
+1                                      0.0000000000000000e+00
+$End
+$Mayer_Population_Analysis
+   &GeometryIndex 1
+   &ListStatus       OUT
+   &NATOMS [&Type "Integer"] 2 "Total number of atoms"
+   &BONDTHRESH [&Type "Double"]       1.0000000000000001e-01  "The threshold for printing"
+   &NBONDORDERSPRINT [&Type "Integer"] 1 "The number of bond orders larger than threshold"
+   &BONDORDERS [&Type "ArrayOfDoubles", &Dim (1,1)] "The bond orders"
+                                                         0
+
+0                                      9.9999999999999889e-01
+   &COMPONENTS [&Type "ArrayOfIntegers", &Dim (1,4)] "The indices and atomic numbers of the bonding atoms"
+                                                         0                           1                           2                           3
+
+0                                                        0                           1                           1                           1
+   &ATNO [&Type "ArrayOfIntegers", &Dim (2,1)] "Atomic number of the elements"
+                                                         0
+
+0                                                        1
+1                                                        1
+   &NA [&Type "ArrayOfDoubles", &Dim (2,1)] "Mulliken gross atomic population"
+                                                         0
+
+0                                      9.9999999999999933e-01
+1                                      9.9999999999999956e-01
+   &ZA [&Type "ArrayOfDoubles", &Dim (2,1)] "Total nuclear charge"
+                                                         0
+
+0                                      1.0000000000000000e+00
+1                                      1.0000000000000000e+00
+   &QA [&Type "ArrayOfDoubles", &Dim (2,1)] "Mulliken gross atomic charge"
+                                                         0
+
+0                                      0.0000000000000000e+00
+1                                      0.0000000000000000e+00
+   &VA [&Type "ArrayOfDoubles", &Dim (2,1)] "Mayer's total valence"
+                                                         0
+
+0                                      1.0000000000000000e+00
+1                                      1.0000000000000000e+00
+   &BVA [&Type "ArrayOfDoubles", &Dim (2,1)] "Mayer's bonded valence"
+                                                         0
+
+0                                      9.9999999999999889e-01
+1                                      9.9999999999999889e-01
+   &FA [&Type "ArrayOfDoubles", &Dim (2,1)] "Mayer's free valence"
+                                                         0
+
+0                                      0.0000000000000000e+00
+1                                      0.0000000000000000e+00
+$End
+$SCF_Dipole_Moment
+   &GeometryIndex 1
+   &ListStatus       OUT
+   &METHOD [&Type "String"] "SCF"
+   &LEVEL [&Type "String"] "Relaxed density"
+   &MULT [&Type "Integer"] 1
+   &STATE [&Type "Integer"] -1
+   &IRREP [&Type "Integer"] 0
+   &NATOMS [&Type "Integer"] 2
+   &DODIPOLEATOM [&Type "Boolean"] false
+   &DIPOLEELECCONTRIB [&Type "ArrayOfDoubles", &Dim (3,1)] "Electronic contribution"
+                                                         0
+
+0                                      0.0000000000000000e+00
+1                                      0.0000000000000000e+00
+2                                      0.0000000000000000e+00
+   &DIPOLENUCCONTRIB [&Type "ArrayOfDoubles", &Dim (3,1)] "Nuclear contribution"
+                                                         0
+
+0                                      0.0000000000000000e+00
+1                                      0.0000000000000000e+00
+2                                      0.0000000000000000e+00
+   &DIPOLETOTAL [&Type "ArrayOfDoubles", &Dim (3,1)] "Total"
+                                                         0
+
+0                                      0.0000000000000000e+00
+1                                      0.0000000000000000e+00
+2                                      0.0000000000000000e+00
+   &DIPOLEMAGNITUDE [&Type "Double", &Units "a.u."]       9.7047197188254016e-15
+$End
+$Geometry
+   &GeometryIndex 2
+   &ListStatus       OUT
+   &NATOMS [&Type "Integer"] 2
+   &NCORELESSECP [&Type "Integer"] 0
+   &NGHOSTATOMS [&Type "Integer"] 0
+   &CartesianCoordinates [&Type "Coordinates", &Dim(2,4), &Units "Bohr"] 
+              H      0.000000000000    0.000000000000    0.000000000000
+              H      0.000000000000    0.000000000000    0.730694105116
+$End
+$SCF_Energy
+   &GeometryIndex 2
+   &ListStatus       OUT
+   &SCF_ENERGY [&Type "Double"]      -8.7600655652587944e-01
+$End
+$SCF_Dipole_Moment
+   &GeometryIndex 2
+   &ListStatus       OUT
+   &METHOD [&Type "String"] "SCF"
+   &LEVEL [&Type "String"] "Relaxed density"
+   &MULT [&Type "Integer"] 1
+   &STATE [&Type "Integer"] -1
+   &IRREP [&Type "Integer"] 0
+   &NATOMS [&Type "Integer"] 2
+   &DODIPOLEATOM [&Type "Boolean"] false
+   &DIPOLEELECCONTRIB [&Type "ArrayOfDoubles", &Dim (3,1)] "Electronic contribution"
+                                                         0
+
+0                                      0.0000000000000000e+00
+1                                      0.0000000000000000e+00
+2                                      0.0000000000000000e+00
+   &DIPOLENUCCONTRIB [&Type "ArrayOfDoubles", &Dim (3,1)] "Nuclear contribution"
+                                                         0
+
+0                                      0.0000000000000000e+00
+1                                      0.0000000000000000e+00
+2                                      0.0000000000000000e+00
+   &DIPOLETOTAL [&Type "ArrayOfDoubles", &Dim (3,1)] "Total"
+                                                         0
+
+0                                      0.0000000000000000e+00
+1                                      0.0000000000000000e+00
+2                                      0.0000000000000000e+00
+   &DIPOLEMAGNITUDE [&Type "Double", &Units "a.u."]       3.8616771188514483e-15
+$End
+$Geometry
+   &GeometryIndex 3
+   &ListStatus       OUT
+   &NATOMS [&Type "Integer"] 2
+   &NCORELESSECP [&Type "Integer"] 0
+   &NGHOSTATOMS [&Type "Integer"] 0
+   &CartesianCoordinates [&Type "Coordinates", &Dim(2,4), &Units "Bohr"] 
+              H      0.000000000000    0.000000000000    0.000000000000
+              H      0.000000000000    0.000000000000    1.083442983448
+$End
+$SCF_Energy
+   &GeometryIndex 3
+   &ListStatus       OUT
+   &SCF_ENERGY [&Type "Double"]      -1.0908331336080688e+00
+$End
+$SCF_Dipole_Moment
+   &GeometryIndex 3
+   &ListStatus       OUT
+   &METHOD [&Type "String"] "SCF"
+   &LEVEL [&Type "String"] "Relaxed density"
+   &MULT [&Type "Integer"] 1
+   &STATE [&Type "Integer"] -1
+   &IRREP [&Type "Integer"] 0
+   &NATOMS [&Type "Integer"] 2
+   &DODIPOLEATOM [&Type "Boolean"] false
+   &DIPOLEELECCONTRIB [&Type "ArrayOfDoubles", &Dim (3,1)] "Electronic contribution"
+                                                         0
+
+0                                      0.0000000000000000e+00
+1                                      0.0000000000000000e+00
+2                                      0.0000000000000000e+00
+   &DIPOLENUCCONTRIB [&Type "ArrayOfDoubles", &Dim (3,1)] "Nuclear contribution"
+                                                         0
+
+0                                      0.0000000000000000e+00
+1                                      0.0000000000000000e+00
+2                                      0.0000000000000000e+00
+   &DIPOLETOTAL [&Type "ArrayOfDoubles", &Dim (3,1)] "Total"
+                                                         0
+
+0                                      0.0000000000000000e+00
+1                                      0.0000000000000000e+00
+2                                      0.0000000000000000e+00
+   &DIPOLEMAGNITUDE [&Type "Double", &Units "a.u."]       3.8068796752294655e-15
+$End
+$Geometry
+   &GeometryIndex 4
+   &ListStatus       OUT
+   &NATOMS [&Type "Integer"] 2
+   &NCORELESSECP [&Type "Integer"] 0
+   &NGHOSTATOMS [&Type "Integer"] 0
+   &CartesianCoordinates [&Type "Coordinates", &Dim(2,4), &Units "Bohr"] 
+              H      0.000000000000    0.000000000000    0.000000000000
+              H      0.000000000000    0.000000000000    1.436191861780
+$End
+$SCF_Energy
+   &GeometryIndex 4
+   &ListStatus       OUT
+   &SCF_ENERGY [&Type "Double"]      -1.1153806589719990e+00
+$End
+$SCF_Dipole_Moment
+   &GeometryIndex 4
+   &ListStatus       OUT
+   &METHOD [&Type "String"] "SCF"
+   &LEVEL [&Type "String"] "Relaxed density"
+   &MULT [&Type "Integer"] 1
+   &STATE [&Type "Integer"] -1
+   &IRREP [&Type "Integer"] 0
+   &NATOMS [&Type "Integer"] 2
+   &DODIPOLEATOM [&Type "Boolean"] false
+   &DIPOLEELECCONTRIB [&Type "ArrayOfDoubles", &Dim (3,1)] "Electronic contribution"
+                                                         0
+
+0                                      0.0000000000000000e+00
+1                                      0.0000000000000000e+00
+2                                      0.0000000000000000e+00
+   &DIPOLENUCCONTRIB [&Type "ArrayOfDoubles", &Dim (3,1)] "Nuclear contribution"
+                                                         0
+
+0                                      0.0000000000000000e+00
+1                                      0.0000000000000000e+00
+2                                      0.0000000000000000e+00
+   &DIPOLETOTAL [&Type "ArrayOfDoubles", &Dim (3,1)] "Total"
+                                                         0
+
+0                                      0.0000000000000000e+00
+1                                      0.0000000000000000e+00
+2                                      0.0000000000000000e+00
+   &DIPOLEMAGNITUDE [&Type "Double", &Units "a.u."]       9.0854475728225173e-15
+$End
+$Geometry
+   &GeometryIndex 5
+   &ListStatus       OUT
+   &NATOMS [&Type "Integer"] 2
+   &NCORELESSECP [&Type "Integer"] 0
+   &NGHOSTATOMS [&Type "Integer"] 0
+   &CartesianCoordinates [&Type "Coordinates", &Dim(2,4), &Units "Bohr"] 
+              H      0.000000000000    0.000000000000    0.000000000000
+              H      0.000000000000    0.000000000000    1.788940740112
+$End
+$SCF_Energy
+   &GeometryIndex 5
+   &ListStatus       OUT
+   &SCF_ENERGY [&Type "Double"]      -1.0804984477950645e+00
+$End
+$SCF_Dipole_Moment
+   &GeometryIndex 5
+   &ListStatus       OUT
+   &METHOD [&Type "String"] "SCF"
+   &LEVEL [&Type "String"] "Relaxed density"
+   &MULT [&Type "Integer"] 1
+   &STATE [&Type "Integer"] -1
+   &IRREP [&Type "Integer"] 0
+   &NATOMS [&Type "Integer"] 2
+   &DODIPOLEATOM [&Type "Boolean"] false
+   &DIPOLEELECCONTRIB [&Type "ArrayOfDoubles", &Dim (3,1)] "Electronic contribution"
+                                                         0
+
+0                                      0.0000000000000000e+00
+1                                      0.0000000000000000e+00
+2                                      0.0000000000000000e+00
+   &DIPOLENUCCONTRIB [&Type "ArrayOfDoubles", &Dim (3,1)] "Nuclear contribution"
+                                                         0
+
+0                                      0.0000000000000000e+00
+1                                      0.0000000000000000e+00
+2                                      0.0000000000000000e+00
+   &DIPOLETOTAL [&Type "ArrayOfDoubles", &Dim (3,1)] "Total"
+                                                         0
+
+0                                      0.0000000000000000e+00
+1                                      0.0000000000000000e+00
+2                                      0.0000000000000000e+00
+   &DIPOLEMAGNITUDE [&Type "Double", &Units "a.u."]       2.1741462328674845e-15
+$End
+$Geometry
+   &GeometryIndex 6
+   &ListStatus       OUT
+   &NATOMS [&Type "Integer"] 2
+   &NCORELESSECP [&Type "Integer"] 0
+   &NGHOSTATOMS [&Type "Integer"] 0
+   &CartesianCoordinates [&Type "Coordinates", &Dim(2,4), &Units "Bohr"] 
+              H      0.000000000000    0.000000000000    0.000000000000
+              H      0.000000000000    0.000000000000    2.141689618444
+$End
+$SCF_Energy
+   &GeometryIndex 6
+   &ListStatus       OUT
+   &SCF_ENERGY [&Type "Double"]      -1.0261951171835042e+00
+$End
+$SCF_Dipole_Moment
+   &GeometryIndex 6
+   &ListStatus       OUT
+   &METHOD [&Type "String"] "SCF"
+   &LEVEL [&Type "String"] "Relaxed density"
+   &MULT [&Type "Integer"] 1
+   &STATE [&Type "Integer"] -1
+   &IRREP [&Type "Integer"] 0
+   &NATOMS [&Type "Integer"] 2
+   &DODIPOLEATOM [&Type "Boolean"] false
+   &DIPOLEELECCONTRIB [&Type "ArrayOfDoubles", &Dim (3,1)] "Electronic contribution"
+                                                         0
+
+0                                      0.0000000000000000e+00
+1                                      0.0000000000000000e+00
+2                                      0.0000000000000000e+00
+   &DIPOLENUCCONTRIB [&Type "ArrayOfDoubles", &Dim (3,1)] "Nuclear contribution"
+                                                         0
+
+0                                      0.0000000000000000e+00
+1                                      0.0000000000000000e+00
+2                                      0.0000000000000000e+00
+   &DIPOLETOTAL [&Type "ArrayOfDoubles", &Dim (3,1)] "Total"
+                                                         0
+
+0                                      0.0000000000000000e+00
+1                                      0.0000000000000000e+00
+2                                      0.0000000000000000e+00
+   &DIPOLEMAGNITUDE [&Type "Double", &Units "a.u."]       4.4960146677042556e-15
+$End
+$Geometry
+   &GeometryIndex 7
+   &ListStatus       OUT
+   &NATOMS [&Type "Integer"] 2
+   &NCORELESSECP [&Type "Integer"] 0
+   &NGHOSTATOMS [&Type "Integer"] 0
+   &CartesianCoordinates [&Type "Coordinates", &Dim(2,4), &Units "Bohr"] 
+              H      0.000000000000    0.000000000000    0.000000000000
+              H      0.000000000000    0.000000000000    2.494438496776
+$End
+$SCF_Energy
+   &GeometryIndex 7
+   &ListStatus       OUT
+   &SCF_ENERGY [&Type "Double"]      -9.6673079562957320e-01
+$End
+$SCF_Dipole_Moment
+   &GeometryIndex 7
+   &ListStatus       OUT
+   &METHOD [&Type "String"] "SCF"
+   &LEVEL [&Type "String"] "Relaxed density"
+   &MULT [&Type "Integer"] 1
+   &STATE [&Type "Integer"] -1
+   &IRREP [&Type "Integer"] 0
+   &NATOMS [&Type "Integer"] 2
+   &DODIPOLEATOM [&Type "Boolean"] false
+   &DIPOLEELECCONTRIB [&Type "ArrayOfDoubles", &Dim (3,1)] "Electronic contribution"
+                                                         0
+
+0                                      0.0000000000000000e+00
+1                                      0.0000000000000000e+00
+2                                      0.0000000000000000e+00
+   &DIPOLENUCCONTRIB [&Type "ArrayOfDoubles", &Dim (3,1)] "Nuclear contribution"
+                                                         0
+
+0                                      0.0000000000000000e+00
+1                                      0.0000000000000000e+00
+2                                      0.0000000000000000e+00
+   &DIPOLETOTAL [&Type "ArrayOfDoubles", &Dim (3,1)] "Total"
+                                                         0
+
+0                                      0.0000000000000000e+00
+1                                      0.0000000000000000e+00
+2                                      0.0000000000000000e+00
+   &DIPOLEMAGNITUDE [&Type "Double", &Units "a.u."]       7.6805831400670572e-15
+$End
+$Geometry
+   &GeometryIndex 8
+   &ListStatus       OUT
+   &NATOMS [&Type "Integer"] 2
+   &NCORELESSECP [&Type "Integer"] 0
+   &NGHOSTATOMS [&Type "Integer"] 0
+   &CartesianCoordinates [&Type "Coordinates", &Dim(2,4), &Units "Bohr"] 
+              H      0.000000000000    0.000000000000    0.000000000000
+              H      0.000000000000    0.000000000000    2.847187375108
+$End
+$SCF_Energy
+   &GeometryIndex 8
+   &ListStatus       OUT
+   &SCF_ENERGY [&Type "Double"]      -9.0888133561594375e-01
+$End
+$SCF_Dipole_Moment
+   &GeometryIndex 8
+   &ListStatus       OUT
+   &METHOD [&Type "String"] "SCF"
+   &LEVEL [&Type "String"] "Relaxed density"
+   &MULT [&Type "Integer"] 1
+   &STATE [&Type "Integer"] -1
+   &IRREP [&Type "Integer"] 0
+   &NATOMS [&Type "Integer"] 2
+   &DODIPOLEATOM [&Type "Boolean"] false
+   &DIPOLEELECCONTRIB [&Type "ArrayOfDoubles", &Dim (3,1)] "Electronic contribution"
+                                                         0
+
+0                                      0.0000000000000000e+00
+1                                      0.0000000000000000e+00
+2                                      0.0000000000000000e+00
+   &DIPOLENUCCONTRIB [&Type "ArrayOfDoubles", &Dim (3,1)] "Nuclear contribution"
+                                                         0
+
+0                                      0.0000000000000000e+00
+1                                      0.0000000000000000e+00
+2                                      0.0000000000000000e+00
+   &DIPOLETOTAL [&Type "ArrayOfDoubles", &Dim (3,1)] "Total"
+                                                         0
+
+0                                      0.0000000000000000e+00
+1                                      0.0000000000000000e+00
+2                                      0.0000000000000000e+00
+   &DIPOLEMAGNITUDE [&Type "Double", &Units "a.u."]       1.3620781675959335e-15
+$End
+$Geometry
+   &GeometryIndex 9
+   &ListStatus       OUT
+   &NATOMS [&Type "Integer"] 2
+   &NCORELESSECP [&Type "Integer"] 0
+   &NGHOSTATOMS [&Type "Integer"] 0
+   &CartesianCoordinates [&Type "Coordinates", &Dim(2,4), &Units "Bohr"] 
+              H      0.000000000000    0.000000000000    0.000000000000
+              H      0.000000000000    0.000000000000    3.199936253440
+$End
+$SCF_Energy
+   &GeometryIndex 9
+   &ListStatus       OUT
+   &SCF_ENERGY [&Type "Double"]      -8.5610588841100976e-01
+$End
+$SCF_Dipole_Moment
+   &GeometryIndex 9
+   &ListStatus       OUT
+   &METHOD [&Type "String"] "SCF"
+   &LEVEL [&Type "String"] "Relaxed density"
+   &MULT [&Type "Integer"] 1
+   &STATE [&Type "Integer"] -1
+   &IRREP [&Type "Integer"] 0
+   &NATOMS [&Type "Integer"] 2
+   &DODIPOLEATOM [&Type "Boolean"] false
+   &DIPOLEELECCONTRIB [&Type "ArrayOfDoubles", &Dim (3,1)] "Electronic contribution"
+                                                         0
+
+0                                      0.0000000000000000e+00
+1                                      0.0000000000000000e+00
+2                                      0.0000000000000000e+00
+   &DIPOLENUCCONTRIB [&Type "ArrayOfDoubles", &Dim (3,1)] "Nuclear contribution"
+                                                         0
+
+0                                      0.0000000000000000e+00
+1                                      0.0000000000000000e+00
+2                                      0.0000000000000000e+00
+   &DIPOLETOTAL [&Type "ArrayOfDoubles", &Dim (3,1)] "Total"
+                                                         0
+
+0                                      0.0000000000000000e+00
+1                                      0.0000000000000000e+00
+2                                      0.0000000000000000e+00
+   &DIPOLEMAGNITUDE [&Type "Double", &Units "a.u."]       5.2362905314670648e-15
+$End
+$Geometry
+   &GeometryIndex 10
+   &ListStatus       OUT
+   &NATOMS [&Type "Integer"] 2
+   &NCORELESSECP [&Type "Integer"] 0
+   &NGHOSTATOMS [&Type "Integer"] 0
+   &CartesianCoordinates [&Type "Coordinates", &Dim(2,4), &Units "Bohr"] 
+              H      0.000000000000    0.000000000000    0.000000000000
+              H      0.000000000000    0.000000000000    3.552685131772
+$End
+$SCF_Energy
+   &GeometryIndex 10
+   &ListStatus       OUT
+   &SCF_ENERGY [&Type "Double"]      -8.0987709461538748e-01
+$End
+$SCF_Dipole_Moment
+   &GeometryIndex 10
+   &ListStatus       OUT
+   &METHOD [&Type "String"] "SCF"
+   &LEVEL [&Type "String"] "Relaxed density"
+   &MULT [&Type "Integer"] 1
+   &STATE [&Type "Integer"] -1
+   &IRREP [&Type "Integer"] 0
+   &NATOMS [&Type "Integer"] 2
+   &DODIPOLEATOM [&Type "Boolean"] false
+   &DIPOLEELECCONTRIB [&Type "ArrayOfDoubles", &Dim (3,1)] "Electronic contribution"
+                                                         0
+
+0                                      0.0000000000000000e+00
+1                                      0.0000000000000000e+00
+2                                      0.0000000000000000e+00
+   &DIPOLENUCCONTRIB [&Type "ArrayOfDoubles", &Dim (3,1)] "Nuclear contribution"
+                                                         0
+
+0                                      0.0000000000000000e+00
+1                                      0.0000000000000000e+00
+2                                      0.0000000000000000e+00
+   &DIPOLETOTAL [&Type "ArrayOfDoubles", &Dim (3,1)] "Total"
+                                                         0
+
+0                                      0.0000000000000000e+00
+1                                      0.0000000000000000e+00
+2                                      0.0000000000000000e+00
+   &DIPOLEMAGNITUDE [&Type "Double", &Units "a.u."]       8.0704783361220872e-15
+$End
+$Geometry
+   &GeometryIndex 11
+   &ListStatus       OUT
+   &NATOMS [&Type "Integer"] 2
+   &NCORELESSECP [&Type "Integer"] 0
+   &NGHOSTATOMS [&Type "Integer"] 0
+   &CartesianCoordinates [&Type "Coordinates", &Dim(2,4), &Units "Bohr"] 
+              H      0.000000000000    0.000000000000    0.000000000000
+              H      0.000000000000    0.000000000000    3.905434010104
+$End
+$SCF_Energy
+   &GeometryIndex 11
+   &ListStatus       OUT
+   &SCF_ENERGY [&Type "Double"]      -7.7050680558234830e-01
+$End
+$SCF_Dipole_Moment
+   &GeometryIndex 11
+   &ListStatus       OUT
+   &METHOD [&Type "String"] "SCF"
+   &LEVEL [&Type "String"] "Relaxed density"
+   &MULT [&Type "Integer"] 1
+   &STATE [&Type "Integer"] -1
+   &IRREP [&Type "Integer"] 0
+   &NATOMS [&Type "Integer"] 2
+   &DODIPOLEATOM [&Type "Boolean"] false
+   &DIPOLEELECCONTRIB [&Type "ArrayOfDoubles", &Dim (3,1)] "Electronic contribution"
+                                                         0
+
+0                                      0.0000000000000000e+00
+1                                      0.0000000000000000e+00
+2                                      0.0000000000000000e+00
+   &DIPOLENUCCONTRIB [&Type "ArrayOfDoubles", &Dim (3,1)] "Nuclear contribution"
+                                                         0
+
+0                                      0.0000000000000000e+00
+1                                      0.0000000000000000e+00
+2                                      0.0000000000000000e+00
+   &DIPOLETOTAL [&Type "ArrayOfDoubles", &Dim (3,1)] "Total"
+                                                         0
+
+0                                      0.0000000000000000e+00
+1                                      0.0000000000000000e+00
+2                                      0.0000000000000000e+00
+   &DIPOLEMAGNITUDE [&Type "Double", &Units "a.u."]       4.8470797816062280e-16
+$End
+$Geometry
+   &GeometryIndex 12
+   &ListStatus       OUT
+   &NATOMS [&Type "Integer"] 2
+   &NCORELESSECP [&Type "Integer"] 0
+   &NGHOSTATOMS [&Type "Integer"] 0
+   &CartesianCoordinates [&Type "Coordinates", &Dim(2,4), &Units "Bohr"] 
+              H      0.000000000000    0.000000000000    0.000000000000
+              H      0.000000000000    0.000000000000    4.258182888436
+$End
+$SCF_Energy
+   &GeometryIndex 12
+   &ListStatus       OUT
+   &SCF_ENERGY [&Type "Double"]      -7.3763499008903699e-01
+$End
+$SCF_Dipole_Moment
+   &GeometryIndex 12
+   &ListStatus       OUT
+   &METHOD [&Type "String"] "SCF"
+   &LEVEL [&Type "String"] "Relaxed density"
+   &MULT [&Type "Integer"] 1
+   &STATE [&Type "Integer"] -1
+   &IRREP [&Type "Integer"] 0
+   &NATOMS [&Type "Integer"] 2
+   &DODIPOLEATOM [&Type "Boolean"] false
+   &DIPOLEELECCONTRIB [&Type "ArrayOfDoubles", &Dim (3,1)] "Electronic contribution"
+                                                         0
+
+0                                      0.0000000000000000e+00
+1                                      0.0000000000000000e+00
+2                                      0.0000000000000000e+00
+   &DIPOLENUCCONTRIB [&Type "ArrayOfDoubles", &Dim (3,1)] "Nuclear contribution"
+                                                         0
+
+0                                      0.0000000000000000e+00
+1                                      0.0000000000000000e+00
+2                                      0.0000000000000000e+00
+   &DIPOLETOTAL [&Type "ArrayOfDoubles", &Dim (3,1)] "Total"
+                                                         0
+
+0                                      0.0000000000000000e+00
+1                                      0.0000000000000000e+00
+2                                      0.0000000000000000e+00
+   &DIPOLEMAGNITUDE [&Type "Double", &Units "a.u."]       7.1898783957905943e-15
+$End
+$Geometry
+   &GeometryIndex 13
+   &ListStatus       OUT
+   &NATOMS [&Type "Integer"] 2
+   &NCORELESSECP [&Type "Integer"] 0
+   &NGHOSTATOMS [&Type "Integer"] 0
+   &CartesianCoordinates [&Type "Coordinates", &Dim(2,4), &Units "Bohr"] 
+              H      0.000000000000    0.000000000000    0.000000000000
+              H      0.000000000000    0.000000000000    4.610931766768
+$End
+$SCF_Energy
+   &GeometryIndex 13
+   &ListStatus       OUT
+   &SCF_ENERGY [&Type "Double"]      -7.1055342066904825e-01
+$End
+$SCF_Dipole_Moment
+   &GeometryIndex 13
+   &ListStatus       OUT
+   &METHOD [&Type "String"] "SCF"
+   &LEVEL [&Type "String"] "Relaxed density"
+   &MULT [&Type "Integer"] 1
+   &STATE [&Type "Integer"] -1
+   &IRREP [&Type "Integer"] 0
+   &NATOMS [&Type "Integer"] 2
+   &DODIPOLEATOM [&Type "Boolean"] false
+   &DIPOLEELECCONTRIB [&Type "ArrayOfDoubles", &Dim (3,1)] "Electronic contribution"
+                                                         0
+
+0                                      0.0000000000000000e+00
+1                                      0.0000000000000000e+00
+2                                      0.0000000000000000e+00
+   &DIPOLENUCCONTRIB [&Type "ArrayOfDoubles", &Dim (3,1)] "Nuclear contribution"
+                                                         0
+
+0                                      0.0000000000000000e+00
+1                                      0.0000000000000000e+00
+2                                      0.0000000000000000e+00
+   &DIPOLETOTAL [&Type "ArrayOfDoubles", &Dim (3,1)] "Total"
+                                                         0
+
+0                                      0.0000000000000000e+00
+1                                      0.0000000000000000e+00
+2                                      0.0000000000000000e+00
+   &DIPOLEMAGNITUDE [&Type "Double", &Units "a.u."]       4.3075214103823695e-15
+$End
+$Geometry
+   &GeometryIndex 14
+   &ListStatus       OUT
+   &NATOMS [&Type "Integer"] 2
+   &NCORELESSECP [&Type "Integer"] 0
+   &NGHOSTATOMS [&Type "Integer"] 0
+   &CartesianCoordinates [&Type "Coordinates", &Dim(2,4), &Units "Bohr"] 
+              H      0.000000000000    0.000000000000    0.000000000000
+              H      0.000000000000    0.000000000000    4.963680645100
+$End
+$SCF_Energy
+   &GeometryIndex 14
+   &ListStatus       OUT
+   &SCF_ENERGY [&Type "Double"]      -6.8844240353375263e-01
+$End
+$SCF_Dipole_Moment
+   &GeometryIndex 14
+   &ListStatus       OUT
+   &METHOD [&Type "String"] "SCF"
+   &LEVEL [&Type "String"] "Relaxed density"
+   &MULT [&Type "Integer"] 1
+   &STATE [&Type "Integer"] -1
+   &IRREP [&Type "Integer"] 0
+   &NATOMS [&Type "Integer"] 2
+   &DODIPOLEATOM [&Type "Boolean"] false
+   &DIPOLEELECCONTRIB [&Type "ArrayOfDoubles", &Dim (3,1)] "Electronic contribution"
+                                                         0
+
+0                                      0.0000000000000000e+00
+1                                      0.0000000000000000e+00
+2                                      0.0000000000000000e+00
+   &DIPOLENUCCONTRIB [&Type "ArrayOfDoubles", &Dim (3,1)] "Nuclear contribution"
+                                                         0
+
+0                                      0.0000000000000000e+00
+1                                      0.0000000000000000e+00
+2                                      0.0000000000000000e+00
+   &DIPOLETOTAL [&Type "ArrayOfDoubles", &Dim (3,1)] "Total"
+                                                         0
+
+0                                      0.0000000000000000e+00
+1                                      0.0000000000000000e+00
+2                                      0.0000000000000000e+00
+   &DIPOLEMAGNITUDE [&Type "Double", &Units "a.u."]       1.9254786044989149e-15
+$End
+$Geometry
+   &GeometryIndex 15
+   &ListStatus       OUT
+   &NATOMS [&Type "Integer"] 2
+   &NCORELESSECP [&Type "Integer"] 0
+   &NGHOSTATOMS [&Type "Integer"] 0
+   &CartesianCoordinates [&Type "Coordinates", &Dim(2,4), &Units "Bohr"] 
+              H      0.000000000000    0.000000000000    0.000000000000
+              H      0.000000000000    0.000000000000    5.316429523432
+$End
+$SCF_Energy
+   &GeometryIndex 15
+   &ListStatus       OUT
+   &SCF_ENERGY [&Type "Double"]      -6.7051100388872642e-01
+$End
+$SCF_Dipole_Moment
+   &GeometryIndex 15
+   &ListStatus       OUT
+   &METHOD [&Type "String"] "SCF"
+   &LEVEL [&Type "String"] "Relaxed density"
+   &MULT [&Type "Integer"] 1
+   &STATE [&Type "Integer"] -1
+   &IRREP [&Type "Integer"] 0
+   &NATOMS [&Type "Integer"] 2
+   &DODIPOLEATOM [&Type "Boolean"] false
+   &DIPOLEELECCONTRIB [&Type "ArrayOfDoubles", &Dim (3,1)] "Electronic contribution"
+                                                         0
+
+0                                      0.0000000000000000e+00
+1                                      0.0000000000000000e+00
+2                                      0.0000000000000000e+00
+   &DIPOLENUCCONTRIB [&Type "ArrayOfDoubles", &Dim (3,1)] "Nuclear contribution"
+                                                         0
+
+0                                      0.0000000000000000e+00
+1                                      0.0000000000000000e+00
+2                                      0.0000000000000000e+00
+   &DIPOLETOTAL [&Type "ArrayOfDoubles", &Dim (3,1)] "Total"
+                                                         0
+
+0                                      0.0000000000000000e+00
+1                                      0.0000000000000000e+00
+2                                      0.0000000000000000e+00
+   &DIPOLEMAGNITUDE [&Type "Double", &Units "a.u."]       5.3690948435543498e-15
+$End
+$Geometry
+   &GeometryIndex 16
+   &ListStatus       OUT
+   &NATOMS [&Type "Integer"] 2
+   &NCORELESSECP [&Type "Integer"] 0
+   &NGHOSTATOMS [&Type "Integer"] 0
+   &CartesianCoordinates [&Type "Coordinates", &Dim(2,4), &Units "Bohr"] 
+              H      0.000000000000    0.000000000000    0.000000000000
+              H      0.000000000000    0.000000000000    5.669178401764
+$End
+$SCF_Energy
+   &GeometryIndex 16
+   &ListStatus       OUT
+   &SCF_ENERGY [&Type "Double"]      -6.5604825013981205e-01
+$End
+$SCF_Dipole_Moment
+   &GeometryIndex 16
+   &ListStatus       OUT
+   &Method [&Type "String"] "SCF"
+   &Level [&Type "String"] "Relaxed density"
+   &Mult [&Type "Integer"] 1
+   &State [&Type "Integer"] -1
+   &Irrep [&Type "Integer"] 0
+   &NAtoms [&Type "Integer"] 2
+   &doDipoleAtom [&Type "Boolean"] false
+   &dipoleElecContrib [&Type "ArrayOfDoubles", &Dim (3,1)] "Electronic contribution"
+                                                         0
+
+0                                      0.0000000000000000e+00
+1                                      0.0000000000000000e+00
+2                                      0.0000000000000000e+00
+   &dipoleNucContrib [&Type "ArrayOfDoubles", &Dim (3,1)] "Nuclear contribution"
+                                                         0
+
+0                                      0.0000000000000000e+00
+1                                      0.0000000000000000e+00
+2                                      0.0000000000000000e+00
+   &dipoleTotal [&Type "ArrayOfDoubles", &Dim (3,1)] "Total"
+                                                         0
+
+0                                      0.0000000000000000e+00
+1                                      0.0000000000000000e+00
+2                                      0.0000000000000000e+00
+   &dipoleMagnitude [&Type "Double", &Units "a.u."]       3.4637552147710309e-15
+$End

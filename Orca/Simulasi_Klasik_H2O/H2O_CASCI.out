@@ -1,0 +1,560 @@
+
+                                 *****************
+                                 * O   R   C   A *
+                                 *****************
+
+                                            #,                                       
+                                            ###                                      
+                                            ####                                     
+                                            #####                                    
+                                            ######                                   
+                                           ########,                                 
+                                     ,,################,,,,,                         
+                               ,,#################################,,                 
+                          ,,##########################################,,             
+                       ,#########################################, ''#####,          
+                    ,#############################################,,   '####,        
+                  ,##################################################,,,,####,       
+                ,###########''''           ''''###############################       
+              ,#####''   ,,,,##########,,,,          '''####'''          '####       
+            ,##' ,,,,###########################,,,                        '##       
+           ' ,,###''''                  '''############,,,                           
+         ,,##''                                '''############,,,,        ,,,,,,###''
+      ,#''                                            '''#######################'''  
+     '                                                          ''''####''''         
+             ,#######,   #######,   ,#######,      ##                                
+            ,#'     '#,  ##    ##  ,#'     '#,    #''#        ,####,   ,####,        
+            ##       ##  ##   ,#'  ##            #'  '#       #'       #'  '#        
+            ##       ##  #######   ##           ,######,      #####,   #    #        
+            '#,     ,#'  ##    ##  '#,     ,#' ,#      #,     #,   #   #,  ,#        
+             '#######'   ##     ##  '#######'  #'      '#     '####' # '####'        
+
+
+
+                #########################################################
+                #                        -***-                          #
+                #          Department of theory and spectroscopy        #
+                #                                                       #
+                #                      Frank Neese                      #
+                #                                                       #
+                #     Directorship, Architecture, Infrastructure        #
+                #                    SHARK, DRIVERS                     #
+                #        Core code/Algorithms in most modules           #
+                #                                                       #
+                #        Max Planck Institute fuer Kohlenforschung      #
+                #                Kaiser Wilhelm Platz 1                 #
+                #                 D-45470 Muelheim/Ruhr                 #
+                #                      Germany                          #
+                #                                                       #
+                #                  All rights reserved                  #
+                #                        -***-                          #
+                #########################################################
+
+
+                         Program Version 6.0.1  -  RELEASE   -
+
+
+ With contributions from (in alphabetic order):
+[Max-Planck-Institut fuer Kohlenforschung]                               
+  Daniel Aravena         : Magnetic Suceptibility                        
+  Michael Atanasov       : Ab Initio Ligand Field Theory (pilot matlab implementation)
+  Alexander A. Auer      : GIAO ZORA, VPT2 properties, NMR spectrum      
+  Ute Becker             : All parallelization in ORCA, NUMFREQ, NUMCALC 
+  Giovanni Bistoni       : ED, misc. LED, open-shell LED, HFLD           
+  Martin Brehm           : Molecular dynamics                            
+  Dmytro Bykov           : pre 5.0 version of the SCF Hessian            
+  Marcos Casanova-Páez   : Triplet and SCS-CIS(D). UHF-(DLPNO)-IP/EA/STEOM-CCSD. UHF-CVS-IP/STEOM-CCSD   
+  Vijay G. Chilkuri      : MRCI spin determinant printing, contributions to CSF-ICE 
+  Pauline Colinet        : FMM embedding                                 
+  Dipayan Datta          : RHF DLPNO-CCSD density                        
+  Achintya Kumar Dutta   : EOM-CC, STEOM-CC                              
+  Nicolas Foglia         : Exact transition moments, OPA infrastructure, MCD improvements    
+  Dmitry Ganyushin       : Spin-Orbit,Spin-Spin,Magnetic field MRCI      
+  Miquel Garcia-Rates    : C-PCM and meta-GGA Hessian, CCSD/C-PCM, Gaussian charge scheme 
+  Tiago L. C. Gouveia    : GS-ROHF, GS-ROCIS                             
+  Yang Guo               : DLPNO-NEVPT2, F12-NEVPT2, CIM, IAO-localization        
+  Andreas Hansen         : Spin unrestricted coupled pair/coupled cluster methods 
+  Ingolf Harden          : AUTO-CI MPn and infrastructure                
+  Benjamin Helmich-Paris : MC-RPA, TRAH-(SCF,CASSCF), AVAS, COSX integrals, SCF dyn. polar. 
+  Lee Huntington         : MR-EOM, pCC                                   
+  Robert Izsak           : Overlap fitted RIJCOSX, COSX-SCS-MP3, EOM     
+  Riya Kayal             : Wick's Theorem for AUTO-CI, AUTO-CI UHF-CCSDT 
+  Emily Kempfer          : AUTO-CI, RHF CISDT and CCSDT                  
+  Christian Kollmar      : KDIIS, OOCD, Brueckner-CCSD(T), CCSD density, CASPT2, CASPT2-K, improved NEVPT2 
+  Axel Koslowski         : Symmetry handling                             
+  Simone Kossmann        : meta-GGA functionals, TD-DFT gradient, OOMP2, (MP2 Hessian; deprecated post 5.0) 
+  Lucas Lang             : DCDCAS                                        
+  Marvin Lechner         : AUTO-CI (C++ implementation), FIC-MRCC        
+  Spencer Leger          : CASSCF response                               
+  Dagmar Lenk            : GEPOL surface, SMD, ORCA-2-JSON               
+  Dimitrios Liakos       : Extrapolation schemes; Compound Job, initial MDCI parallelization 
+  Dimitrios Manganas     : Further ROCIS development; embedding schemes. LFT, Crystal Embedding 
+  Dimitrios Pantazis     : SARC Basis sets                               
+  Anastasios Papadopoulos: AUTO-CI, single reference methods and gradients 
+  Taras Petrenko         : pre 6.0 DFT Hessian and TD-DFT gradient, (ASA, deprecated), ECA, 1-Electron XAS/XES, NRVS 
+  Peter Pinski           : DLPNO-MP2, DLPNO-MP2 Gradient                 
+  Christoph Reimann      : Effective Core Potentials                     
+  Marius Retegan         : Local ZFS, SOC                                
+  Christoph Riplinger    : Optimizer, TS searches, QM/MM, DLPNO-CCSD(T), (RO)-DLPNO pert. Triples 
+  Michael Roemelt        : Original ROCIS implementation                 
+  Masaaki Saitow         : Open-shell DLPNO-CCSD energy and density      
+  Barbara Sandhoefer     : DKH picture change effects                    
+  Kantharuban Sivalingam : CASSCF convergence/infrastructure, NEVPT2 and variants, FIC-MRCI 
+  Bernardo de Souza      : ESD, SOC TD-DFT                               
+  Georgi L. Stoychev     : AutoAux, RI-MP2 NMR, DLPNO-MP2 response, X2C  
+  Van Anh Tran           : RI-MP2 g-tensors                              
+  Willem Van den Heuvel  : Paramagnetic NMR                              
+  Zikuan Wang            : NOTCH, Electric field optimization            
+  Frank Wennmohs         : Technical directorship and infrastructure     
+  Hang Xu                : AUTO-CI-Response properties                   
+                                                                         
+[FACCTs GmbH]                                                            
+  Markus Bursch, Miquel Garcia-Rates, Christoph Riplinger, Bernardo de Souza, Georgi L. Stoychev 
+                                                                 
+  APM, Basis sets (HGBS, AHGBS, def-TZVP (Ac-Lr), def2-XVPD (La-Lu)), CI-OPT, improved COSX, DLPNO-Multilevel,           
+  DOCKER, DRACO, updates on ESD, GOAT, IRC, LR-CPCM, MBIS, meta-GGA TD-DFT gradient, ML-optimized integration grids, 
+  MM, NACMEs, nearIR, NEB, NEB-TS, NL-DFT gradient (VV10), 2- and 3-layer-ONIOM, interface openCOSMO-RS, QMMM,   
+  Crystal-QMMM, SF, symmetry and pop. for TD-DFT, r2SCAN hybrids, SOLVATOR                                   
+                                                                         
+[Other institutions]                                                     
+  V. Asgeirsson          : NEB                                           
+  Christoph Bannwarth    : sTDA-DFT, sTD-DFT, PBEh-3c, B97-3c, D3        
+  Sebastian Ehlert       : rSCAN, r2SCAN, r2SCAN-3c, D4, dhf basis sets  
+  Marvin Friede          : D4 for Fr, Ra, Ac-Lr                          
+  Lars Goerigk           : TD-DFT with DH, B97 family of functionals     
+  Stefan Grimme          : VdW corrections, initial TS optimization, DFT functionals, gCP, sTDA/sTD-DF 
+  Waldemar Hujo          : DFT-NL                                        
+  H. Jonsson             : NEB                                           
+  Holger Kruse           : gCP                                           
+  Marcel Mueller         : wB97X-3c, vDZP basis set                      
+  Hagen Neugebauer       : wr2SCAN                                       
+  Tobias Risthaus        : range-separated hybrid DFT                    
+  Lukas Wittmann         : regularized MP2, r2SCAN double-hybrids, wr2SCAN        
+                                                                         
+We gratefully acknowledge several colleagues who have allowed us to      
+interface, adapt or use parts of their codes:                            
+  Ed Valeev, F. Pavosevic, A. Kumar             : LibInt (2-el integral package), F12 methods 
+  Garnet Chan, S. Sharma, J. Yang, R. Olivares  : DMRG                   
+  Ulf Ekstrom                                   : XCFun DFT Library      
+  Mihaly Kallay                                 : mrcc  (arbitrary order and MRCC methods)
+  Frank Weinhold                                : gennbo (NPA and NBO analysis)           
+  Simon Mueller                                 : openCOSMO-RS                            
+  Christopher J. Cramer and Donald G. Truhlar   : smd solvation model                     
+  S Lehtola, MJT Oliveira, MAL Marques          : LibXC Library                           
+  Liviu Ungur et al                             : ANISO software                          
+
+
+ Your calculation uses the libint2 library for the computation of 2-el integrals
+ For citations please refer to: http://libint.valeyev.net
+
+ Your ORCA version has been built with support for libXC version: 6.2.2
+ For citations please refer to: https://libxc.gitlab.io
+
+ This ORCA versions uses:
+   CBLAS   interface :  Fast vector & matrix operations
+   LAPACKE interface :  Fast linear algebra routines
+   SCALAPACK package :  Parallel linear algebra routines
+   Shared memory     :  Shared parallel matrices
+   BLAS/LAPACK       :  OpenBLAS 0.3.27  USE64BITINT DYNAMIC_ARCH NO_AFFINITY SkylakeX SINGLE_THREADED
+        Core in use  :  SkylakeX
+   Copyright (c) 2011-2014, The OpenBLAS Project
+
+
+================================================================================
+
+----- Orbital basis set information -----
+Your calculation utilizes the basis: STO-3G
+   H-Ne       : W. J. Hehre, R. F. Stewart and J. A. Pople, J. Chem. Phys. 2657 (1969).
+   Na-Ar      : W. J. Hehre, R. Ditchfield, R. F. Stewart and J. A. Pople, J. Chem. Phys. 2769 (1970).
+   K,Ca,Ga-Kr : W. J. Pietro, B. A. Levy, W. J. Hehre and R. F. Stewart, J. Am. Chem. Soc. 19, 2225 (1980).
+   Sc-Zn,Y-Cd : W. J. Pietro and W. J. Hehre, J. Comp. Chem. 4, 241 (1983).
+
+================================================================================
+                                        WARNINGS
+                       Please study these warnings very carefully!
+================================================================================
+
+WARNING: Old DensityContainer found on disk!
+         Will remove this file - 
+         If you want to keep old densities, please start your calculation with a different basename. 
+
+
+================================================================================
+                                       INPUT FILE
+================================================================================
+NAME = H2O_CASCI.inp
+|  1> ! CASSCF STO-3G
+|  2> %pal
+|  3>   nprocs 4
+|  4> end
+|  5> 
+|  6> %casscf
+|  7>   nel     8
+|  8>   norb    6
+|  9>   maxiter 2
+| 10> end
+| 11> 
+| 12> %paras
+| 13>   R = 0.20, 3.00, 16
+| 14> end
+| 15> 
+| 16> * xyz 0 1
+| 17> O   0.000000   0.000000   0.000000
+| 18> H   0.000000   0.000000  {R}
+| 19> H   0.940200   0.000000  -0.234400
+| 20> **                         ****END OF INPUT****
+================================================================================
+
+                       ******************************
+                       * Parameter Scan Calculation *
+                       ******************************
+
+Trajectory settings:
+    -> SCF surface will be mapped
+
+There are 1 parameter(s) to be scanned
+             R: range=   0.20000000 ..   3.00000000  steps=   16
+There will be   16 energy evaluations
+
+
+         *************************************************************
+                                TRAJECTORY STEP   1
+                  R  :   0.20000000
+         *************************************************************
+---------------------------------
+CARTESIAN COORDINATES (ANGSTROEM)
+---------------------------------
+  O      0.000000    0.000000    0.000000
+  H      0.000000    0.000000    0.200000
+  H      0.940200    0.000000   -0.234400
+
+----------------------------
+CARTESIAN COORDINATES (A.U.)
+----------------------------
+  NO LB      ZA    FRAG     MASS         X           Y           Z
+   0 O     8.0000    0    15.999    0.000000    0.000000    0.000000
+   1 H     1.0000    0     1.008    0.000000    0.000000    0.377945
+   2 H     1.0000    0     1.008    1.776721    0.000000   -0.442952
+
+--------------------------------
+INTERNAL COORDINATES (ANGSTROEM)
+--------------------------------
+ O      0   0   0     0.000000000000     0.00000000     0.00000000
+ H      1   0   0     0.200000000000     0.00000000     0.00000000
+ H      1   2   0     0.968978534334   103.99895647     0.00000000
+
+---------------------------
+INTERNAL COORDINATES (A.U.)
+---------------------------
+ O      0   0   0     0.000000000000     0.00000000     0.00000000
+ H      1   0   0     0.377945226784     0.00000000     0.00000000
+ H      1   2   0     1.831104059540   103.99895647     0.00000000
+
+---------------------
+BASIS SET INFORMATION
+---------------------
+There are 2 groups of distinct atoms
+
+ Group   1 Type O   : 6s3p contracted to 2s1p pattern {33/3}
+ Group   2 Type H   : 3s contracted to 1s pattern {3}
+
+Atom   0O    basis set group =>   1
+Atom   1H    basis set group =>   2
+Atom   2H    basis set group =>   2
+
+Checking for AutoStart:
+The File: H2O_CASCI.gbw exists
+Trying to determine its content:
+     ... Fine, the file contains calculation information
+     ... Fine, the calculation information was read
+     ... Fine, the file contains a basis set
+     ... Fine, the basis set was read
+     ... Fine, the file contains a geometry
+     ... Fine, the geometry was read
+     ... Fine, the file contains a set of orbitals
+     ... Fine, the orbitals can be read
+     => possible old guess file was deleted
+     => GBW file was renamed to GES file
+     => GES file is set as startup file
+     => Guess is set to MORead
+     ... now leaving AutoStart
+
+
+
+           ************************************************************
+           *        Program running with 4 parallel MPI-processes     *
+           *              working on a common directory               *
+           ************************************************************
+------------------------------------------------------------------------------
+                             ORCA STARTUP CALCULATIONS
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+                   ___                                                        
+                  /   \      - P O W E R E D   B Y -                         
+                 /     \                                                     
+                 |  |  |   _    _      __       _____    __    __             
+                 |  |  |  | |  | |    /  \     |  _  \  |  |  /  |          
+                  \  \/   | |  | |   /    \    | | | |  |  | /  /          
+                 / \  \   | |__| |  /  /\  \   | |_| |  |  |/  /          
+                |  |  |   |  __  | /  /__\  \  |    /   |      \           
+                |  |  |   | |  | | |   __   |  |    \   |  |\   \          
+                \     /   | |  | | |  |  |  |  | |\  \  |  | \   \       
+                 \___/    |_|  |_| |__|  |__|  |_| \__\ |__|  \__/        
+                                                                              
+                      - O R C A' S   B I G   F R I E N D -                    
+                                      &                                       
+                       - I N T E G R A L  F E E D E R -                       
+                                                                              
+ v1 FN, 2020, v2 2021, v3 2022-2024                                           
+------------------------------------------------------------------------------
+
+
+----------------------
+SHARK INTEGRAL PACKAGE
+----------------------
+
+Number of atoms                             ...      3
+Number of basis functions                   ...      7
+Number of shells                            ...      5
+Maximum angular momentum                    ...      1
+Integral batch strategy                     ... SHARK/LIBINT Hybrid
+RI-J (if used) integral strategy            ... SPLIT-RIJ (Revised 2003 algorithm where possible)
+Printlevel                                  ...      1
+Contraction scheme used                     ... SEGMENTED contraction
+Prescreening option                         ... SCHWARTZ
+   Thresh                                   ... 1.000e-10
+   Tcut                                     ... 1.000e-11
+   Tpresel                                  ... 1.000e-11 
+Coulomb Range Separation                    ... NOT USED
+Exchange Range Separation                   ... NOT USED
+Multipole approximations                    ... NOT USED
+Finite Nucleus Model                        ... NOT USED
+CABS basis                                  ... NOT available
+Auxiliary Coulomb fitting basis             ... NOT available
+Auxiliary J/K fitting basis                 ... NOT available
+Auxiliary Correlation fitting basis         ... NOT available
+Auxiliary 'external' fitting basis          ... NOT available
+
+Checking pre-screening integrals            ... done (  0.0 sec) Dimension = 5
+Check shell pair data                       ... done (  0.0 sec)
+Shell pair information
+Shell pair cut-off parameter TPreSel        ...   1.0e-11
+Total number of shell pairs                 ...        15
+Shell pairs after pre-screening             ...        15
+Total number of primitive shell pairs       ...       135
+Primitive shell pairs kept                  ...       135
+          la=0 lb=0:     10 shell pairs
+          la=1 lb=0:      4 shell pairs
+          la=1 lb=1:      1 shell pairs
+
+Calculating one electron integrals          ... done (  0.0 sec)
+Calculating Nuclear repulsion               ... done (  0.0 sec) ENN=     26.046972791967 Eh
+
+Diagonalization of the overlap matrix:
+Smallest eigenvalue                        ... 1.863e-02
+Time for diagonalization                   ...    0.000 sec
+Threshold for overlap eigenvalues          ... 1.000e-07
+Number of eigenvalues below threshold      ... 0
+Time for construction of square roots      ...    0.000 sec
+Total time needed                          ...    0.001 sec
+
+-------------------
+DFT GRID GENERATION
+-------------------
+
+General Integration Accuracy     IntAcc      ... 4.388
+Radial Grid Type                 RadialGrid  ... OptM3 with GC (2021)
+Angular Grid (max. ang.)         AngularGrid ... 4 (Lebedev-302)
+Angular grid pruning method      GridPruning ... 4 (adaptive)
+Weight generation scheme         WeightScheme... mBecke (2022)
+Basis function cutoff            BFCut       ... 1.0000e-10
+Integration weight cutoff        WCut        ... 1.0000e-14
+Partially contracted basis set               ... off
+Rotationally invariant grid construction     ... off
+Angular grids for H and He will be reduced by one unit
+
+Total number of grid points                  ...    12689
+Total number of batches                      ...      200
+Average number of points per batch           ...       63
+Average number of grid points per atom       ...     4230
+Initializing property integral containers    ... done (  0.0 sec)
+
+SHARK setup successfully completed in   0.1 seconds
+
+Maximum memory used throughout the entire STARTUP-calculation: 3.9 MB
+
+
+           ************************************************************
+           *        Program running with 4 parallel MPI-processes     *
+           *              working on a common directory               *
+           ************************************************************
+-------------------------------------------------------------------------------
+                                 ORCA GUESS
+                   Start orbitals & Density for SCF / CASSCF
+-------------------------------------------------------------------------------
+
+------------
+SCF SETTINGS
+------------
+Hamiltonian:
+ Ab initio Hamiltonian  Method          .... Hartree-Fock(GTOs)
+
+
+General Settings:
+ Integral files         IntName         .... H2O_CASCI
+ Hartree-Fock type      HFTyp           .... CASSCF
+ Total Charge           Charge          ....    0
+ Multiplicity           Mult            ....    1
+ Number of Electrons    NEL             ....   10
+ Basis Dimension        Dim             ....    7
+ Nuclear Repulsion      ENuc            ....     26.0469727920 Eh
+
+---------------------
+INITIAL GUESS: MOREAD
+---------------------
+Guess MOs are being read from file: H2O_CASCI.ges
+Input geometry compatible with but different from current geometry
+Input basis set matches current basis set (good)
+Occupation numbers will be reassigned to an Aufbau configuration
+MOs were renormalized
+Gram-Schmidt orthogonalization of all MOs with pivot on actives
+                      ------------------
+                      INITIAL GUESS DONE (   0.0 sec)
+                      ------------------
+             **** ENERGY FILE WAS UPDATED (H2O_CASCI.en.tmp) ****
+Finished Guess after   0.3 sec
+Maximum memory used throughout the entire GUESS-calculation: 2.0 MB
+
+
+           ************************************************************
+           *        Program running with 4 parallel MPI-processes     *
+           *              working on a common directory               *
+           ************************************************************
+-------------------------------------------------------------------------------
+                              ORCA-CASSCF
+-------------------------------------------------------------------------------
+
+Building the CAS space              ... done (90 configurations for Mult=1)
+
+SYSTEM-SPECIFIC SETTINGS:
+Number of active electrons          ...    8
+Number of active orbitals           ...    6
+Total number of electrons           ...   10
+Total number of orbitals            ...    7
+
+Determined orbital ranges:
+   Internal       0 -    0 (   1 orbitals)
+   Active         1 -    6 (   6 orbitals)
+   External       7 -    6 (   0 orbitals)
+Number of rotation parameters      ...      6
+
+CI-STEP:
+CI strategy                         ... General CI
+Number of multiplicity blocks       ...    1
+BLOCK  0 WEIGHT=   1.0000
+  Multiplicity                      ...    1
+  #(Configurations)                 ...   90
+  #(CSFs)                           ...  105
+  #(Roots)                          ...    1
+    ROOT=0 WEIGHT=    1.000000
+
+  PrintLevel                        ...    1
+  N(GuessMat)                       ...      2048
+  MaxDim(CI)                        ...        10
+  MaxIter(CI)                       ...        64
+  Energy Tolerance CI               ...  1.00e-08
+  Residual Tolerance CI             ...  1.00e-08
+  Shift(CI)                         ...  1.00e-04
+
+INTEGRAL-TRANSFORMATION-STEP:
+  Algorithm                         ... EXACT
+
+ORBITAL-IMPROVEMENT-STEP:
+  Algorithm                         ... SuperCI(PT)
+  Default Parametrization           ... CAYLEY
+  Act-Act rotations                 ... depends on algorithm used
+
+  Note: SuperCI(PT) will ignore FreezeIE, FreezeAct and FreezeGrad. In general Default settings are encouraged.
+        In conjunction with ShiftUp, ShiftDn or GradScaling the performance of SuperCI(PT) is less optimal.  
+
+  MaxRot                            ... 2.00e-01 
+  Max. no of vectors (DIIS)         ... 15
+  DThresh (cut-off) metric          ... 1.00e-06
+  Switch step at gradient           ...  3.00e-02 
+  Switch step at iteration          ...        50   
+  Switch step to                    ... SuperCI(PT)    
+
+SCF-SETTINGS:
+  Incremental                       ... on
+  RIJCOSX approximation             ... off
+  RI-JK approximation               ... off
+  AO integral handling              ... DIRECT
+  Integral Neglect Thresh           ...  1.00e-10
+  Primitive cutoff TCut             ...  1.00e-11
+  Energy convergence tolerance      ...  1.00e-07
+  Orbital gradient convergence      ...  1.00e-03
+  Max. number of iterations         ...         2  
+
+
+FINAL ORBITALS:
+  Active   Orbitals                 ... natural 
+  Internal Orbitals                 ... canonical 
+  External Orbitals                 ... canonical 
+
+------------------
+CAS-SCF ITERATIONS
+------------------
+
+
+MACRO-ITERATION   1: 
+   --- Inactive Energy E0 = -38.71825799 Eh
+CI-ITERATION   0: 
+   -65.825936286   0.000000000000 (    0.00)
+   CI-PROBLEM SOLVED
+   DENSITIES MADE
+
+                 <<<<<<<<<<<<<<<<<<INITIAL CI STATE CHECK>>>>>>>>>>>>>>>>>>
+
+BLOCK  0 MULT= 1 NROOTS= 1 
+ROOT   0:  E=     -65.8259362863 Eh
+      0.92694 [    89]: 222200
+      0.04931 [    70]: 212210
+      0.01552 [    83]: 221210
+
+                 <<<<<<<<<<<<<<<<<<INITIAL CI STATE CHECK>>>>>>>>>>>>>>>>>>
+
+   E(CAS)=   -65.825936286 Eh DE=    0.000000e+00
+   --- Energy gap subspaces: Ext-Act = 0.600   Act-Int = 20.128
+   N(occ)=  1.99698 1.94321 1.98249 1.99956 0.07565 0.00210
+   ||g|| =     1.882512e-01 Max(G)=   -1.494819e-01 Rot=6,0
+                     ---- REACHED MAXIMUM NUMBER OF ITERATIONS ----
+                            --- FINALIZING ORBITALS ---
+                    ---- DOING ONE FINAL ITERATION FOR PRINTING ----
+   --- Canonicalize Internal Space
+   --- Canonicalize External Space
+
+MACRO-ITERATION   2: 
+   --- Inactive Energy E0 = -38.71825799 Eh
+   --- All densities will be recomputed
+CI-ITERATION   0: 
+   -65.825936286   0.000000000000 (    0.00)
+   CI-PROBLEM SOLVED
+   DENSITIES MADE
+   E(CAS)=   -65.825936286 Eh DE=    5.684342e-14
+   --- Energy gap subspaces: Ext-Act = 0.600   Act-Int = 20.513
+   N(occ)=  1.99965 1.99956 1.99946 1.98172 0.01910 0.00050
+   ||g|| =     1.882512e-01 Max(G)=   -1.344913e-01 Rot=6,0
+[file orca_casscf/cas_driver_energy.cpp, line 5982, Process 2]: ERROR (ORCA_CASSCF): Convergence Failure. Retry with modified convergence settings!
+
+[file orca_casscf/cas_driver_energy.cpp, line 5982, Process 0]: ERROR (ORCA_CASSCF): Convergence Failure. Retry with modified convergence settings!
+
+[file orca_casscf/cas_driver_energy.cpp, line 5982, Process 1]: ERROR (ORCA_CASSCF): Convergence Failure. Retry with modified convergence settings!
+
+[file orca_casscf/cas_driver_energy.cpp, line 5982, Process 3]: ERROR (ORCA_CASSCF): Convergence Failure. Retry with modified convergence settings!
+
+
+ORCA finished by error termination in CASSCF
+Calling Command: mpirun -np 4 --oversubscribe /mgpfs/apps/nuclear/apps/orca/6.0.1/orca_casscf_mpi --energy H2O_CASCI.casinp.tmp H2O_CASCI 
+[file orca_tools/qcmsg.cpp, line 394]: 
+  .... aborting the run
+
