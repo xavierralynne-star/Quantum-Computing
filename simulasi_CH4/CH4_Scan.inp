@@ -1,0 +1,28 @@
+! STO-3G NEVPT2
+
+%pal
+  nprocs 1
+end
+
+%casscf
+  nel      8
+  norb     6
+  maxiter  500
+  orbstep  diis
+end
+
+%scf
+  maxiter 500
+end
+
+%paras
+  R = 0.50, 2.50, 21
+end
+
+* xyz 0 1
+C   0.000000   0.000000   0.000000
+H   0.000000   0.000000  {R}
+H   1.029500   0.000000  -0.364000
+H  -0.514800   0.891600  -0.364000
+H  -0.514800  -0.891600  -0.364000
+*

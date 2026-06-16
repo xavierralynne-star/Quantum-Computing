@@ -1,0 +1,1245 @@
+*************************************************
+******************* ORCA 6.0.1 ******************
+*************************************************
+$Calculation_Status
+   &GeometryIndex 21
+   &ListStatus       OUT
+   &VERSION [&Type "String"] "6.0.1"
+   &PROGNAME [&Type "String"] "ProgCAS"
+   &STATUS [&Type "String"] "Running"
+$End
+$Geometry
+   &GeometryIndex 1
+   &ListStatus       OUT
+   &NATOMS [&Type "Integer"] 3
+   &NCORELESSECP [&Type "Integer"] 0
+   &NGHOSTATOMS [&Type "Integer"] 0
+   &CartesianCoordinates [&Type "Coordinates", &Dim(3,4), &Units "Bohr"] 
+              O      0.000000000000    0.000000000000    0.000000000000
+              H      0.000000000000    0.000000000000    0.944863066961
+              H      1.776720511113    0.000000000000   -0.442951805791
+$End
+$CAS_SCF_Energies
+   &GeometryIndex 1
+   &ListStatus       OUT
+   &NUMOFELECTRONS [&Type "Integer"] 10
+   &NUMOFFCELECTRONS [&Type "Integer"] 0
+   &NUMOFACTIVEEL [&Type "Integer"] 10 "Number of active electrons"
+   &NUMOFACTIVEORBS [&Type "Integer"] 7 "Number of active orbitals"
+   &NUMOFMULTIPLICITIES [&Type "Integer"] 1 "Number of multiplicities"
+   &TOTALNUMOFROOTS [&Type "Integer"] 1
+   &FINALENERGY [&Type "Double"]      -7.4054049343602045e+01
+   &CASSCFEnergies [&Type "MixedMatrix", &Dim(1,5), &ColumnDatatypes "Integer Integer Integer Integer Double"] 
+ State    Mult   Irrep    Root              Energy
+
+     0       1       0       0        -74.05404934
+$End
+$Mayer_Population_Analysis
+   &GeometryIndex 1
+   &ListStatus       OUT
+   &NATOMS [&Type "Integer"] 3 "Total number of atoms"
+   &BONDTHRESH [&Type "Double"]       1.0000000000000001e-01  "The threshold for printing"
+   &NBONDORDERSPRINT [&Type "Integer"] 2 "The number of bond orders larger than threshold"
+   &BONDORDERS [&Type "ArrayOfDoubles", &Dim (2,1)] "The bond orders"
+                                                         0
+
+0                                      6.5667472891819278e-01
+1                                      8.9453819175967342e-01
+   &COMPONENTS [&Type "ArrayOfIntegers", &Dim (2,4)] "The indices and atomic numbers of the bonding atoms"
+                                                         0                           1                           2                           3
+
+0                                                        0                           8                           1                           1
+1                                                        0                           8                           2                           1
+   &ATNO [&Type "ArrayOfIntegers", &Dim (3,1)] "Atomic number of the elements"
+                                                         0
+
+0                                                        8
+1                                                        1
+2                                                        1
+   &NA [&Type "ArrayOfDoubles", &Dim (3,1)] "Mulliken gross atomic population"
+                                                         0
+
+0                                      8.7900398156226593e+00
+1                                      4.2933861477772850e-01
+2                                      7.8062156959961904e-01
+   &ZA [&Type "ArrayOfDoubles", &Dim (3,1)] "Total nuclear charge"
+                                                         0
+
+0                                      8.0000000000000000e+00
+1                                      1.0000000000000000e+00
+2                                      1.0000000000000000e+00
+   &QA [&Type "ArrayOfDoubles", &Dim (3,1)] "Mulliken gross atomic charge"
+                                                         0
+
+0                                     -7.9003981562265935e-01
+1                                      5.7066138522227150e-01
+2                                      2.1937843040038096e-01
+   &VA [&Type "ArrayOfDoubles", &Dim (3,1)] "Mayer's total valence"
+                                                         0
+
+0                                      1.6085676380900171e+00
+1                                      6.7434558341619821e-01
+2                                      9.5187310427506522e-01
+   &BVA [&Type "ArrayOfDoubles", &Dim (3,1)] "Mayer's bonded valence"
+                                                         0
+
+0                                      1.5512129206778662e+00
+1                                      6.6689474386847303e-01
+2                                      9.0475820670995366e-01
+   &FA [&Type "ArrayOfDoubles", &Dim (3,1)] "Mayer's free valence"
+                                                         0
+
+0                                      5.7354717412150924e-02
+1                                      7.4508395477252305e-03
+2                                      4.7114897565111599e-02
+$End
+$CASSCF_Dipole_Moment
+   &GeometryIndex 1
+   &ListStatus       OUT
+   &METHOD [&Type "String"] "CASSCF"
+   &LEVEL [&Type "String"] "Relaxed density"
+   &MULT [&Type "Integer"] 1
+   &STATE [&Type "Integer"] 0
+   &IRREP [&Type "Integer"] 0
+   &NATOMS [&Type "Integer"] 3
+   &DODIPOLEATOM [&Type "Boolean"] false
+   &DIPOLEELECCONTRIB [&Type "ArrayOfDoubles", &Dim (3,1)] "Electronic contribution"
+                                                         0
+
+0                                     -1.6287998483907296e-01
+1                                      0.0000000000000000e+00
+2                                      2.2939175480161372e-01
+   &DIPOLENUCCONTRIB [&Type "ArrayOfDoubles", &Dim (3,1)] "Nuclear contribution"
+                                                         0
+
+0                                      7.8258547075656026e-01
+1                                      0.0000000000000000e+00
+2                                      2.2107498514458446e-01
+   &DIPOLETOTAL [&Type "ArrayOfDoubles", &Dim (3,1)] "Total"
+                                                         0
+
+0                                      6.1970548591748731e-01
+1                                      0.0000000000000000e+00
+2                                      4.5046673994619818e-01
+   &DIPOLEMAGNITUDE [&Type "Double", &Units "a.u."]       7.6612999750302480e-01
+$End
+$Geometry
+   &GeometryIndex 2
+   &ListStatus       OUT
+   &NATOMS [&Type "Integer"] 3
+   &NCORELESSECP [&Type "Integer"] 0
+   &NGHOSTATOMS [&Type "Integer"] 0
+   &CartesianCoordinates [&Type "Coordinates", &Dim(3,4), &Units "Bohr"] 
+              O      0.000000000000    0.000000000000    0.000000000000
+              H      0.000000000000    0.000000000000    1.133835680353
+              H      1.776720511113    0.000000000000   -0.442951805791
+$End
+$CAS_SCF_Energies
+   &GeometryIndex 2
+   &ListStatus       OUT
+   &NUMOFELECTRONS [&Type "Integer"] 10
+   &NUMOFFCELECTRONS [&Type "Integer"] 0
+   &NUMOFACTIVEEL [&Type "Integer"] 10 "Number of active electrons"
+   &NUMOFACTIVEORBS [&Type "Integer"] 7 "Number of active orbitals"
+   &NUMOFMULTIPLICITIES [&Type "Integer"] 1 "Number of multiplicities"
+   &TOTALNUMOFROOTS [&Type "Integer"] 1
+   &FINALENERGY [&Type "Double"]      -7.4566523501319125e+01
+   &CASSCFEnergies [&Type "MixedMatrix", &Dim(1,5), &ColumnDatatypes "Integer Integer Integer Integer Double"] 
+ State    Mult   Irrep    Root              Energy
+
+     0       1       0       0        -74.56652350
+$End
+$CASSCF_Dipole_Moment
+   &GeometryIndex 2
+   &ListStatus       OUT
+   &METHOD [&Type "String"] "CASSCF"
+   &LEVEL [&Type "String"] "Relaxed density"
+   &MULT [&Type "Integer"] 1
+   &STATE [&Type "Integer"] 0
+   &IRREP [&Type "Integer"] 0
+   &NATOMS [&Type "Integer"] 3
+   &DODIPOLEATOM [&Type "Boolean"] false
+   &DIPOLEELECCONTRIB [&Type "ArrayOfDoubles", &Dim (3,1)] "Electronic contribution"
+                                                         0
+
+0                                     -2.1159536231777132e-01
+1                                      0.0000000000000000e+00
+2                                      1.7363855436247169e-01
+   &DIPOLENUCCONTRIB [&Type "ArrayOfDoubles", &Dim (3,1)] "Nuclear contribution"
+                                                         0
+
+0                                      7.8258547075655982e-01
+1                                      0.0000000000000000e+00
+2                                      3.0431104882850957e-01
+   &DIPOLETOTAL [&Type "ArrayOfDoubles", &Dim (3,1)] "Total"
+                                                         0
+
+0                                      5.7099010843878850e-01
+1                                      0.0000000000000000e+00
+2                                      4.7794960319098123e-01
+   &DIPOLEMAGNITUDE [&Type "Double", &Units "a.u."]       7.4462442017795516e-01
+$End
+$Geometry
+   &GeometryIndex 3
+   &ListStatus       OUT
+   &NATOMS [&Type "Integer"] 3
+   &NCORELESSECP [&Type "Integer"] 0
+   &NGHOSTATOMS [&Type "Integer"] 0
+   &CartesianCoordinates [&Type "Coordinates", &Dim(3,4), &Units "Bohr"] 
+              O      0.000000000000    0.000000000000    0.000000000000
+              H      0.000000000000    0.000000000000    1.322808293745
+              H      1.776720511113    0.000000000000   -0.442951805791
+$End
+$CAS_SCF_Energies
+   &GeometryIndex 3
+   &ListStatus       OUT
+   &NUMOFELECTRONS [&Type "Integer"] 10
+   &NUMOFFCELECTRONS [&Type "Integer"] 0
+   &NUMOFACTIVEEL [&Type "Integer"] 10 "Number of active electrons"
+   &NUMOFACTIVEORBS [&Type "Integer"] 7 "Number of active orbitals"
+   &NUMOFMULTIPLICITIES [&Type "Integer"] 1 "Number of multiplicities"
+   &TOTALNUMOFROOTS [&Type "Integer"] 1
+   &FINALENERGY [&Type "Double"]      -7.4822370672984945e+01
+   &CASSCFEnergies [&Type "MixedMatrix", &Dim(1,5), &ColumnDatatypes "Integer Integer Integer Integer Double"] 
+ State    Mult   Irrep    Root              Energy
+
+     0       1       0       0        -74.82237067
+$End
+$CASSCF_Dipole_Moment
+   &GeometryIndex 3
+   &ListStatus       OUT
+   &METHOD [&Type "String"] "CASSCF"
+   &LEVEL [&Type "String"] "Relaxed density"
+   &MULT [&Type "Integer"] 1
+   &STATE [&Type "Integer"] 0
+   &IRREP [&Type "Integer"] 0
+   &NATOMS [&Type "Integer"] 3
+   &DODIPOLEATOM [&Type "Boolean"] false
+   &DIPOLEELECCONTRIB [&Type "ArrayOfDoubles", &Dim (3,1)] "Electronic contribution"
+                                                         0
+
+0                                     -2.4497818122954607e-01
+1                                      0.0000000000000000e+00
+2                                      8.8960651795631035e-02
+   &DIPOLENUCCONTRIB [&Type "ArrayOfDoubles", &Dim (3,1)] "Nuclear contribution"
+                                                         0
+
+0                                      7.8258547075655938e-01
+1                                      0.0000000000000000e+00
+2                                      3.8754711251253476e-01
+   &DIPOLETOTAL [&Type "ArrayOfDoubles", &Dim (3,1)] "Total"
+                                                         0
+
+0                                      5.3760728952701331e-01
+1                                      0.0000000000000000e+00
+2                                      4.7650776430816577e-01
+   &DIPOLEMAGNITUDE [&Type "Double", &Units "a.u."]       7.1838795034337000e-01
+$End
+$Geometry
+   &GeometryIndex 4
+   &ListStatus       OUT
+   &NATOMS [&Type "Integer"] 3
+   &NCORELESSECP [&Type "Integer"] 0
+   &NGHOSTATOMS [&Type "Integer"] 0
+   &CartesianCoordinates [&Type "Coordinates", &Dim(3,4), &Units "Bohr"] 
+              O      0.000000000000    0.000000000000    0.000000000000
+              H      0.000000000000    0.000000000000    1.511780907137
+              H      1.776720511113    0.000000000000   -0.442951805791
+$End
+$CAS_SCF_Energies
+   &GeometryIndex 4
+   &ListStatus       OUT
+   &NUMOFELECTRONS [&Type "Integer"] 10
+   &NUMOFFCELECTRONS [&Type "Integer"] 0
+   &NUMOFACTIVEEL [&Type "Integer"] 10 "Number of active electrons"
+   &NUMOFACTIVEORBS [&Type "Integer"] 7 "Number of active orbitals"
+   &NUMOFMULTIPLICITIES [&Type "Integer"] 1 "Number of multiplicities"
+   &TOTALNUMOFROOTS [&Type "Integer"] 1
+   &FINALENERGY [&Type "Double"]      -7.4946656985694716e+01
+   &CASSCFEnergies [&Type "MixedMatrix", &Dim(1,5), &ColumnDatatypes "Integer Integer Integer Integer Double"] 
+ State    Mult   Irrep    Root              Energy
+
+     0       1       0       0        -74.94665699
+$End
+$CASSCF_Dipole_Moment
+   &GeometryIndex 4
+   &ListStatus       OUT
+   &METHOD [&Type "String"] "CASSCF"
+   &LEVEL [&Type "String"] "Relaxed density"
+   &MULT [&Type "Integer"] 1
+   &STATE [&Type "Integer"] 0
+   &IRREP [&Type "Integer"] 0
+   &NATOMS [&Type "Integer"] 3
+   &DODIPOLEATOM [&Type "Boolean"] false
+   &DIPOLEELECCONTRIB [&Type "ArrayOfDoubles", &Dim (3,1)] "Electronic contribution"
+                                                         0
+
+0                                     -2.6693595839652884e-01
+1                                      0.0000000000000000e+00
+2                                     -1.6621408195564402e-02
+   &DIPOLENUCCONTRIB [&Type "ArrayOfDoubles", &Dim (3,1)] "Nuclear contribution"
+                                                         0
+
+0                                      7.8258547075655915e-01
+1                                      0.0000000000000000e+00
+2                                      4.7078317619646004e-01
+   &DIPOLETOTAL [&Type "ArrayOfDoubles", &Dim (3,1)] "Total"
+                                                         0
+
+0                                      5.1564951236003032e-01
+1                                      0.0000000000000000e+00
+2                                      4.5416176800089564e-01
+   &DIPOLEMAGNITUDE [&Type "Double", &Units "a.u."]       6.8713705409535031e-01
+$End
+$Geometry
+   &GeometryIndex 5
+   &ListStatus       OUT
+   &NATOMS [&Type "Integer"] 3
+   &NCORELESSECP [&Type "Integer"] 0
+   &NGHOSTATOMS [&Type "Integer"] 0
+   &CartesianCoordinates [&Type "Coordinates", &Dim(3,4), &Units "Bohr"] 
+              O      0.000000000000    0.000000000000    0.000000000000
+              H      0.000000000000    0.000000000000    1.700753520529
+              H      1.776720511113    0.000000000000   -0.442951805791
+$End
+$CAS_SCF_Energies
+   &GeometryIndex 5
+   &ListStatus       OUT
+   &NUMOFELECTRONS [&Type "Integer"] 10
+   &NUMOFFCELECTRONS [&Type "Integer"] 0
+   &NUMOFACTIVEEL [&Type "Integer"] 10 "Number of active electrons"
+   &NUMOFACTIVEORBS [&Type "Integer"] 7 "Number of active orbitals"
+   &NUMOFMULTIPLICITIES [&Type "Integer"] 1 "Number of multiplicities"
+   &TOTALNUMOFROOTS [&Type "Integer"] 1
+   &FINALENERGY [&Type "Double"]      -7.5001288570164718e+01
+   &CASSCFEnergies [&Type "MixedMatrix", &Dim(1,5), &ColumnDatatypes "Integer Integer Integer Integer Double"] 
+ State    Mult   Irrep    Root              Energy
+
+     0       1       0       0        -75.00128857
+$End
+$CASSCF_Dipole_Moment
+   &GeometryIndex 5
+   &ListStatus       OUT
+   &METHOD [&Type "String"] "CASSCF"
+   &LEVEL [&Type "String"] "Relaxed density"
+   &MULT [&Type "Integer"] 1
+   &STATE [&Type "Integer"] 0
+   &IRREP [&Type "Integer"] 0
+   &NATOMS [&Type "Integer"] 3
+   &DODIPOLEATOM [&Type "Boolean"] false
+   &DIPOLEELECCONTRIB [&Type "ArrayOfDoubles", &Dim (3,1)] "Electronic contribution"
+                                                         0
+
+0                                     -2.8072589014125793e-01
+1                                      0.0000000000000000e+00
+2                                     -1.3620368379158343e-01
+   &DIPOLENUCCONTRIB [&Type "ArrayOfDoubles", &Dim (3,1)] "Nuclear contribution"
+                                                         0
+
+0                                      7.8258547075655915e-01
+1                                      0.0000000000000000e+00
+2                                      5.5401923988038515e-01
+   &DIPOLETOTAL [&Type "ArrayOfDoubles", &Dim (3,1)] "Total"
+                                                         0
+
+0                                      5.0185958061530123e-01
+1                                      0.0000000000000000e+00
+2                                      4.1781555608880172e-01
+   &DIPOLEMAGNITUDE [&Type "Double", &Units "a.u."]       6.5301828271891482e-01
+$End
+$Geometry
+   &GeometryIndex 6
+   &ListStatus       OUT
+   &NATOMS [&Type "Integer"] 3
+   &NCORELESSECP [&Type "Integer"] 0
+   &NGHOSTATOMS [&Type "Integer"] 0
+   &CartesianCoordinates [&Type "Coordinates", &Dim(3,4), &Units "Bohr"] 
+              O      0.000000000000    0.000000000000    0.000000000000
+              H      0.000000000000    0.000000000000    1.889726133921
+              H      1.776720511113    0.000000000000   -0.442951805791
+$End
+$CAS_SCF_Energies
+   &GeometryIndex 6
+   &ListStatus       OUT
+   &NUMOFELECTRONS [&Type "Integer"] 10
+   &NUMOFFCELECTRONS [&Type "Integer"] 0
+   &NUMOFACTIVEEL [&Type "Integer"] 10 "Number of active electrons"
+   &NUMOFACTIVEORBS [&Type "Integer"] 7 "Number of active orbitals"
+   &NUMOFMULTIPLICITIES [&Type "Integer"] 1 "Number of multiplicities"
+   &TOTALNUMOFROOTS [&Type "Integer"] 1
+   &FINALENERGY [&Type "Double"]      -7.5017758510846988e+01
+   &CASSCFEnergies [&Type "MixedMatrix", &Dim(1,5), &ColumnDatatypes "Integer Integer Integer Integer Double"] 
+ State    Mult   Irrep    Root              Energy
+
+     0       1       0       0        -75.01775851
+$End
+$CASSCF_Dipole_Moment
+   &GeometryIndex 6
+   &ListStatus       OUT
+   &METHOD [&Type "String"] "CASSCF"
+   &LEVEL [&Type "String"] "Relaxed density"
+   &MULT [&Type "Integer"] 1
+   &STATE [&Type "Integer"] 0
+   &IRREP [&Type "Integer"] 0
+   &NATOMS [&Type "Integer"] 3
+   &DODIPOLEATOM [&Type "Boolean"] false
+   &DIPOLEELECCONTRIB [&Type "ArrayOfDoubles", &Dim (3,1)] "Electronic contribution"
+                                                         0
+
+0                                     -2.8898277208870982e-01
+1                                      0.0000000000000000e+00
+2                                     -2.6478386277590527e-01
+   &DIPOLENUCCONTRIB [&Type "ArrayOfDoubles", &Dim (3,1)] "Nuclear contribution"
+                                                         0
+
+0                                      7.8258547075655915e-01
+1                                      0.0000000000000000e+00
+2                                      6.3725530356441040e-01
+   &DIPOLETOTAL [&Type "ArrayOfDoubles", &Dim (3,1)] "Total"
+                                                         0
+
+0                                      4.9360269866784934e-01
+1                                      0.0000000000000000e+00
+2                                      3.7247144078850514e-01
+   &DIPOLEMAGNITUDE [&Type "Double", &Units "a.u."]       6.1836768862485736e-01
+$End
+$Geometry
+   &GeometryIndex 7
+   &ListStatus       OUT
+   &NATOMS [&Type "Integer"] 3
+   &NCORELESSECP [&Type "Integer"] 0
+   &NGHOSTATOMS [&Type "Integer"] 0
+   &CartesianCoordinates [&Type "Coordinates", &Dim(3,4), &Units "Bohr"] 
+              O      0.000000000000    0.000000000000    0.000000000000
+              H      0.000000000000    0.000000000000    2.078698747313
+              H      1.776720511113    0.000000000000   -0.442951805791
+$End
+$CAS_SCF_Energies
+   &GeometryIndex 7
+   &ListStatus       OUT
+   &NUMOFELECTRONS [&Type "Integer"] 10
+   &NUMOFFCELECTRONS [&Type "Integer"] 0
+   &NUMOFACTIVEEL [&Type "Integer"] 10 "Number of active electrons"
+   &NUMOFACTIVEORBS [&Type "Integer"] 7 "Number of active orbitals"
+   &NUMOFMULTIPLICITIES [&Type "Integer"] 1 "Number of multiplicities"
+   &TOTALNUMOFROOTS [&Type "Integer"] 1
+   &FINALENERGY [&Type "Double"]      -7.5013193078203074e+01
+   &CASSCFEnergies [&Type "MixedMatrix", &Dim(1,5), &ColumnDatatypes "Integer Integer Integer Integer Double"] 
+ State    Mult   Irrep    Root              Energy
+
+     0       1       0       0        -75.01319308
+$End
+$CASSCF_Dipole_Moment
+   &GeometryIndex 7
+   &ListStatus       OUT
+   &METHOD [&Type "String"] "CASSCF"
+   &LEVEL [&Type "String"] "Relaxed density"
+   &MULT [&Type "Integer"] 1
+   &STATE [&Type "Integer"] 0
+   &IRREP [&Type "Integer"] 0
+   &NATOMS [&Type "Integer"] 3
+   &DODIPOLEATOM [&Type "Boolean"] false
+   &DIPOLEELECCONTRIB [&Type "ArrayOfDoubles", &Dim (3,1)] "Electronic contribution"
+                                                         0
+
+0                                     -2.9372999903592567e-01
+1                                      0.0000000000000000e+00
+2                                     -3.9952000367271767e-01
+   &DIPOLENUCCONTRIB [&Type "ArrayOfDoubles", &Dim (3,1)] "Nuclear contribution"
+                                                         0
+
+0                                      7.8258547075655915e-01
+1                                      0.0000000000000000e+00
+2                                      7.2049136724833540e-01
+   &DIPOLETOTAL [&Type "ArrayOfDoubles", &Dim (3,1)] "Total"
+                                                         0
+
+0                                      4.8885547172063348e-01
+1                                      0.0000000000000000e+00
+2                                      3.2097136357561773e-01
+   &DIPOLEMAGNITUDE [&Type "Double", &Units "a.u."]       5.8480961728309022e-01
+$End
+$Geometry
+   &GeometryIndex 8
+   &ListStatus       OUT
+   &NATOMS [&Type "Integer"] 3
+   &NCORELESSECP [&Type "Integer"] 0
+   &NGHOSTATOMS [&Type "Integer"] 0
+   &CartesianCoordinates [&Type "Coordinates", &Dim(3,4), &Units "Bohr"] 
+              O      0.000000000000    0.000000000000    0.000000000000
+              H      0.000000000000    0.000000000000    2.267671360706
+              H      1.776720511113    0.000000000000   -0.442951805791
+$End
+$CAS_SCF_Energies
+   &GeometryIndex 8
+   &ListStatus       OUT
+   &NUMOFELECTRONS [&Type "Integer"] 10
+   &NUMOFFCELECTRONS [&Type "Integer"] 0
+   &NUMOFACTIVEEL [&Type "Integer"] 10 "Number of active electrons"
+   &NUMOFACTIVEORBS [&Type "Integer"] 7 "Number of active orbitals"
+   &NUMOFMULTIPLICITIES [&Type "Integer"] 1 "Number of multiplicities"
+   &TOTALNUMOFROOTS [&Type "Integer"] 1
+   &FINALENERGY [&Type "Double"]      -7.4997706186471220e+01
+   &CASSCFEnergies [&Type "MixedMatrix", &Dim(1,5), &ColumnDatatypes "Integer Integer Integer Integer Double"] 
+ State    Mult   Irrep    Root              Energy
+
+     0       1       0       0        -74.99770619
+$End
+$CASSCF_Dipole_Moment
+   &GeometryIndex 8
+   &ListStatus       OUT
+   &METHOD [&Type "String"] "CASSCF"
+   &LEVEL [&Type "String"] "Relaxed density"
+   &MULT [&Type "Integer"] 1
+   &STATE [&Type "Integer"] 0
+   &IRREP [&Type "Integer"] 0
+   &NATOMS [&Type "Integer"] 3
+   &DODIPOLEATOM [&Type "Boolean"] false
+   &DIPOLEELECCONTRIB [&Type "ArrayOfDoubles", &Dim (3,1)] "Electronic contribution"
+                                                         0
+
+0                                     -2.9653733158689866e-01
+1                                      0.0000000000000000e+00
+2                                     -5.3868985730299301e-01
+   &DIPOLENUCCONTRIB [&Type "ArrayOfDoubles", &Dim (3,1)] "Nuclear contribution"
+                                                         0
+
+0                                      7.8258547075655915e-01
+1                                      0.0000000000000000e+00
+2                                      8.0372743093226029e-01
+   &DIPOLETOTAL [&Type "ArrayOfDoubles", &Dim (3,1)] "Total"
+                                                         0
+
+0                                      4.8604813916966050e-01
+1                                      0.0000000000000000e+00
+2                                      2.6503757362926728e-01
+   &DIPOLEMAGNITUDE [&Type "Double", &Units "a.u."]       5.5361332085272197e-01
+$End
+$Geometry
+   &GeometryIndex 9
+   &ListStatus       OUT
+   &NATOMS [&Type "Integer"] 3
+   &NCORELESSECP [&Type "Integer"] 0
+   &NGHOSTATOMS [&Type "Integer"] 0
+   &CartesianCoordinates [&Type "Coordinates", &Dim(3,4), &Units "Bohr"] 
+              O      0.000000000000    0.000000000000    0.000000000000
+              H      0.000000000000    0.000000000000    2.456643974098
+              H      1.776720511113    0.000000000000   -0.442951805791
+$End
+$CAS_SCF_Energies
+   &GeometryIndex 9
+   &ListStatus       OUT
+   &NUMOFELECTRONS [&Type "Integer"] 10
+   &NUMOFFCELECTRONS [&Type "Integer"] 0
+   &NUMOFACTIVEEL [&Type "Integer"] 10 "Number of active electrons"
+   &NUMOFACTIVEORBS [&Type "Integer"] 7 "Number of active orbitals"
+   &NUMOFMULTIPLICITIES [&Type "Integer"] 1 "Number of multiplicities"
+   &TOTALNUMOFROOTS [&Type "Integer"] 1
+   &FINALENERGY [&Type "Double"]      -7.4977467874547187e+01
+   &CASSCFEnergies [&Type "MixedMatrix", &Dim(1,5), &ColumnDatatypes "Integer Integer Integer Integer Double"] 
+ State    Mult   Irrep    Root              Energy
+
+     0       1       0       0        -74.97746787
+$End
+$CASSCF_Dipole_Moment
+   &GeometryIndex 9
+   &ListStatus       OUT
+   &METHOD [&Type "String"] "CASSCF"
+   &LEVEL [&Type "String"] "Relaxed density"
+   &MULT [&Type "Integer"] 1
+   &STATE [&Type "Integer"] 0
+   &IRREP [&Type "Integer"] 0
+   &NATOMS [&Type "Integer"] 3
+   &DODIPOLEATOM [&Type "Boolean"] false
+   &DIPOLEELECCONTRIB [&Type "ArrayOfDoubles", &Dim (3,1)] "Electronic contribution"
+                                                         0
+
+0                                     -2.9862939164858993e-01
+1                                      0.0000000000000000e+00
+2                                     -6.8045872755668702e-01
+   &DIPOLENUCCONTRIB [&Type "ArrayOfDoubles", &Dim (3,1)] "Nuclear contribution"
+                                                         0
+
+0                                      7.8258547075655915e-01
+1                                      0.0000000000000000e+00
+2                                      8.8696349461628532e-01
+   &DIPOLETOTAL [&Type "ArrayOfDoubles", &Dim (3,1)] "Total"
+                                                         0
+
+0                                      4.8395607910796923e-01
+1                                      0.0000000000000000e+00
+2                                      2.0650476705959830e-01
+   &DIPOLEMAGNITUDE [&Type "Double", &Units "a.u."]       5.2617269534241129e-01
+$End
+$Geometry
+   &GeometryIndex 10
+   &ListStatus       OUT
+   &NATOMS [&Type "Integer"] 3
+   &NCORELESSECP [&Type "Integer"] 0
+   &NGHOSTATOMS [&Type "Integer"] 0
+   &CartesianCoordinates [&Type "Coordinates", &Dim(3,4), &Units "Bohr"] 
+              O      0.000000000000    0.000000000000    0.000000000000
+              H      0.000000000000    0.000000000000    2.645616587490
+              H      1.776720511113    0.000000000000   -0.442951805791
+$End
+$CAS_SCF_Energies
+   &GeometryIndex 10
+   &ListStatus       OUT
+   &NUMOFELECTRONS [&Type "Integer"] 10
+   &NUMOFFCELECTRONS [&Type "Integer"] 0
+   &NUMOFACTIVEEL [&Type "Integer"] 10 "Number of active electrons"
+   &NUMOFACTIVEORBS [&Type "Integer"] 7 "Number of active orbitals"
+   &NUMOFMULTIPLICITIES [&Type "Integer"] 1 "Number of multiplicities"
+   &TOTALNUMOFROOTS [&Type "Integer"] 1
+   &FINALENERGY [&Type "Double"]      -7.4956144148035904e+01
+   &CASSCFEnergies [&Type "MixedMatrix", &Dim(1,5), &ColumnDatatypes "Integer Integer Integer Integer Double"] 
+ State    Mult   Irrep    Root              Energy
+
+     0       1       0       0        -74.95614415
+$End
+$CASSCF_Dipole_Moment
+   &GeometryIndex 10
+   &ListStatus       OUT
+   &METHOD [&Type "String"] "CASSCF"
+   &LEVEL [&Type "String"] "Relaxed density"
+   &MULT [&Type "Integer"] 1
+   &STATE [&Type "Integer"] 0
+   &IRREP [&Type "Integer"] 0
+   &NATOMS [&Type "Integer"] 3
+   &DODIPOLEATOM [&Type "Boolean"] false
+   &DIPOLEELECCONTRIB [&Type "ArrayOfDoubles", &Dim (3,1)] "Electronic contribution"
+                                                         0
+
+0                                     -3.0087749217112836e-01
+1                                      0.0000000000000000e+00
+2                                     -8.2237053063947207e-01
+   &DIPOLENUCCONTRIB [&Type "ArrayOfDoubles", &Dim (3,1)] "Nuclear contribution"
+                                                         0
+
+0                                      7.8258547075655915e-01
+1                                      0.0000000000000000e+00
+2                                      9.7019955830021110e-01
+   &DIPOLETOTAL [&Type "ArrayOfDoubles", &Dim (3,1)] "Total"
+                                                         0
+
+0                                      4.8170797858543080e-01
+1                                      0.0000000000000000e+00
+2                                      1.4782902766073902e-01
+   &DIPOLEMAGNITUDE [&Type "Double", &Units "a.u."]       5.0388093638475884e-01
+$End
+$Geometry
+   &GeometryIndex 11
+   &ListStatus       OUT
+   &NATOMS [&Type "Integer"] 3
+   &NCORELESSECP [&Type "Integer"] 0
+   &NGHOSTATOMS [&Type "Integer"] 0
+   &CartesianCoordinates [&Type "Coordinates", &Dim(3,4), &Units "Bohr"] 
+              O      0.000000000000    0.000000000000    0.000000000000
+              H      0.000000000000    0.000000000000    2.834589200882
+              H      1.776720511113    0.000000000000   -0.442951805791
+$End
+$CAS_SCF_Energies
+   &GeometryIndex 11
+   &ListStatus       OUT
+   &NUMOFELECTRONS [&Type "Integer"] 10
+   &NUMOFFCELECTRONS [&Type "Integer"] 0
+   &NUMOFACTIVEEL [&Type "Integer"] 10 "Number of active electrons"
+   &NUMOFACTIVEORBS [&Type "Integer"] 7 "Number of active orbitals"
+   &NUMOFMULTIPLICITIES [&Type "Integer"] 1 "Number of multiplicities"
+   &TOTALNUMOFROOTS [&Type "Integer"] 1
+   &FINALENERGY [&Type "Double"]      -7.4935819159195162e+01
+   &CASSCFEnergies [&Type "MixedMatrix", &Dim(1,5), &ColumnDatatypes "Integer Integer Integer Integer Double"] 
+ State    Mult   Irrep    Root              Energy
+
+     0       1       0       0        -74.93581916
+$End
+$CASSCF_Dipole_Moment
+   &GeometryIndex 11
+   &ListStatus       OUT
+   &METHOD [&Type "String"] "CASSCF"
+   &LEVEL [&Type "String"] "Relaxed density"
+   &MULT [&Type "Integer"] 1
+   &STATE [&Type "Integer"] 0
+   &IRREP [&Type "Integer"] 0
+   &NATOMS [&Type "Integer"] 3
+   &DODIPOLEATOM [&Type "Boolean"] false
+   &DIPOLEELECCONTRIB [&Type "ArrayOfDoubles", &Dim (3,1)] "Electronic contribution"
+                                                         0
+
+0                                     -3.0375855233778681e-01
+1                                      0.0000000000000000e+00
+2                                     -9.6154364151006577e-01
+   &DIPOLENUCCONTRIB [&Type "ArrayOfDoubles", &Dim (3,1)] "Nuclear contribution"
+                                                         0
+
+0                                      7.8258547075655915e-01
+1                                      0.0000000000000000e+00
+2                                      1.0534356219841361e+00
+   &DIPOLETOTAL [&Type "ArrayOfDoubles", &Dim (3,1)] "Total"
+                                                         0
+
+0                                      4.7882691841877234e-01
+1                                      0.0000000000000000e+00
+2                                      9.1891980474070323e-02
+   &DIPOLEMAGNITUDE [&Type "Double", &Units "a.u."]       4.8756471763024917e-01
+$End
+$Geometry
+   &GeometryIndex 12
+   &ListStatus       OUT
+   &NATOMS [&Type "Integer"] 3
+   &NCORELESSECP [&Type "Integer"] 0
+   &NGHOSTATOMS [&Type "Integer"] 0
+   &CartesianCoordinates [&Type "Coordinates", &Dim(3,4), &Units "Bohr"] 
+              O      0.000000000000    0.000000000000    0.000000000000
+              H      0.000000000000    0.000000000000    3.023561814274
+              H      1.776720511113    0.000000000000   -0.442951805791
+$End
+$CAS_SCF_Energies
+   &GeometryIndex 12
+   &ListStatus       OUT
+   &NUMOFELECTRONS [&Type "Integer"] 10
+   &NUMOFFCELECTRONS [&Type "Integer"] 0
+   &NUMOFACTIVEEL [&Type "Integer"] 10 "Number of active electrons"
+   &NUMOFACTIVEORBS [&Type "Integer"] 7 "Number of active orbitals"
+   &NUMOFMULTIPLICITIES [&Type "Integer"] 1 "Number of multiplicities"
+   &TOTALNUMOFROOTS [&Type "Integer"] 1
+   &FINALENERGY [&Type "Double"]      -7.4917633188629395e+01
+   &CASSCFEnergies [&Type "MixedMatrix", &Dim(1,5), &ColumnDatatypes "Integer Integer Integer Integer Double"] 
+ State    Mult   Irrep    Root              Energy
+
+     0       1       0       0        -74.91763319
+$End
+$CASSCF_Dipole_Moment
+   &GeometryIndex 12
+   &ListStatus       OUT
+   &METHOD [&Type "String"] "CASSCF"
+   &LEVEL [&Type "String"] "Relaxed density"
+   &MULT [&Type "Integer"] 1
+   &STATE [&Type "Integer"] 0
+   &IRREP [&Type "Integer"] 0
+   &NATOMS [&Type "Integer"] 3
+   &DODIPOLEATOM [&Type "Boolean"] false
+   &DIPOLEELECCONTRIB [&Type "ArrayOfDoubles", &Dim (3,1)] "Electronic contribution"
+                                                         0
+
+0                                     -3.0736493874923931e-01
+1                                      0.0000000000000000e+00
+2                                     -1.0951777332078194e+00
+   &DIPOLENUCCONTRIB [&Type "ArrayOfDoubles", &Dim (3,1)] "Nuclear contribution"
+                                                         0
+
+0                                      7.8258547075655915e-01
+1                                      0.0000000000000000e+00
+2                                      1.1366716856681613e+00
+   &DIPOLETOTAL [&Type "ArrayOfDoubles", &Dim (3,1)] "Total"
+                                                         0
+
+0                                      4.7522053200731984e-01
+1                                      0.0000000000000000e+00
+2                                      4.1493952460341932e-02
+   &DIPOLEMAGNITUDE [&Type "Double", &Units "a.u."]       4.7702861772864447e-01
+$End
+$Geometry
+   &GeometryIndex 13
+   &ListStatus       OUT
+   &NATOMS [&Type "Integer"] 3
+   &NCORELESSECP [&Type "Integer"] 0
+   &NGHOSTATOMS [&Type "Integer"] 0
+   &CartesianCoordinates [&Type "Coordinates", &Dim(3,4), &Units "Bohr"] 
+              O      0.000000000000    0.000000000000    0.000000000000
+              H      0.000000000000    0.000000000000    3.212534427666
+              H      1.776720511113    0.000000000000   -0.442951805791
+$End
+$CAS_SCF_Energies
+   &GeometryIndex 13
+   &ListStatus       OUT
+   &NUMOFELECTRONS [&Type "Integer"] 10
+   &NUMOFFCELECTRONS [&Type "Integer"] 0
+   &NUMOFACTIVEEL [&Type "Integer"] 10 "Number of active electrons"
+   &NUMOFACTIVEORBS [&Type "Integer"] 7 "Number of active orbitals"
+   &NUMOFMULTIPLICITIES [&Type "Integer"] 1 "Number of multiplicities"
+   &TOTALNUMOFROOTS [&Type "Integer"] 1
+   &FINALENERGY [&Type "Double"]      -7.4902152012606933e+01
+   &CASSCFEnergies [&Type "MixedMatrix", &Dim(1,5), &ColumnDatatypes "Integer Integer Integer Integer Double"] 
+ State    Mult   Irrep    Root              Energy
+
+     0       1       0       0        -74.90215201
+$End
+$CASSCF_Dipole_Moment
+   &GeometryIndex 13
+   &ListStatus       OUT
+   &METHOD [&Type "String"] "CASSCF"
+   &LEVEL [&Type "String"] "Relaxed density"
+   &MULT [&Type "Integer"] 1
+   &STATE [&Type "Integer"] 0
+   &IRREP [&Type "Integer"] 0
+   &NATOMS [&Type "Integer"] 3
+   &DODIPOLEATOM [&Type "Boolean"] false
+   &DIPOLEELECCONTRIB [&Type "ArrayOfDoubles", &Dim (3,1)] "Electronic contribution"
+                                                         0
+
+0                                     -3.1148805608059860e-01
+1                                      0.0000000000000000e+00
+2                                     -1.2211173302530183e+00
+   &DIPOLENUCCONTRIB [&Type "ArrayOfDoubles", &Dim (3,1)] "Nuclear contribution"
+                                                         0
+
+0                                      7.8258547075655915e-01
+1                                      0.0000000000000000e+00
+2                                      1.2199077493520856e+00
+   &DIPOLETOTAL [&Type "ArrayOfDoubles", &Dim (3,1)] "Total"
+                                                         0
+
+0                                      4.7109741467596056e-01
+1                                      0.0000000000000000e+00
+2                                     -1.2095809009327052e-03
+   &DIPOLEMAGNITUDE [&Type "Double", &Units "a.u."]       4.7109896752203756e-01
+$End
+$Geometry
+   &GeometryIndex 14
+   &ListStatus       OUT
+   &NATOMS [&Type "Integer"] 3
+   &NCORELESSECP [&Type "Integer"] 0
+   &NGHOSTATOMS [&Type "Integer"] 0
+   &CartesianCoordinates [&Type "Coordinates", &Dim(3,4), &Units "Bohr"] 
+              O      0.000000000000    0.000000000000    0.000000000000
+              H      0.000000000000    0.000000000000    3.401507041058
+              H      1.776720511113    0.000000000000   -0.442951805791
+$End
+$CAS_SCF_Energies
+   &GeometryIndex 14
+   &ListStatus       OUT
+   &NUMOFELECTRONS [&Type "Integer"] 10
+   &NUMOFFCELECTRONS [&Type "Integer"] 0
+   &NUMOFACTIVEEL [&Type "Integer"] 10 "Number of active electrons"
+   &NUMOFACTIVEORBS [&Type "Integer"] 7 "Number of active orbitals"
+   &NUMOFMULTIPLICITIES [&Type "Integer"] 1 "Number of multiplicities"
+   &TOTALNUMOFROOTS [&Type "Integer"] 1
+   &FINALENERGY [&Type "Double"]      -7.4889541833945813e+01
+   &CASSCFEnergies [&Type "MixedMatrix", &Dim(1,5), &ColumnDatatypes "Integer Integer Integer Integer Double"] 
+ State    Mult   Irrep    Root              Energy
+
+     0       1       0       0        -74.88954183
+$End
+$CASSCF_Dipole_Moment
+   &GeometryIndex 14
+   &ListStatus       OUT
+   &METHOD [&Type "String"] "CASSCF"
+   &LEVEL [&Type "String"] "Relaxed density"
+   &MULT [&Type "Integer"] 1
+   &STATE [&Type "Integer"] 0
+   &IRREP [&Type "Integer"] 0
+   &NATOMS [&Type "Integer"] 3
+   &DODIPOLEATOM [&Type "Boolean"] false
+   &DIPOLEELECCONTRIB [&Type "ArrayOfDoubles", &Dim (3,1)] "Electronic contribution"
+                                                         0
+
+0                                     -3.1575817666436012e-01
+1                                      0.0000000000000000e+00
+2                                     -1.3383054540929471e+00
+   &DIPOLENUCCONTRIB [&Type "ArrayOfDoubles", &Dim (3,1)] "Nuclear contribution"
+                                                         0
+
+0                                      7.8258547075655915e-01
+1                                      0.0000000000000000e+00
+2                                      1.3031438130360116e+00
+   &DIPOLETOTAL [&Type "ArrayOfDoubles", &Dim (3,1)] "Total"
+                                                         0
+
+0                                      4.6682729409219903e-01
+1                                      0.0000000000000000e+00
+2                                     -3.5161641056935533e-02
+   &DIPOLEMAGNITUDE [&Type "Double", &Units "a.u."]       4.6814961658775417e-01
+$End
+$Geometry
+   &GeometryIndex 15
+   &ListStatus       OUT
+   &NATOMS [&Type "Integer"] 3
+   &NCORELESSECP [&Type "Integer"] 0
+   &NGHOSTATOMS [&Type "Integer"] 0
+   &CartesianCoordinates [&Type "Coordinates", &Dim(3,4), &Units "Bohr"] 
+              O      0.000000000000    0.000000000000    0.000000000000
+              H      0.000000000000    0.000000000000    3.590479654450
+              H      1.776720511113    0.000000000000   -0.442951805791
+$End
+$CAS_SCF_Energies
+   &GeometryIndex 15
+   &ListStatus       OUT
+   &NUMOFELECTRONS [&Type "Integer"] 10
+   &NUMOFFCELECTRONS [&Type "Integer"] 0
+   &NUMOFACTIVEEL [&Type "Integer"] 10 "Number of active electrons"
+   &NUMOFACTIVEORBS [&Type "Integer"] 7 "Number of active orbitals"
+   &NUMOFMULTIPLICITIES [&Type "Integer"] 1 "Number of multiplicities"
+   &TOTALNUMOFROOTS [&Type "Integer"] 1
+   &FINALENERGY [&Type "Double"]      -7.4879667887280604e+01
+   &CASSCFEnergies [&Type "MixedMatrix", &Dim(1,5), &ColumnDatatypes "Integer Integer Integer Integer Double"] 
+ State    Mult   Irrep    Root              Energy
+
+     0       1       0       0        -74.87966789
+$End
+$CASSCF_Dipole_Moment
+   &GeometryIndex 15
+   &ListStatus       OUT
+   &METHOD [&Type "String"] "CASSCF"
+   &LEVEL [&Type "String"] "Relaxed density"
+   &MULT [&Type "Integer"] 1
+   &STATE [&Type "Integer"] 0
+   &IRREP [&Type "Integer"] 0
+   &NATOMS [&Type "Integer"] 3
+   &DODIPOLEATOM [&Type "Boolean"] false
+   &DIPOLEELECCONTRIB [&Type "ArrayOfDoubles", &Dim (3,1)] "Electronic contribution"
+                                                         0
+
+0                                     -3.1979844271303914e-01
+1                                      0.0000000000000000e+00
+2                                     -1.4469194155381984e+00
+   &DIPOLENUCCONTRIB [&Type "ArrayOfDoubles", &Dim (3,1)] "Nuclear contribution"
+                                                         0
+
+0                                      7.8258547075655915e-01
+1                                      0.0000000000000000e+00
+2                                      1.3863798767200364e+00
+   &DIPOLETOTAL [&Type "ArrayOfDoubles", &Dim (3,1)] "Total"
+                                                         0
+
+0                                      4.6278702804352001e-01
+1                                      0.0000000000000000e+00
+2                                     -6.0539538818161986e-02
+   &DIPOLEMAGNITUDE [&Type "Double", &Units "a.u."]       4.6672997448810755e-01
+$End
+$Geometry
+   &GeometryIndex 16
+   &ListStatus       OUT
+   &NATOMS [&Type "Integer"] 3
+   &NCORELESSECP [&Type "Integer"] 0
+   &NGHOSTATOMS [&Type "Integer"] 0
+   &CartesianCoordinates [&Type "Coordinates", &Dim(3,4), &Units "Bohr"] 
+              O      0.000000000000    0.000000000000    0.000000000000
+              H      0.000000000000    0.000000000000    3.779452267843
+              H      1.776720511113    0.000000000000   -0.442951805791
+$End
+$CAS_SCF_Energies
+   &GeometryIndex 16
+   &ListStatus       OUT
+   &NUMOFELECTRONS [&Type "Integer"] 10
+   &NUMOFFCELECTRONS [&Type "Integer"] 0
+   &NUMOFACTIVEEL [&Type "Integer"] 10 "Number of active electrons"
+   &NUMOFACTIVEORBS [&Type "Integer"] 7 "Number of active orbitals"
+   &NUMOFMULTIPLICITIES [&Type "Integer"] 1 "Number of multiplicities"
+   &TOTALNUMOFROOTS [&Type "Integer"] 1
+   &FINALENERGY [&Type "Double"]      -7.4872193349873399e+01
+   &CASSCFEnergies [&Type "MixedMatrix", &Dim(1,5), &ColumnDatatypes "Integer Integer Integer Integer Double"] 
+ State    Mult   Irrep    Root              Energy
+
+     0       1       0       0        -74.87219335
+$End
+$CASSCF_Dipole_Moment
+   &GeometryIndex 16
+   &ListStatus       OUT
+   &METHOD [&Type "String"] "CASSCF"
+   &LEVEL [&Type "String"] "Relaxed density"
+   &MULT [&Type "Integer"] 1
+   &STATE [&Type "Integer"] 0
+   &IRREP [&Type "Integer"] 0
+   &NATOMS [&Type "Integer"] 3
+   &DODIPOLEATOM [&Type "Boolean"] false
+   &DIPOLEELECCONTRIB [&Type "ArrayOfDoubles", &Dim (3,1)] "Electronic contribution"
+                                                         0
+
+0                                     -3.2333805476913069e-01
+1                                      0.0000000000000000e+00
+2                                     -1.5481005437371707e+00
+   &DIPOLENUCCONTRIB [&Type "ArrayOfDoubles", &Dim (3,1)] "Nuclear contribution"
+                                                         0
+
+0                                      7.8258547075655915e-01
+1                                      0.0000000000000000e+00
+2                                      1.4696159404039619e+00
+   &DIPOLETOTAL [&Type "ArrayOfDoubles", &Dim (3,1)] "Total"
+                                                         0
+
+0                                      4.5924741598742846e-01
+1                                      0.0000000000000000e+00
+2                                     -7.8484603333208725e-02
+   &DIPOLEMAGNITUDE [&Type "Double", &Units "a.u."]       4.6590559349668820e-01
+$End
+$Geometry
+   &GeometryIndex 17
+   &ListStatus       OUT
+   &NATOMS [&Type "Integer"] 3
+   &NCORELESSECP [&Type "Integer"] 0
+   &NGHOSTATOMS [&Type "Integer"] 0
+   &CartesianCoordinates [&Type "Coordinates", &Dim(3,4), &Units "Bohr"] 
+              O      0.000000000000    0.000000000000    0.000000000000
+              H      0.000000000000    0.000000000000    3.968424881235
+              H      1.776720511113    0.000000000000   -0.442951805791
+$End
+$CAS_SCF_Energies
+   &GeometryIndex 17
+   &ListStatus       OUT
+   &NUMOFELECTRONS [&Type "Integer"] 10
+   &NUMOFFCELECTRONS [&Type "Integer"] 0
+   &NUMOFACTIVEEL [&Type "Integer"] 10 "Number of active electrons"
+   &NUMOFACTIVEORBS [&Type "Integer"] 7 "Number of active orbitals"
+   &NUMOFMULTIPLICITIES [&Type "Integer"] 1 "Number of multiplicities"
+   &TOTALNUMOFROOTS [&Type "Integer"] 1
+   &FINALENERGY [&Type "Double"]      -7.4866686812682701e+01
+   &CASSCFEnergies [&Type "MixedMatrix", &Dim(1,5), &ColumnDatatypes "Integer Integer Integer Integer Double"] 
+ State    Mult   Irrep    Root              Energy
+
+     0       1       0       0        -74.86668681
+$End
+$CASSCF_Dipole_Moment
+   &GeometryIndex 17
+   &ListStatus       OUT
+   &METHOD [&Type "String"] "CASSCF"
+   &LEVEL [&Type "String"] "Relaxed density"
+   &MULT [&Type "Integer"] 1
+   &STATE [&Type "Integer"] 0
+   &IRREP [&Type "Integer"] 0
+   &NATOMS [&Type "Integer"] 3
+   &DODIPOLEATOM [&Type "Boolean"] false
+   &DIPOLEELECCONTRIB [&Type "ArrayOfDoubles", &Dim (3,1)] "Electronic contribution"
+                                                         0
+
+0                                     -3.2625153228176107e-01
+1                                      0.0000000000000000e+00
+2                                     -1.6434509176501921e+00
+   &DIPOLENUCCONTRIB [&Type "ArrayOfDoubles", &Dim (3,1)] "Nuclear contribution"
+                                                         0
+
+0                                      7.8258547075655915e-01
+1                                      0.0000000000000000e+00
+2                                      1.5528520040878870e+00
+   &DIPOLETOTAL [&Type "ArrayOfDoubles", &Dim (3,1)] "Total"
+                                                         0
+
+0                                      4.5633393847479808e-01
+1                                      0.0000000000000000e+00
+2                                     -9.0598913562305095e-02
+   &DIPOLEMAGNITUDE [&Type "Double", &Units "a.u."]       4.6524061145023748e-01
+$End
+$Geometry
+   &GeometryIndex 18
+   &ListStatus       OUT
+   &NATOMS [&Type "Integer"] 3
+   &NCORELESSECP [&Type "Integer"] 0
+   &NGHOSTATOMS [&Type "Integer"] 0
+   &CartesianCoordinates [&Type "Coordinates", &Dim(3,4), &Units "Bohr"] 
+              O      0.000000000000    0.000000000000    0.000000000000
+              H      0.000000000000    0.000000000000    4.157397494627
+              H      1.776720511113    0.000000000000   -0.442951805791
+$End
+$CAS_SCF_Energies
+   &GeometryIndex 18
+   &ListStatus       OUT
+   &NUMOFELECTRONS [&Type "Integer"] 10
+   &NUMOFFCELECTRONS [&Type "Integer"] 0
+   &NUMOFACTIVEEL [&Type "Integer"] 10 "Number of active electrons"
+   &NUMOFACTIVEORBS [&Type "Integer"] 7 "Number of active orbitals"
+   &NUMOFMULTIPLICITIES [&Type "Integer"] 1 "Number of multiplicities"
+   &TOTALNUMOFROOTS [&Type "Integer"] 1
+   &FINALENERGY [&Type "Double"]      -7.4862713052937934e+01
+   &CASSCFEnergies [&Type "MixedMatrix", &Dim(1,5), &ColumnDatatypes "Integer Integer Integer Integer Double"] 
+ State    Mult   Irrep    Root              Energy
+
+     0       1       0       0        -74.86271305
+$End
+$CASSCF_Dipole_Moment
+   &GeometryIndex 18
+   &ListStatus       OUT
+   &METHOD [&Type "String"] "CASSCF"
+   &LEVEL [&Type "String"] "Relaxed density"
+   &MULT [&Type "Integer"] 1
+   &STATE [&Type "Integer"] 0
+   &IRREP [&Type "Integer"] 0
+   &NATOMS [&Type "Integer"] 3
+   &DODIPOLEATOM [&Type "Boolean"] false
+   &DIPOLEELECCONTRIB [&Type "ArrayOfDoubles", &Dim (3,1)] "Electronic contribution"
+                                                         0
+
+0                                     -3.2853564926764278e-01
+1                                      0.0000000000000000e+00
+2                                     -1.7345735280449404e+00
+   &DIPOLENUCCONTRIB [&Type "ArrayOfDoubles", &Dim (3,1)] "Nuclear contribution"
+                                                         0
+
+0                                      7.8258547075655915e-01
+1                                      0.0000000000000000e+00
+2                                      1.6360880677719125e+00
+   &DIPOLETOTAL [&Type "ArrayOfDoubles", &Dim (3,1)] "Total"
+                                                         0
+
+0                                      4.5404982148891637e-01
+1                                      0.0000000000000000e+00
+2                                     -9.8485460273027847e-02
+   &DIPOLEMAGNITUDE [&Type "Double", &Units "a.u."]       4.6460803509981075e-01
+$End
+$Geometry
+   &GeometryIndex 19
+   &ListStatus       OUT
+   &NATOMS [&Type "Integer"] 3
+   &NCORELESSECP [&Type "Integer"] 0
+   &NGHOSTATOMS [&Type "Integer"] 0
+   &CartesianCoordinates [&Type "Coordinates", &Dim(3,4), &Units "Bohr"] 
+              O      0.000000000000    0.000000000000    0.000000000000
+              H      0.000000000000    0.000000000000    4.346370108019
+              H      1.776720511113    0.000000000000   -0.442951805791
+$End
+$CAS_SCF_Energies
+   &GeometryIndex 19
+   &ListStatus       OUT
+   &NUMOFELECTRONS [&Type "Integer"] 10
+   &NUMOFFCELECTRONS [&Type "Integer"] 0
+   &NUMOFACTIVEEL [&Type "Integer"] 10 "Number of active electrons"
+   &NUMOFACTIVEORBS [&Type "Integer"] 7 "Number of active orbitals"
+   &NUMOFMULTIPLICITIES [&Type "Integer"] 1 "Number of multiplicities"
+   &TOTALNUMOFROOTS [&Type "Integer"] 1
+   &FINALENERGY [&Type "Double"]      -7.4859888795242341e+01
+   &CASSCFEnergies [&Type "MixedMatrix", &Dim(1,5), &ColumnDatatypes "Integer Integer Integer Integer Double"] 
+ State    Mult   Irrep    Root              Energy
+
+     0       1       0       0        -74.85988880
+$End
+$CASSCF_Dipole_Moment
+   &GeometryIndex 19
+   &ListStatus       OUT
+   &METHOD [&Type "String"] "CASSCF"
+   &LEVEL [&Type "String"] "Relaxed density"
+   &MULT [&Type "Integer"] 1
+   &STATE [&Type "Integer"] 0
+   &IRREP [&Type "Integer"] 0
+   &NATOMS [&Type "Integer"] 3
+   &DODIPOLEATOM [&Type "Boolean"] false
+   &DIPOLEELECCONTRIB [&Type "ArrayOfDoubles", &Dim (3,1)] "Electronic contribution"
+                                                         0
+
+0                                     -3.3026087594876485e-01
+1                                      0.0000000000000000e+00
+2                                     -1.8228085844992139e+00
+   &DIPOLENUCCONTRIB [&Type "ArrayOfDoubles", &Dim (3,1)] "Nuclear contribution"
+                                                         0
+
+0                                      7.8258547075655915e-01
+1                                      0.0000000000000000e+00
+2                                      1.7193241314558374e+00
+   &DIPOLETOTAL [&Type "ArrayOfDoubles", &Dim (3,1)] "Total"
+                                                         0
+
+0                                      4.5232459480779430e-01
+1                                      0.0000000000000000e+00
+2                                     -1.0348445304337650e-01
+   &DIPOLEMAGNITUDE [&Type "Double", &Units "a.u."]       4.6401139112065137e-01
+$End
+$Geometry
+   &GeometryIndex 20
+   &ListStatus       OUT
+   &NATOMS [&Type "Integer"] 3
+   &NCORELESSECP [&Type "Integer"] 0
+   &NGHOSTATOMS [&Type "Integer"] 0
+   &CartesianCoordinates [&Type "Coordinates", &Dim(3,4), &Units "Bohr"] 
+              O      0.000000000000    0.000000000000    0.000000000000
+              H      0.000000000000    0.000000000000    4.535342721411
+              H      1.776720511113    0.000000000000   -0.442951805791
+$End
+$CAS_SCF_Energies
+   &GeometryIndex 20
+   &ListStatus       OUT
+   &NUMOFELECTRONS [&Type "Integer"] 10
+   &NUMOFFCELECTRONS [&Type "Integer"] 0
+   &NUMOFACTIVEEL [&Type "Integer"] 10 "Number of active electrons"
+   &NUMOFACTIVEORBS [&Type "Integer"] 7 "Number of active orbitals"
+   &NUMOFMULTIPLICITIES [&Type "Integer"] 1 "Number of multiplicities"
+   &TOTALNUMOFROOTS [&Type "Integer"] 1
+   &FINALENERGY [&Type "Double"]      -7.4857904332736339e+01
+   &CASSCFEnergies [&Type "MixedMatrix", &Dim(1,5), &ColumnDatatypes "Integer Integer Integer Integer Double"] 
+ State    Mult   Irrep    Root              Energy
+
+     0       1       0       0        -74.85790433
+$End
+$CASSCF_Dipole_Moment
+   &GeometryIndex 20
+   &ListStatus       OUT
+   &METHOD [&Type "String"] "CASSCF"
+   &LEVEL [&Type "String"] "Relaxed density"
+   &MULT [&Type "Integer"] 1
+   &STATE [&Type "Integer"] 0
+   &IRREP [&Type "Integer"] 0
+   &NATOMS [&Type "Integer"] 3
+   &DODIPOLEATOM [&Type "Boolean"] false
+   &DIPOLEELECCONTRIB [&Type "ArrayOfDoubles", &Dim (3,1)] "Electronic contribution"
+                                                         0
+
+0                                     -3.3152729468896858e-01
+1                                      0.0000000000000000e+00
+2                                     -1.9091567240413201e+00
+   &DIPOLENUCCONTRIB [&Type "ArrayOfDoubles", &Dim (3,1)] "Nuclear contribution"
+                                                         0
+
+0                                      7.8258547075655915e-01
+1                                      0.0000000000000000e+00
+2                                      1.8025601951397627e+00
+   &DIPOLETOTAL [&Type "ArrayOfDoubles", &Dim (3,1)] "Total"
+                                                         0
+
+0                                      4.5105817606759058e-01
+1                                      0.0000000000000000e+00
+2                                     -1.0659652890155735e-01
+   &DIPOLEMAGNITUDE [&Type "Double", &Units "a.u."]       4.6348279166683426e-01
+$End
+$Geometry
+   &GeometryIndex 21
+   &ListStatus       OUT
+   &NATOMS [&Type "Integer"] 3
+   &NCORELESSECP [&Type "Integer"] 0
+   &NGHOSTATOMS [&Type "Integer"] 0
+   &CartesianCoordinates [&Type "Coordinates", &Dim(3,4), &Units "Bohr"] 
+              O      0.000000000000    0.000000000000    0.000000000000
+              H      0.000000000000    0.000000000000    4.724315334803
+              H      1.776720511113    0.000000000000   -0.442951805791
+$End
+$CAS_SCF_Energies
+   &GeometryIndex 21
+   &ListStatus       OUT
+   &NUMOFELECTRONS [&Type "Integer"] 10
+   &NUMOFFCELECTRONS [&Type "Integer"] 0
+   &NUMOFACTIVEEL [&Type "Integer"] 10 "Number of active electrons"
+   &NUMOFACTIVEORBS [&Type "Integer"] 7 "Number of active orbitals"
+   &NUMOFMULTIPLICITIES [&Type "Integer"] 1 "Number of multiplicities"
+   &TOTALNUMOFROOTS [&Type "Integer"] 1
+   &FINALENERGY [&Type "Double"]      -7.4856522716357560e+01
+   &CASSCFEnergies [&Type "MixedMatrix", &Dim(1,5), &ColumnDatatypes "Integer Integer Integer Integer Double"] 
+ State    Mult   Irrep    Root              Energy
+
+     0       1       0       0        -74.85652272
+$End
+$CASSCF_Dipole_Moment
+   &GeometryIndex 21
+   &ListStatus       OUT
+   &Method [&Type "String"] "CASSCF"
+   &Level [&Type "String"] "Relaxed density"
+   &Mult [&Type "Integer"] 1
+   &State [&Type "Integer"] 0
+   &Irrep [&Type "Integer"] 0
+   &NAtoms [&Type "Integer"] 3
+   &doDipoleAtom [&Type "Boolean"] false
+   &dipoleElecContrib [&Type "ArrayOfDoubles", &Dim (3,1)] "Electronic contribution"
+                                                         0
+
+0                                     -3.3243632607574769e-01
+1                                      0.0000000000000000e+00
+2                                     -1.9943106519293574e+00
+   &dipoleNucContrib [&Type "ArrayOfDoubles", &Dim (3,1)] "Nuclear contribution"
+                                                         0
+
+0                                      7.8258547075655915e-01
+1                                      0.0000000000000000e+00
+2                                      1.8857962588237878e+00
+   &dipoleTotal [&Type "ArrayOfDoubles", &Dim (3,1)] "Total"
+                                                         0
+
+0                                      4.5014914468081146e-01
+1                                      0.0000000000000000e+00
+2                                     -1.0851439310556965e-01
+   &dipoleMagnitude [&Type "Double", &Units "a.u."]       4.6304387045714823e-01
+$End

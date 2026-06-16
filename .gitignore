@@ -6,6 +6,7 @@
 *.property.txt
 *.trjact.dat
 *.trjscf.dat
+*.trjnevpt2.dat
 *.tmp
 *.bas0
 *.bas1
