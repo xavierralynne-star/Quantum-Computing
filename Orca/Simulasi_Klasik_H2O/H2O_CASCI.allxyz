@@ -1,0 +1,59 @@
+3
+Coordinates from ORCA-job H2O_CASCI Relaxed Surface Scan Step 1 E -74.054739857736
+  O       0.002704      0.000000      0.201764
+  H       0.029353      0.000000      0.701054
+  H       0.897943      0.000000     -0.177818
+>
+3
+Coordinates from ORCA-job H2O_CASCI Relaxed Surface Scan Step 2 E -74.488671033140
+  O      -0.028952      0.000000      0.124695
+  H       0.031298      0.000000      0.788634
+  H       0.927654      0.000000     -0.188329
+>
+3
+Coordinates from ORCA-job H2O_CASCI Relaxed Surface Scan Step 3 E -74.504442498410
+  O      -0.050519      0.000000      0.045007
+  H       0.034809      0.000000      0.873960
+  H       0.945710      0.000000     -0.193967
+>
+3
+Coordinates from ORCA-job H2O_CASCI Relaxed Surface Scan Step 4 E -74.501129375839
+  O      -0.064774      0.000000     -0.033482
+  H       0.034185      0.000000      0.961609
+  H       0.960589      0.000000     -0.203127
+>
+3
+Coordinates from ORCA-job H2O_CASCI Relaxed Surface Scan Step 5 E -74.502963362053
+  O      -0.072862      0.000000     -0.110437
+  H       0.029792      0.000000      1.051704
+  H       0.973070      0.000000     -0.216267
+>
+3
+Coordinates from ORCA-job H2O_CASCI Relaxed Surface Scan Step 6 E -74.500510024455
+  O      -0.077987      0.000000     -0.187537
+  H       0.025250      0.000000      1.141794
+  H       0.982737      0.000000     -0.229257
+>
+3
+Coordinates from ORCA-job H2O_CASCI Relaxed Surface Scan Step 7 E -74.490018908065
+  O      -0.082973      0.000000     -0.267341
+  H       0.024558      0.000000      1.228800
+  H       0.988414      0.000000     -0.236459
+>
+3
+Coordinates from ORCA-job H2O_CASCI Relaxed Surface Scan Step 8 E -74.472661618509
+  O      -0.091665      0.000000     -0.354371
+  H       0.035880      0.000000      1.307408
+  H       0.985785      0.000000     -0.228036
+>
+3
+Coordinates from ORCA-job H2O_CASCI Relaxed Surface Scan Step 9 E -74.451461175608
+  O      -0.114273      0.000000     -0.473473
+  H       0.089946      0.000000      1.348451
+  H       0.954327      0.000000     -0.149978
+>
+3
+Coordinates from ORCA-job H2O_CASCI Relaxed Surface Scan Step 10 E -74.414301052059
+  O      -0.675810      0.000000     -1.008205
+  H       0.469639      0.000000      0.631291
+  H       1.136170      0.000000      1.101914

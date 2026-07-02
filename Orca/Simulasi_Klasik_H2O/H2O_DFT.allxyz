@@ -1,0 +1,131 @@
+3
+Coordinates from ORCA-job H2O_DFT Relaxed Surface Scan Step 1 E -66.119858303696
+  O       0.053340      0.000000      0.333154
+  H      -0.007243      0.000000      0.523757
+  H       0.883903      0.000000     -0.131911
+>
+3
+Coordinates from ORCA-job H2O_DFT Relaxed Surface Scan Step 2 E -73.301496117696
+  O       0.029927      0.000000      0.230840
+  H      -0.015503      0.000000      0.628252
+  H       0.915576      0.000000     -0.134092
+>
+3
+Coordinates from ORCA-job H2O_DFT Relaxed Surface Scan Step 3 E -74.835173206514
+  O       0.000173      0.000000      0.130744
+  H      -0.018088      0.000000      0.730466
+  H       0.947915      0.000000     -0.136210
+>
+3
+Coordinates from ORCA-job H2O_DFT Relaxed Surface Scan Step 4 E -75.088701828323
+  O      -0.009977      0.000000      0.082938
+  H      -0.022364      0.000000      0.782829
+  H       0.962341      0.000000     -0.140767
+>
+3
+Coordinates from ORCA-job H2O_DFT Relaxed Surface Scan Step 5 E -75.212455704400
+  O      -0.016791      0.000000      0.035962
+  H      -0.028819      0.000000      0.835872
+  H       0.975610      0.000000     -0.146834
+>
+3
+Coordinates from ORCA-job H2O_DFT Relaxed Surface Scan Step 6 E -75.246287998411
+  O      -0.019031      0.000000      0.012838
+  H      -0.032709      0.000000      0.862728
+  H       0.981740      0.000000     -0.150565
+>
+3
+Coordinates from ORCA-job H2O_DFT Relaxed Surface Scan Step 7 E -75.267818268317
+  O      -0.020507      0.000000     -0.010080
+  H      -0.037091      0.000000      0.889767
+  H       0.987599      0.000000     -0.154687
+>
+3
+Coordinates from ORCA-job H2O_DFT Relaxed Surface Scan Step 8 E -75.278314091275
+  O      -0.021174      0.000000     -0.028252
+  H      -0.040926      0.000000      0.911540
+  H       0.992100      0.000000     -0.158288
+>
+3
+Coordinates from ORCA-job H2O_DFT Relaxed Surface Scan Step 9 E -75.281750428049
+  O      -0.021346      0.000000     -0.037299
+  H      -0.042905      0.000000      0.922459
+  H       0.994251      0.000000     -0.160160
+>
+3
+Coordinates from ORCA-job H2O_DFT Relaxed Surface Scan Step 10 E -75.284150273467
+  O      -0.021418      0.000000     -0.046291
+  H      -0.044991      0.000000      0.933426
+  H       0.996409      0.000000     -0.162135
+>
+3
+Coordinates from ORCA-job H2O_DFT Relaxed Surface Scan Step 11 E -75.285625095079
+  O      -0.021388      0.000000     -0.055247
+  H      -0.047147      0.000000      0.944421
+  H       0.998535      0.000000     -0.164174
+>
+3
+Coordinates from ORCA-job H2O_DFT Relaxed Surface Scan Step 12 E -75.285898140408
+  O      -0.020884      0.000000     -0.077493
+  H      -0.052887      0.000000      0.972019
+  H       1.003771      0.000000     -0.169526
+>
+3
+Coordinates from ORCA-job H2O_DFT Relaxed Surface Scan Step 13 E -75.282300306959
+  O      -0.019833      0.000000     -0.099539
+  H      -0.058975      0.000000      0.999764
+  H       1.008808      0.000000     -0.175225
+>
+3
+Coordinates from ORCA-job H2O_DFT Relaxed Surface Scan Step 14 E -75.267308262676
+  O      -0.016270      0.000000     -0.143048
+  H      -0.072260      0.000000      1.055646
+  H       1.018530      0.000000     -0.187598
+>
+3
+Coordinates from ORCA-job H2O_DFT Relaxed Surface Scan Step 15 E -75.222444600692
+  O      -0.004613      0.000000     -0.227764
+  H      -0.102433      0.000000      1.168815
+  H       1.037046      0.000000     -0.216051
+>
+3
+Coordinates from ORCA-job H2O_DFT Relaxed Surface Scan Step 16 E -75.197641359376
+  O       0.002535      0.000000     -0.268822
+  H      -0.118197      0.000000      1.226311
+  H       1.045662      0.000000     -0.232489
+>
+3
+Coordinates from ORCA-job H2O_DFT Relaxed Surface Scan Step 17 E -75.148976533642
+  O       0.018670      0.000000     -0.348949
+  H      -0.150859      0.000000      1.342577
+  H       1.062189      0.000000     -0.268629
+>
+3
+Coordinates from ORCA-job H2O_DFT Relaxed Surface Scan Step 18 E -75.126318758894
+  O       0.027776      0.000000     -0.388359
+  H      -0.168262      0.000000      1.400934
+  H       1.070486      0.000000     -0.287575
+>
+3
+Coordinates from ORCA-job H2O_DFT Relaxed Surface Scan Step 19 E -75.105310880449
+  O       0.037327      0.000000     -0.427320
+  H      -0.186068      0.000000      1.459501
+  H       1.078741      0.000000     -0.307181
+>
+3
+Coordinates from ORCA-job H2O_DFT Relaxed Surface Scan Step 20 E -75.086175743032
+  O       0.047259      0.000000     -0.465853
+  H      -0.204246      0.000000      1.518270
+  H       1.086987      0.000000     -0.327416
+>
+3
+Coordinates from ORCA-job H2O_DFT Relaxed Surface Scan Step 21 E -75.053773442333
+  O       0.067711      0.000000     -0.541502
+  H      -0.241008      0.000000      1.636729
+  H       1.103297      0.000000     -0.370227
+>
+3
+Coordinates from ORCA-job H2O_DFT Relaxed Surface Scan Step 22 E -75.018558308568
+  O       0.099491      0.000000     -0.651308
+  H      -0.297935      0.000000      1.816900
+  H       1.128444      0.000000     -0.440592

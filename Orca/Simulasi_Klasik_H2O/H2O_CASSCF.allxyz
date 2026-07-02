@@ -1,0 +1,131 @@
+3
+Coordinates from ORCA-job H2O_CASSCF Relaxed Surface Scan Step 1 E -65.835032084463
+  O       0.046832      0.000000      0.328731
+  H       0.003229      0.000000      0.523920
+  H       0.879939      0.000000     -0.127651
+>
+3
+Coordinates from ORCA-job H2O_CASSCF Relaxed Surface Scan Step 2 E -73.025272478342
+  O       0.021239      0.000000      0.228320
+  H      -0.000985      0.000000      0.627702
+  H       0.909746      0.000000     -0.131023
+>
+3
+Coordinates from ORCA-job H2O_CASSCF Relaxed Surface Scan Step 3 E -74.566974785531
+  O      -0.004985      0.000000      0.131798
+  H      -0.006954      0.000000      0.731795
+  H       0.941939      0.000000     -0.138592
+>
+3
+Coordinates from ORCA-job H2O_CASSCF Relaxed Surface Scan Step 4 E -74.823163394494
+  O      -0.014318      0.000000      0.084957
+  H      -0.012157      0.000000      0.784954
+  H       0.956475      0.000000     -0.144911
+>
+3
+Coordinates from ORCA-job H2O_CASSCF Relaxed Surface Scan Step 5 E -74.948457777548
+  O      -0.020919      0.000000      0.038625
+  H      -0.018947      0.000000      0.838622
+  H       0.969866      0.000000     -0.152247
+>
+3
+Coordinates from ORCA-job H2O_CASSCF Relaxed Surface Scan Step 6 E -74.982710675236
+  O      -0.023278      0.000000      0.015701
+  H      -0.022787      0.000000      0.865701
+  H       0.976066      0.000000     -0.156402
+>
+3
+Coordinates from ORCA-job H2O_CASSCF Relaxed Surface Scan Step 7 E -75.004490430911
+  O      -0.025004      0.000000     -0.007090
+  H      -0.026976      0.000000      0.892907
+  H       0.981980      0.000000     -0.160817
+>
+3
+Coordinates from ORCA-job H2O_CASSCF Relaxed Surface Scan Step 8 E -75.015098605552
+  O      -0.025954      0.000000     -0.025212
+  H      -0.030562      0.000000      0.914776
+  H       0.986515      0.000000     -0.164564
+>
+3
+Coordinates from ORCA-job H2O_CASSCF Relaxed Surface Scan Step 9 E -75.018572762366
+  O      -0.026291      0.000000     -0.034249
+  H      -0.032390      0.000000      0.925732
+  H       0.988681      0.000000     -0.166483
+>
+3
+Coordinates from ORCA-job H2O_CASSCF Relaxed Surface Scan Step 10 E -75.021004117985
+  O      -0.026543      0.000000     -0.043242
+  H      -0.034304      0.000000      0.936727
+  H       0.990847      0.000000     -0.168484
+>
+3
+Coordinates from ORCA-job H2O_CASSCF Relaxed Surface Scan Step 11 E -75.022508459278
+  O      -0.026706      0.000000     -0.052210
+  H      -0.036272      0.000000      0.947744
+  H       0.992978      0.000000     -0.170534
+>
+3
+Coordinates from ORCA-job H2O_CASSCF Relaxed Surface Scan Step 12 E -75.022873331370
+  O      -0.026731      0.000000     -0.074526
+  H      -0.041477      0.000000      0.975371
+  H       0.998208      0.000000     -0.175845
+>
+3
+Coordinates from ORCA-job H2O_CASSCF Relaxed Surface Scan Step 13 E -75.019444138540
+  O      -0.026253      0.000000     -0.096721
+  H      -0.046907      0.000000      1.003085
+  H       1.003160      0.000000     -0.181364
+>
+3
+Coordinates from ORCA-job H2O_CASSCF Relaxed Surface Scan Step 14 E -75.005275389974
+  O      -0.023916      0.000000     -0.140559
+  H      -0.058875      0.000000      1.058932
+  H       1.012791      0.000000     -0.193373
+>
+3
+Coordinates from ORCA-job H2O_CASSCF Relaxed Surface Scan Step 15 E -74.965456976020
+  O      -0.014397      0.000000     -0.226054
+  H      -0.086404      0.000000      1.172093
+  H       1.030801      0.000000     -0.221040
+>
+3
+Coordinates from ORCA-job H2O_CASSCF Relaxed Surface Scan Step 16 E -74.945475486936
+  O      -0.007955      0.000000     -0.267187
+  H      -0.101278      0.000000      1.229907
+  H       1.039233      0.000000     -0.237720
+>
+3
+Coordinates from ORCA-job H2O_CASSCF Relaxed Surface Scan Step 17 E -74.911566932592
+  O       0.007739      0.000000     -0.346073
+  H      -0.133867      0.000000      1.348019
+  H       1.056128      0.000000     -0.276947
+>
+3
+Coordinates from ORCA-job H2O_CASSCF Relaxed Surface Scan Step 18 E -74.898542647645
+  O       0.017072      0.000000     -0.384031
+  H      -0.152262      0.000000      1.407986
+  H       1.065190      0.000000     -0.298955
+>
+3
+Coordinates from ORCA-job H2O_CASSCF Relaxed Surface Scan Step 19 E -74.888193885637
+  O       0.027059      0.000000     -0.421001
+  H      -0.171664      0.000000      1.468578
+  H       1.074604      0.000000     -0.322577
+>
+3
+Coordinates from ORCA-job H2O_CASSCF Relaxed Surface Scan Step 20 E -74.880263200553
+  O       0.037536      0.000000     -0.457055
+  H      -0.191961      0.000000      1.529734
+  H       1.084425      0.000000     -0.347679
+>
+3
+Coordinates from ORCA-job H2O_CASSCF Relaxed Surface Scan Step 21 E -74.870080930689
+  O       0.059031      0.000000     -0.526860
+  H      -0.233694      0.000000      1.653579
+  H       1.104663      0.000000     -0.401719
+>
+3
+Coordinates from ORCA-job H2O_CASSCF Relaxed Surface Scan Step 22 E -74.863371185410
+  O       0.092012      0.000000     -0.627502
+  H      -0.298392      0.000000      1.841827
+  H       1.136380      0.000000     -0.489325
