@@ -194,7 +194,7 @@ NAME = Hidrogen_DFT.inp
 |  4> end
 |  5> 
 |  6> %paras
-|  7>   R = 0.50, 3.00, 16
+|  7>   R = 0.20, 3.00, 16
 |  8> end
 |  9> 
 | 10> * xyz 0 1
@@ -211,38 +211,38 @@ Trajectory settings:
     -> SCF surface will be mapped
 
 There are 1 parameter(s) to be scanned
-             R: range=   0.50000000 ..   3.00000000  steps=   16
+             R: range=   0.20000000 ..   3.00000000  steps=   16
 There will be   16 energy evaluations
 
 
          *************************************************************
                                 TRAJECTORY STEP   1
-                  R  :   0.50000000
+                  R  :   0.20000000
          *************************************************************
 ---------------------------------
 CARTESIAN COORDINATES (ANGSTROEM)
 ---------------------------------
   H      0.000000    0.000000    0.000000
-  H      0.000000    0.000000    0.500000
+  H      0.000000    0.000000    0.200000
 
 ----------------------------
 CARTESIAN COORDINATES (A.U.)
 ----------------------------
   NO LB      ZA    FRAG     MASS         X           Y           Z
    0 H     1.0000    0     1.008    0.000000    0.000000    0.000000
-   1 H     1.0000    0     1.008    0.000000    0.000000    0.944863
+   1 H     1.0000    0     1.008    0.000000    0.000000    0.377945
 
 --------------------------------
 INTERNAL COORDINATES (ANGSTROEM)
 --------------------------------
  H      0   0   0     0.000000000000     0.00000000     0.00000000
- H      1   0   0     0.500000000000     0.00000000     0.00000000
+ H      1   0   0     0.200000000000     0.00000000     0.00000000
 
 ---------------------------
 INTERNAL COORDINATES (A.U.)
 ---------------------------
  H      0   0   0     0.000000000000     0.00000000     0.00000000
- H      1   0   0     0.944863066961     0.00000000     0.00000000
+ H      1   0   0     0.377945226784     0.00000000     0.00000000
 
 ---------------------
 BASIS SET INFORMATION
@@ -349,10 +349,10 @@ Primitive shell pairs kept                  ...        27
 
 Calculating one electron integrals          ... done (  0.0 sec)
 Calculating RI/J V-Matrix + Cholesky decomp.... done (  0.0 sec)
-Calculating Nuclear repulsion               ... done (  0.0 sec) ENN=      1.058354416600 Eh
+Calculating Nuclear repulsion               ... done (  0.0 sec) ENN=      2.645886041500 Eh
 
 Diagonalization of the overlap matrix:
-Smallest eigenvalue                        ... 1.853e-01
+Smallest eigenvalue                        ... 3.488e-02
 Time for diagonalization                   ...    0.000 sec
 Threshold for overlap eigenvalues          ... 1.000e-07
 Number of eigenvalues below threshold      ... 0
@@ -374,10 +374,10 @@ Partially contracted basis set               ... off
 Rotationally invariant grid construction     ... off
 Angular grids for H and He will be reduced by one unit
 
-Total number of grid points                  ...     6642
+Total number of grid points                  ...     6632
 Total number of batches                      ...      104
 Average number of points per batch           ...       63
-Average number of grid points per atom       ...     3321
+Average number of grid points per atom       ...     3316
 
 ---------------------
 SHARK GRID GENERATION
@@ -394,10 +394,10 @@ Partially contracted basis set               ... off
 Rotationally invariant grid construction     ... off
 Angular grids for H and He will be reduced by one unit
 
-Total number of grid points                  ...     6642
+Total number of grid points                  ...     6632
 Total number of batches                      ...      104
 Average number of points per batch           ...       63
-Average number of grid points per atom       ...     3321
+Average number of grid points per atom       ...     3316
 
 --------------------
 COSX GRID GENERATION
@@ -416,10 +416,10 @@ Partially contracted basis set               ... on
 Rotationally invariant grid construction     ... off
 Angular grids for H and He will be reduced by one unit
 
-Total number of grid points                  ...      882
+Total number of grid points                  ...      876
 Total number of batches                      ...        8
-Average number of points per batch           ...      110
-Average number of grid points per atom       ...      441
+Average number of points per batch           ...      109
+Average number of grid points per atom       ...      438
 UseSFitting                                  ... on
 
 GRIDX 2
@@ -435,10 +435,10 @@ Partially contracted basis set               ... on
 Rotationally invariant grid construction     ... off
 Angular grids for H and He will be reduced by one unit
 
-Total number of grid points                  ...     1618
+Total number of grid points                  ...     1612
 Total number of batches                      ...       14
 Average number of points per batch           ...      115
-Average number of grid points per atom       ...      809
+Average number of grid points per atom       ...      806
 UseSFitting                                  ... on
 
 GRIDX 3
@@ -454,14 +454,14 @@ Partially contracted basis set               ... on
 Rotationally invariant grid construction     ... off
 Angular grids for H and He will be reduced by one unit
 
-Total number of grid points                  ...     3578
+Total number of grid points                  ...     3572
 Total number of batches                      ...       28
 Average number of points per batch           ...      127
-Average number of grid points per atom       ...     1789
+Average number of grid points per atom       ...     1786
 UseSFitting                                  ... on
 Initializing property integral containers    ... done (  0.0 sec)
 
-SHARK setup successfully completed in   0.3 seconds
+SHARK setup successfully completed in   0.1 seconds
 
 Maximum memory used throughout the entire STARTUP-calculation: 3.4 MB
 -------------------------------------------------------------------------------
@@ -499,7 +499,7 @@ General Settings:
  Multiplicity           Mult            ....    1
  Number of Electrons    NEL             ....    2
  Basis Dimension        Dim             ....    2
- Nuclear Repulsion      ENuc            ....      1.0583544166 Eh
+ Nuclear Repulsion      ENuc            ....      2.6458860415 Eh
 
 Convergence Acceleration:
  AO-DIIS                CNVDIIS         .... on
@@ -591,9 +591,9 @@ Iteration    Energy (Eh)           Delta-E    RMSDP     MaxDP     DIISErr   Damp
 ---------------------------------------S-O-S-C-F--------------------------------------
 Iteration    Energy (Eh)           Delta-E    RMSDP     MaxDP     MaxGrad    Time(sec)
 --------------------------------------------------------------------------------------
-    1     -1.0795671227724288     0.00e+00  2.09e-08  2.57e-08  1.86e-09     0.0
+    1      0.1272966255191088     0.00e+00  8.60e-09  1.05e-08  3.45e-10     0.0
                *** Restarting incremental Fock matrix formation ***
-    2     -1.0795671227724288     0.00e+00  0.00e+00  0.00e+00  5.11e-11     0.0
+    2      0.1272966255191137     4.88e-15  0.00e+00  0.00e+00  1.14e-10     0.0
                   *** Gradient check signals convergence ***
 
                *****************************************************
@@ -601,47 +601,47 @@ Iteration    Energy (Eh)           Delta-E    RMSDP     MaxDP     MaxGrad    Tim
                *           SCF CONVERGED AFTER   2 CYCLES          *
                *****************************************************
 
-Recomputing exchange energy using gridx3       ... done (    0.007 sec)
-Old exchange energy                            :     -0.143935539 Eh
-New exchange energy                            :     -0.143941180 Eh
-Exchange energy change after final integration :     -0.000005640 Eh
-Total energy after final integration           :     -1.079572763 Eh
+Recomputing exchange energy using gridx3       ... done (    0.006 sec)
+Old exchange energy                            :     -0.152738327 Eh
+New exchange energy                            :     -0.152812505 Eh
+Exchange energy change after final integration :     -0.000074177 Eh
+Total energy after final integration           :      0.127222448 Eh
              **** ENERGY FILE WAS UPDATED (Hidrogen_DFT.en.tmp) ****
 
 ----------------
 TOTAL SCF ENERGY
 ----------------
 
-Total Energy       :         -1.07957276323642 Eh             -29.37667 eV
+Total Energy       :          0.12722244819565 Eh               3.46190 eV
 
 Components:
-Nuclear Repulsion  :          1.05835441660000 Eh              28.79929 eV
-Electronic Energy  :         -2.13792153937243 Eh             -58.17580 eV
-One Electron Energy:         -2.82105673196496 Eh             -76.76486 eV
-Two Electron Energy:          0.68313519259253 Eh              18.58905 eV
+Nuclear Repulsion  :          2.64588604150000 Eh              71.99822 eV
+Electronic Energy  :         -2.51858941598089 Eh             -68.53430 eV
+One Electron Energy:         -3.24577302830352 Eh             -88.32197 eV
+Two Electron Energy:          0.72718361232263 Eh              19.78767 eV
 
 Virial components:
-Potential Energy   :         -2.36568910165793 Eh             -64.37367 eV
-Kinetic Energy     :          1.28611633842151 Eh              34.99700 eV
-Virial Ratio       :          1.83940521629748
+Potential Energy   :         -1.33157819275708 Eh             -36.23408 eV
+Kinetic Energy     :          1.45880064095273 Eh              39.69598 eV
+Virial Ratio       :          0.91278969543599
 
 DFT components:
-N(Alpha)           :        1.000000048476 electrons
-N(Beta)            :        1.000000048476 electrons
-N(Total)           :        2.000000096952 electrons
-E(X)               :       -0.561434032738 Eh       
-E(C)               :       -0.050836769425 Eh       
-E(XC)              :       -0.612270802163 Eh       
+N(Alpha)           :        1.000000450181 electrons
+N(Beta)            :        1.000000450181 electrons
+N(Total)           :        2.000000900363 electrons
+E(X)               :       -0.596064239709 Eh       
+E(C)               :       -0.051999494568 Eh       
+E(XC)              :       -0.648063734277 Eh       
 
 ---------------
 SCF CONVERGENCE
 ---------------
 
-  Last Energy change         ...    0.0000e+00  Tolerance :   1.0000e-06
+  Last Energy change         ...   -4.8850e-15  Tolerance :   1.0000e-06
   Last MAX-Density change    ...    0.0000e+00  Tolerance :   1.0000e-05
   Last RMS-Density change    ...    0.0000e+00  Tolerance :   1.0000e-06
-  Last DIIS Error            ...    1.2814e-08  Tolerance :   1.0000e-06
-  Last Orbital Gradient      ...    5.1110e-11  Tolerance :   5.0000e-05
+  Last DIIS Error            ...    1.5914e-09  Tolerance :   1.0000e-06
+  Last Orbital Gradient      ...    1.1443e-10  Tolerance :   5.0000e-05
   Last Orbital Rotation      ...    0.0000e+00  Tolerance :   5.0000e-05
 
 
@@ -650,8 +650,8 @@ ORBITAL ENERGIES
 ----------------
 
   NO   OCC          E(Eh)            E(eV) 
-   0   2.0000      -0.507089       -13.7986 
-   1   0.0000       0.728563        19.8252 
+   0   2.0000      -0.662282       -18.0216 
+   1   0.0000       1.290732        35.1226 
 *Only the first 10 virtual orbitals were printed.
 
                     ********************************
@@ -717,33 +717,33 @@ TIMINGS
 
 Total SCF time: 0 days 0 hours 0 min 0 sec 
 
-Total time                  ....       0.108 sec
-Sum of individual times     ....       0.095 sec  ( 87.9%)
+Total time                  ....       0.089 sec
+Sum of individual times     ....       0.079 sec  ( 88.9%)
 
-SCF preparation             ....       0.034 sec  ( 31.7%)
-Fock matrix formation       ....       0.056 sec  ( 52.3%)
-  Startup                   ....       0.001 sec  (  1.1% of F)
-  Split-RI-J                ....       0.018 sec  ( 32.3% of F)
-  Chain of spheres X        ....       0.018 sec  ( 31.4% of F)
-  XC integration            ....       0.017 sec  ( 30.9% of F)
-    Basis function eval.    ....       0.003 sec  ( 16.1% of XC)
-    Density eval.           ....       0.001 sec  (  4.8% of XC)
-    XC-Functional eval.     ....       0.010 sec  ( 55.9% of XC)
-    XC-Potential eval.      ....       0.000 sec  (  1.8% of XC)
+SCF preparation             ....       0.035 sec  ( 38.9%)
+Fock matrix formation       ....       0.040 sec  ( 45.3%)
+  Startup                   ....       0.001 sec  (  1.7% of F)
+  Split-RI-J                ....       0.001 sec  (  2.3% of F)
+  Chain of spheres X        ....       0.018 sec  ( 45.1% of F)
+  XC integration            ....       0.018 sec  ( 43.8% of F)
+    Basis function eval.    ....       0.002 sec  ( 13.4% of XC)
+    Density eval.           ....       0.001 sec  (  4.3% of XC)
+    XC-Functional eval.     ....       0.009 sec  ( 51.4% of XC)
+    XC-Potential eval.      ....       0.000 sec  (  1.5% of XC)
 Diagonalization             ....       0.000 sec  (  0.0%)
-Density matrix formation    ....       0.001 sec  (  0.5%)
+Density matrix formation    ....       0.001 sec  (  0.6%)
 Total Energy calculation    ....       0.000 sec  (  0.4%)
-Population analysis         ....       0.002 sec  (  1.6%)
-Orbital Transformation      ....       0.000 sec  (  0.3%)
+Population analysis         ....       0.002 sec  (  1.8%)
+Orbital Transformation      ....       0.000 sec  (  0.4%)
 Orbital Orthonormalization  ....       0.000 sec  (  0.0%)
 DIIS solution               ....       0.001 sec  (  0.6%)
-SOSCF solution              ....       0.001 sec  (  0.7%)
+SOSCF solution              ....       0.001 sec  (  0.9%)
 Finished LeanSCF after   0.1 sec
 
 Maximum memory used throughout the entire LEANSCF-calculation: 1.8 MB
 
 -------------------------   --------------------
-FINAL SINGLE POINT ENERGY        -1.079572763236
+FINAL SINGLE POINT ENERGY         0.127222448196
 -------------------------   --------------------
 
 Storing actual gbw-file in Hidrogen_DFT.001.gbw ... done
@@ -771,7 +771,7 @@ Quadrupole moment                       ...  NO
 Static polarizability                   ...  NO
 
 Choice of electric origin               ... Center of mass
-Position of electric origin             ...     0.000000     0.000000     0.472432
+Position of electric origin             ...     0.000000     0.000000     0.188973
 
 General magnetic properties:
 Magnetizability                         ...  NO
@@ -808,12 +808,12 @@ Method             : SCF
 Type of density    : Electron Density
 Multiplicity       :   1
 Irrep              :   0
-Energy             :    -1.0795727632364236 Eh
+Energy             :     0.1272224481956535 Eh
 Relativity type    : 
 Basis              : AO
                                 X                 Y                 Z
 Electronic contribution:     -0.000000000      -0.000000000       0.000000000
-Nuclear contribution   :      0.000000000       0.000000000       0.000000000
+Nuclear contribution   :      0.000000000       0.000000000      -0.000000000
                         -----------------------------------------
 Total Dipole Moment    :      0.000000000       0.000000000       0.000000000
                         -----------------------------------------
@@ -826,8 +826,8 @@ Magnitude (Debye)      :      0.000000000
 Rotational spectrum 
 --------------------
  
-Rotational constants in cm-1:             0.000000           133.790832           133.790832 
-Rotational constants in MHz :             0.000000       4010948.251497       4010948.251497 
+Rotational constants in cm-1:             0.000000           836.192703           836.192703 
+Rotational constants in MHz :             0.000000      25068426.571853      25068426.571853 
 
 Dipole components along the rotational axes: 
 x,y,z [a.u.] :     0.000000     0.000000     0.000000 
@@ -841,32 +841,32 @@ Maximum memory used throughout the entire PROP-calculation: 1.3 MB
 
          *************************************************************
                                 TRAJECTORY STEP   2
-                  R  :   0.66666667
+                  R  :   0.38666667
          *************************************************************
 ---------------------------------
 CARTESIAN COORDINATES (ANGSTROEM)
 ---------------------------------
   H      0.000000    0.000000    0.000000
-  H      0.000000    0.000000    0.666667
+  H      0.000000    0.000000    0.386667
 
 ----------------------------
 CARTESIAN COORDINATES (A.U.)
 ----------------------------
   NO LB      ZA    FRAG     MASS         X           Y           Z
    0 H     1.0000    0     1.008    0.000000    0.000000    0.000000
-   1 H     1.0000    0     1.008    0.000000    0.000000    1.259817
+   1 H     1.0000    0     1.008    0.000000    0.000000    0.730694
 
 --------------------------------
 INTERNAL COORDINATES (ANGSTROEM)
 --------------------------------
  H      0   0   0     0.000000000000     0.00000000     0.00000000
- H      1   0   0     0.666666666667     0.00000000     0.00000000
+ H      1   0   0     0.386666666667     0.00000000     0.00000000
 
 ---------------------------
 INTERNAL COORDINATES (A.U.)
 ---------------------------
  H      0   0   0     0.000000000000     0.00000000     0.00000000
- H      1   0   0     1.259817422614     0.00000000     0.00000000
+ H      1   0   0     0.730694105116     0.00000000     0.00000000
 
 ------------------------------------------------------------------------------
                    ___                                                        
@@ -933,10 +933,10 @@ Primitive shell pairs kept                  ...        27
 
 Calculating one electron integrals          ... done (  0.0 sec)
 Calculating RI/J V-Matrix + Cholesky decomp.... done (  0.0 sec)
-Calculating Nuclear repulsion               ... done (  0.0 sec) ENN=      0.793765812450 Eh
+Calculating Nuclear repulsion               ... done (  0.0 sec) ENN=      1.368561745603 Eh
 
 Diagonalization of the overlap matrix:
-Smallest eigenvalue                        ... 2.921e-01
+Smallest eigenvalue                        ... 1.191e-01
 Time for diagonalization                   ...    0.000 sec
 Threshold for overlap eigenvalues          ... 1.000e-07
 Number of eigenvalues below threshold      ... 0
@@ -958,10 +958,10 @@ Partially contracted basis set               ... off
 Rotationally invariant grid construction     ... off
 Angular grids for H and He will be reduced by one unit
 
-Total number of grid points                  ...     6646
+Total number of grid points                  ...     6640
 Total number of batches                      ...      104
 Average number of points per batch           ...       63
-Average number of grid points per atom       ...     3323
+Average number of grid points per atom       ...     3320
 
 ---------------------
 SHARK GRID GENERATION
@@ -978,10 +978,10 @@ Partially contracted basis set               ... off
 Rotationally invariant grid construction     ... off
 Angular grids for H and He will be reduced by one unit
 
-Total number of grid points                  ...     6646
+Total number of grid points                  ...     6640
 Total number of batches                      ...      104
 Average number of points per batch           ...       63
-Average number of grid points per atom       ...     3323
+Average number of grid points per atom       ...     3320
 
 --------------------
 COSX GRID GENERATION
@@ -1000,10 +1000,387 @@ Partially contracted basis set               ... on
 Rotationally invariant grid construction     ... off
 Angular grids for H and He will be reduced by one unit
 
-Total number of grid points                  ...      884
+Total number of grid points                  ...      880
 Total number of batches                      ...        8
 Average number of points per batch           ...      110
-Average number of grid points per atom       ...      442
+Average number of grid points per atom       ...      440
+UseSFitting                                  ... on
+
+GRIDX 2
+-------
+General Integration Accuracy     IntAcc      ... 4.020
+Radial Grid Type                 RadialGrid  ... OptM3 with GC (2021)
+Angular Grid (max. ang.)         AngularGrid ... 2 (Lebedev-110)
+Angular grid pruning method      GridPruning ... 4 (adaptive)
+Weight generation scheme         WeightScheme... mBecke (2022)
+Basis function cutoff            BFCut       ... 1.0000e-10
+Integration weight cutoff        WCut        ... 1.0000e-14
+Partially contracted basis set               ... on
+Rotationally invariant grid construction     ... off
+Angular grids for H and He will be reduced by one unit
+
+Total number of grid points                  ...     1616
+Total number of batches                      ...       14
+Average number of points per batch           ...      115
+Average number of grid points per atom       ...      808
+UseSFitting                                  ... on
+
+GRIDX 3
+-------
+General Integration Accuracy     IntAcc      ... 4.338
+Radial Grid Type                 RadialGrid  ... OptM3 with GC (2021)
+Angular Grid (max. ang.)         AngularGrid ... 3 (Lebedev-194)
+Angular grid pruning method      GridPruning ... 4 (adaptive)
+Weight generation scheme         WeightScheme... mBecke (2022)
+Basis function cutoff            BFCut       ... 1.0000e-10
+Integration weight cutoff        WCut        ... 1.0000e-14
+Partially contracted basis set               ... on
+Rotationally invariant grid construction     ... off
+Angular grids for H and He will be reduced by one unit
+
+Total number of grid points                  ...     3576
+Total number of batches                      ...       28
+Average number of points per batch           ...      127
+Average number of grid points per atom       ...     1788
+UseSFitting                                  ... on
+Initializing property integral containers    ... done (  0.0 sec)
+
+SHARK setup successfully completed in   0.1 seconds
+
+Maximum memory used throughout the entire STARTUP-calculation: 3.4 MB
+Occupation numbers will be reassigned to an Aufbau configuration
+             **** ENERGY FILE WAS UPDATED (Hidrogen_DFT.en.tmp) ****
+Finished Guess after   0.0 sec
+Maximum memory used throughout the entire GUESS-calculation: 1.8 MB
+----------------------------------------D-I-I-S--------------------------------------------
+Iteration    Energy (Eh)           Delta-E    RMSDP     MaxDP     DIISErr   Damp  Time(sec)
+-------------------------------------------------------------------------------------------
+               ***  Starting incremental Fock matrix formation  ***
+                              *** Initializing SOSCF ***
+---------------------------------------S-O-S-C-F--------------------------------------
+Iteration    Energy (Eh)           Delta-E    RMSDP     MaxDP     MaxGrad    Time(sec)
+--------------------------------------------------------------------------------------
+    1     -0.9119619619928314     0.00e+00  3.53e-10  4.33e-10  2.56e-11     0.0
+               *** Restarting incremental Fock matrix formation ***
+    2     -0.9119619619928305     8.88e-16  0.00e+00  0.00e+00  4.09e-12     0.0
+                  *** Gradient check signals convergence ***
+
+               *****************************************************
+               *                     SUCCESS                       *
+               *           SCF CONVERGED AFTER   2 CYCLES          *
+               *****************************************************
+
+Recomputing exchange energy using gridx3       ... done (    0.006 sec)
+Old exchange energy                            :     -0.147813609 Eh
+New exchange energy                            :     -0.147807790 Eh
+Exchange energy change after final integration :      0.000005819 Eh
+Total energy after final integration           :     -0.911956143 Eh
+             **** ENERGY FILE WAS UPDATED (Hidrogen_DFT.en.tmp) ****
+
+----------------
+TOTAL SCF ENERGY
+----------------
+
+Total Energy       :         -0.91195614260133 Eh             -24.81559 eV
+
+Components:
+Nuclear Repulsion  :          1.36856174560345 Eh              37.24046 eV
+Electronic Energy  :         -2.28052370759628 Eh             -62.05620 eV
+One Electron Energy:         -2.98360496902777 Eh             -81.18802 eV
+Two Electron Energy:          0.70308126143149 Eh              19.13181 eV
+
+Virial components:
+Potential Energy   :         -2.25853530300202 Eh             -61.45787 eV
+Kinetic Energy     :          1.34657916040069 Eh              36.64228 eV
+Virial Ratio       :          1.67723916233040
+
+DFT components:
+N(Alpha)           :        0.999999991505 electrons
+N(Beta)            :        0.999999991505 electrons
+N(Total)           :        1.999999983010 electrons
+E(X)               :       -0.575692679343 Eh       
+E(C)               :       -0.051395731726 Eh       
+E(XC)              :       -0.627088411070 Eh       
+
+---------------
+SCF CONVERGENCE
+---------------
+
+  Last Energy change         ...   -8.8818e-16  Tolerance :   1.0000e-06
+  Last MAX-Density change    ...    0.0000e+00  Tolerance :   1.0000e-05
+  Last RMS-Density change    ...    0.0000e+00  Tolerance :   1.0000e-06
+  Last DIIS Error            ...    1.6849e-10  Tolerance :   1.0000e-06
+  Last Orbital Gradient      ...    4.0906e-12  Tolerance :   5.0000e-05
+  Last Orbital Rotation      ...    0.0000e+00  Tolerance :   5.0000e-05
+
+
+Total SCF time: 0 days 0 hours 0 min 0 sec 
+Finished LeanSCF after   0.1 sec
+
+Maximum memory used throughout the entire LEANSCF-calculation: 2.0 MB
+
+-------------------------   --------------------
+FINAL SINGLE POINT ENERGY        -0.911956142601
+-------------------------   --------------------
+
+Storing actual gbw-file in Hidrogen_DFT.002.gbw ... done
+
+------------------------------------------------------------------------------
+                              ORCA PROPERTY CALCULATIONS
+------------------------------------------------------------------------------
+
+GBWName                                 ... Hidrogen_DFT.gbw
+Number of atoms                         ...      2
+Number of basis functions               ...      2
+Max core memory                         ...   1024 MB
+
+Electric properties:
+Dipole moment                           ... YES
+Quadrupole moment                       ...  NO
+Static polarizability (Dipole/Dipole)   ...  NO
+Static polarizability (Dipole/Quad.)    ...  NO
+Static polarizability (Quad./Quad.)     ...  NO
+Static polarizability (Velocity)        ...  NO
+
+Atomic electric properties:
+Dipole moment                           ...  NO
+Quadrupole moment                       ...  NO
+Static polarizability                   ...  NO
+
+Choice of electric origin               ... Center of mass
+Position of electric origin             ...     0.000000     0.000000     0.365347
+
+General magnetic properties:
+Magnetizability                         ...  NO
+
+EPR properties:
+g-Tensor (aka g-matrix)                 ...  NO
+Zero-Field splitting spin-orbit         ...  NO
+Zero-field splitting spin-spin          ...  NO
+Hyperfine couplings                     ...  NO (   0 nuclei)
+Quadrupole couplings                    ...  NO (   0 nuclei)
+Contact density                         ...  NO (   0 nuclei)
+
+NMR properties:
+Chemical shifts                         ...  NO (   0 nuclei)
+Spin-rotation constants                 ...  NO (   0 nuclei)
+Spin-spin couplings                     ...  NO (   0 nuclei,    0 pairs)
+
+Choice of magnetic origin               ... GIAO
+Position of magnetic origin             ...     0.000000     0.000000     0.000000
+
+Properties with geometric perturbations:
+SCF Hessian                             ...  NO
+IR spectrum                             ...  NO
+VCD spectrum                            ...  NO
+X-ray spectroscopy properties:
+SCF XES/XAS/RIXS spectra                ...  NO
+
+
+-------------
+DIPOLE MOMENT
+-------------
+
+Method             : SCF
+Type of density    : Electron Density
+Multiplicity       :   1
+Irrep              :   0
+Energy             :    -0.9119561426013316 Eh
+Relativity type    : 
+Basis              : AO
+                                X                 Y                 Z
+Electronic contribution:     -0.000000000      -0.000000000      -0.000000000
+Nuclear contribution   :      0.000000000       0.000000000      -0.000000000
+                        -----------------------------------------
+Total Dipole Moment    :      0.000000000       0.000000000      -0.000000000
+                        -----------------------------------------
+Magnitude (a.u.)       :      0.000000000
+Magnitude (Debye)      :      0.000000000
+
+
+
+--------------------
+Rotational spectrum 
+--------------------
+ 
+Rotational constants in cm-1:             0.000000           223.713862           223.713862 
+Rotational constants in MHz :             0.000000       6706772.864051       6706772.864051 
+
+Dipole components along the rotational axes: 
+x,y,z [a.u.] :    -0.000000     0.000000     0.000000 
+x,y,z [Debye]:    -0.000000     0.000000     0.000000 
+
+ 
+
+Dipole moment calculation done in   0.0 sec 
+
+Maximum memory used throughout the entire PROP-calculation: 1.4 MB
+
+         *************************************************************
+                                TRAJECTORY STEP   3
+                  R  :   0.57333333
+         *************************************************************
+---------------------------------
+CARTESIAN COORDINATES (ANGSTROEM)
+---------------------------------
+  H      0.000000    0.000000    0.000000
+  H      0.000000    0.000000    0.573333
+
+----------------------------
+CARTESIAN COORDINATES (A.U.)
+----------------------------
+  NO LB      ZA    FRAG     MASS         X           Y           Z
+   0 H     1.0000    0     1.008    0.000000    0.000000    0.000000
+   1 H     1.0000    0     1.008    0.000000    0.000000    1.083443
+
+--------------------------------
+INTERNAL COORDINATES (ANGSTROEM)
+--------------------------------
+ H      0   0   0     0.000000000000     0.00000000     0.00000000
+ H      1   0   0     0.573333333333     0.00000000     0.00000000
+
+---------------------------
+INTERNAL COORDINATES (A.U.)
+---------------------------
+ H      0   0   0     0.000000000000     0.00000000     0.00000000
+ H      1   0   0     1.083442983448     0.00000000     0.00000000
+
+------------------------------------------------------------------------------
+                   ___                                                        
+                  /   \      - P O W E R E D   B Y -                         
+                 /     \                                                     
+                 |  |  |   _    _      __       _____    __    __             
+                 |  |  |  | |  | |    /  \     |  _  \  |  |  /  |          
+                  \  \/   | |  | |   /    \    | | | |  |  | /  /          
+                 / \  \   | |__| |  /  /\  \   | |_| |  |  |/  /          
+                |  |  |   |  __  | /  /__\  \  |    /   |      \           
+                |  |  |   | |  | | |   __   |  |    \   |  |\   \          
+                \     /   | |  | | |  |  |  |  | |\  \  |  | \   \       
+                 \___/    |_|  |_| |__|  |__|  |_| \__\ |__|  \__/        
+                                                                              
+                      - O R C A' S   B I G   F R I E N D -                    
+                                      &                                       
+                       - I N T E G R A L  F E E D E R -                       
+                                                                              
+ v1 FN, 2020, v2 2021, v3 2022-2024                                           
+------------------------------------------------------------------------------
+
+
+----------------------
+SHARK INTEGRAL PACKAGE
+----------------------
+
+Number of atoms                             ...      2
+Number of basis functions                   ...      2
+Number of shells                            ...      2
+Maximum angular momentum                    ...      0
+Integral batch strategy                     ... SHARK/LIBINT Hybrid
+RI-J (if used) integral strategy            ... SPLIT-RIJ (Revised 2003 algorithm where possible)
+Printlevel                                  ...      1
+Contraction scheme used                     ... PARTIAL GENERAL contraction
+Prescreening option                         ... SCHWARTZ
+   Thresh                                   ... 1.000e-10
+   Tcut                                     ... 1.000e-11
+   Tpresel                                  ... 1.000e-11 
+Coulomb Range Separation                    ... NOT USED
+Exchange Range Separation                   ... NOT USED
+Multipole approximations                    ... NOT USED
+Finite Nucleus Model                        ... NOT USED
+CABS basis                                  ... NOT available
+Auxiliary Coulomb fitting basis             ... AVAILABLE
+   # of basis functions in Aux-J            ...     22
+   # of shells in Aux-J                     ...     10
+   Maximum angular momentum in Aux-J        ...      2
+Auxiliary J/K fitting basis                 ... NOT available
+Auxiliary Correlation fitting basis         ... NOT available
+Auxiliary 'external' fitting basis          ... NOT available
+
+Checking pre-screening integrals            ... done (  0.0 sec) Dimension = 2
+Save PGC pre-screening integrals            ... done (  0.0 sec) Dimension = 2
+Calculate PGC overlap integrals             ... done (  0.0 sec) Dimension = 2
+Calculating pre-screening integrals (ORCA)  ... done (  0.0 sec) Dimension = 2
+Check shell pair data                       ... done (  0.0 sec)
+Shell pair information
+Shell pair cut-off parameter TPreSel        ...   1.0e-11
+Total number of shell pairs                 ...         3
+Shell pairs after pre-screening             ...         3
+Total number of primitive shell pairs       ...        27
+Primitive shell pairs kept                  ...        27
+          la=0 lb=0:      3 shell pairs
+
+Calculating one electron integrals          ... done (  0.0 sec)
+Calculating RI/J V-Matrix + Cholesky decomp.... done (  0.0 sec)
+Calculating Nuclear repulsion               ... done (  0.0 sec) ENN=      0.922983502849 Eh
+
+Diagonalization of the overlap matrix:
+Smallest eigenvalue                        ... 2.314e-01
+Time for diagonalization                   ...    0.000 sec
+Threshold for overlap eigenvalues          ... 1.000e-07
+Number of eigenvalues below threshold      ... 0
+Time for construction of square roots      ...    0.000 sec
+Total time needed                          ...    0.000 sec
+
+-------------------
+DFT GRID GENERATION
+-------------------
+
+General Integration Accuracy     IntAcc      ... 4.388
+Radial Grid Type                 RadialGrid  ... OptM3 with GC (2021)
+Angular Grid (max. ang.)         AngularGrid ... 4 (Lebedev-302)
+Angular grid pruning method      GridPruning ... 4 (adaptive)
+Weight generation scheme         WeightScheme... mBecke (2022)
+Basis function cutoff            BFCut       ... 1.0000e-10
+Integration weight cutoff        WCut        ... 1.0000e-14
+Partially contracted basis set               ... off
+Rotationally invariant grid construction     ... off
+Angular grids for H and He will be reduced by one unit
+
+Total number of grid points                  ...     6644
+Total number of batches                      ...      104
+Average number of points per batch           ...       63
+Average number of grid points per atom       ...     3322
+
+---------------------
+SHARK GRID GENERATION
+---------------------
+
+General Integration Accuracy     IntAcc      ... 4.388
+Radial Grid Type                 RadialGrid  ... OptM3 with GC (2021)
+Angular Grid (max. ang.)         AngularGrid ... 4 (Lebedev-302)
+Angular grid pruning method      GridPruning ... 4 (adaptive)
+Weight generation scheme         WeightScheme... mBecke (2022)
+Basis function cutoff            BFCut       ... 1.0000e-10
+Integration weight cutoff        WCut        ... 1.0000e-14
+Partially contracted basis set               ... off
+Rotationally invariant grid construction     ... off
+Angular grids for H and He will be reduced by one unit
+
+Total number of grid points                  ...     6644
+Total number of batches                      ...      104
+Average number of points per batch           ...       63
+Average number of grid points per atom       ...     3322
+
+--------------------
+COSX GRID GENERATION
+--------------------
+
+GRIDX 1
+-------
+General Integration Accuracy     IntAcc      ... 3.816
+Radial Grid Type                 RadialGrid  ... OptM3 with GC (2021)
+Angular Grid (max. ang.)         AngularGrid ... 1 (Lebedev-50)
+Angular grid pruning method      GridPruning ... 4 (adaptive)
+Weight generation scheme         WeightScheme... mBecke (2022)
+Basis function cutoff            BFCut       ... 1.0000e-10
+Integration weight cutoff        WCut        ... 1.0000e-14
+Partially contracted basis set               ... on
+Rotationally invariant grid construction     ... off
+Angular grids for H and He will be reduced by one unit
+
+Total number of grid points                  ...      882
+Total number of batches                      ...        8
+Average number of points per batch           ...      110
+Average number of grid points per atom       ...      441
 UseSFitting                                  ... on
 
 GRIDX 2
@@ -1060,9 +1437,9 @@ Iteration    Energy (Eh)           Delta-E    RMSDP     MaxDP     DIISErr   Damp
 ---------------------------------------S-O-S-C-F--------------------------------------
 Iteration    Energy (Eh)           Delta-E    RMSDP     MaxDP     MaxGrad    Time(sec)
 --------------------------------------------------------------------------------------
-    1     -1.1549242958139199     0.00e+00  1.06e-10  1.30e-10  1.15e-11     0.0
+    1     -1.1284795629519981     0.00e+00  8.74e-12  1.07e-11  8.56e-13     0.0
                *** Restarting incremental Fock matrix formation ***
-    2     -1.1549242958139230    -3.11e-15  0.00e+00  0.00e+00  2.07e-12     0.0
+    2     -1.1284795629519977     4.44e-16  0.00e+00  0.00e+00  5.41e-14     0.0
                   *** Gradient check signals convergence ***
 
                *****************************************************
@@ -1071,59 +1448,59 @@ Iteration    Energy (Eh)           Delta-E    RMSDP     MaxDP     MaxGrad    Tim
                *****************************************************
 
 Recomputing exchange energy using gridx3       ... done (    0.007 sec)
-Old exchange energy                            :     -0.137747646 Eh
-New exchange energy                            :     -0.137747825 Eh
-Exchange energy change after final integration :     -0.000000180 Eh
-Total energy after final integration           :     -1.154924476 Eh
+Old exchange energy                            :     -0.141258520 Eh
+New exchange energy                            :     -0.141262831 Eh
+Exchange energy change after final integration :     -0.000004311 Eh
+Total energy after final integration           :     -1.128483874 Eh
              **** ENERGY FILE WAS UPDATED (Hidrogen_DFT.en.tmp) ****
 
 ----------------
 TOTAL SCF ENERGY
 ----------------
 
-Total Energy       :         -1.15492447566996 Eh             -31.42709 eV
+Total Energy       :         -1.12848387423246 Eh             -30.70761 eV
 
 Components:
-Nuclear Repulsion  :          0.79376581245000 Eh              21.59947 eV
-Electronic Energy  :         -1.94869010826392 Eh             -53.02655 eV
-One Electron Energy:         -2.59767767501961 Eh             -70.68640 eV
-Two Electron Energy:          0.64898756675569 Eh              17.65985 eV
+Nuclear Repulsion  :          0.92298350284884 Eh              25.11566 eV
+Electronic Energy  :         -2.05146306580084 Eh             -55.82315 eV
+One Electron Energy:         -2.72013133489327 Eh             -74.01854 eV
+Two Electron Energy:          0.66866826909243 Eh              18.19539 eV
 
 Virial components:
-Potential Energy   :         -2.37642752329668 Eh             -64.66588 eV
-Kinetic Energy     :          1.22150304762671 Eh              33.23879 eV
-Virial Ratio       :          1.94549455108925
+Potential Energy   :         -2.38269498036784 Eh             -64.83643 eV
+Kinetic Energy     :          1.25421110613537 Eh              34.12882 eV
+Virial Ratio       :          1.89975592522832
 
 DFT components:
-N(Alpha)           :        0.999999972144 electrons
-N(Beta)            :        0.999999972144 electrons
-N(Total)           :        1.999999944288 electrons
-E(X)               :       -0.540868760769 Eh       
-E(C)               :       -0.049807541969 Eh       
-E(XC)              :       -0.590676302738 Eh       
+N(Alpha)           :        1.000000053265 electrons
+N(Beta)            :        1.000000053265 electrons
+N(Total)           :        2.000000106529 electrons
+E(X)               :       -0.552226947512 Eh       
+E(C)               :       -0.050409750430 Eh       
+E(XC)              :       -0.602636697943 Eh       
 
 ---------------
 SCF CONVERGENCE
 ---------------
 
-  Last Energy change         ...    3.1086e-15  Tolerance :   1.0000e-06
+  Last Energy change         ...   -4.4409e-16  Tolerance :   1.0000e-06
   Last MAX-Density change    ...    0.0000e+00  Tolerance :   1.0000e-05
   Last RMS-Density change    ...    0.0000e+00  Tolerance :   1.0000e-06
-  Last DIIS Error            ...    7.7514e-11  Tolerance :   1.0000e-06
-  Last Orbital Gradient      ...    2.0693e-12  Tolerance :   5.0000e-05
+  Last DIIS Error            ...    5.8955e-12  Tolerance :   1.0000e-06
+  Last Orbital Gradient      ...    5.4116e-14  Tolerance :   5.0000e-05
   Last Orbital Rotation      ...    0.0000e+00  Tolerance :   5.0000e-05
 
 
 Total SCF time: 0 days 0 hours 0 min 0 sec 
 Finished LeanSCF after   0.1 sec
 
-Maximum memory used throughout the entire LEANSCF-calculation: 2.0 MB
+Maximum memory used throughout the entire LEANSCF-calculation: 2.1 MB
 
 -------------------------   --------------------
-FINAL SINGLE POINT ENERGY        -1.154924475670
+FINAL SINGLE POINT ENERGY        -1.128483874232
 -------------------------   --------------------
 
-Storing actual gbw-file in Hidrogen_DFT.002.gbw ... done
+Storing actual gbw-file in Hidrogen_DFT.003.gbw ... done
 
 ------------------------------------------------------------------------------
                               ORCA PROPERTY CALCULATIONS
@@ -1148,7 +1525,7 @@ Quadrupole moment                       ...  NO
 Static polarizability                   ...  NO
 
 Choice of electric origin               ... Center of mass
-Position of electric origin             ...     0.000000     0.000000     0.629909
+Position of electric origin             ...     0.000000     0.000000     0.541721
 
 General magnetic properties:
 Magnetizability                         ...  NO
@@ -1185,7 +1562,7 @@ Method             : SCF
 Type of density    : Electron Density
 Multiplicity       :   1
 Irrep              :   0
-Energy             :    -1.1549244756699639 Eh
+Energy             :    -1.1284838742324643 Eh
 Relativity type    : 
 Basis              : AO
                                 X                 Y                 Z
@@ -1203,8 +1580,8 @@ Magnitude (Debye)      :      0.000000000
 Rotational spectrum 
 --------------------
  
-Rotational constants in cm-1:             0.000000            75.257343            75.257343 
-Rotational constants in MHz :             0.000000       2256158.391467       2256158.391467 
+Rotational constants in cm-1:             0.000000           101.754115           101.754115 
+Rotational constants in MHz :             0.000000       3050511.616369       3050511.616369 
 
 Dipole components along the rotational axes: 
 x,y,z [a.u.] :    -0.000000     0.000000     0.000000 
@@ -1214,36 +1591,36 @@ x,y,z [Debye]:    -0.000000     0.000000     0.000000
 
 Dipole moment calculation done in   0.0 sec 
 
-Maximum memory used throughout the entire PROP-calculation: 1.4 MB
+Maximum memory used throughout the entire PROP-calculation: 1.5 MB
 
          *************************************************************
-                                TRAJECTORY STEP   3
-                  R  :   0.83333333
+                                TRAJECTORY STEP   4
+                  R  :   0.76000000
          *************************************************************
 ---------------------------------
 CARTESIAN COORDINATES (ANGSTROEM)
 ---------------------------------
   H      0.000000    0.000000    0.000000
-  H      0.000000    0.000000    0.833333
+  H      0.000000    0.000000    0.760000
 
 ----------------------------
 CARTESIAN COORDINATES (A.U.)
 ----------------------------
   NO LB      ZA    FRAG     MASS         X           Y           Z
    0 H     1.0000    0     1.008    0.000000    0.000000    0.000000
-   1 H     1.0000    0     1.008    0.000000    0.000000    1.574772
+   1 H     1.0000    0     1.008    0.000000    0.000000    1.436192
 
 --------------------------------
 INTERNAL COORDINATES (ANGSTROEM)
 --------------------------------
  H      0   0   0     0.000000000000     0.00000000     0.00000000
- H      1   0   0     0.833333333333     0.00000000     0.00000000
+ H      1   0   0     0.760000000000     0.00000000     0.00000000
 
 ---------------------------
 INTERNAL COORDINATES (A.U.)
 ---------------------------
  H      0   0   0     0.000000000000     0.00000000     0.00000000
- H      1   0   0     1.574771778268     0.00000000     0.00000000
+ H      1   0   0     1.436191861780     0.00000000     0.00000000
 
 ------------------------------------------------------------------------------
                    ___                                                        
@@ -1310,10 +1687,10 @@ Primitive shell pairs kept                  ...        27
 
 Calculating one electron integrals          ... done (  0.0 sec)
 Calculating RI/J V-Matrix + Cholesky decomp.... done (  0.0 sec)
-Calculating Nuclear repulsion               ... done (  0.0 sec) ENN=      0.635012649960 Eh
+Calculating Nuclear repulsion               ... done (  0.0 sec) ENN=      0.696285800395 Eh
 
 Diagonalization of the overlap matrix:
-Smallest eigenvalue                        ... 4.007e-01
+Smallest eigenvalue                        ... 3.532e-01
 Time for diagonalization                   ...    0.000 sec
 Threshold for overlap eigenvalues          ... 1.000e-07
 Number of eigenvalues below threshold      ... 0
@@ -1377,10 +1754,10 @@ Partially contracted basis set               ... on
 Rotationally invariant grid construction     ... off
 Angular grids for H and He will be reduced by one unit
 
-Total number of grid points                  ...      886
+Total number of grid points                  ...      884
 Total number of batches                      ...        8
 Average number of points per batch           ...      110
-Average number of grid points per atom       ...      443
+Average number of grid points per atom       ...      442
 UseSFitting                                  ... on
 
 GRIDX 2
@@ -1415,10 +1792,10 @@ Partially contracted basis set               ... on
 Rotationally invariant grid construction     ... off
 Angular grids for H and He will be reduced by one unit
 
-Total number of grid points                  ...     3584
-Total number of batches                      ...       30
-Average number of points per batch           ...      119
-Average number of grid points per atom       ...     1792
+Total number of grid points                  ...     3582
+Total number of batches                      ...       28
+Average number of points per batch           ...      127
+Average number of grid points per atom       ...     1791
 UseSFitting                                  ... on
 Initializing property integral containers    ... done (  0.0 sec)
 
@@ -1427,7 +1804,7 @@ SHARK setup successfully completed in   0.1 seconds
 Maximum memory used throughout the entire STARTUP-calculation: 3.4 MB
 Occupation numbers will be reassigned to an Aufbau configuration
              **** ENERGY FILE WAS UPDATED (Hidrogen_DFT.en.tmp) ****
-Finished Guess after   0.1 sec
+Finished Guess after   0.0 sec
 Maximum memory used throughout the entire GUESS-calculation: 1.8 MB
 ----------------------------------------D-I-I-S--------------------------------------------
 Iteration    Energy (Eh)           Delta-E    RMSDP     MaxDP     DIISErr   Damp  Time(sec)
@@ -1437,9 +1814,9 @@ Iteration    Energy (Eh)           Delta-E    RMSDP     MaxDP     DIISErr   Damp
 ---------------------------------------S-O-S-C-F--------------------------------------
 Iteration    Energy (Eh)           Delta-E    RMSDP     MaxDP     MaxGrad    Time(sec)
 --------------------------------------------------------------------------------------
-    1     -1.1508775642336084     0.00e+00  1.97e-11  2.41e-11  2.41e-12     0.0
+    1     -1.1579777594265941     0.00e+00  4.74e-12  5.80e-12  5.53e-13     0.0
                *** Restarting incremental Fock matrix formation ***
-    2     -1.1508775642336035     4.88e-15  0.00e+00  0.00e+00  9.38e-13     0.0
+    2     -1.1579777594265972    -3.11e-15  0.00e+00  0.00e+00  1.65e-13     0.0
                   *** Gradient check signals convergence ***
 
                *****************************************************
@@ -1447,60 +1824,60 @@ Iteration    Energy (Eh)           Delta-E    RMSDP     MaxDP     MaxGrad    Tim
                *           SCF CONVERGED AFTER   2 CYCLES          *
                *****************************************************
 
-Recomputing exchange energy using gridx3       ... done (    0.006 sec)
-Old exchange energy                            :     -0.131407973 Eh
-New exchange energy                            :     -0.131404236 Eh
-Exchange energy change after final integration :      0.000003737 Eh
-Total energy after final integration           :     -1.150873828 Eh
+Recomputing exchange energy using gridx3       ... done (    0.007 sec)
+Old exchange energy                            :     -0.134191051 Eh
+New exchange energy                            :     -0.134188226 Eh
+Exchange energy change after final integration :      0.000002825 Eh
+Total energy after final integration           :     -1.157974934 Eh
              **** ENERGY FILE WAS UPDATED (Hidrogen_DFT.en.tmp) ****
 
 ----------------
 TOTAL SCF ENERGY
 ----------------
 
-Total Energy       :         -1.15087382755311 Eh             -31.31687 eV
+Total Energy       :         -1.15797493399243 Eh             -31.51010 eV
 
 Components:
-Nuclear Repulsion  :          0.63501264996000 Eh              17.27957 eV
-Electronic Energy  :         -1.78589021419360 Eh             -48.59654 eV
-One Electron Energy:         -2.39760928468394 Eh             -65.24227 eV
-Two Electron Energy:          0.61171907049034 Eh              16.64572 eV
+Nuclear Repulsion  :          0.69628580039474 Eh              18.94690 eV
+Electronic Energy  :         -1.85426355982133 Eh             -50.45708 eV
+One Electron Energy:         -2.48260738699221 Eh             -67.55518 eV
+Two Electron Energy:          0.62834382717088 Eh              17.09810 eV
 
 Virial components:
-Potential Energy   :         -2.33275647033725 Eh             -63.47753 eV
-Kinetic Energy     :          1.18188264278414 Eh              32.16066 eV
-Virial Ratio       :          1.97376320278468
+Potential Energy   :         -2.35451921068216 Eh             -64.06972 eV
+Kinetic Energy     :          1.19654427668973 Eh              32.55963 eV
+Virial Ratio       :          1.96776605475561
 
 DFT components:
-N(Alpha)           :        1.000000015947 electrons
-N(Beta)            :        1.000000015947 electrons
-N(Total)           :        2.000000031894 electrons
-E(X)               :       -0.522229663072 Eh       
-E(C)               :       -0.048618344596 Eh       
-E(XC)              :       -0.570848007668 Eh       
+N(Alpha)           :        0.999999962265 electrons
+N(Beta)            :        0.999999962265 electrons
+N(Total)           :        1.999999924531 electrons
+E(X)               :       -0.530122413219 Eh       
+E(C)               :       -0.049155562375 Eh       
+E(XC)              :       -0.579277975594 Eh       
 
 ---------------
 SCF CONVERGENCE
 ---------------
 
-  Last Energy change         ...   -4.8850e-15  Tolerance :   1.0000e-06
+  Last Energy change         ...    3.1086e-15  Tolerance :   1.0000e-06
   Last MAX-Density change    ...    0.0000e+00  Tolerance :   1.0000e-05
   Last RMS-Density change    ...    0.0000e+00  Tolerance :   1.0000e-06
-  Last DIIS Error            ...    1.5165e-11  Tolerance :   1.0000e-06
-  Last Orbital Gradient      ...    9.3751e-13  Tolerance :   5.0000e-05
+  Last DIIS Error            ...    3.6027e-12  Tolerance :   1.0000e-06
+  Last Orbital Gradient      ...    1.6454e-13  Tolerance :   5.0000e-05
   Last Orbital Rotation      ...    0.0000e+00  Tolerance :   5.0000e-05
 
 
 Total SCF time: 0 days 0 hours 0 min 0 sec 
 Finished LeanSCF after   0.1 sec
 
-Maximum memory used throughout the entire LEANSCF-calculation: 2.1 MB
+Maximum memory used throughout the entire LEANSCF-calculation: 2.2 MB
 
 -------------------------   --------------------
-FINAL SINGLE POINT ENERGY        -1.150873827553
+FINAL SINGLE POINT ENERGY        -1.157974933992
 -------------------------   --------------------
 
-Storing actual gbw-file in Hidrogen_DFT.003.gbw ... done
+Storing actual gbw-file in Hidrogen_DFT.004.gbw ... done
 
 ------------------------------------------------------------------------------
                               ORCA PROPERTY CALCULATIONS
@@ -1525,7 +1902,7 @@ Quadrupole moment                       ...  NO
 Static polarizability                   ...  NO
 
 Choice of electric origin               ... Center of mass
-Position of electric origin             ...     0.000000     0.000000     0.787386
+Position of electric origin             ...     0.000000     0.000000     0.718096
 
 General magnetic properties:
 Magnetizability                         ...  NO
@@ -1562,14 +1939,14 @@ Method             : SCF
 Type of density    : Electron Density
 Multiplicity       :   1
 Irrep              :   0
-Energy             :    -1.1508738275531054 Eh
+Energy             :    -1.1579749339924279 Eh
 Relativity type    : 
 Basis              : AO
                                 X                 Y                 Z
-Electronic contribution:     -0.000000000      -0.000000000       0.000000000
-Nuclear contribution   :      0.000000000       0.000000000       0.000000000
+Electronic contribution:     -0.000000000      -0.000000000      -0.000000000
+Nuclear contribution   :      0.000000000       0.000000000      -0.000000000
                         -----------------------------------------
-Total Dipole Moment    :      0.000000000       0.000000000       0.000000000
+Total Dipole Moment    :      0.000000000       0.000000000      -0.000000000
                         -----------------------------------------
 Magnitude (a.u.)       :      0.000000000
 Magnitude (Debye)      :      0.000000000
@@ -1580,47 +1957,47 @@ Magnitude (Debye)      :      0.000000000
 Rotational spectrum 
 --------------------
  
-Rotational constants in cm-1:             0.000000            48.164700            48.164700 
-Rotational constants in MHz :             0.000000       1443941.370539       1443941.370539 
+Rotational constants in cm-1:             0.000000            57.908082            57.908082 
+Rotational constants in MHz :             0.000000       1736040.621319       1736040.621319 
 
 Dipole components along the rotational axes: 
-x,y,z [a.u.] :     0.000000     0.000000     0.000000 
-x,y,z [Debye]:     0.000000     0.000000     0.000000 
+x,y,z [a.u.] :    -0.000000     0.000000     0.000000 
+x,y,z [Debye]:    -0.000000     0.000000     0.000000 
 
  
 
 Dipole moment calculation done in   0.0 sec 
 
-Maximum memory used throughout the entire PROP-calculation: 1.5 MB
+Maximum memory used throughout the entire PROP-calculation: 1.6 MB
 
          *************************************************************
-                                TRAJECTORY STEP   4
-                  R  :   1.00000000
+                                TRAJECTORY STEP   5
+                  R  :   0.94666667
          *************************************************************
 ---------------------------------
 CARTESIAN COORDINATES (ANGSTROEM)
 ---------------------------------
   H      0.000000    0.000000    0.000000
-  H      0.000000    0.000000    1.000000
+  H      0.000000    0.000000    0.946667
 
 ----------------------------
 CARTESIAN COORDINATES (A.U.)
 ----------------------------
   NO LB      ZA    FRAG     MASS         X           Y           Z
    0 H     1.0000    0     1.008    0.000000    0.000000    0.000000
-   1 H     1.0000    0     1.008    0.000000    0.000000    1.889726
+   1 H     1.0000    0     1.008    0.000000    0.000000    1.788941
 
 --------------------------------
 INTERNAL COORDINATES (ANGSTROEM)
 --------------------------------
  H      0   0   0     0.000000000000     0.00000000     0.00000000
- H      1   0   0     1.000000000000     0.00000000     0.00000000
+ H      1   0   0     0.946666666667     0.00000000     0.00000000
 
 ---------------------------
 INTERNAL COORDINATES (A.U.)
 ---------------------------
  H      0   0   0     0.000000000000     0.00000000     0.00000000
- H      1   0   0     1.889726133921     0.00000000     0.00000000
+ H      1   0   0     1.788940740112     0.00000000     0.00000000
 
 ------------------------------------------------------------------------------
                    ___                                                        
@@ -1687,10 +2064,10 @@ Primitive shell pairs kept                  ...        27
 
 Calculating one electron integrals          ... done (  0.0 sec)
 Calculating RI/J V-Matrix + Cholesky decomp.... done (  0.0 sec)
-Calculating Nuclear repulsion               ... done (  0.0 sec) ENN=      0.529177208300 Eh
+Calculating Nuclear repulsion               ... done (  0.0 sec) ENN=      0.558990008768 Eh
 
 Diagonalization of the overlap matrix:
-Smallest eigenvalue                        ... 5.035e-01
+Smallest eigenvalue                        ... 4.716e-01
 Time for diagonalization                   ...    0.000 sec
 Threshold for overlap eigenvalues          ... 1.000e-07
 Number of eigenvalues below threshold      ... 0
@@ -1712,10 +2089,10 @@ Partially contracted basis set               ... off
 Rotationally invariant grid construction     ... off
 Angular grids for H and He will be reduced by one unit
 
-Total number of grid points                  ...     6652
+Total number of grid points                  ...     6650
 Total number of batches                      ...      104
 Average number of points per batch           ...       63
-Average number of grid points per atom       ...     3326
+Average number of grid points per atom       ...     3325
 
 ---------------------
 SHARK GRID GENERATION
@@ -1732,10 +2109,10 @@ Partially contracted basis set               ... off
 Rotationally invariant grid construction     ... off
 Angular grids for H and He will be reduced by one unit
 
-Total number of grid points                  ...     6652
+Total number of grid points                  ...     6650
 Total number of batches                      ...      104
 Average number of points per batch           ...       63
-Average number of grid points per atom       ...     3326
+Average number of grid points per atom       ...     3325
 
 --------------------
 COSX GRID GENERATION
@@ -1814,9 +2191,9 @@ Iteration    Energy (Eh)           Delta-E    RMSDP     MaxDP     DIISErr   Damp
 ---------------------------------------S-O-S-C-F--------------------------------------
 Iteration    Energy (Eh)           Delta-E    RMSDP     MaxDP     MaxGrad    Time(sec)
 --------------------------------------------------------------------------------------
-    1     -1.1189756961569741     0.00e+00  1.25e-10  1.53e-10  1.66e-11     0.0
+    1     -1.1307380967316614     0.00e+00  2.60e-11  3.18e-11  3.37e-12     0.0
                *** Restarting incremental Fock matrix formation ***
-    2     -1.1189756961569732     8.88e-16  0.00e+00  0.00e+00  9.91e-12     0.0
+    2     -1.1307380967316591     2.22e-15  0.00e+00  0.00e+00  1.79e-12     0.0
                   *** Gradient check signals convergence ***
 
                *****************************************************
@@ -1824,60 +2201,60 @@ Iteration    Energy (Eh)           Delta-E    RMSDP     MaxDP     MaxGrad    Tim
                *           SCF CONVERGED AFTER   2 CYCLES          *
                *****************************************************
 
-Recomputing exchange energy using gridx3       ... done (    0.007 sec)
-Old exchange energy                            :     -0.125279911 Eh
-New exchange energy                            :     -0.125280323 Eh
-Exchange energy change after final integration :     -0.000000412 Eh
-Total energy after final integration           :     -1.118976108 Eh
+Recomputing exchange energy using gridx3       ... done (    0.006 sec)
+Old exchange energy                            :     -0.127198063 Eh
+New exchange energy                            :     -0.127196937 Eh
+Exchange energy change after final integration :      0.000001126 Eh
+Total energy after final integration           :     -1.130736971 Eh
              **** ENERGY FILE WAS UPDATED (Hidrogen_DFT.en.tmp) ****
 
 ----------------
 TOTAL SCF ENERGY
 ----------------
 
-Total Energy       :         -1.11897610838513 Eh             -30.44889 eV
+Total Energy       :         -1.13073697122360 Eh             -30.76892 eV
 
 Components:
-Nuclear Repulsion  :          0.52917720830000 Eh              14.39964 eV
-Electronic Energy  :         -1.64815290445697 Eh             -44.84852 eV
-One Electron Energy:         -2.22168835487798 Eh             -60.45521 eV
-Two Electron Energy:          0.57353545042101 Eh              15.60669 eV
+Nuclear Repulsion  :          0.55899000876761 Eh              15.21089 eV
+Electronic Energy  :         -1.68972810549926 Eh             -45.97984 eV
+One Electron Energy:         -2.27547376880757 Eh             -61.91879 eV
+Two Electron Energy:          0.58574566330830 Eh              15.93895 eV
 
 Virial components:
-Potential Energy   :         -2.28349492064351 Eh             -62.13706 eV
-Kinetic Energy     :          1.16451881225838 Eh              31.68817 eV
-Virial Ratio       :          1.96089139703554
+Potential Energy   :         -2.29838412793594 Eh             -62.54221 eV
+Kinetic Energy     :          1.16764715671233 Eh              31.77329 eV
+Virial Ratio       :          1.96838926444812
 
 DFT components:
-N(Alpha)           :        0.999999885954 electrons
-N(Beta)            :        0.999999885954 electrons
-N(Total)           :        1.999999771907 electrons
-E(X)               :       -0.506582231535 Eh       
-E(C)               :       -0.047351883183 Eh       
-E(XC)              :       -0.553934114718 Eh       
+N(Alpha)           :        0.999999997930 electrons
+N(Beta)            :        0.999999997930 electrons
+N(Total)           :        1.999999995861 electrons
+E(X)               :       -0.511205355563 Eh       
+E(C)               :       -0.047761115378 Eh       
+E(XC)              :       -0.558966470942 Eh       
 
 ---------------
 SCF CONVERGENCE
 ---------------
 
-  Last Energy change         ...   -8.8818e-16  Tolerance :   1.0000e-06
+  Last Energy change         ...   -2.2204e-15  Tolerance :   1.0000e-06
   Last MAX-Density change    ...    0.0000e+00  Tolerance :   1.0000e-05
   Last RMS-Density change    ...    0.0000e+00  Tolerance :   1.0000e-06
-  Last DIIS Error            ...    9.5208e-11  Tolerance :   1.0000e-06
-  Last Orbital Gradient      ...    9.9129e-12  Tolerance :   5.0000e-05
+  Last DIIS Error            ...    1.9973e-11  Tolerance :   1.0000e-06
+  Last Orbital Gradient      ...    1.7911e-12  Tolerance :   5.0000e-05
   Last Orbital Rotation      ...    0.0000e+00  Tolerance :   5.0000e-05
 
 
 Total SCF time: 0 days 0 hours 0 min 0 sec 
 Finished LeanSCF after   0.1 sec
 
-Maximum memory used throughout the entire LEANSCF-calculation: 2.2 MB
+Maximum memory used throughout the entire LEANSCF-calculation: 2.5 MB
 
 -------------------------   --------------------
-FINAL SINGLE POINT ENERGY        -1.118976108385
+FINAL SINGLE POINT ENERGY        -1.130736971224
 -------------------------   --------------------
 
-Storing actual gbw-file in Hidrogen_DFT.004.gbw ... done
+Storing actual gbw-file in Hidrogen_DFT.005.gbw ... done
 
 ------------------------------------------------------------------------------
                               ORCA PROPERTY CALCULATIONS
@@ -1902,7 +2279,7 @@ Quadrupole moment                       ...  NO
 Static polarizability                   ...  NO
 
 Choice of electric origin               ... Center of mass
-Position of electric origin             ...     0.000000     0.000000     0.944863
+Position of electric origin             ...     0.000000     0.000000     0.894470
 
 General magnetic properties:
 Magnetizability                         ...  NO
@@ -1939,17 +2316,17 @@ Method             : SCF
 Type of density    : Electron Density
 Multiplicity       :   1
 Irrep              :   0
-Energy             :    -1.1189761083851271 Eh
+Energy             :    -1.1307369712236017 Eh
 Relativity type    : 
 Basis              : AO
                                 X                 Y                 Z
-Electronic contribution:     -0.000000000      -0.000000000      -0.000000000
+Electronic contribution:     -0.000000000      -0.000000000       0.000000000
 Nuclear contribution   :      0.000000000       0.000000000      -0.000000000
                         -----------------------------------------
-Total Dipole Moment    :      0.000000000       0.000000000      -0.000000000
+Total Dipole Moment    :      0.000000000       0.000000000       0.000000000
                         -----------------------------------------
 Magnitude (a.u.)       :      0.000000000
-Magnitude (Debye)      :      0.000000001
+Magnitude (Debye)      :      0.000000000
 
 
 
@@ -1957,47 +2334,47 @@ Magnitude (Debye)      :      0.000000001
 Rotational spectrum 
 --------------------
  
-Rotational constants in cm-1:             0.000000            33.447708            33.447708 
-Rotational constants in MHz :             0.000000       1002737.062874       1002737.062874 
+Rotational constants in cm-1:             0.000000            37.322626            37.322626 
+Rotational constants in MHz :             0.000000       1118904.181446       1118904.181446 
 
 Dipole components along the rotational axes: 
-x,y,z [a.u.] :    -0.000000     0.000000     0.000000 
-x,y,z [Debye]:    -0.000000     0.000000     0.000000 
+x,y,z [a.u.] :     0.000000     0.000000     0.000000 
+x,y,z [Debye]:     0.000000     0.000000     0.000000 
 
  
 
 Dipole moment calculation done in   0.0 sec 
 
-Maximum memory used throughout the entire PROP-calculation: 1.6 MB
+Maximum memory used throughout the entire PROP-calculation: 1.7 MB
 
          *************************************************************
-                                TRAJECTORY STEP   5
-                  R  :   1.16666667
+                                TRAJECTORY STEP   6
+                  R  :   1.13333333
          *************************************************************
 ---------------------------------
 CARTESIAN COORDINATES (ANGSTROEM)
 ---------------------------------
   H      0.000000    0.000000    0.000000
-  H      0.000000    0.000000    1.166667
+  H      0.000000    0.000000    1.133333
 
 ----------------------------
 CARTESIAN COORDINATES (A.U.)
 ----------------------------
   NO LB      ZA    FRAG     MASS         X           Y           Z
    0 H     1.0000    0     1.008    0.000000    0.000000    0.000000
-   1 H     1.0000    0     1.008    0.000000    0.000000    2.204680
+   1 H     1.0000    0     1.008    0.000000    0.000000    2.141690
 
 --------------------------------
 INTERNAL COORDINATES (ANGSTROEM)
 --------------------------------
  H      0   0   0     0.000000000000     0.00000000     0.00000000
- H      1   0   0     1.166666666667     0.00000000     0.00000000
+ H      1   0   0     1.133333333333     0.00000000     0.00000000
 
 ---------------------------
 INTERNAL COORDINATES (A.U.)
 ---------------------------
  H      0   0   0     0.000000000000     0.00000000     0.00000000
- H      1   0   0     2.204680489575     0.00000000     0.00000000
+ H      1   0   0     2.141689618444     0.00000000     0.00000000
 
 ------------------------------------------------------------------------------
                    ___                                                        
@@ -2064,15 +2441,15 @@ Primitive shell pairs kept                  ...        27
 
 Calculating one electron integrals          ... done (  0.0 sec)
 Calculating RI/J V-Matrix + Cholesky decomp.... done (  0.0 sec)
-Calculating Nuclear repulsion               ... done (  0.0 sec) ENN=      0.453580464257 Eh
+Calculating Nuclear repulsion               ... done (  0.0 sec) ENN=      0.466921066147 Eh
 
 Diagonalization of the overlap matrix:
-Smallest eigenvalue                        ... 5.960e-01
+Smallest eigenvalue                        ... 5.784e-01
 Time for diagonalization                   ...    0.000 sec
 Threshold for overlap eigenvalues          ... 1.000e-07
 Number of eigenvalues below threshold      ... 0
 Time for construction of square roots      ...    0.000 sec
-Total time needed                          ...    0.000 sec
+Total time needed                          ...    0.001 sec
 
 -------------------
 DFT GRID GENERATION
@@ -2191,9 +2568,9 @@ Iteration    Energy (Eh)           Delta-E    RMSDP     MaxDP     DIISErr   Damp
 ---------------------------------------S-O-S-C-F--------------------------------------
 Iteration    Energy (Eh)           Delta-E    RMSDP     MaxDP     MaxGrad    Time(sec)
 --------------------------------------------------------------------------------------
-    1     -1.0779152202451527     0.00e+00  1.70e-10  2.08e-10  2.38e-11     0.0
+    1     -1.0864131377829336     0.00e+00  2.34e-11  2.86e-11  3.24e-12     0.0
                *** Restarting incremental Fock matrix formation ***
-    2     -1.0779152202451541    -1.33e-15  0.00e+00  0.00e+00  1.91e-11     0.0
+    2     -1.0864131377829322     1.33e-15  0.00e+00  0.00e+00  2.48e-12     0.0
                   *** Gradient check signals convergence ***
 
                *****************************************************
@@ -2201,60 +2578,60 @@ Iteration    Energy (Eh)           Delta-E    RMSDP     MaxDP     MaxGrad    Tim
                *           SCF CONVERGED AFTER   2 CYCLES          *
                *****************************************************
 
-Recomputing exchange energy using gridx3       ... done (    0.007 sec)
-Old exchange energy                            :     -0.119657820 Eh
-New exchange energy                            :     -0.119661859 Eh
-Exchange energy change after final integration :     -0.000004038 Eh
-Total energy after final integration           :     -1.077919259 Eh
+Recomputing exchange energy using gridx3       ... done (    0.006 sec)
+Old exchange energy                            :     -0.120730672 Eh
+New exchange energy                            :     -0.120734750 Eh
+Exchange energy change after final integration :     -0.000004078 Eh
+Total energy after final integration           :     -1.086417216 Eh
              **** ENERGY FILE WAS UPDATED (Hidrogen_DFT.en.tmp) ****
 
 ----------------
 TOTAL SCF ENERGY
 ----------------
 
-Total Energy       :         -1.07791925871446 Eh             -29.33167 eV
+Total Energy       :         -1.08641721603713 Eh             -29.56292 eV
 
 Components:
-Nuclear Repulsion  :          0.45358046425714 Eh              12.34255 eV
-Electronic Energy  :         -1.53149568450230 Eh             -41.67412 eV
-One Electron Energy:         -2.06759064689241 Eh             -56.26200 eV
-Two Electron Energy:          0.53609496239011 Eh              14.58789 eV
+Nuclear Repulsion  :          0.46692106614706 Eh              12.70557 eV
+Electronic Energy  :         -1.55333420392999 Eh             -42.26837 eV
+One Electron Energy:         -2.09678922930352 Eh             -57.05654 eV
+Two Electron Energy:          0.54345502537352 Eh              14.78816 eV
 
 Virial components:
-Potential Energy   :         -2.24680543710788 Eh             -61.13868 eV
-Kinetic Energy     :          1.16888617839342 Eh              31.80701 eV
-Virial Ratio       :          1.92217640916587
+Potential Energy   :         -2.25281707295156 Eh             -61.30227 eV
+Kinetic Energy     :          1.16639985691443 Eh              31.73935 eV
+Virial Ratio       :          1.93142776861368
 
 DFT components:
-N(Alpha)           :        1.000000001668 electrons
-N(Beta)            :        1.000000001668 electrons
-N(Total)           :        2.000000003335 electrons
-E(X)               :       -0.494730498180 Eh       
-E(C)               :       -0.046080751435 Eh       
-E(XC)              :       -0.540811249615 Eh       
+N(Alpha)           :        1.000000015237 electrons
+N(Beta)            :        1.000000015237 electrons
+N(Total)           :        2.000000030474 electrons
+E(X)               :       -0.496777988977 Eh       
+E(C)               :       -0.046331902744 Eh       
+E(XC)              :       -0.543109891721 Eh       
 
 ---------------
 SCF CONVERGENCE
 ---------------
 
-  Last Energy change         ...    1.3323e-15  Tolerance :   1.0000e-06
+  Last Energy change         ...   -1.3323e-15  Tolerance :   1.0000e-06
   Last MAX-Density change    ...    0.0000e+00  Tolerance :   1.0000e-05
   Last RMS-Density change    ...    0.0000e+00  Tolerance :   1.0000e-06
-  Last DIIS Error            ...    1.2308e-10  Tolerance :   1.0000e-06
-  Last Orbital Gradient      ...    1.9139e-11  Tolerance :   5.0000e-05
+  Last DIIS Error            ...    1.7151e-11  Tolerance :   1.0000e-06
+  Last Orbital Gradient      ...    2.4776e-12  Tolerance :   5.0000e-05
   Last Orbital Rotation      ...    0.0000e+00  Tolerance :   5.0000e-05
 
 
 Total SCF time: 0 days 0 hours 0 min 0 sec 
 Finished LeanSCF after   0.1 sec
 
-Maximum memory used throughout the entire LEANSCF-calculation: 2.5 MB
+Maximum memory used throughout the entire LEANSCF-calculation: 2.7 MB
 
 -------------------------   --------------------
-FINAL SINGLE POINT ENERGY        -1.077919258714
+FINAL SINGLE POINT ENERGY        -1.086417216037
 -------------------------   --------------------
 
-Storing actual gbw-file in Hidrogen_DFT.005.gbw ... done
+Storing actual gbw-file in Hidrogen_DFT.006.gbw ... done
 
 ------------------------------------------------------------------------------
                               ORCA PROPERTY CALCULATIONS
@@ -2279,7 +2656,7 @@ Quadrupole moment                       ...  NO
 Static polarizability                   ...  NO
 
 Choice of electric origin               ... Center of mass
-Position of electric origin             ...     0.000000     0.000000     1.102340
+Position of electric origin             ...     0.000000     0.000000     1.070845
 
 General magnetic properties:
 Magnetizability                         ...  NO
@@ -2316,14 +2693,14 @@ Method             : SCF
 Type of density    : Electron Density
 Multiplicity       :   1
 Irrep              :   0
-Energy             :    -1.0779192587144588 Eh
+Energy             :    -1.0864172160371268 Eh
 Relativity type    : 
 Basis              : AO
                                 X                 Y                 Z
-Electronic contribution:     -0.000000000      -0.000000000       0.000000000
-Nuclear contribution   :      0.000000000       0.000000000      -0.000000000
+Electronic contribution:     -0.000000000      -0.000000000      -0.000000000
+Nuclear contribution   :      0.000000000       0.000000000       0.000000000
                         -----------------------------------------
-Total Dipole Moment    :      0.000000000       0.000000000       0.000000000
+Total Dipole Moment    :      0.000000000       0.000000000      -0.000000000
                         -----------------------------------------
 Magnitude (a.u.)       :      0.000000000
 Magnitude (Debye)      :      0.000000000
@@ -2334,47 +2711,47 @@ Magnitude (Debye)      :      0.000000000
 Rotational spectrum 
 --------------------
  
-Rotational constants in cm-1:             0.000000            24.573826            24.573826 
-Rotational constants in MHz :             0.000000        736704.780887        736704.780887 
+Rotational constants in cm-1:             0.000000            26.040603            26.040603 
+Rotational constants in MHz :             0.000000        780677.644106        780677.644106 
 
 Dipole components along the rotational axes: 
-x,y,z [a.u.] :     0.000000     0.000000     0.000000 
-x,y,z [Debye]:     0.000000     0.000000     0.000000 
+x,y,z [a.u.] :    -0.000000     0.000000     0.000000 
+x,y,z [Debye]:    -0.000000     0.000000     0.000000 
 
  
 
 Dipole moment calculation done in   0.0 sec 
 
-Maximum memory used throughout the entire PROP-calculation: 1.7 MB
+Maximum memory used throughout the entire PROP-calculation: 1.8 MB
 
          *************************************************************
-                                TRAJECTORY STEP   6
-                  R  :   1.33333333
+                                TRAJECTORY STEP   7
+                  R  :   1.32000000
          *************************************************************
 ---------------------------------
 CARTESIAN COORDINATES (ANGSTROEM)
 ---------------------------------
   H      0.000000    0.000000    0.000000
-  H      0.000000    0.000000    1.333333
+  H      0.000000    0.000000    1.320000
 
 ----------------------------
 CARTESIAN COORDINATES (A.U.)
 ----------------------------
   NO LB      ZA    FRAG     MASS         X           Y           Z
    0 H     1.0000    0     1.008    0.000000    0.000000    0.000000
-   1 H     1.0000    0     1.008    0.000000    0.000000    2.519635
+   1 H     1.0000    0     1.008    0.000000    0.000000    2.494438
 
 --------------------------------
 INTERNAL COORDINATES (ANGSTROEM)
 --------------------------------
  H      0   0   0     0.000000000000     0.00000000     0.00000000
- H      1   0   0     1.333333333333     0.00000000     0.00000000
+ H      1   0   0     1.320000000000     0.00000000     0.00000000
 
 ---------------------------
 INTERNAL COORDINATES (A.U.)
 ---------------------------
  H      0   0   0     0.000000000000     0.00000000     0.00000000
- H      1   0   0     2.519634845228     0.00000000     0.00000000
+ H      1   0   0     2.494438496776     0.00000000     0.00000000
 
 ------------------------------------------------------------------------------
                    ___                                                        
@@ -2441,10 +2818,10 @@ Primitive shell pairs kept                  ...        27
 
 Calculating one electron integrals          ... done (  0.0 sec)
 Calculating RI/J V-Matrix + Cholesky decomp.... done (  0.0 sec)
-Calculating Nuclear repulsion               ... done (  0.0 sec) ENN=      0.396882906225 Eh
+Calculating Nuclear repulsion               ... done (  0.0 sec) ENN=      0.400891824470 Eh
 
 Diagonalization of the overlap matrix:
-Smallest eigenvalue                        ... 6.759e-01
+Smallest eigenvalue                        ... 6.700e-01
 Time for diagonalization                   ...    0.000 sec
 Threshold for overlap eigenvalues          ... 1.000e-07
 Number of eigenvalues below threshold      ... 0
@@ -2527,10 +2904,10 @@ Partially contracted basis set               ... on
 Rotationally invariant grid construction     ... off
 Angular grids for H and He will be reduced by one unit
 
-Total number of grid points                  ...     1628
+Total number of grid points                  ...     1626
 Total number of batches                      ...       14
 Average number of points per batch           ...      116
-Average number of grid points per atom       ...      814
+Average number of grid points per atom       ...      813
 UseSFitting                                  ... on
 
 GRIDX 3
@@ -2568,9 +2945,9 @@ Iteration    Energy (Eh)           Delta-E    RMSDP     MaxDP     DIISErr   Damp
 ---------------------------------------S-O-S-C-F--------------------------------------
 Iteration    Energy (Eh)           Delta-E    RMSDP     MaxDP     MaxGrad    Time(sec)
 --------------------------------------------------------------------------------------
-    1     -1.0353918781542677     0.00e+00  8.05e-11  9.85e-11  1.17e-11     0.0
+    1     -1.0387437689585282     0.00e+00  1.52e-11  1.86e-11  2.20e-12     0.0
                *** Restarting incremental Fock matrix formation ***
-    2     -1.0353918781542664     1.33e-15  0.00e+00  0.00e+00  1.18e-11     0.0
+    2     -1.0387437689585273     8.88e-16  0.00e+00  0.00e+00  2.18e-12     0.0
                   *** Gradient check signals convergence ***
 
                *****************************************************
@@ -2578,60 +2955,60 @@ Iteration    Energy (Eh)           Delta-E    RMSDP     MaxDP     MaxGrad    Tim
                *           SCF CONVERGED AFTER   2 CYCLES          *
                *****************************************************
 
-Recomputing exchange energy using gridx3       ... done (    0.007 sec)
-Old exchange energy                            :     -0.114727144 Eh
-New exchange energy                            :     -0.114728610 Eh
-Exchange energy change after final integration :     -0.000001466 Eh
-Total energy after final integration           :     -1.035393344 Eh
+Recomputing exchange energy using gridx3       ... done (    0.010 sec)
+Old exchange energy                            :     -0.115094083 Eh
+New exchange energy                            :     -0.115095928 Eh
+Exchange energy change after final integration :     -0.000001845 Eh
+Total energy after final integration           :     -1.038745614 Eh
              **** ENERGY FILE WAS UPDATED (Hidrogen_DFT.en.tmp) ****
 
 ----------------
 TOTAL SCF ENERGY
 ----------------
 
-Total Energy       :         -1.03539334422532 Eh             -28.17449 eV
+Total Energy       :         -1.03874561394123 Eh             -28.26571 eV
 
 Components:
-Nuclear Repulsion  :          0.39688290622500 Eh              10.79973 eV
-Electronic Energy  :         -1.43227478437927 Eh             -38.97418 eV
-One Electron Energy:         -1.93301225382375 Eh             -52.59994 eV
-Two Electron Energy:          0.50073746944448 Eh              13.62576 eV
+Nuclear Repulsion  :          0.40089182446970 Eh              10.90882 eV
+Electronic Energy  :         -1.43963559342822 Eh             -39.17448 eV
+One Electron Energy:         -1.94309942422665 Eh             -52.87442 eV
+Two Electron Energy:          0.50346383079843 Eh              13.69995 eV
 
 Virial components:
-Potential Energy   :         -2.22655128364987 Eh             -60.58754 eV
-Kinetic Energy     :          1.19115793942455 Eh              32.41306 eV
-Virial Ratio       :          1.86923262646893
+Potential Energy   :         -2.22761113502830 Eh             -60.61638 eV
+Kinetic Energy     :          1.18886552108707 Eh              32.35068 eV
+Virial Ratio       :          1.87372843733530
 
 DFT components:
-N(Alpha)           :        1.000000018430 electrons
-N(Beta)            :        1.000000018430 electrons
-N(Total)           :        2.000000036860 electrons
-E(X)               :       -0.486857024596 Eh       
-E(C)               :       -0.044874521820 Eh       
-E(XC)              :       -0.531731546416 Eh       
+N(Alpha)           :        1.000000056776 electrons
+N(Beta)            :        1.000000056776 electrons
+N(Total)           :        2.000000113552 electrons
+E(X)               :       -0.487348056733 Eh       
+E(C)               :       -0.044967195644 Eh       
+E(XC)              :       -0.532315252377 Eh       
 
 ---------------
 SCF CONVERGENCE
 ---------------
 
-  Last Energy change         ...   -1.3323e-15  Tolerance :   1.0000e-06
+  Last Energy change         ...   -8.8818e-16  Tolerance :   1.0000e-06
   Last MAX-Density change    ...    0.0000e+00  Tolerance :   1.0000e-05
   Last RMS-Density change    ...    0.0000e+00  Tolerance :   1.0000e-06
-  Last DIIS Error            ...    5.4307e-11  Tolerance :   1.0000e-06
-  Last Orbital Gradient      ...    1.1766e-11  Tolerance :   5.0000e-05
+  Last DIIS Error            ...    1.0324e-11  Tolerance :   1.0000e-06
+  Last Orbital Gradient      ...    2.1828e-12  Tolerance :   5.0000e-05
   Last Orbital Rotation      ...    0.0000e+00  Tolerance :   5.0000e-05
 
 
 Total SCF time: 0 days 0 hours 0 min 0 sec 
 Finished LeanSCF after   0.1 sec
 
-Maximum memory used throughout the entire LEANSCF-calculation: 2.7 MB
+Maximum memory used throughout the entire LEANSCF-calculation: 2.9 MB
 
 -------------------------   --------------------
-FINAL SINGLE POINT ENERGY        -1.035393344225
+FINAL SINGLE POINT ENERGY        -1.038745613941
 -------------------------   --------------------
 
-Storing actual gbw-file in Hidrogen_DFT.006.gbw ... done
+Storing actual gbw-file in Hidrogen_DFT.007.gbw ... done
 
 ------------------------------------------------------------------------------
                               ORCA PROPERTY CALCULATIONS
@@ -2656,7 +3033,7 @@ Quadrupole moment                       ...  NO
 Static polarizability                   ...  NO
 
 Choice of electric origin               ... Center of mass
-Position of electric origin             ...     0.000000     0.000000     1.259817
+Position of electric origin             ...     0.000000     0.000000     1.247219
 
 General magnetic properties:
 Magnetizability                         ...  NO
@@ -2693,7 +3070,7 @@ Method             : SCF
 Type of density    : Electron Density
 Multiplicity       :   1
 Irrep              :   0
-Energy             :    -1.0353933442253194 Eh
+Energy             :    -1.0387456139412281 Eh
 Relativity type    : 
 Basis              : AO
                                 X                 Y                 Z
@@ -2711,8 +3088,8 @@ Magnitude (Debye)      :      0.000000000
 Rotational spectrum 
 --------------------
  
-Rotational constants in cm-1:             0.000000            18.814336            18.814336 
-Rotational constants in MHz :             0.000000        564039.597867        564039.597867 
+Rotational constants in cm-1:             0.000000            19.196343            19.196343 
+Rotational constants in MHz :             0.000000        575491.886406        575491.886406 
 
 Dipole components along the rotational axes: 
 x,y,z [a.u.] :    -0.000000     0.000000     0.000000 
@@ -2722,36 +3099,36 @@ x,y,z [Debye]:    -0.000000     0.000000     0.000000
 
 Dipole moment calculation done in   0.0 sec 
 
-Maximum memory used throughout the entire PROP-calculation: 1.8 MB
+Maximum memory used throughout the entire PROP-calculation: 2.0 MB
 
          *************************************************************
-                                TRAJECTORY STEP   7
-                  R  :   1.50000000
+                                TRAJECTORY STEP   8
+                  R  :   1.50666667
          *************************************************************
 ---------------------------------
 CARTESIAN COORDINATES (ANGSTROEM)
 ---------------------------------
   H      0.000000    0.000000    0.000000
-  H      0.000000    0.000000    1.500000
+  H      0.000000    0.000000    1.506667
 
 ----------------------------
 CARTESIAN COORDINATES (A.U.)
 ----------------------------
   NO LB      ZA    FRAG     MASS         X           Y           Z
    0 H     1.0000    0     1.008    0.000000    0.000000    0.000000
-   1 H     1.0000    0     1.008    0.000000    0.000000    2.834589
+   1 H     1.0000    0     1.008    0.000000    0.000000    2.847187
 
 --------------------------------
 INTERNAL COORDINATES (ANGSTROEM)
 --------------------------------
  H      0   0   0     0.000000000000     0.00000000     0.00000000
- H      1   0   0     1.500000000000     0.00000000     0.00000000
+ H      1   0   0     1.506666666667     0.00000000     0.00000000
 
 ---------------------------
 INTERNAL COORDINATES (A.U.)
 ---------------------------
  H      0   0   0     0.000000000000     0.00000000     0.00000000
- H      1   0   0     2.834589200882     0.00000000     0.00000000
+ H      1   0   0     2.847187375108     0.00000000     0.00000000
 
 ------------------------------------------------------------------------------
                    ___                                                        
@@ -2818,10 +3195,10 @@ Primitive shell pairs kept                  ...        27
 
 Calculating one electron integrals          ... done (  0.0 sec)
 Calculating RI/J V-Matrix + Cholesky decomp.... done (  0.0 sec)
-Calculating Nuclear repulsion               ... done (  0.0 sec) ENN=      0.352784805533 Eh
+Calculating Nuclear repulsion               ... done (  0.0 sec) ENN=      0.351223810819 Eh
 
 Diagonalization of the overlap matrix:
-Smallest eigenvalue                        ... 7.432e-01
+Smallest eigenvalue                        ... 7.457e-01
 Time for diagonalization                   ...    0.000 sec
 Threshold for overlap eigenvalues          ... 1.000e-07
 Number of eigenvalues below threshold      ... 0
@@ -2945,9 +3322,9 @@ Iteration    Energy (Eh)           Delta-E    RMSDP     MaxDP     DIISErr   Damp
 ---------------------------------------S-O-S-C-F--------------------------------------
 Iteration    Energy (Eh)           Delta-E    RMSDP     MaxDP     MaxGrad    Time(sec)
 --------------------------------------------------------------------------------------
-    1     -0.9951545911747774     0.00e+00  1.18e-10  1.44e-10  1.74e-11     0.0
+    1     -0.9936221622220645     0.00e+00  1.18e-10  1.44e-10  1.74e-11     0.0
                *** Restarting incremental Fock matrix formation ***
-    2     -0.9951545911747766     8.88e-16  0.00e+00  0.00e+00  2.10e-11     0.0
+    2     -0.9936221622220607     3.77e-15  0.00e+00  0.00e+00  2.12e-11     0.0
                   *** Gradient check signals convergence ***
 
                *****************************************************
@@ -2956,59 +3333,59 @@ Iteration    Energy (Eh)           Delta-E    RMSDP     MaxDP     MaxGrad    Tim
                *****************************************************
 
 Recomputing exchange energy using gridx3       ... done (    0.006 sec)
-Old exchange energy                            :     -0.110544463 Eh
-New exchange energy                            :     -0.110540915 Eh
-Exchange energy change after final integration :      0.000003548 Eh
-Total energy after final integration           :     -0.995151043 Eh
+Old exchange energy                            :     -0.110392331 Eh
+New exchange energy                            :     -0.110388682 Eh
+Exchange energy change after final integration :      0.000003649 Eh
+Total energy after final integration           :     -0.993618513 Eh
              **** ENERGY FILE WAS UPDATED (Hidrogen_DFT.en.tmp) ****
 
 ----------------
 TOTAL SCF ENERGY
 ----------------
 
-Total Energy       :         -0.99515104311923 Eh             -27.07944 eV
+Total Energy       :         -0.99361851329728 Eh             -27.03773 eV
 
 Components:
-Nuclear Repulsion  :          0.35278480553333 Eh               9.59976 eV
-Electronic Energy  :         -1.34793939670811 Eh             -36.67930 eV
-One Electron Energy:         -1.81636174011448 Eh             -49.42572 eV
-Two Electron Energy:          0.46842234340637 Eh              12.74642 eV
+Nuclear Repulsion  :          0.35122381081858 Eh               9.55729 eV
+Electronic Energy  :         -1.34484597304064 Eh             -36.59512 eV
+One Electron Energy:         -1.81204745774105 Eh             -49.30832 eV
+Two Electron Energy:          0.46720148470041 Eh              12.71320 eV
 
 Virial components:
-Potential Energy   :         -2.21997642603265 Eh             -60.40863 eV
-Kinetic Energy     :          1.22482538291342 Eh              33.32919 eV
-Virial Ratio       :          1.81248401364130
+Potential Energy   :         -2.21993372030287 Eh             -60.40747 eV
+Kinetic Energy     :          1.22631520700560 Eh              33.36973 eV
+Virial Ratio       :          1.81024724118319
 
 DFT components:
-N(Alpha)           :        0.999999733556 electrons
-N(Beta)            :        0.999999733556 electrons
-N(Total)           :        1.999999467113 electrons
-E(X)               :       -0.482513712791 Eh       
-E(C)               :       -0.043787776295 Eh       
-E(XC)              :       -0.526301489086 Eh       
+N(Alpha)           :        0.999999685947 electrons
+N(Beta)            :        0.999999685947 electrons
+N(Total)           :        1.999999371894 electrons
+E(X)               :       -0.482402797206 Eh       
+E(C)               :       -0.043747293980 Eh       
+E(XC)              :       -0.526150091186 Eh       
 
 ---------------
 SCF CONVERGENCE
 ---------------
 
-  Last Energy change         ...   -8.8818e-16  Tolerance :   1.0000e-06
+  Last Energy change         ...   -3.7748e-15  Tolerance :   1.0000e-06
   Last MAX-Density change    ...    0.0000e+00  Tolerance :   1.0000e-05
   Last RMS-Density change    ...    0.0000e+00  Tolerance :   1.0000e-06
-  Last DIIS Error            ...    7.3132e-11  Tolerance :   1.0000e-06
-  Last Orbital Gradient      ...    2.0983e-11  Tolerance :   5.0000e-05
+  Last DIIS Error            ...    7.2956e-11  Tolerance :   1.0000e-06
+  Last Orbital Gradient      ...    2.1150e-11  Tolerance :   5.0000e-05
   Last Orbital Rotation      ...    0.0000e+00  Tolerance :   5.0000e-05
 
 
 Total SCF time: 0 days 0 hours 0 min 0 sec 
 Finished LeanSCF after   0.1 sec
 
-Maximum memory used throughout the entire LEANSCF-calculation: 2.9 MB
+Maximum memory used throughout the entire LEANSCF-calculation: 3.1 MB
 
 -------------------------   --------------------
-FINAL SINGLE POINT ENERGY        -0.995151043119
+FINAL SINGLE POINT ENERGY        -0.993618513297
 -------------------------   --------------------
 
-Storing actual gbw-file in Hidrogen_DFT.007.gbw ... done
+Storing actual gbw-file in Hidrogen_DFT.008.gbw ... done
 
 ------------------------------------------------------------------------------
                               ORCA PROPERTY CALCULATIONS
@@ -3033,7 +3410,7 @@ Quadrupole moment                       ...  NO
 Static polarizability                   ...  NO
 
 Choice of electric origin               ... Center of mass
-Position of electric origin             ...     0.000000     0.000000     1.417295
+Position of electric origin             ...     0.000000     0.000000     1.423594
 
 General magnetic properties:
 Magnetizability                         ...  NO
@@ -3070,16 +3447,16 @@ Method             : SCF
 Type of density    : Electron Density
 Multiplicity       :   1
 Irrep              :   0
-Energy             :    -0.9951510431192324 Eh
+Energy             :    -0.9936185132972792 Eh
 Relativity type    : 
 Basis              : AO
                                 X                 Y                 Z
-Electronic contribution:     -0.000000000      -0.000000000      -0.000000001
+Electronic contribution:     -0.000000000      -0.000000000      -0.000000000
 Nuclear contribution   :      0.000000000       0.000000000      -0.000000000
                         -----------------------------------------
-Total Dipole Moment    :      0.000000000       0.000000000      -0.000000001
+Total Dipole Moment    :      0.000000000       0.000000000      -0.000000000
                         -----------------------------------------
-Magnitude (a.u.)       :      0.000000001
+Magnitude (a.u.)       :      0.000000000
 Magnitude (Debye)      :      0.000000001
 
 
@@ -3088,8 +3465,8 @@ Magnitude (Debye)      :      0.000000001
 Rotational spectrum 
 --------------------
  
-Rotational constants in cm-1:             0.000000            14.865648            14.865648 
-Rotational constants in MHz :             0.000000        445660.916833        445660.916833 
+Rotational constants in cm-1:             0.000000            14.734385            14.734385 
+Rotational constants in MHz :             0.000000        441725.740361        441725.740361 
 
 Dipole components along the rotational axes: 
 x,y,z [a.u.] :    -0.000000     0.000000     0.000000 
@@ -3099,36 +3476,36 @@ x,y,z [Debye]:    -0.000000     0.000000     0.000000
 
 Dipole moment calculation done in   0.0 sec 
 
-Maximum memory used throughout the entire PROP-calculation: 2.0 MB
+Maximum memory used throughout the entire PROP-calculation: 2.1 MB
 
          *************************************************************
-                                TRAJECTORY STEP   8
-                  R  :   1.66666667
+                                TRAJECTORY STEP   9
+                  R  :   1.69333333
          *************************************************************
 ---------------------------------
 CARTESIAN COORDINATES (ANGSTROEM)
 ---------------------------------
   H      0.000000    0.000000    0.000000
-  H      0.000000    0.000000    1.666667
+  H      0.000000    0.000000    1.693333
 
 ----------------------------
 CARTESIAN COORDINATES (A.U.)
 ----------------------------
   NO LB      ZA    FRAG     MASS         X           Y           Z
    0 H     1.0000    0     1.008    0.000000    0.000000    0.000000
-   1 H     1.0000    0     1.008    0.000000    0.000000    3.149544
+   1 H     1.0000    0     1.008    0.000000    0.000000    3.199936
 
 --------------------------------
 INTERNAL COORDINATES (ANGSTROEM)
 --------------------------------
  H      0   0   0     0.000000000000     0.00000000     0.00000000
- H      1   0   0     1.666666666667     0.00000000     0.00000000
+ H      1   0   0     1.693333333333     0.00000000     0.00000000
 
 ---------------------------
 INTERNAL COORDINATES (A.U.)
 ---------------------------
  H      0   0   0     0.000000000000     0.00000000     0.00000000
- H      1   0   0     3.149543556535     0.00000000     0.00000000
+ H      1   0   0     3.199936253440     0.00000000     0.00000000
 
 ------------------------------------------------------------------------------
                    ___                                                        
@@ -3195,10 +3572,10 @@ Primitive shell pairs kept                  ...        27
 
 Calculating one electron integrals          ... done (  0.0 sec)
 Calculating RI/J V-Matrix + Cholesky decomp.... done (  0.0 sec)
-Calculating Nuclear repulsion               ... done (  0.0 sec) ENN=      0.317506324980 Eh
+Calculating Nuclear repulsion               ... done (  0.0 sec) ENN=      0.312506225374 Eh
 
 Diagonalization of the overlap matrix:
-Smallest eigenvalue                        ... 7.989e-01
+Smallest eigenvalue                        ... 8.068e-01
 Time for diagonalization                   ...    0.000 sec
 Threshold for overlap eigenvalues          ... 1.000e-07
 Number of eigenvalues below threshold      ... 0
@@ -3322,9 +3699,9 @@ Iteration    Energy (Eh)           Delta-E    RMSDP     MaxDP     DIISErr   Damp
 ---------------------------------------S-O-S-C-F--------------------------------------
 Iteration    Energy (Eh)           Delta-E    RMSDP     MaxDP     MaxGrad    Time(sec)
 --------------------------------------------------------------------------------------
-    1     -0.9589639740603784     0.00e+00  2.48e-10  3.03e-10  3.71e-11     0.0
+    1     -0.9536022737123209     0.00e+00  2.25e-10  2.76e-10  3.38e-11     0.0
                *** Restarting incremental Fock matrix formation ***
-    2     -0.9589639740603775     8.88e-16  0.00e+00  0.00e+00  5.17e-11     0.0
+    2     -0.9536022737123253    -4.44e-15  0.00e+00  0.00e+00  4.80e-11     0.0
                   *** Gradient check signals convergence ***
 
                *****************************************************
@@ -3333,59 +3710,59 @@ Iteration    Energy (Eh)           Delta-E    RMSDP     MaxDP     MaxGrad    Tim
                *****************************************************
 
 Recomputing exchange energy using gridx3       ... done (    0.006 sec)
-Old exchange energy                            :     -0.107069957 Eh
-New exchange energy                            :     -0.107065302 Eh
-Exchange energy change after final integration :      0.000004656 Eh
-Total energy after final integration           :     -0.958959318 Eh
+Old exchange energy                            :     -0.106574448 Eh
+New exchange energy                            :     -0.106569935 Eh
+Exchange energy change after final integration :      0.000004512 Eh
+Total energy after final integration           :     -0.953597761 Eh
              **** ENERGY FILE WAS UPDATED (Hidrogen_DFT.en.tmp) ****
 
 ----------------
 TOTAL SCF ENERGY
 ----------------
 
-Total Energy       :         -0.95895931847170 Eh             -26.09461 eV
+Total Energy       :         -0.95359776137187 Eh             -25.94871 eV
 
 Components:
-Nuclear Repulsion  :          0.31750632498000 Eh               8.63979 eV
-Electronic Energy  :         -1.27647029904038 Eh             -34.73452 eV
-One Electron Energy:         -1.71609877714100 Eh             -46.69742 eV
-Two Electron Energy:          0.43962847810063 Eh              11.96290 eV
+Nuclear Repulsion  :          0.31250622537402 Eh               8.50373 eV
+Electronic Energy  :         -1.26610849908634 Eh             -34.45256 eV
+One Electron Energy:         -1.70146510480715 Eh             -46.29922 eV
+Two Electron Energy:          0.43535660572081 Eh              11.84666 eV
 
 Virial components:
-Potential Energy   :         -2.22256717920031 Eh             -60.47913 eV
-Kinetic Energy     :          1.26360786072861 Eh              34.38452 eV
-Virial Ratio       :          1.75890578736884
+Potential Energy   :         -2.22355361403677 Eh             -60.50597 eV
+Kinetic Energy     :          1.26995585266490 Eh              34.55726 eV
+Virial Ratio       :          1.75089048124848
 
 DFT components:
-N(Alpha)           :        0.999999879623 electrons
-N(Beta)            :        0.999999879623 electrons
-N(Total)           :        1.999999759247 electrons
-E(X)               :       -0.480920337118 Eh       
-E(C)               :       -0.042850050793 Eh       
-E(XC)              :       -0.523770387911 Eh       
+N(Alpha)           :        0.999999766901 electrons
+N(Beta)            :        0.999999766901 electrons
+N(Total)           :        1.999999533802 electrons
+E(X)               :       -0.480864099872 Eh       
+E(C)               :       -0.042714546107 Eh       
+E(XC)              :       -0.523578645979 Eh       
 
 ---------------
 SCF CONVERGENCE
 ---------------
 
-  Last Energy change         ...   -8.8818e-16  Tolerance :   1.0000e-06
+  Last Energy change         ...    4.4409e-15  Tolerance :   1.0000e-06
   Last MAX-Density change    ...    0.0000e+00  Tolerance :   1.0000e-05
   Last RMS-Density change    ...    0.0000e+00  Tolerance :   1.0000e-06
-  Last DIIS Error            ...    1.4169e-10  Tolerance :   1.0000e-06
-  Last Orbital Gradient      ...    5.1657e-11  Tolerance :   5.0000e-05
+  Last DIIS Error            ...    1.2710e-10  Tolerance :   1.0000e-06
+  Last Orbital Gradient      ...    4.7982e-11  Tolerance :   5.0000e-05
   Last Orbital Rotation      ...    0.0000e+00  Tolerance :   5.0000e-05
 
 
 Total SCF time: 0 days 0 hours 0 min 0 sec 
 Finished LeanSCF after   0.1 sec
 
-Maximum memory used throughout the entire LEANSCF-calculation: 3.1 MB
+Maximum memory used throughout the entire LEANSCF-calculation: 3.4 MB
 
 -------------------------   --------------------
-FINAL SINGLE POINT ENERGY        -0.958959318472
+FINAL SINGLE POINT ENERGY        -0.953597761372
 -------------------------   --------------------
 
-Storing actual gbw-file in Hidrogen_DFT.008.gbw ... done
+Storing actual gbw-file in Hidrogen_DFT.009.gbw ... done
 
 ------------------------------------------------------------------------------
                               ORCA PROPERTY CALCULATIONS
@@ -3410,7 +3787,7 @@ Quadrupole moment                       ...  NO
 Static polarizability                   ...  NO
 
 Choice of electric origin               ... Center of mass
-Position of electric origin             ...     0.000000     0.000000     1.574772
+Position of electric origin             ...     0.000000     0.000000     1.599968
 
 General magnetic properties:
 Magnetizability                         ...  NO
@@ -3447,12 +3824,12 @@ Method             : SCF
 Type of density    : Electron Density
 Multiplicity       :   1
 Irrep              :   0
-Energy             :    -0.9589593184717027 Eh
+Energy             :    -0.9535977613718708 Eh
 Relativity type    : 
 Basis              : AO
                                 X                 Y                 Z
 Electronic contribution:     -0.000000000      -0.000000000       0.000000000
-Nuclear contribution   :      0.000000000       0.000000000      -0.000000000
+Nuclear contribution   :      0.000000000       0.000000000       0.000000000
                         -----------------------------------------
 Total Dipole Moment    :      0.000000000       0.000000000       0.000000000
                         -----------------------------------------
@@ -3465,8 +3842,8 @@ Magnitude (Debye)      :      0.000000001
 Rotational spectrum 
 --------------------
  
-Rotational constants in cm-1:             0.000000            12.041175            12.041175 
-Rotational constants in MHz :             0.000000        360985.342635        360985.342635 
+Rotational constants in cm-1:             0.000000            11.664912            11.664912 
+Rotational constants in MHz :             0.000000        349705.250088        349705.250088 
 
 Dipole components along the rotational axes: 
 x,y,z [a.u.] :     0.000000     0.000000     0.000000 
@@ -3476,36 +3853,36 @@ x,y,z [Debye]:     0.000000     0.000000     0.000000
 
 Dipole moment calculation done in   0.0 sec 
 
-Maximum memory used throughout the entire PROP-calculation: 2.1 MB
+Maximum memory used throughout the entire PROP-calculation: 2.2 MB
 
          *************************************************************
-                                TRAJECTORY STEP   9
-                  R  :   1.83333333
+                                TRAJECTORY STEP  10
+                  R  :   1.88000000
          *************************************************************
 ---------------------------------
 CARTESIAN COORDINATES (ANGSTROEM)
 ---------------------------------
   H      0.000000    0.000000    0.000000
-  H      0.000000    0.000000    1.833333
+  H      0.000000    0.000000    1.880000
 
 ----------------------------
 CARTESIAN COORDINATES (A.U.)
 ----------------------------
   NO LB      ZA    FRAG     MASS         X           Y           Z
    0 H     1.0000    0     1.008    0.000000    0.000000    0.000000
-   1 H     1.0000    0     1.008    0.000000    0.000000    3.464498
+   1 H     1.0000    0     1.008    0.000000    0.000000    3.552685
 
 --------------------------------
 INTERNAL COORDINATES (ANGSTROEM)
 --------------------------------
  H      0   0   0     0.000000000000     0.00000000     0.00000000
- H      1   0   0     1.833333333333     0.00000000     0.00000000
+ H      1   0   0     1.880000000000     0.00000000     0.00000000
 
 ---------------------------
 INTERNAL COORDINATES (A.U.)
 ---------------------------
  H      0   0   0     0.000000000000     0.00000000     0.00000000
- H      1   0   0     3.464497912189     0.00000000     0.00000000
+ H      1   0   0     3.552685131772     0.00000000     0.00000000
 
 ------------------------------------------------------------------------------
                    ___                                                        
@@ -3572,10 +3949,10 @@ Primitive shell pairs kept                  ...        27
 
 Calculating one electron integrals          ... done (  0.0 sec)
 Calculating RI/J V-Matrix + Cholesky decomp.... done (  0.0 sec)
-Calculating Nuclear repulsion               ... done (  0.0 sec) ENN=      0.288642113618 Eh
+Calculating Nuclear repulsion               ... done (  0.0 sec) ENN=      0.281477238457 Eh
 
 Diagonalization of the overlap matrix:
-Smallest eigenvalue                        ... 8.442e-01
+Smallest eigenvalue                        ... 8.553e-01
 Time for diagonalization                   ...    0.000 sec
 Threshold for overlap eigenvalues          ... 1.000e-07
 Number of eigenvalues below threshold      ... 0
@@ -3699,9 +4076,9 @@ Iteration    Energy (Eh)           Delta-E    RMSDP     MaxDP     DIISErr   Damp
 ---------------------------------------S-O-S-C-F--------------------------------------
 Iteration    Energy (Eh)           Delta-E    RMSDP     MaxDP     MaxGrad    Time(sec)
 --------------------------------------------------------------------------------------
-    1     -0.9274639120783474     0.00e+00  1.51e-10  1.85e-10  2.29e-11     0.0
+    1     -0.9195000174251295     0.00e+00  1.74e-10  2.14e-10  2.64e-11     0.0
                *** Restarting incremental Fock matrix formation ***
-    2     -0.9274639120783426     4.88e-15  0.00e+00  0.00e+00  3.57e-11     0.0
+    2     -0.9195000174251300    -4.44e-16  0.00e+00  0.00e+00  4.25e-11     0.0
                   *** Gradient check signals convergence ***
 
                *****************************************************
@@ -3710,59 +4087,59 @@ Iteration    Energy (Eh)           Delta-E    RMSDP     MaxDP     MaxGrad    Tim
                *****************************************************
 
 Recomputing exchange energy using gridx3       ... done (    0.007 sec)
-Old exchange energy                            :     -0.104217683 Eh
-New exchange energy                            :     -0.104216252 Eh
-Exchange energy change after final integration :      0.000001432 Eh
-Total energy after final integration           :     -0.927462481 Eh
+Old exchange energy                            :     -0.103516877 Eh
+New exchange energy                            :     -0.103516872 Eh
+Exchange energy change after final integration :      0.000000005 Eh
+Total energy after final integration           :     -0.919500013 Eh
              **** ENERGY FILE WAS UPDATED (Hidrogen_DFT.en.tmp) ****
 
 ----------------
 TOTAL SCF ENERGY
 ----------------
 
-Total Energy       :         -0.92746248055090 Eh             -25.23754 eV
+Total Energy       :         -0.91950001251471 Eh             -25.02087 eV
 
 Components:
-Nuclear Repulsion  :          0.28864211361818 Eh               7.85435 eV
-Electronic Energy  :         -1.21610602569652 Eh             -33.09193 eV
-One Electron Energy:         -1.63051775850485 Eh             -44.36864 eV
-Two Electron Energy:          0.41441173280833 Eh              11.27672 eV
+Nuclear Repulsion  :          0.28147723845745 Eh               7.65939 eV
+Electronic Energy  :         -1.20097725588258 Eh             -32.68025 eV
+One Electron Energy:         -1.60894429920183 Eh             -43.78160 eV
+Two Electron Energy:          0.40796704331926 Eh              11.10135 eV
 
 Virial components:
-Potential Energy   :         -2.23040786142460 Eh             -60.69248 eV
-Kinetic Energy     :          1.30294538087371 Eh              35.45495 eV
-Virial Ratio       :          1.71181992289575
+Potential Energy   :         -2.23314684855018 Eh             -60.76702 eV
+Kinetic Energy     :          1.31364683603546 Eh              35.74615 eV
+Virial Ratio       :          1.69995982732294
 
 DFT components:
-N(Alpha)           :        0.999999914153 electrons
-N(Beta)            :        0.999999914153 electrons
-N(Total)           :        1.999999828305 electrons
-E(X)               :       -0.481251602776 Eh       
-E(C)               :       -0.042068554242 Eh       
-E(XC)              :       -0.523320157018 Eh       
+N(Alpha)           :        1.000000399441 electrons
+N(Beta)            :        1.000000399441 electrons
+N(Total)           :        2.000000798883 electrons
+E(X)               :       -0.481589460113 Eh       
+E(C)               :       -0.041877063508 Eh       
+E(XC)              :       -0.523466523621 Eh       
 
 ---------------
 SCF CONVERGENCE
 ---------------
 
-  Last Energy change         ...   -4.8850e-15  Tolerance :   1.0000e-06
+  Last Energy change         ...    4.4409e-16  Tolerance :   1.0000e-06
   Last MAX-Density change    ...    0.0000e+00  Tolerance :   1.0000e-05
   Last RMS-Density change    ...    0.0000e+00  Tolerance :   1.0000e-06
-  Last DIIS Error            ...    7.9849e-11  Tolerance :   1.0000e-06
-  Last Orbital Gradient      ...    3.5710e-11  Tolerance :   5.0000e-05
+  Last DIIS Error            ...    9.0227e-11  Tolerance :   1.0000e-06
+  Last Orbital Gradient      ...    4.2487e-11  Tolerance :   5.0000e-05
   Last Orbital Rotation      ...    0.0000e+00  Tolerance :   5.0000e-05
 
 
 Total SCF time: 0 days 0 hours 0 min 0 sec 
 Finished LeanSCF after   0.1 sec
 
-Maximum memory used throughout the entire LEANSCF-calculation: 3.4 MB
+Maximum memory used throughout the entire LEANSCF-calculation: 3.6 MB
 
 -------------------------   --------------------
-FINAL SINGLE POINT ENERGY        -0.927462480551
+FINAL SINGLE POINT ENERGY        -0.919500012515
 -------------------------   --------------------
 
-Storing actual gbw-file in Hidrogen_DFT.009.gbw ... done
+Storing actual gbw-file in Hidrogen_DFT.010.gbw ... done
 
 ------------------------------------------------------------------------------
                               ORCA PROPERTY CALCULATIONS
@@ -3787,7 +4164,7 @@ Quadrupole moment                       ...  NO
 Static polarizability                   ...  NO
 
 Choice of electric origin               ... Center of mass
-Position of electric origin             ...     0.000000     0.000000     1.732249
+Position of electric origin             ...     0.000000     0.000000     1.776343
 
 General magnetic properties:
 Magnetizability                         ...  NO
@@ -3824,12 +4201,12 @@ Method             : SCF
 Type of density    : Electron Density
 Multiplicity       :   1
 Irrep              :   0
-Energy             :    -0.9274624805508973 Eh
+Energy             :    -0.9195000125147118 Eh
 Relativity type    : 
 Basis              : AO
                                 X                 Y                 Z
 Electronic contribution:     -0.000000000      -0.000000000      -0.000000000
-Nuclear contribution   :      0.000000000       0.000000000       0.000000000
+Nuclear contribution   :      0.000000000       0.000000000      -0.000000000
                         -----------------------------------------
 Total Dipole Moment    :      0.000000000       0.000000000      -0.000000000
                         -----------------------------------------
@@ -3842,8 +4219,8 @@ Magnitude (Debye)      :      0.000000001
 Rotational spectrum 
 --------------------
  
-Rotational constants in cm-1:             0.000000             9.951384             9.951384 
-Rotational constants in MHz :             0.000000        298334.993913        298334.993913 
+Rotational constants in cm-1:             0.000000             9.463476             9.463476 
+Rotational constants in MHz :             0.000000        283707.860705        283707.860705 
 
 Dipole components along the rotational axes: 
 x,y,z [a.u.] :    -0.000000     0.000000     0.000000 
@@ -3853,36 +4230,36 @@ x,y,z [Debye]:    -0.000000     0.000000     0.000000
 
 Dipole moment calculation done in   0.0 sec 
 
-Maximum memory used throughout the entire PROP-calculation: 2.2 MB
+Maximum memory used throughout the entire PROP-calculation: 2.3 MB
 
          *************************************************************
-                                TRAJECTORY STEP  10
-                  R  :   2.00000000
+                                TRAJECTORY STEP  11
+                  R  :   2.06666667
          *************************************************************
 ---------------------------------
 CARTESIAN COORDINATES (ANGSTROEM)
 ---------------------------------
   H      0.000000    0.000000    0.000000
-  H      0.000000    0.000000    2.000000
+  H      0.000000    0.000000    2.066667
 
 ----------------------------
 CARTESIAN COORDINATES (A.U.)
 ----------------------------
   NO LB      ZA    FRAG     MASS         X           Y           Z
    0 H     1.0000    0     1.008    0.000000    0.000000    0.000000
-   1 H     1.0000    0     1.008    0.000000    0.000000    3.779452
+   1 H     1.0000    0     1.008    0.000000    0.000000    3.905434
 
 --------------------------------
 INTERNAL COORDINATES (ANGSTROEM)
 --------------------------------
  H      0   0   0     0.000000000000     0.00000000     0.00000000
- H      1   0   0     2.000000000000     0.00000000     0.00000000
+ H      1   0   0     2.066666666667     0.00000000     0.00000000
 
 ---------------------------
 INTERNAL COORDINATES (A.U.)
 ---------------------------
  H      0   0   0     0.000000000000     0.00000000     0.00000000
- H      1   0   0     3.779452267843     0.00000000     0.00000000
+ H      1   0   0     3.905434010104     0.00000000     0.00000000
 
 ------------------------------------------------------------------------------
                    ___                                                        
@@ -3944,15 +4321,15 @@ Shell pair cut-off parameter TPreSel        ...   1.0e-11
 Total number of shell pairs                 ...         3
 Shell pairs after pre-screening             ...         3
 Total number of primitive shell pairs       ...        27
-Primitive shell pairs kept                  ...        27
+Primitive shell pairs kept                  ...        26
           la=0 lb=0:      3 shell pairs
 
 Calculating one electron integrals          ... done (  0.0 sec)
 Calculating RI/J V-Matrix + Cholesky decomp.... done (  0.0 sec)
-Calculating Nuclear repulsion               ... done (  0.0 sec) ENN=      0.264588604150 Eh
+Calculating Nuclear repulsion               ... done (  0.0 sec) ENN=      0.256053487887 Eh
 
 Diagonalization of the overlap matrix:
-Smallest eigenvalue                        ... 8.808e-01
+Smallest eigenvalue                        ... 8.932e-01
 Time for diagonalization                   ...    0.000 sec
 Threshold for overlap eigenvalues          ... 1.000e-07
 Number of eigenvalues below threshold      ... 0
@@ -4054,383 +4431,6 @@ Partially contracted basis set               ... on
 Rotationally invariant grid construction     ... off
 Angular grids for H and He will be reduced by one unit
 
-Total number of grid points                  ...     3592
-Total number of batches                      ...       30
-Average number of points per batch           ...      119
-Average number of grid points per atom       ...     1796
-UseSFitting                                  ... on
-Initializing property integral containers    ... done (  0.0 sec)
-
-SHARK setup successfully completed in   0.1 seconds
-
-Maximum memory used throughout the entire STARTUP-calculation: 3.4 MB
-Occupation numbers will be reassigned to an Aufbau configuration
-             **** ENERGY FILE WAS UPDATED (Hidrogen_DFT.en.tmp) ****
-Finished Guess after   0.0 sec
-Maximum memory used throughout the entire GUESS-calculation: 1.8 MB
-----------------------------------------D-I-I-S--------------------------------------------
-Iteration    Energy (Eh)           Delta-E    RMSDP     MaxDP     DIISErr   Damp  Time(sec)
--------------------------------------------------------------------------------------------
-               ***  Starting incremental Fock matrix formation  ***
-                              *** Initializing SOSCF ***
----------------------------------------S-O-S-C-F--------------------------------------
-Iteration    Energy (Eh)           Delta-E    RMSDP     MaxDP     MaxGrad    Time(sec)
---------------------------------------------------------------------------------------
-    1     -0.9006958833691838     0.00e+00  9.08e-11  1.11e-10  1.38e-11     0.0
-               *** Restarting incremental Fock matrix formation ***
-    2     -0.9006958833691812     2.66e-15  0.00e+00  0.00e+00  2.37e-11     0.0
-                  *** Gradient check signals convergence ***
-
-               *****************************************************
-               *                     SUCCESS                       *
-               *           SCF CONVERGED AFTER   2 CYCLES          *
-               *****************************************************
-
-Recomputing exchange energy using gridx3       ... done (    0.008 sec)
-Old exchange energy                            :     -0.101888152 Eh
-New exchange energy                            :     -0.101891586 Eh
-Exchange energy change after final integration :     -0.000003434 Eh
-Total energy after final integration           :     -0.900699317 Eh
-             **** ENERGY FILE WAS UPDATED (Hidrogen_DFT.en.tmp) ****
-
-----------------
-TOTAL SCF ENERGY
-----------------
-
-Total Energy       :         -0.90069931739952 Eh             -24.50927 eV
-
-Components:
-Nuclear Repulsion  :          0.26458860415000 Eh               7.19982 eV
-Electronic Energy  :         -1.16528448751918 Eh             -31.70900 eV
-One Electron Energy:         -1.55784406819269 Eh             -42.39109 eV
-Two Electron Energy:          0.39255958067351 Eh              10.68209 eV
-
-Virial components:
-Potential Energy   :         -2.24078375629312 Eh             -60.97483 eV
-Kinetic Energy     :          1.34008443889360 Eh              36.46555 eV
-Virial Ratio       :          1.67212131658148
-
-DFT components:
-N(Alpha)           :        1.000000336126 electrons
-N(Beta)            :        1.000000336126 electrons
-N(Total)           :        2.000000672253 electrons
-E(X)               :       -0.482803314603 Eh       
-E(C)               :       -0.041436657433 Eh       
-E(XC)              :       -0.524239972036 Eh       
-
----------------
-SCF CONVERGENCE
----------------
-
-  Last Energy change         ...   -2.6645e-15  Tolerance :   1.0000e-06
-  Last MAX-Density change    ...    0.0000e+00  Tolerance :   1.0000e-05
-  Last RMS-Density change    ...    0.0000e+00  Tolerance :   1.0000e-06
-  Last DIIS Error            ...    4.4579e-11  Tolerance :   1.0000e-06
-  Last Orbital Gradient      ...    2.3727e-11  Tolerance :   5.0000e-05
-  Last Orbital Rotation      ...    0.0000e+00  Tolerance :   5.0000e-05
-
-
-Total SCF time: 0 days 0 hours 0 min 0 sec 
-Finished LeanSCF after   0.1 sec
-
-Maximum memory used throughout the entire LEANSCF-calculation: 3.6 MB
-
--------------------------   --------------------
-FINAL SINGLE POINT ENERGY        -0.900699317400
--------------------------   --------------------
-
-Storing actual gbw-file in Hidrogen_DFT.010.gbw ... done
-
-------------------------------------------------------------------------------
-                              ORCA PROPERTY CALCULATIONS
-------------------------------------------------------------------------------
-
-GBWName                                 ... Hidrogen_DFT.gbw
-Number of atoms                         ...      2
-Number of basis functions               ...      2
-Max core memory                         ...   1024 MB
-
-Electric properties:
-Dipole moment                           ... YES
-Quadrupole moment                       ...  NO
-Static polarizability (Dipole/Dipole)   ...  NO
-Static polarizability (Dipole/Quad.)    ...  NO
-Static polarizability (Quad./Quad.)     ...  NO
-Static polarizability (Velocity)        ...  NO
-
-Atomic electric properties:
-Dipole moment                           ...  NO
-Quadrupole moment                       ...  NO
-Static polarizability                   ...  NO
-
-Choice of electric origin               ... Center of mass
-Position of electric origin             ...     0.000000     0.000000     1.889726
-
-General magnetic properties:
-Magnetizability                         ...  NO
-
-EPR properties:
-g-Tensor (aka g-matrix)                 ...  NO
-Zero-Field splitting spin-orbit         ...  NO
-Zero-field splitting spin-spin          ...  NO
-Hyperfine couplings                     ...  NO (   0 nuclei)
-Quadrupole couplings                    ...  NO (   0 nuclei)
-Contact density                         ...  NO (   0 nuclei)
-
-NMR properties:
-Chemical shifts                         ...  NO (   0 nuclei)
-Spin-rotation constants                 ...  NO (   0 nuclei)
-Spin-spin couplings                     ...  NO (   0 nuclei,    0 pairs)
-
-Choice of magnetic origin               ... GIAO
-Position of magnetic origin             ...     0.000000     0.000000     0.000000
-
-Properties with geometric perturbations:
-SCF Hessian                             ...  NO
-IR spectrum                             ...  NO
-VCD spectrum                            ...  NO
-X-ray spectroscopy properties:
-SCF XES/XAS/RIXS spectra                ...  NO
-
-
--------------
-DIPOLE MOMENT
--------------
-
-Method             : SCF
-Type of density    : Electron Density
-Multiplicity       :   1
-Irrep              :   0
-Energy             :    -0.9006993173995205 Eh
-Relativity type    : 
-Basis              : AO
-                                X                 Y                 Z
-Electronic contribution:     -0.000000000      -0.000000000       0.000000000
-Nuclear contribution   :      0.000000000       0.000000000       0.000000000
-                        -----------------------------------------
-Total Dipole Moment    :      0.000000000       0.000000000       0.000000000
-                        -----------------------------------------
-Magnitude (a.u.)       :      0.000000000
-Magnitude (Debye)      :      0.000000000
-
-
-
---------------------
-Rotational spectrum 
---------------------
- 
-Rotational constants in cm-1:             0.000000             8.361927             8.361927 
-Rotational constants in MHz :             0.000000        250684.265719        250684.265719 
-
-Dipole components along the rotational axes: 
-x,y,z [a.u.] :     0.000000     0.000000     0.000000 
-x,y,z [Debye]:     0.000000     0.000000     0.000000 
-
- 
-
-Dipole moment calculation done in   0.0 sec 
-
-Maximum memory used throughout the entire PROP-calculation: 2.3 MB
-
-         *************************************************************
-                                TRAJECTORY STEP  11
-                  R  :   2.16666667
-         *************************************************************
----------------------------------
-CARTESIAN COORDINATES (ANGSTROEM)
----------------------------------
-  H      0.000000    0.000000    0.000000
-  H      0.000000    0.000000    2.166667
-
-----------------------------
-CARTESIAN COORDINATES (A.U.)
-----------------------------
-  NO LB      ZA    FRAG     MASS         X           Y           Z
-   0 H     1.0000    0     1.008    0.000000    0.000000    0.000000
-   1 H     1.0000    0     1.008    0.000000    0.000000    4.094407
-
---------------------------------
-INTERNAL COORDINATES (ANGSTROEM)
---------------------------------
- H      0   0   0     0.000000000000     0.00000000     0.00000000
- H      1   0   0     2.166666666667     0.00000000     0.00000000
-
----------------------------
-INTERNAL COORDINATES (A.U.)
----------------------------
- H      0   0   0     0.000000000000     0.00000000     0.00000000
- H      1   0   0     4.094406623496     0.00000000     0.00000000
-
-------------------------------------------------------------------------------
-                   ___                                                        
-                  /   \      - P O W E R E D   B Y -                         
-                 /     \                                                     
-                 |  |  |   _    _      __       _____    __    __             
-                 |  |  |  | |  | |    /  \     |  _  \  |  |  /  |          
-                  \  \/   | |  | |   /    \    | | | |  |  | /  /          
-                 / \  \   | |__| |  /  /\  \   | |_| |  |  |/  /          
-                |  |  |   |  __  | /  /__\  \  |    /   |      \           
-                |  |  |   | |  | | |   __   |  |    \   |  |\   \          
-                \     /   | |  | | |  |  |  |  | |\  \  |  | \   \       
-                 \___/    |_|  |_| |__|  |__|  |_| \__\ |__|  \__/        
-                                                                              
-                      - O R C A' S   B I G   F R I E N D -                    
-                                      &                                       
-                       - I N T E G R A L  F E E D E R -                       
-                                                                              
- v1 FN, 2020, v2 2021, v3 2022-2024                                           
-------------------------------------------------------------------------------
-
-
-----------------------
-SHARK INTEGRAL PACKAGE
-----------------------
-
-Number of atoms                             ...      2
-Number of basis functions                   ...      2
-Number of shells                            ...      2
-Maximum angular momentum                    ...      0
-Integral batch strategy                     ... SHARK/LIBINT Hybrid
-RI-J (if used) integral strategy            ... SPLIT-RIJ (Revised 2003 algorithm where possible)
-Printlevel                                  ...      1
-Contraction scheme used                     ... PARTIAL GENERAL contraction
-Prescreening option                         ... SCHWARTZ
-   Thresh                                   ... 1.000e-10
-   Tcut                                     ... 1.000e-11
-   Tpresel                                  ... 1.000e-11 
-Coulomb Range Separation                    ... NOT USED
-Exchange Range Separation                   ... NOT USED
-Multipole approximations                    ... NOT USED
-Finite Nucleus Model                        ... NOT USED
-CABS basis                                  ... NOT available
-Auxiliary Coulomb fitting basis             ... AVAILABLE
-   # of basis functions in Aux-J            ...     22
-   # of shells in Aux-J                     ...     10
-   Maximum angular momentum in Aux-J        ...      2
-Auxiliary J/K fitting basis                 ... NOT available
-Auxiliary Correlation fitting basis         ... NOT available
-Auxiliary 'external' fitting basis          ... NOT available
-
-Checking pre-screening integrals            ... done (  0.0 sec) Dimension = 2
-Save PGC pre-screening integrals            ... done (  0.0 sec) Dimension = 2
-Calculate PGC overlap integrals             ... done (  0.0 sec) Dimension = 2
-Calculating pre-screening integrals (ORCA)  ... done (  0.0 sec) Dimension = 2
-Check shell pair data                       ... done (  0.0 sec)
-Shell pair information
-Shell pair cut-off parameter TPreSel        ...   1.0e-11
-Total number of shell pairs                 ...         3
-Shell pairs after pre-screening             ...         3
-Total number of primitive shell pairs       ...        27
-Primitive shell pairs kept                  ...        26
-          la=0 lb=0:      3 shell pairs
-
-Calculating one electron integrals          ... done (  0.0 sec)
-Calculating RI/J V-Matrix + Cholesky decomp.... done (  0.0 sec)
-Calculating Nuclear repulsion               ... done (  0.0 sec) ENN=      0.244235634600 Eh
-
-Diagonalization of the overlap matrix:
-Smallest eigenvalue                        ... 9.099e-01
-Time for diagonalization                   ...    0.000 sec
-Threshold for overlap eigenvalues          ... 1.000e-07
-Number of eigenvalues below threshold      ... 0
-Time for construction of square roots      ...    0.000 sec
-Total time needed                          ...    0.001 sec
-
--------------------
-DFT GRID GENERATION
--------------------
-
-General Integration Accuracy     IntAcc      ... 4.388
-Radial Grid Type                 RadialGrid  ... OptM3 with GC (2021)
-Angular Grid (max. ang.)         AngularGrid ... 4 (Lebedev-302)
-Angular grid pruning method      GridPruning ... 4 (adaptive)
-Weight generation scheme         WeightScheme... mBecke (2022)
-Basis function cutoff            BFCut       ... 1.0000e-10
-Integration weight cutoff        WCut        ... 1.0000e-14
-Partially contracted basis set               ... off
-Rotationally invariant grid construction     ... off
-Angular grids for H and He will be reduced by one unit
-
-Total number of grid points                  ...     6662
-Total number of batches                      ...      106
-Average number of points per batch           ...       62
-Average number of grid points per atom       ...     3331
-
----------------------
-SHARK GRID GENERATION
----------------------
-
-General Integration Accuracy     IntAcc      ... 4.388
-Radial Grid Type                 RadialGrid  ... OptM3 with GC (2021)
-Angular Grid (max. ang.)         AngularGrid ... 4 (Lebedev-302)
-Angular grid pruning method      GridPruning ... 4 (adaptive)
-Weight generation scheme         WeightScheme... mBecke (2022)
-Basis function cutoff            BFCut       ... 1.0000e-10
-Integration weight cutoff        WCut        ... 1.0000e-14
-Partially contracted basis set               ... off
-Rotationally invariant grid construction     ... off
-Angular grids for H and He will be reduced by one unit
-
-Total number of grid points                  ...     6662
-Total number of batches                      ...      106
-Average number of points per batch           ...       62
-Average number of grid points per atom       ...     3331
-
---------------------
-COSX GRID GENERATION
---------------------
-
-GRIDX 1
--------
-General Integration Accuracy     IntAcc      ... 3.816
-Radial Grid Type                 RadialGrid  ... OptM3 with GC (2021)
-Angular Grid (max. ang.)         AngularGrid ... 1 (Lebedev-50)
-Angular grid pruning method      GridPruning ... 4 (adaptive)
-Weight generation scheme         WeightScheme... mBecke (2022)
-Basis function cutoff            BFCut       ... 1.0000e-10
-Integration weight cutoff        WCut        ... 1.0000e-14
-Partially contracted basis set               ... on
-Rotationally invariant grid construction     ... off
-Angular grids for H and He will be reduced by one unit
-
-Total number of grid points                  ...      894
-Total number of batches                      ...        8
-Average number of points per batch           ...      111
-Average number of grid points per atom       ...      447
-UseSFitting                                  ... on
-
-GRIDX 2
--------
-General Integration Accuracy     IntAcc      ... 4.020
-Radial Grid Type                 RadialGrid  ... OptM3 with GC (2021)
-Angular Grid (max. ang.)         AngularGrid ... 2 (Lebedev-110)
-Angular grid pruning method      GridPruning ... 4 (adaptive)
-Weight generation scheme         WeightScheme... mBecke (2022)
-Basis function cutoff            BFCut       ... 1.0000e-10
-Integration weight cutoff        WCut        ... 1.0000e-14
-Partially contracted basis set               ... on
-Rotationally invariant grid construction     ... off
-Angular grids for H and He will be reduced by one unit
-
-Total number of grid points                  ...     1632
-Total number of batches                      ...       14
-Average number of points per batch           ...      116
-Average number of grid points per atom       ...      816
-UseSFitting                                  ... on
-
-GRIDX 3
--------
-General Integration Accuracy     IntAcc      ... 4.338
-Radial Grid Type                 RadialGrid  ... OptM3 with GC (2021)
-Angular Grid (max. ang.)         AngularGrid ... 3 (Lebedev-194)
-Angular grid pruning method      GridPruning ... 4 (adaptive)
-Weight generation scheme         WeightScheme... mBecke (2022)
-Basis function cutoff            BFCut       ... 1.0000e-10
-Integration weight cutoff        WCut        ... 1.0000e-14
-Partially contracted basis set               ... on
-Rotationally invariant grid construction     ... off
-Angular grids for H and He will be reduced by one unit
-
 Total number of grid points                  ...     3594
 Total number of batches                      ...       30
 Average number of points per batch           ...      119
@@ -4453,9 +4453,9 @@ Iteration    Energy (Eh)           Delta-E    RMSDP     MaxDP     DIISErr   Damp
 ---------------------------------------S-O-S-C-F--------------------------------------
 Iteration    Energy (Eh)           Delta-E    RMSDP     MaxDP     MaxGrad    Time(sec)
 --------------------------------------------------------------------------------------
-    1     -0.8783670264801299     0.00e+00  7.56e-11  9.26e-11  1.15e-11     0.0
+    1     -0.8912555945271547     0.00e+00  1.64e-10  2.00e-10  2.49e-11     0.0
                *** Restarting incremental Fock matrix formation ***
-    2     -0.8783670264801308    -8.88e-16  0.00e+00  0.00e+00  2.15e-11     0.0
+    2     -0.8912555945271559    -1.11e-15  0.00e+00  0.00e+00  4.43e-11     0.0
                   *** Gradient check signals convergence ***
 
                *****************************************************
@@ -4463,47 +4463,47 @@ Iteration    Energy (Eh)           Delta-E    RMSDP     MaxDP     MaxGrad    Tim
                *           SCF CONVERGED AFTER   2 CYCLES          *
                *****************************************************
 
-Recomputing exchange energy using gridx3       ... done (    0.007 sec)
-Old exchange energy                            :     -0.099985489 Eh
-New exchange energy                            :     -0.099993123 Eh
-Exchange energy change after final integration :     -0.000007634 Eh
-Total energy after final integration           :     -0.878374661 Eh
+Recomputing exchange energy using gridx3       ... done (    0.010 sec)
+Old exchange energy                            :     -0.101081015 Eh
+New exchange energy                            :     -0.101086254 Eh
+Exchange energy change after final integration :     -0.000005239 Eh
+Total energy after final integration           :     -0.891260833 Eh
              **** ENERGY FILE WAS UPDATED (Hidrogen_DFT.en.tmp) ****
 
 ----------------
 TOTAL SCF ENERGY
 ----------------
 
-Total Energy       :         -0.87837466076979 Eh             -23.90179 eV
+Total Energy       :         -0.89126083330793 Eh             -24.25244 eV
 
 Components:
-Nuclear Repulsion  :          0.24423563460000 Eh               6.64599 eV
-Electronic Energy  :         -1.12260266108013 Eh             -30.54757 eV
-One Electron Energy:         -1.49633050557334 Eh             -40.71722 eV
-Two Electron Energy:          0.37372784449321 Eh              10.16965 eV
+Nuclear Repulsion  :          0.25605348788710 Eh               6.96757 eV
+Electronic Energy  :         -1.14730908241425 Eh             -31.21987 eV
+One Electron Energy:         -1.53199487377521 Eh             -41.68770 eV
+Two Electron Energy:          0.38468579136096 Eh              10.46783 eV
 
 Virial components:
-Potential Energy   :         -2.25198821360655 Eh             -61.27971 eV
-Kinetic Energy     :          1.37361355283676 Eh              37.37793 eV
-Virial Ratio       :          1.63946272148800
+Potential Energy   :         -2.24523626211066 Eh             -61.09598 eV
+Kinetic Energy     :          1.35397542880272 Eh              36.84354 eV
+Virial Ratio       :          1.65825480606841
 
 DFT components:
-N(Alpha)           :        1.000001683042 electrons
-N(Beta)            :        1.000001683042 electrons
-N(Total)           :        2.000003366083 electrons
-E(X)               :       -0.485043298396 Eh       
-E(C)               :       -0.040940391041 Eh       
-E(XC)              :       -0.525983689437 Eh       
+N(Alpha)           :        1.000000484634 electrons
+N(Beta)            :        1.000000484634 electrons
+N(Total)           :        2.000000969267 electrons
+E(X)               :       -0.483640937276 Eh       
+E(C)               :       -0.041222825212 Eh       
+E(XC)              :       -0.524863762488 Eh       
 
 ---------------
 SCF CONVERGENCE
 ---------------
 
-  Last Energy change         ...    8.8818e-16  Tolerance :   1.0000e-06
+  Last Energy change         ...    1.1102e-15  Tolerance :   1.0000e-06
   Last MAX-Density change    ...    0.0000e+00  Tolerance :   1.0000e-05
   Last RMS-Density change    ...    0.0000e+00  Tolerance :   1.0000e-06
-  Last DIIS Error            ...    3.4796e-11  Tolerance :   1.0000e-06
-  Last Orbital Gradient      ...    2.1472e-11  Tolerance :   5.0000e-05
+  Last DIIS Error            ...    7.8184e-11  Tolerance :   1.0000e-06
+  Last Orbital Gradient      ...    4.4279e-11  Tolerance :   5.0000e-05
   Last Orbital Rotation      ...    0.0000e+00  Tolerance :   5.0000e-05
 
 
@@ -4513,7 +4513,7 @@ Finished LeanSCF after   0.1 sec
 Maximum memory used throughout the entire LEANSCF-calculation: 3.8 MB
 
 -------------------------   --------------------
-FINAL SINGLE POINT ENERGY        -0.878374660770
+FINAL SINGLE POINT ENERGY        -0.891260833308
 -------------------------   --------------------
 
 Storing actual gbw-file in Hidrogen_DFT.011.gbw ... done
@@ -4541,7 +4541,7 @@ Quadrupole moment                       ...  NO
 Static polarizability                   ...  NO
 
 Choice of electric origin               ... Center of mass
-Position of electric origin             ...     0.000000     0.000000     2.047203
+Position of electric origin             ...     0.000000     0.000000     1.952717
 
 General magnetic properties:
 Magnetizability                         ...  NO
@@ -4578,14 +4578,14 @@ Method             : SCF
 Type of density    : Electron Density
 Multiplicity       :   1
 Irrep              :   0
-Energy             :    -0.8783746607697928 Eh
+Energy             :    -0.8912608333079332 Eh
 Relativity type    : 
 Basis              : AO
                                 X                 Y                 Z
-Electronic contribution:     -0.000000000      -0.000000000      -0.000000000
+Electronic contribution:     -0.000000000      -0.000000000       0.000000000
 Nuclear contribution   :      0.000000000       0.000000000       0.000000000
                         -----------------------------------------
-Total Dipole Moment    :      0.000000000       0.000000000      -0.000000000
+Total Dipole Moment    :      0.000000000       0.000000000       0.000000000
                         -----------------------------------------
 Magnitude (a.u.)       :      0.000000000
 Magnitude (Debye)      :      0.000000001
@@ -4596,12 +4596,12 @@ Magnitude (Debye)      :      0.000000001
 Rotational spectrum 
 --------------------
  
-Rotational constants in cm-1:             0.000000             7.124956             7.124956 
-Rotational constants in MHz :             0.000000        213600.794458        213600.794458 
+Rotational constants in cm-1:             0.000000             7.831149             7.831149 
+Rotational constants in MHz :             0.000000        234771.945002        234771.945002 
 
 Dipole components along the rotational axes: 
-x,y,z [a.u.] :    -0.000000     0.000000     0.000000 
-x,y,z [Debye]:    -0.000000     0.000000     0.000000 
+x,y,z [a.u.] :     0.000000     0.000000     0.000000 
+x,y,z [Debye]:     0.000000     0.000000     0.000000 
 
  
 
@@ -4611,32 +4611,32 @@ Maximum memory used throughout the entire PROP-calculation: 2.4 MB
 
          *************************************************************
                                 TRAJECTORY STEP  12
-                  R  :   2.33333333
+                  R  :   2.25333333
          *************************************************************
 ---------------------------------
 CARTESIAN COORDINATES (ANGSTROEM)
 ---------------------------------
   H      0.000000    0.000000    0.000000
-  H      0.000000    0.000000    2.333333
+  H      0.000000    0.000000    2.253333
 
 ----------------------------
 CARTESIAN COORDINATES (A.U.)
 ----------------------------
   NO LB      ZA    FRAG     MASS         X           Y           Z
    0 H     1.0000    0     1.008    0.000000    0.000000    0.000000
-   1 H     1.0000    0     1.008    0.000000    0.000000    4.409361
+   1 H     1.0000    0     1.008    0.000000    0.000000    4.258183
 
 --------------------------------
 INTERNAL COORDINATES (ANGSTROEM)
 --------------------------------
  H      0   0   0     0.000000000000     0.00000000     0.00000000
- H      1   0   0     2.333333333333     0.00000000     0.00000000
+ H      1   0   0     2.253333333333     0.00000000     0.00000000
 
 ---------------------------
 INTERNAL COORDINATES (A.U.)
 ---------------------------
  H      0   0   0     0.000000000000     0.00000000     0.00000000
- H      1   0   0     4.409360979150     0.00000000     0.00000000
+ H      1   0   0     4.258182888436     0.00000000     0.00000000
 
 ------------------------------------------------------------------------------
                    ___                                                        
@@ -4703,10 +4703,10 @@ Primitive shell pairs kept                  ...        26
 
 Calculating one electron integrals          ... done (  0.0 sec)
 Calculating RI/J V-Matrix + Cholesky decomp.... done (  0.0 sec)
-Calculating Nuclear repulsion               ... done (  0.0 sec) ENN=      0.226790232129 Eh
+Calculating Nuclear repulsion               ... done (  0.0 sec) ENN=      0.234841956346 Eh
 
 Diagonalization of the overlap matrix:
-Smallest eigenvalue                        ... 9.328e-01
+Smallest eigenvalue                        ... 9.225e-01
 Time for diagonalization                   ...    0.000 sec
 Threshold for overlap eigenvalues          ... 1.000e-07
 Number of eigenvalues below threshold      ... 0
@@ -4830,9 +4830,9 @@ Iteration    Energy (Eh)           Delta-E    RMSDP     MaxDP     DIISErr   Damp
 ---------------------------------------S-O-S-C-F--------------------------------------
 Iteration    Energy (Eh)           Delta-E    RMSDP     MaxDP     MaxGrad    Time(sec)
 --------------------------------------------------------------------------------------
-    1     -0.8599997989453543     0.00e+00  1.07e-10  1.31e-10  1.64e-11     0.0
+    1     -0.8683554448788029     0.00e+00  2.21e-10  2.70e-10  3.37e-11     0.0
                *** Restarting incremental Fock matrix formation ***
-    2     -0.8599997989453543     0.00e+00  0.00e+00  0.00e+00  3.26e-11     0.0
+    2     -0.8683554448788031    -2.22e-16  0.00e+00  0.00e+00  6.50e-11     0.0
                   *** Gradient check signals convergence ***
 
                *****************************************************
@@ -4840,47 +4840,47 @@ Iteration    Energy (Eh)           Delta-E    RMSDP     MaxDP     MaxGrad    Tim
                *           SCF CONVERGED AFTER   2 CYCLES          *
                *****************************************************
 
-Recomputing exchange energy using gridx3       ... done (    0.006 sec)
-Old exchange energy                            :     -0.098423967 Eh
-New exchange energy                            :     -0.098433110 Eh
-Exchange energy change after final integration :     -0.000009143 Eh
-Total energy after final integration           :     -0.860008942 Eh
+Recomputing exchange energy using gridx3       ... done (    0.007 sec)
+Old exchange energy                            :     -0.099135787 Eh
+New exchange energy                            :     -0.099144709 Eh
+Exchange energy change after final integration :     -0.000008922 Eh
+Total energy after final integration           :     -0.868364367 Eh
              **** ENERGY FILE WAS UPDATED (Hidrogen_DFT.en.tmp) ****
 
 ----------------
 TOTAL SCF ENERGY
 ----------------
 
-Total Energy       :         -0.86000894193333 Eh             -23.40203 eV
+Total Energy       :         -0.86836436699905 Eh             -23.62940 eV
 
 Components:
-Nuclear Repulsion  :          0.22679023212857 Eh               6.17128 eV
-Electronic Energy  :         -1.08679003107393 Eh             -29.57306 eV
-One Electron Energy:         -1.44431900173580 Eh             -39.30192 eV
-Two Electron Energy:          0.35752897066188 Eh               9.72886 eV
+Nuclear Repulsion  :          0.23484195634615 Eh               6.39037 eV
+Electronic Energy  :         -1.10319740122496 Eh             -30.01953 eV
+One Electron Energy:         -1.46819840148300 Eh             -39.95171 eV
+Two Electron Energy:          0.36500100025805 Eh               9.93218 eV
 
 Virial components:
-Potential Energy   :         -2.26296923977410 Eh             -61.57852 eV
-Kinetic Energy     :          1.40296029784077 Eh              38.17649 eV
-Virial Ratio       :          1.61299592244836
+Potential Energy   :         -2.25777434817439 Eh             -61.43716 eV
+Kinetic Energy     :          1.38940998117534 Eh              37.80777 eV
+Virial Ratio       :          1.62498785726620
 
 DFT components:
-N(Alpha)           :        1.000000328489 electrons
-N(Beta)            :        1.000000328489 electrons
-N(Total)           :        2.000000656979 electrons
-E(X)               :       -0.487590642505 Eh       
-E(C)               :       -0.040561699016 Eh       
-E(XC)              :       -0.528152341520 Eh       
+N(Alpha)           :        1.000001837791 electrons
+N(Beta)            :        1.000001837791 electrons
+N(Total)           :        2.000003675582 electrons
+E(X)               :       -0.486348436233 Eh       
+E(C)               :       -0.040730013351 Eh       
+E(XC)              :       -0.527078449585 Eh       
 
 ---------------
 SCF CONVERGENCE
 ---------------
 
-  Last Energy change         ...    0.0000e+00  Tolerance :   1.0000e-06
+  Last Energy change         ...    2.2204e-16  Tolerance :   1.0000e-06
   Last MAX-Density change    ...    0.0000e+00  Tolerance :   1.0000e-05
   Last RMS-Density change    ...    0.0000e+00  Tolerance :   1.0000e-06
-  Last DIIS Error            ...    4.6531e-11  Tolerance :   1.0000e-06
-  Last Orbital Gradient      ...    3.2552e-11  Tolerance :   5.0000e-05
+  Last DIIS Error            ...    9.8385e-11  Tolerance :   1.0000e-06
+  Last Orbital Gradient      ...    6.4970e-11  Tolerance :   5.0000e-05
   Last Orbital Rotation      ...    0.0000e+00  Tolerance :   5.0000e-05
 
 
@@ -4890,7 +4890,7 @@ Finished LeanSCF after   0.1 sec
 Maximum memory used throughout the entire LEANSCF-calculation: 4.0 MB
 
 -------------------------   --------------------
-FINAL SINGLE POINT ENERGY        -0.860008941933
+FINAL SINGLE POINT ENERGY        -0.868364366999
 -------------------------   --------------------
 
 Storing actual gbw-file in Hidrogen_DFT.012.gbw ... done
@@ -4918,7 +4918,7 @@ Quadrupole moment                       ...  NO
 Static polarizability                   ...  NO
 
 Choice of electric origin               ... Center of mass
-Position of electric origin             ...     0.000000     0.000000     2.204680
+Position of electric origin             ...     0.000000     0.000000     2.129091
 
 General magnetic properties:
 Magnetizability                         ...  NO
@@ -4955,17 +4955,17 @@ Method             : SCF
 Type of density    : Electron Density
 Multiplicity       :   1
 Irrep              :   0
-Energy             :    -0.8600089419333323 Eh
+Energy             :    -0.8683643669990471 Eh
 Relativity type    : 
 Basis              : AO
                                 X                 Y                 Z
-Electronic contribution:     -0.000000000      -0.000000000       0.000000000
+Electronic contribution:     -0.000000000      -0.000000000      -0.000000001
 Nuclear contribution   :      0.000000000       0.000000000       0.000000000
                         -----------------------------------------
-Total Dipole Moment    :      0.000000000       0.000000000       0.000000000
+Total Dipole Moment    :      0.000000000       0.000000000      -0.000000001
                         -----------------------------------------
-Magnitude (a.u.)       :      0.000000000
-Magnitude (Debye)      :      0.000000001
+Magnitude (a.u.)       :      0.000000001
+Magnitude (Debye)      :      0.000000002
 
 
 
@@ -4973,12 +4973,12 @@ Magnitude (Debye)      :      0.000000001
 Rotational spectrum 
 --------------------
  
-Rotational constants in cm-1:             0.000000             6.143457             6.143457 
-Rotational constants in MHz :             0.000000        184176.195222        184176.195222 
+Rotational constants in cm-1:             0.000000             6.587422             6.587422 
+Rotational constants in MHz :             0.000000        197485.941622        197485.941622 
 
 Dipole components along the rotational axes: 
-x,y,z [a.u.] :     0.000000     0.000000     0.000000 
-x,y,z [Debye]:     0.000000     0.000000     0.000000 
+x,y,z [a.u.] :    -0.000000     0.000000     0.000000 
+x,y,z [Debye]:    -0.000000     0.000000     0.000000 
 
  
 
@@ -4988,32 +4988,32 @@ Maximum memory used throughout the entire PROP-calculation: 2.5 MB
 
          *************************************************************
                                 TRAJECTORY STEP  13
-                  R  :   2.50000000
+                  R  :   2.44000000
          *************************************************************
 ---------------------------------
 CARTESIAN COORDINATES (ANGSTROEM)
 ---------------------------------
   H      0.000000    0.000000    0.000000
-  H      0.000000    0.000000    2.500000
+  H      0.000000    0.000000    2.440000
 
 ----------------------------
 CARTESIAN COORDINATES (A.U.)
 ----------------------------
   NO LB      ZA    FRAG     MASS         X           Y           Z
    0 H     1.0000    0     1.008    0.000000    0.000000    0.000000
-   1 H     1.0000    0     1.008    0.000000    0.000000    4.724315
+   1 H     1.0000    0     1.008    0.000000    0.000000    4.610932
 
 --------------------------------
 INTERNAL COORDINATES (ANGSTROEM)
 --------------------------------
  H      0   0   0     0.000000000000     0.00000000     0.00000000
- H      1   0   0     2.500000000000     0.00000000     0.00000000
+ H      1   0   0     2.440000000000     0.00000000     0.00000000
 
 ---------------------------
 INTERNAL COORDINATES (A.U.)
 ---------------------------
  H      0   0   0     0.000000000000     0.00000000     0.00000000
- H      1   0   0     4.724315334803     0.00000000     0.00000000
+ H      1   0   0     4.610931766768     0.00000000     0.00000000
 
 ------------------------------------------------------------------------------
                    ___                                                        
@@ -5080,10 +5080,10 @@ Primitive shell pairs kept                  ...        26
 
 Calculating one electron integrals          ... done (  0.0 sec)
 Calculating RI/J V-Matrix + Cholesky decomp.... done (  0.0 sec)
-Calculating Nuclear repulsion               ... done (  0.0 sec) ENN=      0.211670883320 Eh
+Calculating Nuclear repulsion               ... done (  0.0 sec) ENN=      0.216875905041 Eh
 
 Diagonalization of the overlap matrix:
-Smallest eigenvalue                        ... 9.505e-01
+Smallest eigenvalue                        ... 9.446e-01
 Time for diagonalization                   ...    0.000 sec
 Threshold for overlap eigenvalues          ... 1.000e-07
 Number of eigenvalues below threshold      ... 0
@@ -5207,9 +5207,9 @@ Iteration    Energy (Eh)           Delta-E    RMSDP     MaxDP     DIISErr   Damp
 ---------------------------------------S-O-S-C-F--------------------------------------
 Iteration    Energy (Eh)           Delta-E    RMSDP     MaxDP     MaxGrad    Time(sec)
 --------------------------------------------------------------------------------------
-    1     -0.8450531789585847     0.00e+00  1.69e-10  2.07e-10  2.59e-11     0.0
+    1     -0.8500739843322258     0.00e+00  3.19e-10  3.91e-10  4.88e-11     0.0
                *** Restarting incremental Fock matrix formation ***
-    2     -0.8450531789585867    -2.00e-15  0.00e+00  0.00e+00  5.44e-11     0.0
+    2     -0.8500739843322214     4.44e-15  0.00e+00  0.00e+00  1.01e-10     0.0
                   *** Gradient check signals convergence ***
 
                *****************************************************
@@ -5217,47 +5217,47 @@ Iteration    Energy (Eh)           Delta-E    RMSDP     MaxDP     MaxGrad    Tim
                *           SCF CONVERGED AFTER   2 CYCLES          *
                *****************************************************
 
-Recomputing exchange energy using gridx3       ... done (    0.007 sec)
-Old exchange energy                            :     -0.097129955 Eh
-New exchange energy                            :     -0.097136433 Eh
-Exchange energy change after final integration :     -0.000006478 Eh
-Total energy after final integration           :     -0.845059657 Eh
+Recomputing exchange energy using gridx3       ... done (    0.006 sec)
+Old exchange energy                            :     -0.097569249 Eh
+New exchange energy                            :     -0.097577112 Eh
+Exchange energy change after final integration :     -0.000007863 Eh
+Total energy after final integration           :     -0.850081847 Eh
              **** ENERGY FILE WAS UPDATED (Hidrogen_DFT.en.tmp) ****
 
 ----------------
 TOTAL SCF ENERGY
 ----------------
 
-Total Energy       :         -0.84505965701678 Eh             -22.99524 eV
+Total Energy       :         -0.85008184722444 Eh             -23.13190 eV
 
 Components:
-Nuclear Repulsion  :          0.21167088332000 Eh               5.75986 eV
-Electronic Energy  :         -1.05672406227859 Eh             -28.75492 eV
-One Electron Energy:         -1.40029457971921 Eh             -38.10395 eV
-Two Electron Energy:          0.34357051744063 Eh               9.34903 eV
+Nuclear Repulsion  :          0.21687590504098 Eh               5.90149 eV
+Electronic Energy  :         -1.06694988937321 Eh             -29.03318 eV
+One Electron Energy:         -1.41531131179912 Eh             -38.51258 eV
+Two Electron Energy:          0.34836142242592 Eh               9.47940 eV
 
 Virial components:
-Potential Energy   :         -2.27308463588310 Eh             -61.85378 eV
-Kinetic Energy     :          1.42802497886632 Eh              38.85854 eV
-Virial Ratio       :          1.59176811997200
+Potential Energy   :         -2.26957087185134 Eh             -61.75816 eV
+Kinetic Energy     :          1.41948902462690 Eh              38.62626 eV
+Virial Ratio       :          1.59886468473955
 
 DFT components:
-N(Alpha)           :        0.999993478853 electrons
-N(Beta)            :        0.999993478853 electrons
-N(Total)           :        1.999986957706 electrons
-E(X)               :       -0.490184015409 Eh       
-E(C)               :       -0.040281369267 Eh       
-E(XC)              :       -0.530465384676 Eh       
+N(Alpha)           :        0.999996169005 electrons
+N(Beta)            :        0.999996169005 electrons
+N(Total)           :        1.999992338010 electrons
+E(X)               :       -0.489257637979 Eh       
+E(C)               :       -0.040372110964 Eh       
+E(XC)              :       -0.529629748943 Eh       
 
 ---------------
 SCF CONVERGENCE
 ---------------
 
-  Last Energy change         ...    1.9984e-15  Tolerance :   1.0000e-06
+  Last Energy change         ...   -4.4409e-15  Tolerance :   1.0000e-06
   Last MAX-Density change    ...    0.0000e+00  Tolerance :   1.0000e-05
   Last RMS-Density change    ...    0.0000e+00  Tolerance :   1.0000e-06
-  Last DIIS Error            ...    6.9977e-11  Tolerance :   1.0000e-06
-  Last Orbital Gradient      ...    5.4438e-11  Tolerance :   5.0000e-05
+  Last DIIS Error            ...    1.3439e-10  Tolerance :   1.0000e-06
+  Last Orbital Gradient      ...    1.0084e-10  Tolerance :   5.0000e-05
   Last Orbital Rotation      ...    0.0000e+00  Tolerance :   5.0000e-05
 
 
@@ -5267,7 +5267,7 @@ Finished LeanSCF after   0.1 sec
 Maximum memory used throughout the entire LEANSCF-calculation: 4.2 MB
 
 -------------------------   --------------------
-FINAL SINGLE POINT ENERGY        -0.845059657017
+FINAL SINGLE POINT ENERGY        -0.850081847224
 -------------------------   --------------------
 
 Storing actual gbw-file in Hidrogen_DFT.013.gbw ... done
@@ -5295,7 +5295,7 @@ Quadrupole moment                       ...  NO
 Static polarizability                   ...  NO
 
 Choice of electric origin               ... Center of mass
-Position of electric origin             ...     0.000000     0.000000     2.362158
+Position of electric origin             ...     0.000000     0.000000     2.305466
 
 General magnetic properties:
 Magnetizability                         ...  NO
@@ -5332,14 +5332,14 @@ Method             : SCF
 Type of density    : Electron Density
 Multiplicity       :   1
 Irrep              :   0
-Energy             :    -0.8450596570167769 Eh
+Energy             :    -0.8500818472244367 Eh
 Relativity type    : 
 Basis              : AO
                                 X                 Y                 Z
-Electronic contribution:     -0.000000000      -0.000000000      -0.000000001
-Nuclear contribution   :      0.000000000       0.000000000       0.000000000
+Electronic contribution:     -0.000000000      -0.000000000       0.000000001
+Nuclear contribution   :      0.000000000       0.000000000      -0.000000000
                         -----------------------------------------
-Total Dipole Moment    :      0.000000000       0.000000000      -0.000000001
+Total Dipole Moment    :      0.000000000       0.000000000       0.000000001
                         -----------------------------------------
 Magnitude (a.u.)       :      0.000000001
 Magnitude (Debye)      :      0.000000002
@@ -5350,12 +5350,12 @@ Magnitude (Debye)      :      0.000000002
 Rotational spectrum 
 --------------------
  
-Rotational constants in cm-1:             0.000000             5.351633             5.351633 
-Rotational constants in MHz :             0.000000        160437.930060        160437.930060 
+Rotational constants in cm-1:             0.000000             5.618064             5.618064 
+Rotational constants in MHz :             0.000000        168425.333055        168425.333055 
 
 Dipole components along the rotational axes: 
-x,y,z [a.u.] :    -0.000000     0.000000     0.000000 
-x,y,z [Debye]:    -0.000000     0.000000     0.000000 
+x,y,z [a.u.] :     0.000000     0.000000     0.000000 
+x,y,z [Debye]:     0.000000     0.000000     0.000000 
 
  
 
@@ -5365,32 +5365,32 @@ Maximum memory used throughout the entire PROP-calculation: 2.6 MB
 
          *************************************************************
                                 TRAJECTORY STEP  14
-                  R  :   2.66666667
+                  R  :   2.62666667
          *************************************************************
 ---------------------------------
 CARTESIAN COORDINATES (ANGSTROEM)
 ---------------------------------
   H      0.000000    0.000000    0.000000
-  H      0.000000    0.000000    2.666667
+  H      0.000000    0.000000    2.626667
 
 ----------------------------
 CARTESIAN COORDINATES (A.U.)
 ----------------------------
   NO LB      ZA    FRAG     MASS         X           Y           Z
    0 H     1.0000    0     1.008    0.000000    0.000000    0.000000
-   1 H     1.0000    0     1.008    0.000000    0.000000    5.039270
+   1 H     1.0000    0     1.008    0.000000    0.000000    4.963681
 
 --------------------------------
 INTERNAL COORDINATES (ANGSTROEM)
 --------------------------------
  H      0   0   0     0.000000000000     0.00000000     0.00000000
- H      1   0   0     2.666666666667     0.00000000     0.00000000
+ H      1   0   0     2.626666666667     0.00000000     0.00000000
 
 ---------------------------
 INTERNAL COORDINATES (A.U.)
 ---------------------------
  H      0   0   0     0.000000000000     0.00000000     0.00000000
- H      1   0   0     5.039269690457     0.00000000     0.00000000
+ H      1   0   0     4.963680645100     0.00000000     0.00000000
 
 ------------------------------------------------------------------------------
                    ___                                                        
@@ -5457,10 +5457,10 @@ Primitive shell pairs kept                  ...        26
 
 Calculating one electron integrals          ... done (  0.0 sec)
 Calculating RI/J V-Matrix + Cholesky decomp.... done (  0.0 sec)
-Calculating Nuclear repulsion               ... done (  0.0 sec) ENN=      0.198441453113 Eh
+Calculating Nuclear repulsion               ... done (  0.0 sec) ENN=      0.201463404175 Eh
 
 Diagonalization of the overlap matrix:
-Smallest eigenvalue                        ... 9.640e-01
+Smallest eigenvalue                        ... 9.611e-01
 Time for diagonalization                   ...    0.000 sec
 Threshold for overlap eigenvalues          ... 1.000e-07
 Number of eigenvalues below threshold      ... 0
@@ -5584,9 +5584,9 @@ Iteration    Energy (Eh)           Delta-E    RMSDP     MaxDP     DIISErr   Damp
 ---------------------------------------S-O-S-C-F--------------------------------------
 Iteration    Energy (Eh)           Delta-E    RMSDP     MaxDP     MaxGrad    Time(sec)
 --------------------------------------------------------------------------------------
-    1     -0.8330033140507873     0.00e+00  2.74e-10  3.36e-10  4.20e-11     0.0
+    1     -0.8356573332480459     0.00e+00  4.45e-10  5.45e-10  6.81e-11     0.0
                *** Restarting incremental Fock matrix formation ***
-    2     -0.8330033140507898    -2.44e-15  0.00e+00  0.00e+00  9.27e-11     0.0
+    2     -0.8356573332480444     1.55e-15  0.00e+00  0.00e+00  1.49e-10     0.0
                   *** Gradient check signals convergence ***
 
                *****************************************************
@@ -5594,47 +5594,47 @@ Iteration    Energy (Eh)           Delta-E    RMSDP     MaxDP     MaxGrad    Tim
                *           SCF CONVERGED AFTER   2 CYCLES          *
                *****************************************************
 
-Recomputing exchange energy using gridx3       ... done (    0.007 sec)
-Old exchange energy                            :     -0.096039714 Eh
-New exchange energy                            :     -0.096041533 Eh
-Exchange energy change after final integration :     -0.000001819 Eh
-Total energy after final integration           :     -0.833005133 Eh
+Recomputing exchange energy using gridx3       ... done (    0.006 sec)
+Old exchange energy                            :     -0.096285676 Eh
+New exchange energy                            :     -0.096288626 Eh
+Exchange energy change after final integration :     -0.000002950 Eh
+Total energy after final integration           :     -0.835660283 Eh
              **** ENERGY FILE WAS UPDATED (Hidrogen_DFT.en.tmp) ****
 
 ----------------
 TOTAL SCF ENERGY
 ----------------
 
-Total Energy       :         -0.83300513307336 Eh             -22.66722 eV
+Total Energy       :         -0.83566028325999 Eh             -22.73947 eV
 
 Components:
-Nuclear Repulsion  :          0.19844145311250 Eh               5.39987 eV
-Electronic Energy  :         -1.03144476716329 Eh             -28.06704 eV
-One Electron Energy:         -1.36292608107964 Eh             -37.08710 eV
-Two Electron Energy:          0.33148131391635 Eh               9.02007 eV
+Nuclear Repulsion  :          0.20146340417513 Eh               5.48210 eV
+Electronic Energy  :         -1.03712073742317 Eh             -28.22149 eV
+One Electron Energy:         -1.37135140425757 Eh             -37.31637 eV
+Two Electron Energy:          0.33423066683439 Eh               9.09488 eV
 
 Virial components:
-Potential Energy   :         -2.28196926081634 Eh             -62.09554 eV
-Kinetic Energy     :          1.44896412774298 Eh              39.42832 eV
-Virial Ratio       :          1.57489700201958
+Potential Energy   :         -2.27996088347906 Eh             -62.04089 eV
+Kinetic Energy     :          1.44430060021907 Eh              39.30142 eV
+Virial Ratio       :          1.57859166099719
 
 DFT components:
-N(Alpha)           :        0.999991291444 electrons
-N(Beta)            :        0.999991291444 electrons
-N(Total)           :        1.999982582888 electrons
-E(X)               :       -0.492651116836 Eh       
-E(C)               :       -0.040081648246 Eh       
-E(XC)              :       -0.532732765082 Eh       
+N(Alpha)           :        0.999990861542 electrons
+N(Beta)            :        0.999990861542 electrons
+N(Total)           :        1.999981723085 electrons
+E(X)               :       -0.492077280144 Eh       
+E(C)               :       -0.040123211285 Eh       
+E(XC)              :       -0.532200491429 Eh       
 
 ---------------
 SCF CONVERGENCE
 ---------------
 
-  Last Energy change         ...    2.4425e-15  Tolerance :   1.0000e-06
+  Last Energy change         ...   -1.5543e-15  Tolerance :   1.0000e-06
   Last MAX-Density change    ...    0.0000e+00  Tolerance :   1.0000e-05
   Last RMS-Density change    ...    0.0000e+00  Tolerance :   1.0000e-06
-  Last DIIS Error            ...    1.0896e-10  Tolerance :   1.0000e-06
-  Last Orbital Gradient      ...    9.2736e-11  Tolerance :   5.0000e-05
+  Last DIIS Error            ...    1.7835e-10  Tolerance :   1.0000e-06
+  Last Orbital Gradient      ...    1.4876e-10  Tolerance :   5.0000e-05
   Last Orbital Rotation      ...    0.0000e+00  Tolerance :   5.0000e-05
 
 
@@ -5644,7 +5644,7 @@ Finished LeanSCF after   0.1 sec
 Maximum memory used throughout the entire LEANSCF-calculation: 4.5 MB
 
 -------------------------   --------------------
-FINAL SINGLE POINT ENERGY        -0.833005133073
+FINAL SINGLE POINT ENERGY        -0.835660283260
 -------------------------   --------------------
 
 Storing actual gbw-file in Hidrogen_DFT.014.gbw ... done
@@ -5672,7 +5672,7 @@ Quadrupole moment                       ...  NO
 Static polarizability                   ...  NO
 
 Choice of electric origin               ... Center of mass
-Position of electric origin             ...     0.000000     0.000000     2.519635
+Position of electric origin             ...     0.000000     0.000000     2.481840
 
 General magnetic properties:
 Magnetizability                         ...  NO
@@ -5709,17 +5709,17 @@ Method             : SCF
 Type of density    : Electron Density
 Multiplicity       :   1
 Irrep              :   0
-Energy             :    -0.8330051330733590 Eh
+Energy             :    -0.8356602832599902 Eh
 Relativity type    : 
 Basis              : AO
                                 X                 Y                 Z
-Electronic contribution:     -0.000000000      -0.000000000       0.000000001
+Electronic contribution:     -0.000000000      -0.000000000      -0.000000002
 Nuclear contribution   :      0.000000000       0.000000000       0.000000000
                         -----------------------------------------
-Total Dipole Moment    :      0.000000000       0.000000000       0.000000001
+Total Dipole Moment    :      0.000000000       0.000000000      -0.000000002
                         -----------------------------------------
-Magnitude (a.u.)       :      0.000000001
-Magnitude (Debye)      :      0.000000003
+Magnitude (a.u.)       :      0.000000002
+Magnitude (Debye)      :      0.000000004
 
 
 
@@ -5727,12 +5727,12 @@ Magnitude (Debye)      :      0.000000003
 Rotational spectrum 
 --------------------
  
-Rotational constants in cm-1:             0.000000             4.703584             4.703584 
-Rotational constants in MHz :             0.000000        141009.899467        141009.899467 
+Rotational constants in cm-1:             0.000000             4.847931             4.847931 
+Rotational constants in MHz :             0.000000        145337.318114        145337.318114 
 
 Dipole components along the rotational axes: 
-x,y,z [a.u.] :     0.000000     0.000000     0.000000 
-x,y,z [Debye]:     0.000000     0.000000     0.000000 
+x,y,z [a.u.] :    -0.000000     0.000000     0.000000 
+x,y,z [Debye]:    -0.000000     0.000000     0.000000 
 
  
 
@@ -5742,32 +5742,32 @@ Maximum memory used throughout the entire PROP-calculation: 2.7 MB
 
          *************************************************************
                                 TRAJECTORY STEP  15
-                  R  :   2.83333333
+                  R  :   2.81333333
          *************************************************************
 ---------------------------------
 CARTESIAN COORDINATES (ANGSTROEM)
 ---------------------------------
   H      0.000000    0.000000    0.000000
-  H      0.000000    0.000000    2.833333
+  H      0.000000    0.000000    2.813333
 
 ----------------------------
 CARTESIAN COORDINATES (A.U.)
 ----------------------------
   NO LB      ZA    FRAG     MASS         X           Y           Z
    0 H     1.0000    0     1.008    0.000000    0.000000    0.000000
-   1 H     1.0000    0     1.008    0.000000    0.000000    5.354224
+   1 H     1.0000    0     1.008    0.000000    0.000000    5.316430
 
 --------------------------------
 INTERNAL COORDINATES (ANGSTROEM)
 --------------------------------
  H      0   0   0     0.000000000000     0.00000000     0.00000000
- H      1   0   0     2.833333333333     0.00000000     0.00000000
+ H      1   0   0     2.813333333333     0.00000000     0.00000000
 
 ---------------------------
 INTERNAL COORDINATES (A.U.)
 ---------------------------
  H      0   0   0     0.000000000000     0.00000000     0.00000000
- H      1   0   0     5.354224046110     0.00000000     0.00000000
+ H      1   0   0     5.316429523432     0.00000000     0.00000000
 
 ------------------------------------------------------------------------------
                    ___                                                        
@@ -5834,10 +5834,10 @@ Primitive shell pairs kept                  ...        26
 
 Calculating one electron integrals          ... done (  0.0 sec)
 Calculating RI/J V-Matrix + Cholesky decomp.... done (  0.0 sec)
-Calculating Nuclear repulsion               ... done (  0.0 sec) ENN=      0.186768426459 Eh
+Calculating Nuclear repulsion               ... done (  0.0 sec) ENN=      0.188096164088 Eh
 
 Diagonalization of the overlap matrix:
-Smallest eigenvalue                        ... 9.742e-01
+Smallest eigenvalue                        ... 9.731e-01
 Time for diagonalization                   ...    0.000 sec
 Threshold for overlap eigenvalues          ... 1.000e-07
 Number of eigenvalues below threshold      ... 0
@@ -5961,9 +5961,9 @@ Iteration    Energy (Eh)           Delta-E    RMSDP     MaxDP     DIISErr   Damp
 ---------------------------------------S-O-S-C-F--------------------------------------
 Iteration    Energy (Eh)           Delta-E    RMSDP     MaxDP     MaxGrad    Time(sec)
 --------------------------------------------------------------------------------------
-    1     -0.8233746214998289     0.00e+00  9.30e-10  1.14e-09  1.42e-10     0.0
+    1     -0.8244165704276766     0.00e+00  2.65e-09  3.25e-09  4.06e-10     0.0
                *** Restarting incremental Fock matrix formation ***
-    2     -0.8233746214998271     1.78e-15  0.00e+00  0.00e+00  3.28e-10     0.0
+    2     -0.8244165704276752     1.33e-15  0.00e+00  0.00e+00  9.31e-10     0.0
                   *** Gradient check signals convergence ***
 
                *****************************************************
@@ -5972,46 +5972,46 @@ Iteration    Energy (Eh)           Delta-E    RMSDP     MaxDP     MaxGrad    Tim
                *****************************************************
 
 Recomputing exchange energy using gridx3       ... done (    0.007 sec)
-Old exchange energy                            :     -0.095103769 Eh
-New exchange energy                            :     -0.095100618 Eh
-Exchange energy change after final integration :      0.000003150 Eh
-Total energy after final integration           :     -0.823371471 Eh
+Old exchange energy                            :     -0.095209285 Eh
+New exchange energy                            :     -0.095206785 Eh
+Exchange energy change after final integration :      0.000002500 Eh
+Total energy after final integration           :     -0.824414071 Eh
              **** ENERGY FILE WAS UPDATED (Hidrogen_DFT.en.tmp) ****
 
 ----------------
 TOTAL SCF ENERGY
 ----------------
 
-Total Energy       :         -0.82337147100945 Eh             -22.40508 eV
+Total Energy       :         -0.82441407058566 Eh             -22.43345 eV
 
 Components:
-Nuclear Repulsion  :          0.18676842645882 Eh               5.08223 eV
-Electronic Energy  :         -1.01014304795865 Eh             -27.48739 eV
-One Electron Energy:         -1.33107912816316 Eh             -36.22050 eV
-Two Electron Energy:          0.32093608020451 Eh               8.73311 eV
+Nuclear Repulsion  :          0.18809616408768 Eh               5.11836 eV
+Electronic Energy  :         -1.01251273451535 Eh             -27.55187 eV
+One Electron Energy:         -1.33464225752364 Eh             -36.31746 eV
+Two Electron Energy:          0.32212952300829 Eh               8.76559 eV
 
 Virial components:
-Potential Energy   :         -2.28945198458246 Eh             -62.29916 eV
-Kinetic Energy     :          1.46608051357300 Eh              39.89408 eV
-Virial Ratio       :          1.56161408830324
+Potential Energy   :         -2.28863005709895 Eh             -62.27679 eV
+Kinetic Energy     :          1.46421598651330 Eh              39.84334 eV
+Virial Ratio       :          1.56304129867398
 
 DFT components:
-N(Alpha)           :        0.999996816334 electrons
-N(Beta)            :        0.999996816334 electrons
-N(Total)           :        1.999993632669 electrons
-E(X)               :       -0.494879346009 Eh       
-E(C)               :       -0.039943265058 Eh       
-E(XC)              :       -0.534822611068 Eh       
+N(Alpha)           :        0.999995906610 electrons
+N(Beta)            :        0.999995906610 electrons
+N(Total)           :        1.999991813220 electrons
+E(X)               :       -0.494627060830 Eh       
+E(C)               :       -0.039957269394 Eh       
+E(XC)              :       -0.534584330224 Eh       
 
 ---------------
 SCF CONVERGENCE
 ---------------
 
-  Last Energy change         ...   -1.7764e-15  Tolerance :   1.0000e-06
+  Last Energy change         ...   -1.3323e-15  Tolerance :   1.0000e-06
   Last MAX-Density change    ...    0.0000e+00  Tolerance :   1.0000e-05
   Last RMS-Density change    ...    0.0000e+00  Tolerance :   1.0000e-06
-  Last DIIS Error            ...    3.5680e-10  Tolerance :   1.0000e-06
-  Last Orbital Gradient      ...    3.2766e-10  Tolerance :   5.0000e-05
+  Last DIIS Error            ...    1.0220e-09  Tolerance :   1.0000e-06
+  Last Orbital Gradient      ...    9.3062e-10  Tolerance :   5.0000e-05
   Last Orbital Rotation      ...    0.0000e+00  Tolerance :   5.0000e-05
 
 
@@ -6021,7 +6021,7 @@ Finished LeanSCF after   0.1 sec
 Maximum memory used throughout the entire LEANSCF-calculation: 4.7 MB
 
 -------------------------   --------------------
-FINAL SINGLE POINT ENERGY        -0.823371471009
+FINAL SINGLE POINT ENERGY        -0.824414070586
 -------------------------   --------------------
 
 Storing actual gbw-file in Hidrogen_DFT.015.gbw ... done
@@ -6049,7 +6049,7 @@ Quadrupole moment                       ...  NO
 Static polarizability                   ...  NO
 
 Choice of electric origin               ... Center of mass
-Position of electric origin             ...     0.000000     0.000000     2.677112
+Position of electric origin             ...     0.000000     0.000000     2.658215
 
 General magnetic properties:
 Magnetizability                         ...  NO
@@ -6086,17 +6086,17 @@ Method             : SCF
 Type of density    : Electron Density
 Multiplicity       :   1
 Irrep              :   0
-Energy             :    -0.8233714710094538 Eh
+Energy             :    -0.8244140705856553 Eh
 Relativity type    : 
 Basis              : AO
                                 X                 Y                 Z
-Electronic contribution:     -0.000000000      -0.000000000       0.000000007
-Nuclear contribution   :      0.000000000       0.000000000      -0.000000000
+Electronic contribution:     -0.000000000      -0.000000000       0.000000015
+Nuclear contribution   :      0.000000000       0.000000000       0.000000000
                         -----------------------------------------
-Total Dipole Moment    :      0.000000000       0.000000000       0.000000007
+Total Dipole Moment    :      0.000000000       0.000000000       0.000000015
                         -----------------------------------------
-Magnitude (a.u.)       :      0.000000007
-Magnitude (Debye)      :      0.000000018
+Magnitude (a.u.)       :      0.000000015
+Magnitude (Debye)      :      0.000000039
 
 
 
@@ -6104,8 +6104,8 @@ Magnitude (Debye)      :      0.000000018
 Rotational spectrum 
 --------------------
  
-Rotational constants in cm-1:             0.000000             4.166497             4.166497 
-Rotational constants in MHz :             0.000000        124908.423057        124908.423057 
+Rotational constants in cm-1:             0.000000             4.225946             4.225946 
+Rotational constants in MHz :             0.000000        126690.684815        126690.684815 
 
 Dipole components along the rotational axes: 
 x,y,z [a.u.] :     0.000000     0.000000     0.000000 
@@ -6323,7 +6323,7 @@ Average number of grid points per atom       ...     1799
 UseSFitting                                  ... on
 Initializing property integral containers    ... done (  0.0 sec)
 
-SHARK setup successfully completed in   0.2 seconds
+SHARK setup successfully completed in   0.1 seconds
 
 Maximum memory used throughout the entire STARTUP-calculation: 3.4 MB
 Occupation numbers will be reassigned to an Aufbau configuration
@@ -6338,9 +6338,9 @@ Iteration    Energy (Eh)           Delta-E    RMSDP     MaxDP     DIISErr   Damp
 ---------------------------------------S-O-S-C-F--------------------------------------
 Iteration    Energy (Eh)           Delta-E    RMSDP     MaxDP     MaxGrad    Time(sec)
 --------------------------------------------------------------------------------------
-    1     -0.8157514157868426     0.00e+00  3.25e-09  3.99e-09  4.98e-10     0.0
+    1     -0.8157514157868415     0.00e+00  7.07e-09  8.66e-09  1.08e-09     0.0
                *** Restarting incremental Fock matrix formation ***
-    2     -0.8157514157868423     3.33e-16  1.94e-08  2.38e-08  1.19e-09     0.0
+    2     -0.8157514157868381     3.44e-15  4.22e-08  5.16e-08  2.58e-09     0.0
                   *** Gradient check signals convergence ***
 
                *****************************************************
@@ -6348,7 +6348,7 @@ Iteration    Energy (Eh)           Delta-E    RMSDP     MaxDP     MaxGrad    Tim
                *           SCF CONVERGED AFTER   2 CYCLES          *
                *****************************************************
 
-Recomputing exchange energy using gridx3       ... done (    0.006 sec)
+Recomputing exchange energy using gridx3       ... done (    0.007 sec)
 Old exchange energy                            :     -0.094282957 Eh
 New exchange energy                            :     -0.094273597 Eh
 Exchange energy change after final integration :      0.000009360 Eh
@@ -6359,16 +6359,16 @@ Total energy after final integration           :     -0.815742056 Eh
 TOTAL SCF ENERGY
 ----------------
 
-Total Energy       :         -0.81574205563194 Eh             -22.19747 eV
+Total Energy       :         -0.81574205563193 Eh             -22.19747 eV
 
 Components:
 Nuclear Repulsion  :          0.17639240276667 Eh               4.79988 eV
-Electronic Energy  :         -0.99214381855351 Eh             -26.99761 eV
+Electronic Energy  :         -0.99214381855350 Eh             -26.99761 eV
 One Electron Energy:         -1.30380286350826 Eh             -35.47828 eV
 Two Electron Energy:          0.31165904495475 Eh               8.48067 eV
 
 Virial components:
-Potential Energy   :         -2.29551055860429 Eh             -62.46402 eV
+Potential Energy   :         -2.29551055860428 Eh             -62.46402 eV
 Kinetic Energy     :          1.47976850297235 Eh              40.26655 eV
 Virial Ratio       :          1.55126329151714
 
@@ -6384,12 +6384,12 @@ E(XC)              :       -0.536656891713 Eh
 SCF CONVERGENCE
 ---------------
 
-  Last Energy change         ...   -3.3307e-16  Tolerance :   1.0000e-06
-  Last MAX-Density change    ...    2.3765e-08  Tolerance :   1.0000e-05
-  Last RMS-Density change    ...    1.9404e-08  Tolerance :   1.0000e-06
-  Last DIIS Error            ...    1.2133e-09  Tolerance :   1.0000e-06
-  Last Orbital Gradient      ...    1.1880e-09  Tolerance :   5.0000e-05
-  Last Orbital Rotation      ...    1.1880e-08  Tolerance :   5.0000e-05
+  Last Energy change         ...   -3.4417e-15  Tolerance :   1.0000e-06
+  Last MAX-Density change    ...    5.1636e-08  Tolerance :   1.0000e-05
+  Last RMS-Density change    ...    4.2161e-08  Tolerance :   1.0000e-06
+  Last DIIS Error            ...    2.6363e-09  Tolerance :   1.0000e-06
+  Last Orbital Gradient      ...    2.5814e-09  Tolerance :   5.0000e-05
+  Last Orbital Rotation      ...    2.5814e-08  Tolerance :   5.0000e-05
 
 
 Total SCF time: 0 days 0 hours 0 min 0 sec 
@@ -6463,17 +6463,17 @@ Method             : SCF
 Type of density    : Electron Density
 Multiplicity       :   1
 Irrep              :   0
-Energy             :    -0.8157420556319360 Eh
+Energy             :    -0.8157420556319318 Eh
 Relativity type    : 
 Basis              : AO
                                 X                 Y                 Z
-Electronic contribution:     -0.000000000      -0.000000000       0.000000120
+Electronic contribution:     -0.000000000      -0.000000000       0.000000260
 Nuclear contribution   :      0.000000000       0.000000000      -0.000000000
                         -----------------------------------------
-Total Dipole Moment    :      0.000000000       0.000000000       0.000000120
+Total Dipole Moment    :      0.000000000       0.000000000       0.000000260
                         -----------------------------------------
-Magnitude (a.u.)       :      0.000000120
-Magnitude (Debye)      :      0.000000305
+Magnitude (a.u.)       :      0.000000260
+Magnitude (Debye)      :      0.000000662
 
 
 
@@ -6486,7 +6486,7 @@ Rotational constants in MHz :             0.000000        111415.229208        1
 
 Dipole components along the rotational axes: 
 x,y,z [a.u.] :     0.000000     0.000000     0.000000 
-x,y,z [Debye]:     0.000000     0.000000     0.000000 
+x,y,z [Debye]:     0.000001     0.000000     0.000000 
 
  
 
@@ -6504,21 +6504,21 @@ TRAJECTORY RESULTS
 Column   1: R
 
 The Calculated Surface using the 'Actual Energy'
-   0.50000000  -1.07957276
-   0.66666667  -1.15492448
-   0.83333333  -1.15087383
-   1.00000000  -1.11897611
-   1.16666667  -1.07791926
-   1.33333333  -1.03539334
-   1.50000000  -0.99515104
-   1.66666667  -0.95895932
-   1.83333333  -0.92746248
-   2.00000000  -0.90069932
-   2.16666667  -0.87837466
-   2.33333333  -0.86000894
-   2.50000000  -0.84505966
-   2.66666667  -0.83300513
-   2.83333333  -0.82337147
+   0.20000000   0.12722245
+   0.38666667  -0.91195614
+   0.57333333  -1.12848387
+   0.76000000  -1.15797493
+   0.94666667  -1.13073697
+   1.13333333  -1.08641722
+   1.32000000  -1.03874561
+   1.50666667  -0.99361851
+   1.69333333  -0.95359776
+   1.88000000  -0.91950001
+   2.06666667  -0.89126083
+   2.25333333  -0.86836437
+   2.44000000  -0.85008185
+   2.62666667  -0.83566028
+   2.81333333  -0.82441407
    3.00000000  -0.81574206
 
                         *******************************
@@ -6528,50 +6528,50 @@ The Calculated Surface using the 'Actual Energy'
 POTENTIAL ENERGY SURFACE =   0
 -------------------------------
 
-Minimum found after 30 iterations
+Minimum found after 17 iterations
 Equilibrium distance and its energy from the interpolated PES:
-  Re      =   0.72968 Angstroem  (  1.37889 Bohr)
-  E(Re)   =    -1.161336 Eh 
-  dE/dR   = -1.471e-08 (-2.831e-02 CHEB)
-  d2E/dR2 =    0.768704 (   0.554650 CHEB) (   0.467411 NUM)
-  d3E/dR3 =   -3.420946 (  -0.882336 CHEB)
+  Re      =   0.77114 Angstroem  (  1.45725 Bohr)
+  E(Re)   =    -1.158145 Eh 
+  dE/dR   = -3.511e-09 (1.177e-01 CHEB)
+  d2E/dR2 =    0.750493 (   2.200741 CHEB) (   1.036374 NUM)
+  d3E/dR3 =   -2.281523 ( -29.913262 CHEB)
 
 Spectroscopic constants:
-  we =    6373.8 cm**-1 (based on SPLINE)
-  we =    5414.1 cm**-1 (based on CHEB)
-  we =    4970.1 cm**-1 (based on NUM)
+  we =    6297.9 cm**-1 (based on SPLINE)
+  we =   10784.6 cm**-1 (based on CHEB)
+  we =    7400.8 cm**-1 (based on NUM)
 
 Performing Morse fit ...
 Morse-Fit Results:
- Te(adiabatic)   =    1245.8 cm**-1         =  0.154 eV
- d2E/dR**2 (Morse)=      0.437162070 
- d3E/dR**3 (Morse)=     -1.014670004 
- d4E/dR**4 (Morse)=      1.831735240 
- E0               =     -1.155659826 Eh  RMS=2.60e-06
- Re               =   0.75370 Angstroem      =  1.42429 Bohr RMS=8.63e-06)
- De(Morse)        =   9.93667 eV             =  80144.7 cm**-1 RMS=4.03e-06
- D0(Morse)        =   9.63870 eV
- beta             =   0.77368 au          RMS=9.90e-06
- we               =   4806.6 cm**-1
- wexe             =     72.0 cm**-1
- Displacement   =    0.0240 Angstroem      =  0.04540 Bohr
+ Te(adiabatic)   =   42723.1 cm**-1         =  5.297 eV
+ d2E/dR**2 (Morse)=      0.000964139 
+ d3E/dR**3 (Morse)=     -0.013126201 
+ d4E/dR**4 (Morse)=      0.138993370 
+ E0               =     -0.963483986 Eh  RMS=3.24e-05
+ Re               =   0.82727 Angstroem      =  1.56330 Bohr RMS=1.46e-04)
+ De(Morse)        =   0.00064 eV             =      5.1 cm**-1 RMS=1.88e-07
+ D0(Morse)        =  -0.01336 eV
+ beta             =   4.53814 au          RMS=2.80e-03
+ we               =    225.7 cm**-1
+ wexe             =   2478.2 cm**-1
+ Displacement   =    0.0561 Angstroem      =  0.10606 Bohr
 
 The Calculated Surface using the SCF energy
-   0.50000000  -1.07957276
-   0.66666667  -1.15492448
-   0.83333333  -1.15087383
-   1.00000000  -1.11897611
-   1.16666667  -1.07791926
-   1.33333333  -1.03539334
-   1.50000000  -0.99515104
-   1.66666667  -0.95895932
-   1.83333333  -0.92746248
-   2.00000000  -0.90069932
-   2.16666667  -0.87837466
-   2.33333333  -0.86000894
-   2.50000000  -0.84505966
-   2.66666667  -0.83300513
-   2.83333333  -0.82337147
+   0.20000000   0.12722245
+   0.38666667  -0.91195614
+   0.57333333  -1.12848387
+   0.76000000  -1.15797493
+   0.94666667  -1.13073697
+   1.13333333  -1.08641722
+   1.32000000  -1.03874561
+   1.50666667  -0.99361851
+   1.69333333  -0.95359776
+   1.88000000  -0.91950001
+   2.06666667  -0.89126083
+   2.25333333  -0.86836437
+   2.44000000  -0.85008185
+   2.62666667  -0.83566028
+   2.81333333  -0.82441407
    3.00000000  -0.81574206
 
                         *******************************
@@ -6581,33 +6581,33 @@ The Calculated Surface using the SCF energy
 POTENTIAL ENERGY SURFACE =   0
 -------------------------------
 
-Minimum found after 30 iterations
+Minimum found after 17 iterations
 Equilibrium distance and its energy from the interpolated PES:
-  Re      =   0.72968 Angstroem  (  1.37889 Bohr)
-  E(Re)   =    -1.161336 Eh 
-  dE/dR   = -1.471e-08 (-2.831e-02 CHEB)
-  d2E/dR2 =    0.768704 (   0.554650 CHEB) (   0.467411 NUM)
-  d3E/dR3 =   -3.420946 (  -0.882336 CHEB)
+  Re      =   0.77114 Angstroem  (  1.45725 Bohr)
+  E(Re)   =    -1.158145 Eh 
+  dE/dR   = -3.511e-09 (1.177e-01 CHEB)
+  d2E/dR2 =    0.750493 (   2.200741 CHEB) (   1.036374 NUM)
+  d3E/dR3 =   -2.281523 ( -29.913262 CHEB)
 
 Spectroscopic constants:
-  we =    6373.8 cm**-1 (based on SPLINE)
-  we =    5414.1 cm**-1 (based on CHEB)
-  we =    4970.1 cm**-1 (based on NUM)
+  we =    6297.9 cm**-1 (based on SPLINE)
+  we =   10784.6 cm**-1 (based on CHEB)
+  we =    7400.8 cm**-1 (based on NUM)
 
 Performing Morse fit ...
 Morse-Fit Results:
- Te(adiabatic)   =    1245.8 cm**-1         =  0.154 eV
- d2E/dR**2 (Morse)=      0.437162070 
- d3E/dR**3 (Morse)=     -1.014670004 
- d4E/dR**4 (Morse)=      1.831735240 
- E0               =     -1.155659826 Eh  RMS=2.60e-06
- Re               =   0.75370 Angstroem      =  1.42429 Bohr RMS=8.63e-06)
- De(Morse)        =   9.93667 eV             =  80144.7 cm**-1 RMS=4.03e-06
- D0(Morse)        =   9.63870 eV
- beta             =   0.77368 au          RMS=9.90e-06
- we               =   4806.6 cm**-1
- wexe             =     72.0 cm**-1
- Displacement   =    0.0240 Angstroem      =  0.04540 Bohr
+ Te(adiabatic)   =   42723.1 cm**-1         =  5.297 eV
+ d2E/dR**2 (Morse)=      0.000964139 
+ d3E/dR**3 (Morse)=     -0.013126201 
+ d4E/dR**4 (Morse)=      0.138993370 
+ E0               =     -0.963483986 Eh  RMS=3.24e-05
+ Re               =   0.82727 Angstroem      =  1.56330 Bohr RMS=1.46e-04)
+ De(Morse)        =   0.00064 eV             =      5.1 cm**-1 RMS=1.88e-07
+ D0(Morse)        =  -0.01336 eV
+ beta             =   4.53814 au          RMS=2.80e-03
+ we               =    225.7 cm**-1
+ wexe             =   2478.2 cm**-1
+ Displacement   =    0.0561 Angstroem      =  0.10606 Bohr
 
 
 --------------------------------
@@ -6697,9 +6697,9 @@ List of optional additional citations
 
 Timings for individual modules:
 
-Sum of individual times          ...        6.112 sec (=   0.102 min)
-Startup calculation              ...        2.237 sec (=   0.037 min)  36.6 %
-SCF iterations                   ...        2.934 sec (=   0.049 min)  48.0 %
-Property calculations            ...        0.941 sec (=   0.016 min)  15.4 %
+Sum of individual times          ...        5.973 sec (=   0.100 min)
+Startup calculation              ...        1.963 sec (=   0.033 min)  32.9 %
+SCF iterations                   ...        3.050 sec (=   0.051 min)  51.1 %
+Property calculations            ...        0.960 sec (=   0.016 min)  16.1 %
                              ****ORCA TERMINATED NORMALLY****
-TOTAL RUN TIME: 0 days 0 hours 0 minutes 7 seconds 566 msec
+TOTAL RUN TIME: 0 days 0 hours 0 minutes 6 seconds 742 msec

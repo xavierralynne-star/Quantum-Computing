@@ -1,40 +1,44 @@
 #!/bin/bash
-# generate_casci_sp.sh
-# Membuat 16 input CASCI SP (2-step: HF -> CASCI dengan MOREAD NoIter)
-# dari geometri hasil relaxed scan CASSCF
+# generate_casci_sp_fixed.sh
+# Geometri digenerate langsung dari nilai R (tidak butuh file .xyz)
+# Orbital dibaca dari H2O_CASSCF_1.${i}.gbw (CASSCF yang sudah konvergen)
+# Active space: CAS(4,4) -- konsisten dengan VQE
 
-for i in $(seq -f "%03g" 1 22); do
+# 16 titik dari R=0.50 sampai R=3.00 Angstrom
+R_VALUES=(0.50 0.6667 0.8333 1.00 1.1667 1.3333 1.50 1.6667 1.8333 2.00 2.1667 2.3333 2.50 2.6667 2.8333 3.00)
 
-    XYZFILE="H2O_CASSCF.${i}.xyz"
+for idx in $(seq 0 15); do
+    i=$(printf "%03d" $((idx + 1)))
+    R=${R_VALUES[$idx]}
+    GBWFILE="H2O_CASSCF_1.${i}.gbw"
 
-    if [ ! -f "$XYZFILE" ]; then
-        echo "File $XYZFILE tidak ditemukan, skip."
+    if [ ! -f "$GBWFILE" ]; then
+        echo "File $GBWFILE tidak ditemukan, skip titik $i."
         continue
     fi
 
-    # Ambil 3 baris koordinat saja (skip 2 baris header: jumlah atom & komentar)
-    GEOM=$(tail -n +3 "$XYZFILE")
-
-    # Tulis input 2-step: HF lalu CASCI (MOREAD NoIter)
-    cat > H2O_CASCI_SP.${i}.inp << EOF
-! HF STO-3G
-* xyz 0 1
-${GEOM}
-*
-
-\$new_job
+    cat > H2O_CASCI_fixed.${i}.inp << EOF
 ! CASSCF STO-3G MOREAD NoIter
-%moinp "H2O_CASCI_SP.${i}.gbw"
-%casscf
-  nel  8
-  norb 6
+%moinp "${GBWFILE}"
+
+%pal
+  nprocs 4
 end
+
+%casscf
+  nel     4
+  norb    4
+  maxiter 1
+end
+
 * xyz 0 1
-${GEOM}
+O   0.000000   0.000000   0.000000
+H   0.000000   0.000000   ${R}
+H  -0.860362   0.209382   0.393570
 *
 EOF
 
-    echo "Titik $i selesai -> H2O_CASCI_SP.${i}.inp"
+    echo "Titik $i (R=${R} A) selesai -> H2O_CASCI_fixed.${i}.inp"
 done
 
-echo "Semua input CASCI SP (2-step) siap dibuat!"
+echo "Semua 16 input CASCI fixed siap!"

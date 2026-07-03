@@ -495,9 +495,9 @@ Iteration    Energy (Eh)           Delta-E    RMSDP     MaxDP     DIISErr   Damp
 ---------------------------------------S-O-S-C-F--------------------------------------
 Iteration    Energy (Eh)           Delta-E    RMSDP     MaxDP     MaxGrad    Time(sec)
 --------------------------------------------------------------------------------------
-    1      0.1641750000907782     0.00e+00  0.00e+00  0.00e+00  1.15e-16     0.0
+    1      0.1641750000907782     0.00e+00  5.44e-16  6.66e-16  2.63e-16     0.1
                *** Restarting incremental Fock matrix formation ***
-    2      0.1641750000907782     0.00e+00  0.00e+00  0.00e+00  1.15e-16     0.0
+    2      0.1641750000907782     0.00e+00  0.00e+00  0.00e+00  1.82e-16     0.0
                   *** Gradient check signals convergence ***
 
                *****************************************************
@@ -532,7 +532,7 @@ SCF CONVERGENCE
   Last MAX-Density change    ...    0.0000e+00  Tolerance :   1.0000e-05
   Last RMS-Density change    ...    0.0000e+00  Tolerance :   1.0000e-06
   Last DIIS Error            ...    2.2204e-16  Tolerance :   1.0000e-06
-  Last Orbital Gradient      ...    1.1548e-16  Tolerance :   5.0000e-05
+  Last Orbital Gradient      ...    1.8151e-16  Tolerance :   5.0000e-05
   Last Orbital Rotation      ...    0.0000e+00  Tolerance :   5.0000e-05
 
 
@@ -608,22 +608,22 @@ TIMINGS
 
 Total SCF time: 0 days 0 hours 0 min 0 sec 
 
-Total time                  ....       0.043 sec
-Sum of individual times     ....       0.030 sec  ( 69.6%)
+Total time                  ....       0.095 sec
+Sum of individual times     ....       0.085 sec  ( 89.1%)
 
-SCF preparation             ....       0.021 sec  ( 48.4%)
-Fock matrix formation       ....       0.003 sec  (  6.7%)
-  Startup                   ....       0.001 sec  ( 20.3% of F)
-  Coulomb+Exchange Fock     ....       0.001 sec  ( 20.1% of F)
+SCF preparation             ....       0.016 sec  ( 16.8%)
+Fock matrix formation       ....       0.065 sec  ( 68.2%)
+  Startup                   ....       0.000 sec  (  0.7% of F)
+  Coulomb+Exchange Fock     ....       0.063 sec  ( 96.9% of F)
 Diagonalization             ....       0.000 sec  (  0.0%)
-Density matrix formation    ....       0.001 sec  (  1.8%)
-Total Energy calculation    ....       0.000 sec  (  0.6%)
-Population analysis         ....       0.003 sec  (  6.5%)
-Orbital Transformation      ....       0.001 sec  (  1.5%)
+Density matrix formation    ....       0.001 sec  (  0.5%)
+Total Energy calculation    ....       0.000 sec  (  0.2%)
+Population analysis         ....       0.002 sec  (  1.6%)
+Orbital Transformation      ....       0.000 sec  (  0.4%)
 Orbital Orthonormalization  ....       0.000 sec  (  0.0%)
-DIIS solution               ....       0.001 sec  (  1.7%)
-SOSCF solution              ....       0.001 sec  (  2.4%)
-Finished LeanSCF after   0.0 sec
+DIIS solution               ....       0.001 sec  (  0.5%)
+SOSCF solution              ....       0.001 sec  (  0.7%)
+Finished LeanSCF after   0.1 sec
 
 Maximum memory used throughout the entire LEANSCF-calculation: 0.8 MB
 
@@ -697,7 +697,7 @@ Energy             :     0.1641750000907782 Eh
 Relativity type    : 
 Basis              : AO
                                 X                 Y                 Z
-Electronic contribution:     -0.000000000      -0.000000000      -0.000000000
+Electronic contribution:     -0.000000000      -0.000000000       0.000000000
 Nuclear contribution   :      0.000000000       0.000000000      -0.000000000
                         -----------------------------------------
 Total Dipole Moment    :      0.000000000       0.000000000      -0.000000000
@@ -880,14 +880,15 @@ Iteration    Energy (Eh)           Delta-E    RMSDP     MaxDP     DIISErr   Damp
 ---------------------------------------S-O-S-C-F--------------------------------------
 Iteration    Energy (Eh)           Delta-E    RMSDP     MaxDP     MaxGrad    Time(sec)
 --------------------------------------------------------------------------------------
-    1     -0.8760065565258794     0.00e+00  1.13e-15  1.44e-15  2.98e-16     0.0
-               *** Restarting incremental Fock matrix formation ***
-    2     -0.8760065565258794     0.00e+00  0.00e+00  0.00e+00  1.51e-16     0.0
-                  *** Gradient check signals convergence ***
+                             *** Initializing TRAH/NR ***
+ --------------------------------------------------------------------------------------------
+   Iter.        energy            ||Error||_2        Shift      TRadius  Mac/Mic        Rej.
+ --------------------------------------------------------------------------------------------
+    0         -0.876006556526     3.269465e-16                     0.400 (TRAH MAcro)   No
 
                *****************************************************
                *                     SUCCESS                       *
-               *           SCF CONVERGED AFTER   2 CYCLES          *
+               *           SCF CONVERGED AFTER   1 CYCLES          *
                *****************************************************
 
              **** ENERGY FILE WAS UPDATED (Hidrogen_HF.en.tmp) ****
@@ -913,16 +914,16 @@ Virial Ratio       :          1.65054219037907
 SCF CONVERGENCE
 ---------------
 
-  Last Energy change         ...    0.0000e+00  Tolerance :   1.0000e-06
+  Last Energy change         ...   -8.7601e-01  Tolerance :   1.0000e-06
   Last MAX-Density change    ...    0.0000e+00  Tolerance :   1.0000e-05
   Last RMS-Density change    ...    0.0000e+00  Tolerance :   1.0000e-06
-  Last DIIS Error            ...    4.4409e-16  Tolerance :   1.0000e-06
-  Last Orbital Gradient      ...    1.5113e-16  Tolerance :   5.0000e-05
+  Last DIIS Error            ...    2.2204e-16  Tolerance :   1.0000e-06
+  Last Orbital Gradient      ...    3.2695e-16  Tolerance :   5.0000e-05
   Last Orbital Rotation      ...    0.0000e+00  Tolerance :   5.0000e-05
 
 
 Total SCF time: 0 days 0 hours 0 min 0 sec 
-Finished LeanSCF after   0.0 sec
+Finished LeanSCF after   0.1 sec
 
 Maximum memory used throughout the entire LEANSCF-calculation: 1.0 MB
 
@@ -992,11 +993,11 @@ Method             : SCF
 Type of density    : Electron Density
 Multiplicity       :   1
 Irrep              :   0
-Energy             :    -0.8760065565258794 Eh
+Energy             :    -0.8760065565258799 Eh
 Relativity type    : 
 Basis              : AO
                                 X                 Y                 Z
-Electronic contribution:     -0.000000000      -0.000000000      -0.000000000
+Electronic contribution:     -0.000000000      -0.000000000       0.000000000
 Nuclear contribution   :      0.000000000       0.000000000      -0.000000000
                         -----------------------------------------
 Total Dipole Moment    :      0.000000000       0.000000000      -0.000000000
@@ -1179,14 +1180,15 @@ Iteration    Energy (Eh)           Delta-E    RMSDP     MaxDP     DIISErr   Damp
 ---------------------------------------S-O-S-C-F--------------------------------------
 Iteration    Energy (Eh)           Delta-E    RMSDP     MaxDP     MaxGrad    Time(sec)
 --------------------------------------------------------------------------------------
-    1     -1.0908331336080688     0.00e+00  9.06e-16  1.11e-15  2.39e-16     0.0
-               *** Restarting incremental Fock matrix formation ***
-    2     -1.0908331336080688     0.00e+00  0.00e+00  0.00e+00  1.35e-16     0.0
-                  *** Gradient check signals convergence ***
+                             *** Initializing TRAH/NR ***
+ --------------------------------------------------------------------------------------------
+   Iter.        energy            ||Error||_2        Shift      TRadius  Mac/Mic        Rej.
+ --------------------------------------------------------------------------------------------
+    0         -1.090833133608     9.838706e-16                     0.400 (TRAH MAcro)   No
 
                *****************************************************
                *                     SUCCESS                       *
-               *           SCF CONVERGED AFTER   2 CYCLES          *
+               *           SCF CONVERGED AFTER   1 CYCLES          *
                *****************************************************
 
              **** ENERGY FILE WAS UPDATED (Hidrogen_HF.en.tmp) ****
@@ -1212,16 +1214,16 @@ Virial Ratio       :          1.86973646483587
 SCF CONVERGENCE
 ---------------
 
-  Last Energy change         ...    0.0000e+00  Tolerance :   1.0000e-06
+  Last Energy change         ...   -1.0908e+00  Tolerance :   1.0000e-06
   Last MAX-Density change    ...    0.0000e+00  Tolerance :   1.0000e-05
   Last RMS-Density change    ...    0.0000e+00  Tolerance :   1.0000e-06
-  Last DIIS Error            ...    6.6613e-16  Tolerance :   1.0000e-06
-  Last Orbital Gradient      ...    1.3495e-16  Tolerance :   5.0000e-05
+  Last DIIS Error            ...    8.8818e-16  Tolerance :   1.0000e-06
+  Last Orbital Gradient      ...    9.8387e-16  Tolerance :   5.0000e-05
   Last Orbital Rotation      ...    0.0000e+00  Tolerance :   5.0000e-05
 
 
 Total SCF time: 0 days 0 hours 0 min 0 sec 
-Finished LeanSCF after   0.1 sec
+Finished LeanSCF after   0.0 sec
 
 Maximum memory used throughout the entire LEANSCF-calculation: 1.1 MB
 
@@ -1295,7 +1297,7 @@ Energy             :    -1.0908331336080688 Eh
 Relativity type    : 
 Basis              : AO
                                 X                 Y                 Z
-Electronic contribution:     -0.000000000      -0.000000000      -0.000000000
+Electronic contribution:     -0.000000000      -0.000000000       0.000000000
 Nuclear contribution   :      0.000000000       0.000000000       0.000000000
                         -----------------------------------------
 Total Dipole Moment    :      0.000000000       0.000000000       0.000000000
@@ -1478,17 +1480,15 @@ Iteration    Energy (Eh)           Delta-E    RMSDP     MaxDP     DIISErr   Damp
 ---------------------------------------S-O-S-C-F--------------------------------------
 Iteration    Energy (Eh)           Delta-E    RMSDP     MaxDP     MaxGrad    Time(sec)
 --------------------------------------------------------------------------------------
-    1     -1.1153806589719992     0.00e+00  1.81e-16  2.22e-16  1.51e-16     0.0
-               *** Restarting incremental Fock matrix formation ***
                              *** Initializing TRAH/NR ***
  --------------------------------------------------------------------------------------------
    Iter.        energy            ||Error||_2        Shift      TRadius  Mac/Mic        Rej.
  --------------------------------------------------------------------------------------------
-    0         -1.115380658972     1.992652e-16                     0.400 (TRAH MAcro)   No
+    0         -1.115380658972     6.046215e-16                     0.400 (TRAH MAcro)   No
 
                *****************************************************
                *                     SUCCESS                       *
-               *           SCF CONVERGED AFTER   2 CYCLES          *
+               *           SCF CONVERGED AFTER   1 CYCLES          *
                *****************************************************
 
              **** ENERGY FILE WAS UPDATED (Hidrogen_HF.en.tmp) ****
@@ -1515,10 +1515,10 @@ SCF CONVERGENCE
 ---------------
 
   Last Energy change         ...   -1.1154e+00  Tolerance :   1.0000e-06
-  Last MAX-Density change    ...    2.2204e-16  Tolerance :   1.0000e-05
-  Last RMS-Density change    ...    1.8130e-16  Tolerance :   1.0000e-06
-  Last DIIS Error            ...    2.2204e-16  Tolerance :   1.0000e-06
-  Last Orbital Gradient      ...    1.9927e-16  Tolerance :   5.0000e-05
+  Last MAX-Density change    ...    0.0000e+00  Tolerance :   1.0000e-05
+  Last RMS-Density change    ...    0.0000e+00  Tolerance :   1.0000e-06
+  Last DIIS Error            ...    8.8818e-16  Tolerance :   1.0000e-06
+  Last Orbital Gradient      ...    6.0462e-16  Tolerance :   5.0000e-05
   Last Orbital Rotation      ...    0.0000e+00  Tolerance :   5.0000e-05
 
 
@@ -1780,15 +1780,17 @@ Iteration    Energy (Eh)           Delta-E    RMSDP     MaxDP     DIISErr   Damp
 ---------------------------------------S-O-S-C-F--------------------------------------
 Iteration    Energy (Eh)           Delta-E    RMSDP     MaxDP     MaxGrad    Time(sec)
 --------------------------------------------------------------------------------------
+    1     -1.0804984477950654     0.00e+00  5.91e-16  7.77e-16  1.87e-16     0.0
+               *** Restarting incremental Fock matrix formation ***
                              *** Initializing TRAH/NR ***
  --------------------------------------------------------------------------------------------
    Iter.        energy            ||Error||_2        Shift      TRadius  Mac/Mic        Rej.
  --------------------------------------------------------------------------------------------
-    0         -1.080498447795     1.586266e-16                     0.400 (TRAH MAcro)   No
+    0         -1.080498447795     8.320696e-17                     0.400 (TRAH MAcro)   No
 
                *****************************************************
                *                     SUCCESS                       *
-               *           SCF CONVERGED AFTER   1 CYCLES          *
+               *           SCF CONVERGED AFTER   2 CYCLES          *
                *****************************************************
 
              **** ENERGY FILE WAS UPDATED (Hidrogen_HF.en.tmp) ****
@@ -1797,7 +1799,7 @@ Iteration    Energy (Eh)           Delta-E    RMSDP     MaxDP     MaxGrad    Tim
 TOTAL SCF ENERGY
 ----------------
 
-Total Energy       :         -1.08049844779506 Eh             -29.40186 eV
+Total Energy       :         -1.08049844779507 Eh             -29.40186 eV
 
 Components:
 Nuclear Repulsion  :          0.55899000876761 Eh              15.21089 eV
@@ -1815,10 +1817,10 @@ SCF CONVERGENCE
 ---------------
 
   Last Energy change         ...   -1.0805e+00  Tolerance :   1.0000e-06
-  Last MAX-Density change    ...    0.0000e+00  Tolerance :   1.0000e-05
-  Last RMS-Density change    ...    0.0000e+00  Tolerance :   1.0000e-06
-  Last DIIS Error            ...    1.1102e-16  Tolerance :   1.0000e-06
-  Last Orbital Gradient      ...    1.5863e-16  Tolerance :   5.0000e-05
+  Last MAX-Density change    ...    7.7716e-16  Tolerance :   1.0000e-05
+  Last RMS-Density change    ...    5.9096e-16  Tolerance :   1.0000e-06
+  Last DIIS Error            ...    7.7716e-16  Tolerance :   1.0000e-06
+  Last Orbital Gradient      ...    8.3207e-17  Tolerance :   5.0000e-05
   Last Orbital Rotation      ...    0.0000e+00  Tolerance :   5.0000e-05
 
 
@@ -1893,7 +1895,7 @@ Method             : SCF
 Type of density    : Electron Density
 Multiplicity       :   1
 Irrep              :   0
-Energy             :    -1.0804984477950645 Eh
+Energy             :    -1.0804984477950654 Eh
 Relativity type    : 
 Basis              : AO
                                 X                 Y                 Z
@@ -2370,7 +2372,7 @@ SHARK setup successfully completed in   0.1 seconds
 Maximum memory used throughout the entire STARTUP-calculation: 2.7 MB
 Occupation numbers will be reassigned to an Aufbau configuration
              **** ENERGY FILE WAS UPDATED (Hidrogen_HF.en.tmp) ****
-Finished Guess after   0.1 sec
+Finished Guess after   0.0 sec
 Maximum memory used throughout the entire GUESS-calculation: 1.1 MB
 ----------------------------------------D-I-I-S--------------------------------------------
 Iteration    Energy (Eh)           Delta-E    RMSDP     MaxDP     DIISErr   Damp  Time(sec)
@@ -3323,7 +3325,7 @@ SCF CONVERGENCE
 
 
 Total SCF time: 0 days 0 hours 0 min 0 sec 
-Finished LeanSCF after   0.1 sec
+Finished LeanSCF after   0.0 sec
 
 Maximum memory used throughout the entire LEANSCF-calculation: 2.1 MB
 
@@ -3623,7 +3625,7 @@ SCF CONVERGENCE
 
 
 Total SCF time: 0 days 0 hours 0 min 0 sec 
-Finished LeanSCF after   0.1 sec
+Finished LeanSCF after   0.0 sec
 
 Maximum memory used throughout the entire LEANSCF-calculation: 2.2 MB
 
@@ -4223,7 +4225,7 @@ SCF CONVERGENCE
 
 
 Total SCF time: 0 days 0 hours 0 min 0 sec 
-Finished LeanSCF after   0.1 sec
+Finished LeanSCF after   0.0 sec
 
 Maximum memory used throughout the entire LEANSCF-calculation: 2.5 MB
 
@@ -4523,7 +4525,7 @@ SCF CONVERGENCE
 
 
 Total SCF time: 0 days 0 hours 0 min 0 sec 
-Finished LeanSCF after   0.1 sec
+Finished LeanSCF after   0.0 sec
 
 Maximum memory used throughout the entire LEANSCF-calculation: 2.7 MB
 
@@ -5123,7 +5125,7 @@ SCF CONVERGENCE
 
 
 Total SCF time: 0 days 0 hours 0 min 0 sec 
-Finished LeanSCF after   0.1 sec
+Finished LeanSCF after   0.0 sec
 
 Maximum memory used throughout the entire LEANSCF-calculation: 3.0 MB
 
@@ -5407,9 +5409,9 @@ List of optional additional citations
 
 Timings for individual modules:
 
-Sum of individual times          ...        5.771 sec (=   0.096 min)
-Startup calculation              ...        2.371 sec (=   0.040 min)  41.1 %
-SCF iterations                   ...        2.422 sec (=   0.040 min)  42.0 %
-Property calculations            ...        0.978 sec (=   0.016 min)  16.9 %
+Sum of individual times          ...        3.767 sec (=   0.063 min)
+Startup calculation              ...        1.467 sec (=   0.024 min)  38.9 %
+SCF iterations                   ...        1.693 sec (=   0.028 min)  44.9 %
+Property calculations            ...        0.607 sec (=   0.010 min)  16.1 %
                              ****ORCA TERMINATED NORMALLY****
-TOTAL RUN TIME: 0 days 0 hours 0 minutes 6 seconds 777 msec
+TOTAL RUN TIME: 0 days 0 hours 0 minutes 4 seconds 570 msec

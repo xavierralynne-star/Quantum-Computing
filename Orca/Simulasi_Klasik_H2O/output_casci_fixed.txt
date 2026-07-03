@@ -1,0 +1,52 @@
+=== MULAI SEMUA JOB CASCI (FIXED, baca orbital CASSCF) ===
+start_total=Fri Jul 3 10:41:44 WIB 2026
+--- Menjalankan titik 001 ---
+start=Fri Jul 3 10:41:44 WIB 2026
+end=Fri Jul 3 10:41:48 WIB 2026
+--- Menjalankan titik 002 ---
+start=Fri Jul 3 10:41:48 WIB 2026
+end=Fri Jul 3 10:41:53 WIB 2026
+--- Menjalankan titik 003 ---
+start=Fri Jul 3 10:41:53 WIB 2026
+end=Fri Jul 3 10:41:57 WIB 2026
+--- Menjalankan titik 004 ---
+start=Fri Jul 3 10:41:57 WIB 2026
+end=Fri Jul 3 10:42:02 WIB 2026
+--- Menjalankan titik 005 ---
+start=Fri Jul 3 10:42:02 WIB 2026
+end=Fri Jul 3 10:42:06 WIB 2026
+--- Menjalankan titik 006 ---
+start=Fri Jul 3 10:42:06 WIB 2026
+end=Fri Jul 3 10:42:10 WIB 2026
+--- Menjalankan titik 007 ---
+start=Fri Jul 3 10:42:10 WIB 2026
+end=Fri Jul 3 10:42:15 WIB 2026
+--- Menjalankan titik 008 ---
+start=Fri Jul 3 10:42:15 WIB 2026
+end=Fri Jul 3 10:42:19 WIB 2026
+--- Menjalankan titik 009 ---
+start=Fri Jul 3 10:42:19 WIB 2026
+end=Fri Jul 3 10:42:24 WIB 2026
+--- Menjalankan titik 010 ---
+start=Fri Jul 3 10:42:24 WIB 2026
+end=Fri Jul 3 10:42:29 WIB 2026
+--- Menjalankan titik 011 ---
+start=Fri Jul 3 10:42:29 WIB 2026
+end=Fri Jul 3 10:42:33 WIB 2026
+--- Menjalankan titik 012 ---
+start=Fri Jul 3 10:42:33 WIB 2026
+end=Fri Jul 3 10:42:37 WIB 2026
+--- Menjalankan titik 013 ---
+start=Fri Jul 3 10:42:37 WIB 2026
+end=Fri Jul 3 10:42:42 WIB 2026
+--- Menjalankan titik 014 ---
+start=Fri Jul 3 10:42:42 WIB 2026
+end=Fri Jul 3 10:42:46 WIB 2026
+--- Menjalankan titik 015 ---
+start=Fri Jul 3 10:42:46 WIB 2026
+end=Fri Jul 3 10:42:50 WIB 2026
+--- Menjalankan titik 016 ---
+start=Fri Jul 3 10:42:50 WIB 2026
+end=Fri Jul 3 10:42:55 WIB 2026
+end_total=Fri Jul 3 10:42:55 WIB 2026
+=== SEMUA TITIK CASCI (FIXED) SELESAI ===

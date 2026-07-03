@@ -326,8 +326,8 @@ Auxiliary 'external' fitting basis          ... NOT available
 
 Checking pre-screening integrals            ... done (  0.0 sec) Dimension = 2
 Save PGC pre-screening integrals            ... done (  0.0 sec) Dimension = 2
-Calculate PGC overlap integrals             ... done (  0.1 sec) Dimension = 2
-Calculating pre-screening integrals (ORCA)  ... done (  0.1 sec) Dimension = 2
+Calculate PGC overlap integrals             ... done (  0.0 sec) Dimension = 2
+Calculating pre-screening integrals (ORCA)  ... done (  0.0 sec) Dimension = 2
 Check shell pair data                       ... done (  0.0 sec)
 Shell pair information
 Shell pair cut-off parameter TPreSel        ...   1.0e-11
@@ -345,8 +345,8 @@ Smallest eigenvalue                        ... 3.488e-02
 Time for diagonalization                   ...    0.000 sec
 Threshold for overlap eigenvalues          ... 1.000e-07
 Number of eigenvalues below threshold      ... 0
-Time for construction of square roots      ...    0.044 sec
-Total time needed                          ...    0.044 sec
+Time for construction of square roots      ...    0.000 sec
+Total time needed                          ...    0.000 sec
 
 -------------------
 DFT GRID GENERATION
@@ -387,9 +387,9 @@ Total number of grid points                  ...     6632
 Total number of batches                      ...      104
 Average number of points per batch           ...       63
 Average number of grid points per atom       ...     3316
-Initializing property integral containers    ... done (  0.1 sec)
+Initializing property integral containers    ... done (  0.0 sec)
 
-SHARK setup successfully completed in   0.5 seconds
+SHARK setup successfully completed in   0.1 seconds
 
 Maximum memory used throughout the entire STARTUP-calculation: 2.7 MB
 -------------------------------------------------------------------------------
@@ -423,10 +423,10 @@ Occupation numbers will be reassigned to an Aufbau configuration
 MOs were renormalized
 Gram-Schmidt orthogonalization of all MOs with pivot on actives
                       ------------------
-                      INITIAL GUESS DONE (   0.1 sec)
+                      INITIAL GUESS DONE (   0.0 sec)
                       ------------------
              **** ENERGY FILE WAS UPDATED (Hidrogen_scan.en.tmp) ****
-Finished Guess after   0.3 sec
+Finished Guess after   0.0 sec
 Maximum memory used throughout the entire GUESS-calculation: 1.1 MB
 -------------------------------------------------------------------------------
                               ORCA-CASSCF
@@ -669,23 +669,23 @@ Coupling container construction done
 CASSCF TIMINGS
 --------------
 
-Total time                       ...        0.7 sec
-Sum of individual times          ...        0.5 sec ( 71.4%)
+Total time                       ...        0.3 sec
+Sum of individual times          ...        0.2 sec ( 71.5%)
 
 Calculation of AO operators
-   F(Core) operator              ...        0.0 sec (  0.1%)
-   G(Act) operator               ...        0.0 sec (  0.0%)
+   F(Core) operator              ...        0.0 sec (  0.3%)
+   G(Act) operator               ...        0.0 sec (  0.1%)
 Calculation of MO transformed quantities
-   J(MO) operators               ...        0.1 sec ( 18.9%)
+   J(MO) operators               ...        0.1 sec ( 43.1%)
    AO->MO one electron integrals ...        0.0 sec (  0.0%)
 Configuration interaction steps
-   CI-setup phase                ...        0.3 sec ( 45.9%)
-   CI-solution phase             ...        0.0 sec (  3.2%)
+   CI-setup phase                ...        0.0 sec ( 12.3%)
+   CI-solution phase             ...        0.0 sec ( 15.3%)
    Generation of densities       ...        0.0 sec (  0.0%)
 Orbital improvement steps
 CPCM steps
-   Total CPCM time               ...        0.0 sec (  3.2%)
-Properties                       ...        0.0 sec (  0.1%)
+   Total CPCM time               ...        0.0 sec (  0.1%)
+Properties                       ...        0.0 sec (  0.2%)
    SOC integral calculation      ...        0.0 sec (  0.0%)
    SSC RMEs (incl. integrals)    ...        0.0 sec (  0.0%)
    SOC RMEs                      ...        0.0 sec (  0.0%)
@@ -746,12 +746,12 @@ CASSCF TIMINGS
 --------------
 
 Total time                       ...        0.0 sec
-Sum of individual times          ...        0.0 sec ( 98.9%)
+Sum of individual times          ...        0.0 sec ( 91.5%)
 
 Calculation of AO operators
 Calculation of MO transformed quantities
 Configuration interaction steps
-   CI-setup phase                ...        0.0 sec ( 98.9%)
+   CI-setup phase                ...        0.0 sec ( 91.5%)
 Orbital improvement steps
 Properties                       ...        0.0 sec (  0.0%)
    SOC integral calculation      ...        0.0 sec (  0.0%)
@@ -828,7 +828,7 @@ Level              : Relaxed density
 State              :   0
 Multiplicity       :   1
 Irrep              :   0
-Energy             :     0.1574821228166806 Eh
+Energy             :     0.1574821228166805 Eh
 Relativity type    : 
 Basis              : AO
                                 X                 Y                 Z
@@ -937,8 +937,8 @@ Auxiliary 'external' fitting basis          ... NOT available
 
 Checking pre-screening integrals            ... done (  0.0 sec) Dimension = 2
 Save PGC pre-screening integrals            ... done (  0.0 sec) Dimension = 2
-Calculate PGC overlap integrals             ... done (  0.1 sec) Dimension = 2
-Calculating pre-screening integrals (ORCA)  ... done (  0.1 sec) Dimension = 2
+Calculate PGC overlap integrals             ... done (  0.0 sec) Dimension = 2
+Calculating pre-screening integrals (ORCA)  ... done (  0.0 sec) Dimension = 2
 Check shell pair data                       ... done (  0.0 sec)
 Shell pair information
 Shell pair cut-off parameter TPreSel        ...   1.0e-11
@@ -956,8 +956,8 @@ Smallest eigenvalue                        ... 1.191e-01
 Time for diagonalization                   ...    0.000 sec
 Threshold for overlap eigenvalues          ... 1.000e-07
 Number of eigenvalues below threshold      ... 0
-Time for construction of square roots      ...    0.044 sec
-Total time needed                          ...    0.044 sec
+Time for construction of square roots      ...    0.000 sec
+Total time needed                          ...    0.001 sec
 
 -------------------
 DFT GRID GENERATION
@@ -998,14 +998,14 @@ Total number of grid points                  ...     6640
 Total number of batches                      ...      104
 Average number of points per batch           ...       63
 Average number of grid points per atom       ...     3320
-Initializing property integral containers    ... done (  0.1 sec)
+Initializing property integral containers    ... done (  0.0 sec)
 
-SHARK setup successfully completed in   0.5 seconds
+SHARK setup successfully completed in   0.1 seconds
 
 Maximum memory used throughout the entire STARTUP-calculation: 2.7 MB
 Occupation numbers will be reassigned to an Aufbau configuration
              **** ENERGY FILE WAS UPDATED (Hidrogen_scan.en.tmp) ****
-Finished Guess after   0.3 sec
+Finished Guess after   0.0 sec
 Maximum memory used throughout the entire GUESS-calculation: 1.1 MB
 -------------------------------------------------------------------------------
                               ORCA-CASSCF
@@ -1172,23 +1172,23 @@ Coupling container construction done
 CASSCF TIMINGS
 --------------
 
-Total time                       ...        2.0 sec
-Sum of individual times          ...        1.2 sec ( 59.6%)
+Total time                       ...        0.0 sec
+Sum of individual times          ...        0.0 sec ( 56.4%)
 
 Calculation of AO operators
-   F(Core) operator              ...        0.0 sec (  0.0%)
-   G(Act) operator               ...        0.0 sec (  1.1%)
+   F(Core) operator              ...        0.0 sec (  0.6%)
+   G(Act) operator               ...        0.0 sec (  0.4%)
 Calculation of MO transformed quantities
-   J(MO) operators               ...        0.2 sec ( 11.3%)
-   AO->MO one electron integrals ...        0.0 sec (  0.0%)
+   J(MO) operators               ...        0.0 sec ( 42.7%)
+   AO->MO one electron integrals ...        0.0 sec (  0.1%)
 Configuration interaction steps
-   CI-setup phase                ...        0.3 sec ( 16.6%)
-   CI-solution phase             ...        0.6 sec ( 27.5%)
-   Generation of densities       ...        0.0 sec (  0.0%)
+   CI-setup phase                ...        0.0 sec (  4.5%)
+   CI-solution phase             ...        0.0 sec (  7.1%)
+   Generation of densities       ...        0.0 sec (  0.1%)
 Orbital improvement steps
 CPCM steps
-   Total CPCM time               ...        0.0 sec (  1.0%)
-Properties                       ...        0.0 sec (  2.0%)
+   Total CPCM time               ...        0.0 sec (  0.3%)
+Properties                       ...        0.0 sec (  0.7%)
    SOC integral calculation      ...        0.0 sec (  0.0%)
    SSC RMEs (incl. integrals)    ...        0.0 sec (  0.0%)
    SOC RMEs                      ...        0.0 sec (  0.0%)
@@ -1248,18 +1248,14 @@ CASSCF UV, CD spectra and dipole moments
 CASSCF TIMINGS
 --------------
 
-Total time                       ...        0.1 sec
-Sum of individual times          ...        0.1 sec ( 99.5%)
+Total time                       ...        0.0 sec
+Sum of individual times          ...        0.0 sec ( 98.5%)
 
 Calculation of AO operators
 Calculation of MO transformed quantities
 Configuration interaction steps
-   CI-setup phase                ...        0.1 sec ( 99.4%)
+   CI-setup phase                ...        0.0 sec ( 98.5%)
 Orbital improvement steps
-Properties                       ...        0.0 sec (  0.0%)
-   SOC integral calculation      ...        0.0 sec (  0.0%)
-   SSC RMEs (incl. integrals)    ...        0.0 sec (  0.0%)
-   SOC RMEs                      ...        0.0 sec (  0.0%)
 
 Maximum memory used throughout the entire CASSCF-calculation: 23.5 MB
 
@@ -1441,7 +1437,7 @@ Auxiliary 'external' fitting basis          ... NOT available
 Checking pre-screening integrals            ... done (  0.0 sec) Dimension = 2
 Save PGC pre-screening integrals            ... done (  0.0 sec) Dimension = 2
 Calculate PGC overlap integrals             ... done (  0.0 sec) Dimension = 2
-Calculating pre-screening integrals (ORCA)  ... done (  0.1 sec) Dimension = 2
+Calculating pre-screening integrals (ORCA)  ... done (  0.0 sec) Dimension = 2
 Check shell pair data                       ... done (  0.0 sec)
 Shell pair information
 Shell pair cut-off parameter TPreSel        ...   1.0e-11
@@ -1459,8 +1455,8 @@ Smallest eigenvalue                        ... 2.314e-01
 Time for diagonalization                   ...    0.000 sec
 Threshold for overlap eigenvalues          ... 1.000e-07
 Number of eigenvalues below threshold      ... 0
-Time for construction of square roots      ...    0.044 sec
-Total time needed                          ...    0.044 sec
+Time for construction of square roots      ...    0.000 sec
+Total time needed                          ...    0.000 sec
 
 -------------------
 DFT GRID GENERATION
@@ -1501,14 +1497,14 @@ Total number of grid points                  ...     6644
 Total number of batches                      ...      104
 Average number of points per batch           ...       63
 Average number of grid points per atom       ...     3322
-Initializing property integral containers    ... done (  0.1 sec)
+Initializing property integral containers    ... done (  0.0 sec)
 
-SHARK setup successfully completed in   0.5 seconds
+SHARK setup successfully completed in   0.1 seconds
 
 Maximum memory used throughout the entire STARTUP-calculation: 2.7 MB
 Occupation numbers will be reassigned to an Aufbau configuration
              **** ENERGY FILE WAS UPDATED (Hidrogen_scan.en.tmp) ****
-Finished Guess after   0.3 sec
+Finished Guess after   0.0 sec
 Maximum memory used throughout the entire GUESS-calculation: 1.1 MB
 -------------------------------------------------------------------------------
                               ORCA-CASSCF
@@ -1675,23 +1671,23 @@ Coupling container construction done
 CASSCF TIMINGS
 --------------
 
-Total time                       ...        0.5 sec
-Sum of individual times          ...        0.4 sec ( 84.7%)
+Total time                       ...        0.1 sec
+Sum of individual times          ...        0.0 sec ( 58.0%)
 
 Calculation of AO operators
-   F(Core) operator              ...        0.0 sec (  0.1%)
-   G(Act) operator               ...        0.0 sec (  0.0%)
+   F(Core) operator              ...        0.0 sec (  0.7%)
+   G(Act) operator               ...        0.0 sec (  0.4%)
 Calculation of MO transformed quantities
-   J(MO) operators               ...        0.2 sec ( 32.5%)
-   AO->MO one electron integrals ...        0.0 sec (  0.0%)
+   J(MO) operators               ...        0.0 sec ( 45.4%)
+   AO->MO one electron integrals ...        0.0 sec (  0.1%)
 Configuration interaction steps
-   CI-setup phase                ...        0.2 sec ( 42.1%)
-   CI-solution phase             ...        0.0 sec (  7.1%)
-   Generation of densities       ...        0.0 sec (  0.0%)
+   CI-setup phase                ...        0.0 sec (  4.1%)
+   CI-solution phase             ...        0.0 sec (  6.6%)
+   Generation of densities       ...        0.0 sec (  0.1%)
 Orbital improvement steps
 CPCM steps
-   Total CPCM time               ...        0.0 sec (  2.6%)
-Properties                       ...        0.0 sec (  0.1%)
+   Total CPCM time               ...        0.0 sec (  0.2%)
+Properties                       ...        0.0 sec (  0.6%)
    SOC integral calculation      ...        0.0 sec (  0.0%)
    SSC RMEs (incl. integrals)    ...        0.0 sec (  0.0%)
    SOC RMEs                      ...        0.0 sec (  0.0%)
@@ -1752,12 +1748,12 @@ CASSCF TIMINGS
 --------------
 
 Total time                       ...        0.0 sec
-Sum of individual times          ...        0.0 sec ( 98.9%)
+Sum of individual times          ...        0.0 sec ( 98.3%)
 
 Calculation of AO operators
 Calculation of MO transformed quantities
 Configuration interaction steps
-   CI-setup phase                ...        0.0 sec ( 98.9%)
+   CI-setup phase                ...        0.0 sec ( 98.3%)
 Orbital improvement steps
 Properties                       ...        0.0 sec (  0.0%)
    SOC integral calculation      ...        0.0 sec (  0.0%)
@@ -1834,7 +1830,7 @@ Level              : Relaxed density
 State              :   0
 Multiplicity       :   1
 Irrep              :   0
-Energy             :    -1.1051281756099738 Eh
+Energy             :    -1.1051281756099733 Eh
 Relativity type    : 
 Basis              : AO
                                 X                 Y                 Z
@@ -1943,8 +1939,8 @@ Auxiliary 'external' fitting basis          ... NOT available
 
 Checking pre-screening integrals            ... done (  0.0 sec) Dimension = 2
 Save PGC pre-screening integrals            ... done (  0.0 sec) Dimension = 2
-Calculate PGC overlap integrals             ... done (  0.1 sec) Dimension = 2
-Calculating pre-screening integrals (ORCA)  ... done (  0.1 sec) Dimension = 2
+Calculate PGC overlap integrals             ... done (  0.0 sec) Dimension = 2
+Calculating pre-screening integrals (ORCA)  ... done (  0.0 sec) Dimension = 2
 Check shell pair data                       ... done (  0.0 sec)
 Shell pair information
 Shell pair cut-off parameter TPreSel        ...   1.0e-11
@@ -1962,8 +1958,8 @@ Smallest eigenvalue                        ... 3.532e-01
 Time for diagonalization                   ...    0.000 sec
 Threshold for overlap eigenvalues          ... 1.000e-07
 Number of eigenvalues below threshold      ... 0
-Time for construction of square roots      ...    0.044 sec
-Total time needed                          ...    0.044 sec
+Time for construction of square roots      ...    0.000 sec
+Total time needed                          ...    0.001 sec
 
 -------------------
 DFT GRID GENERATION
@@ -2004,14 +2000,14 @@ Total number of grid points                  ...     6648
 Total number of batches                      ...      104
 Average number of points per batch           ...       63
 Average number of grid points per atom       ...     3324
-Initializing property integral containers    ... done (  0.1 sec)
+Initializing property integral containers    ... done (  0.0 sec)
 
-SHARK setup successfully completed in   0.5 seconds
+SHARK setup successfully completed in   0.1 seconds
 
 Maximum memory used throughout the entire STARTUP-calculation: 2.7 MB
 Occupation numbers will be reassigned to an Aufbau configuration
              **** ENERGY FILE WAS UPDATED (Hidrogen_scan.en.tmp) ****
-Finished Guess after   0.3 sec
+Finished Guess after   0.0 sec
 Maximum memory used throughout the entire GUESS-calculation: 1.1 MB
 -------------------------------------------------------------------------------
                               ORCA-CASSCF
@@ -2178,23 +2174,23 @@ Coupling container construction done
 CASSCF TIMINGS
 --------------
 
-Total time                       ...        2.3 sec
-Sum of individual times          ...        1.4 sec ( 60.8%)
+Total time                       ...        0.1 sec
+Sum of individual times          ...        0.0 sec ( 54.3%)
 
 Calculation of AO operators
-   F(Core) operator              ...        0.0 sec (  0.0%)
-   G(Act) operator               ...        0.0 sec (  1.0%)
+   F(Core) operator              ...        0.0 sec (  0.6%)
+   G(Act) operator               ...        0.0 sec (  0.5%)
 Calculation of MO transformed quantities
-   J(MO) operators               ...        0.3 sec ( 11.7%)
+   J(MO) operators               ...        0.0 sec ( 39.1%)
    AO->MO one electron integrals ...        0.0 sec (  0.0%)
 Configuration interaction steps
-   CI-setup phase                ...        0.3 sec ( 13.1%)
-   CI-solution phase             ...        0.7 sec ( 32.1%)
-   Generation of densities       ...        0.0 sec (  0.0%)
+   CI-setup phase                ...        0.0 sec (  5.3%)
+   CI-solution phase             ...        0.0 sec (  7.8%)
+   Generation of densities       ...        0.0 sec (  0.1%)
 Orbital improvement steps
 CPCM steps
-   Total CPCM time               ...        0.0 sec (  0.9%)
-Properties                       ...        0.0 sec (  1.9%)
+   Total CPCM time               ...        0.0 sec (  0.3%)
+Properties                       ...        0.0 sec (  0.7%)
    SOC integral calculation      ...        0.0 sec (  0.0%)
    SSC RMEs (incl. integrals)    ...        0.0 sec (  0.0%)
    SOC RMEs                      ...        0.0 sec (  0.0%)
@@ -2255,17 +2251,13 @@ CASSCF TIMINGS
 --------------
 
 Total time                       ...        0.0 sec
-Sum of individual times          ...        0.0 sec ( 99.2%)
+Sum of individual times          ...        0.0 sec ( 98.5%)
 
 Calculation of AO operators
 Calculation of MO transformed quantities
 Configuration interaction steps
-   CI-setup phase                ...        0.0 sec ( 99.2%)
+   CI-setup phase                ...        0.0 sec ( 98.5%)
 Orbital improvement steps
-Properties                       ...        0.0 sec (  0.0%)
-   SOC integral calculation      ...        0.0 sec (  0.0%)
-   SSC RMEs (incl. integrals)    ...        0.0 sec (  0.0%)
-   SOC RMEs                      ...        0.0 sec (  0.0%)
 
 Maximum memory used throughout the entire CASSCF-calculation: 23.5 MB
 
@@ -2337,14 +2329,14 @@ Level              : Relaxed density
 State              :   0
 Multiplicity       :   1
 Irrep              :   0
-Energy             :    -1.1367956186707942 Eh
+Energy             :    -1.1367956186707950 Eh
 Relativity type    : 
 Basis              : AO
                                 X                 Y                 Z
 Electronic contribution:     -0.000000000      -0.000000000       0.000000000
 Nuclear contribution   :      0.000000000       0.000000000      -0.000000000
                         -----------------------------------------
-Total Dipole Moment    :      0.000000000       0.000000000      -0.000000000
+Total Dipole Moment    :      0.000000000       0.000000000       0.000000000
                         -----------------------------------------
 Magnitude (a.u.)       :      0.000000000
 Magnitude (Debye)      :      0.000000000
@@ -2359,8 +2351,8 @@ Rotational constants in cm-1:             0.000000            57.908082         
 Rotational constants in MHz :             0.000000       1736040.621319       1736040.621319 
 
 Dipole components along the rotational axes: 
-x,y,z [a.u.] :    -0.000000     0.000000     0.000000 
-x,y,z [Debye]:    -0.000000     0.000000     0.000000 
+x,y,z [a.u.] :     0.000000     0.000000     0.000000 
+x,y,z [Debye]:     0.000000     0.000000     0.000000 
 
  
 
@@ -2465,8 +2457,8 @@ Smallest eigenvalue                        ... 4.716e-01
 Time for diagonalization                   ...    0.000 sec
 Threshold for overlap eigenvalues          ... 1.000e-07
 Number of eigenvalues below threshold      ... 0
-Time for construction of square roots      ...    0.044 sec
-Total time needed                          ...    0.044 sec
+Time for construction of square roots      ...    0.000 sec
+Total time needed                          ...    0.001 sec
 
 -------------------
 DFT GRID GENERATION
@@ -2507,14 +2499,14 @@ Total number of grid points                  ...     6650
 Total number of batches                      ...      104
 Average number of points per batch           ...       63
 Average number of grid points per atom       ...     3325
-Initializing property integral containers    ... done (  0.1 sec)
+Initializing property integral containers    ... done (  0.0 sec)
 
-SHARK setup successfully completed in   0.5 seconds
+SHARK setup successfully completed in   0.1 seconds
 
 Maximum memory used throughout the entire STARTUP-calculation: 2.7 MB
 Occupation numbers will be reassigned to an Aufbau configuration
              **** ENERGY FILE WAS UPDATED (Hidrogen_scan.en.tmp) ****
-Finished Guess after   0.3 sec
+Finished Guess after   0.0 sec
 Maximum memory used throughout the entire GUESS-calculation: 1.1 MB
 -------------------------------------------------------------------------------
                               ORCA-CASSCF
@@ -2681,23 +2673,23 @@ Coupling container construction done
 CASSCF TIMINGS
 --------------
 
-Total time                       ...        2.1 sec
-Sum of individual times          ...        1.2 sec ( 58.3%)
+Total time                       ...        0.1 sec
+Sum of individual times          ...        0.0 sec ( 54.5%)
 
 Calculation of AO operators
-   F(Core) operator              ...        0.0 sec (  0.0%)
-   G(Act) operator               ...        0.0 sec (  0.1%)
+   F(Core) operator              ...        0.0 sec (  0.7%)
+   G(Act) operator               ...        0.0 sec (  0.4%)
 Calculation of MO transformed quantities
-   J(MO) operators               ...        0.2 sec ( 11.2%)
-   AO->MO one electron integrals ...        0.0 sec (  0.0%)
+   J(MO) operators               ...        0.0 sec ( 39.8%)
+   AO->MO one electron integrals ...        0.0 sec (  0.1%)
 Configuration interaction steps
-   CI-setup phase                ...        0.3 sec ( 14.9%)
-   CI-solution phase             ...        0.6 sec ( 28.9%)
-   Generation of densities       ...        0.0 sec (  0.0%)
+   CI-setup phase                ...        0.0 sec (  4.7%)
+   CI-solution phase             ...        0.0 sec (  7.7%)
+   Generation of densities       ...        0.0 sec (  0.1%)
 Orbital improvement steps
 CPCM steps
-   Total CPCM time               ...        0.0 sec (  1.0%)
-Properties                       ...        0.0 sec (  2.1%)
+   Total CPCM time               ...        0.0 sec (  0.3%)
+Properties                       ...        0.0 sec (  0.7%)
    SOC integral calculation      ...        0.0 sec (  0.0%)
    SSC RMEs (incl. integrals)    ...        0.0 sec (  0.0%)
    SOC RMEs                      ...        0.0 sec (  0.0%)
@@ -2758,17 +2750,13 @@ CASSCF TIMINGS
 --------------
 
 Total time                       ...        0.0 sec
-Sum of individual times          ...        0.0 sec ( 99.1%)
+Sum of individual times          ...        0.0 sec ( 98.4%)
 
 Calculation of AO operators
 Calculation of MO transformed quantities
 Configuration interaction steps
-   CI-setup phase                ...        0.0 sec ( 99.1%)
+   CI-setup phase                ...        0.0 sec ( 98.4%)
 Orbital improvement steps
-Properties                       ...        0.0 sec (  0.0%)
-   SOC integral calculation      ...        0.0 sec (  0.0%)
-   SSC RMEs (incl. integrals)    ...        0.0 sec (  0.0%)
-   SOC RMEs                      ...        0.0 sec (  0.0%)
 
 Maximum memory used throughout the entire CASSCF-calculation: 23.6 MB
 
@@ -2840,11 +2828,11 @@ Level              : Relaxed density
 State              :   0
 Multiplicity       :   1
 Irrep              :   0
-Energy             :    -1.1119886267371577 Eh
+Energy             :    -1.1119886267371570 Eh
 Relativity type    : 
 Basis              : AO
                                 X                 Y                 Z
-Electronic contribution:     -0.000000000      -0.000000000       0.000000000
+Electronic contribution:     -0.000000000      -0.000000000      -0.000000000
 Nuclear contribution   :      0.000000000       0.000000000      -0.000000000
                         -----------------------------------------
 Total Dipole Moment    :      0.000000000       0.000000000      -0.000000000
@@ -2949,8 +2937,8 @@ Auxiliary 'external' fitting basis          ... NOT available
 
 Checking pre-screening integrals            ... done (  0.0 sec) Dimension = 2
 Save PGC pre-screening integrals            ... done (  0.0 sec) Dimension = 2
-Calculate PGC overlap integrals             ... done (  0.1 sec) Dimension = 2
-Calculating pre-screening integrals (ORCA)  ... done (  0.1 sec) Dimension = 2
+Calculate PGC overlap integrals             ... done (  0.0 sec) Dimension = 2
+Calculating pre-screening integrals (ORCA)  ... done (  0.0 sec) Dimension = 2
 Check shell pair data                       ... done (  0.0 sec)
 Shell pair information
 Shell pair cut-off parameter TPreSel        ...   1.0e-11
@@ -2968,8 +2956,8 @@ Smallest eigenvalue                        ... 5.784e-01
 Time for diagonalization                   ...    0.000 sec
 Threshold for overlap eigenvalues          ... 1.000e-07
 Number of eigenvalues below threshold      ... 0
-Time for construction of square roots      ...    0.044 sec
-Total time needed                          ...    0.044 sec
+Time for construction of square roots      ...    0.000 sec
+Total time needed                          ...    0.001 sec
 
 -------------------
 DFT GRID GENERATION
@@ -3010,14 +2998,14 @@ Total number of grid points                  ...     6654
 Total number of batches                      ...      104
 Average number of points per batch           ...       63
 Average number of grid points per atom       ...     3327
-Initializing property integral containers    ... done (  0.1 sec)
+Initializing property integral containers    ... done (  0.0 sec)
 
-SHARK setup successfully completed in   0.5 seconds
+SHARK setup successfully completed in   0.1 seconds
 
 Maximum memory used throughout the entire STARTUP-calculation: 2.7 MB
 Occupation numbers will be reassigned to an Aufbau configuration
              **** ENERGY FILE WAS UPDATED (Hidrogen_scan.en.tmp) ****
-Finished Guess after   0.3 sec
+Finished Guess after   0.0 sec
 Maximum memory used throughout the entire GUESS-calculation: 1.1 MB
 -------------------------------------------------------------------------------
                               ORCA-CASSCF
@@ -3184,23 +3172,23 @@ Coupling container construction done
 CASSCF TIMINGS
 --------------
 
-Total time                       ...        1.8 sec
-Sum of individual times          ...        1.1 sec ( 61.9%)
+Total time                       ...        0.1 sec
+Sum of individual times          ...        0.0 sec ( 46.5%)
 
 Calculation of AO operators
-   F(Core) operator              ...        0.0 sec (  0.0%)
-   G(Act) operator               ...        0.0 sec (  1.2%)
+   F(Core) operator              ...        0.0 sec (  0.5%)
+   G(Act) operator               ...        0.0 sec (  0.7%)
 Calculation of MO transformed quantities
-   J(MO) operators               ...        0.2 sec ( 10.4%)
-   AO->MO one electron integrals ...        0.0 sec (  0.0%)
+   J(MO) operators               ...        0.0 sec ( 30.6%)
+   AO->MO one electron integrals ...        0.0 sec (  0.1%)
 Configuration interaction steps
-   CI-setup phase                ...        0.3 sec ( 16.6%)
-   CI-solution phase             ...        0.6 sec ( 32.5%)
-   Generation of densities       ...        0.0 sec (  0.0%)
+   CI-setup phase                ...        0.0 sec (  4.5%)
+   CI-solution phase             ...        0.0 sec (  9.1%)
+   Generation of densities       ...        0.0 sec (  0.2%)
 Orbital improvement steps
 CPCM steps
-   Total CPCM time               ...        0.0 sec (  1.2%)
-Properties                       ...        0.0 sec (  0.0%)
+   Total CPCM time               ...        0.0 sec (  0.2%)
+Properties                       ...        0.0 sec (  0.7%)
    SOC integral calculation      ...        0.0 sec (  0.0%)
    SSC RMEs (incl. integrals)    ...        0.0 sec (  0.0%)
    SOC RMEs                      ...        0.0 sec (  0.0%)
@@ -3261,12 +3249,12 @@ CASSCF TIMINGS
 --------------
 
 Total time                       ...        0.0 sec
-Sum of individual times          ...        0.0 sec ( 98.9%)
+Sum of individual times          ...        0.0 sec ( 98.4%)
 
 Calculation of AO operators
 Calculation of MO transformed quantities
 Configuration interaction steps
-   CI-setup phase                ...        0.0 sec ( 98.9%)
+   CI-setup phase                ...        0.0 sec ( 98.4%)
 Orbital improvement steps
 Properties                       ...        0.0 sec (  0.0%)
    SOC integral calculation      ...        0.0 sec (  0.0%)
@@ -3343,14 +3331,14 @@ Level              : Relaxed density
 State              :   0
 Multiplicity       :   1
 Irrep              :   0
-Energy             :    -1.0716844287139491 Eh
+Energy             :    -1.0716844287139493 Eh
 Relativity type    : 
 Basis              : AO
                                 X                 Y                 Z
 Electronic contribution:     -0.000000000      -0.000000000      -0.000000000
 Nuclear contribution   :      0.000000000       0.000000000       0.000000000
                         -----------------------------------------
-Total Dipole Moment    :      0.000000000       0.000000000      -0.000000000
+Total Dipole Moment    :      0.000000000       0.000000000       0.000000000
                         -----------------------------------------
 Magnitude (a.u.)       :      0.000000000
 Magnitude (Debye)      :      0.000000000
@@ -3365,8 +3353,8 @@ Rotational constants in cm-1:             0.000000            26.040603         
 Rotational constants in MHz :             0.000000        780677.644106        780677.644106 
 
 Dipole components along the rotational axes: 
-x,y,z [a.u.] :    -0.000000     0.000000     0.000000 
-x,y,z [Debye]:    -0.000000     0.000000     0.000000 
+x,y,z [a.u.] :     0.000000     0.000000     0.000000 
+x,y,z [Debye]:     0.000000     0.000000     0.000000 
 
  
 
@@ -3452,8 +3440,8 @@ Auxiliary 'external' fitting basis          ... NOT available
 
 Checking pre-screening integrals            ... done (  0.0 sec) Dimension = 2
 Save PGC pre-screening integrals            ... done (  0.0 sec) Dimension = 2
-Calculate PGC overlap integrals             ... done (  0.1 sec) Dimension = 2
-Calculating pre-screening integrals (ORCA)  ... done (  0.1 sec) Dimension = 2
+Calculate PGC overlap integrals             ... done (  0.0 sec) Dimension = 2
+Calculating pre-screening integrals (ORCA)  ... done (  0.0 sec) Dimension = 2
 Check shell pair data                       ... done (  0.0 sec)
 Shell pair information
 Shell pair cut-off parameter TPreSel        ...   1.0e-11
@@ -3471,8 +3459,8 @@ Smallest eigenvalue                        ... 6.700e-01
 Time for diagonalization                   ...    0.000 sec
 Threshold for overlap eigenvalues          ... 1.000e-07
 Number of eigenvalues below threshold      ... 0
-Time for construction of square roots      ...    0.044 sec
-Total time needed                          ...    0.044 sec
+Time for construction of square roots      ...    0.000 sec
+Total time needed                          ...    0.001 sec
 
 -------------------
 DFT GRID GENERATION
@@ -3513,14 +3501,14 @@ Total number of grid points                  ...     6656
 Total number of batches                      ...      106
 Average number of points per batch           ...       62
 Average number of grid points per atom       ...     3328
-Initializing property integral containers    ... done (  0.1 sec)
+Initializing property integral containers    ... done (  0.0 sec)
 
-SHARK setup successfully completed in   0.6 seconds
+SHARK setup successfully completed in   0.1 seconds
 
 Maximum memory used throughout the entire STARTUP-calculation: 2.7 MB
 Occupation numbers will be reassigned to an Aufbau configuration
              **** ENERGY FILE WAS UPDATED (Hidrogen_scan.en.tmp) ****
-Finished Guess after   0.3 sec
+Finished Guess after   0.0 sec
 Maximum memory used throughout the entire GUESS-calculation: 1.1 MB
 -------------------------------------------------------------------------------
                               ORCA-CASSCF
@@ -3687,23 +3675,23 @@ Coupling container construction done
 CASSCF TIMINGS
 --------------
 
-Total time                       ...        2.0 sec
-Sum of individual times          ...        1.2 sec ( 59.8%)
+Total time                       ...        0.1 sec
+Sum of individual times          ...        0.0 sec ( 53.2%)
 
 Calculation of AO operators
-   F(Core) operator              ...        0.0 sec (  0.0%)
-   G(Act) operator               ...        0.0 sec (  1.1%)
+   F(Core) operator              ...        0.0 sec (  0.6%)
+   G(Act) operator               ...        0.0 sec (  0.5%)
 Calculation of MO transformed quantities
-   J(MO) operators               ...        0.2 sec ( 11.4%)
-   AO->MO one electron integrals ...        0.0 sec (  0.0%)
+   J(MO) operators               ...        0.0 sec ( 38.1%)
+   AO->MO one electron integrals ...        0.0 sec (  0.1%)
 Configuration interaction steps
-   CI-setup phase                ...        0.3 sec ( 14.9%)
-   CI-solution phase             ...        0.6 sec ( 29.2%)
-   Generation of densities       ...        0.0 sec (  0.0%)
+   CI-setup phase                ...        0.0 sec (  4.7%)
+   CI-solution phase             ...        0.0 sec (  8.3%)
+   Generation of densities       ...        0.0 sec (  0.1%)
 Orbital improvement steps
 CPCM steps
-   Total CPCM time               ...        0.0 sec (  1.1%)
-Properties                       ...        0.0 sec (  2.2%)
+   Total CPCM time               ...        0.0 sec (  0.2%)
+Properties                       ...        0.0 sec (  0.7%)
    SOC integral calculation      ...        0.0 sec (  0.0%)
    SSC RMEs (incl. integrals)    ...        0.0 sec (  0.0%)
    SOC RMEs                      ...        0.0 sec (  0.0%)
@@ -3763,13 +3751,13 @@ CASSCF UV, CD spectra and dipole moments
 CASSCF TIMINGS
 --------------
 
-Total time                       ...        0.1 sec
-Sum of individual times          ...        0.1 sec ( 99.5%)
+Total time                       ...        0.0 sec
+Sum of individual times          ...        0.0 sec ( 98.5%)
 
 Calculation of AO operators
 Calculation of MO transformed quantities
 Configuration interaction steps
-   CI-setup phase                ...        0.1 sec ( 99.5%)
+   CI-setup phase                ...        0.0 sec ( 98.5%)
 Orbital improvement steps
 Properties                       ...        0.0 sec (  0.0%)
    SOC integral calculation      ...        0.0 sec (  0.0%)
@@ -3846,7 +3834,7 @@ Level              : Relaxed density
 State              :   0
 Multiplicity       :   1
 Irrep              :   0
-Energy             :    -1.0310726731457887 Eh
+Energy             :    -1.0310726731457882 Eh
 Relativity type    : 
 Basis              : AO
                                 X                 Y                 Z
@@ -3955,8 +3943,8 @@ Auxiliary 'external' fitting basis          ... NOT available
 
 Checking pre-screening integrals            ... done (  0.0 sec) Dimension = 2
 Save PGC pre-screening integrals            ... done (  0.0 sec) Dimension = 2
-Calculate PGC overlap integrals             ... done (  0.1 sec) Dimension = 2
-Calculating pre-screening integrals (ORCA)  ... done (  0.1 sec) Dimension = 2
+Calculate PGC overlap integrals             ... done (  0.0 sec) Dimension = 2
+Calculating pre-screening integrals (ORCA)  ... done (  0.0 sec) Dimension = 2
 Check shell pair data                       ... done (  0.0 sec)
 Shell pair information
 Shell pair cut-off parameter TPreSel        ...   1.0e-11
@@ -3974,8 +3962,8 @@ Smallest eigenvalue                        ... 7.457e-01
 Time for diagonalization                   ...    0.000 sec
 Threshold for overlap eigenvalues          ... 1.000e-07
 Number of eigenvalues below threshold      ... 0
-Time for construction of square roots      ...    0.044 sec
-Total time needed                          ...    0.044 sec
+Time for construction of square roots      ...    0.000 sec
+Total time needed                          ...    0.001 sec
 
 -------------------
 DFT GRID GENERATION
@@ -4016,14 +4004,14 @@ Total number of grid points                  ...     6656
 Total number of batches                      ...      106
 Average number of points per batch           ...       62
 Average number of grid points per atom       ...     3328
-Initializing property integral containers    ... done (  0.1 sec)
+Initializing property integral containers    ... done (  0.0 sec)
 
-SHARK setup successfully completed in   0.5 seconds
+SHARK setup successfully completed in   0.1 seconds
 
 Maximum memory used throughout the entire STARTUP-calculation: 2.7 MB
 Occupation numbers will be reassigned to an Aufbau configuration
              **** ENERGY FILE WAS UPDATED (Hidrogen_scan.en.tmp) ****
-Finished Guess after   0.3 sec
+Finished Guess after   0.0 sec
 Maximum memory used throughout the entire GUESS-calculation: 1.1 MB
 -------------------------------------------------------------------------------
                               ORCA-CASSCF
@@ -4190,23 +4178,23 @@ Coupling container construction done
 CASSCF TIMINGS
 --------------
 
-Total time                       ...        1.3 sec
-Sum of individual times          ...        0.5 sec ( 39.4%)
+Total time                       ...        0.1 sec
+Sum of individual times          ...        0.0 sec ( 45.7%)
 
 Calculation of AO operators
-   F(Core) operator              ...        0.0 sec (  0.0%)
-   G(Act) operator               ...        0.0 sec (  0.0%)
+   F(Core) operator              ...        0.0 sec (  0.7%)
+   G(Act) operator               ...        0.0 sec (  0.3%)
 Calculation of MO transformed quantities
-   J(MO) operators               ...        0.2 sec ( 12.6%)
-   AO->MO one electron integrals ...        0.0 sec (  0.0%)
+   J(MO) operators               ...        0.0 sec ( 32.3%)
+   AO->MO one electron integrals ...        0.0 sec (  0.1%)
 Configuration interaction steps
-   CI-setup phase                ...        0.3 sec ( 20.5%)
-   CI-solution phase             ...        0.0 sec (  1.0%)
-   Generation of densities       ...        0.0 sec (  0.0%)
+   CI-setup phase                ...        0.0 sec (  4.6%)
+   CI-solution phase             ...        0.0 sec (  6.6%)
+   Generation of densities       ...        0.0 sec (  0.1%)
 Orbital improvement steps
 CPCM steps
-   Total CPCM time               ...        0.0 sec (  1.7%)
-Properties                       ...        0.0 sec (  3.5%)
+   Total CPCM time               ...        0.0 sec (  0.3%)
+Properties                       ...        0.0 sec (  0.8%)
    SOC integral calculation      ...        0.0 sec (  0.0%)
    SSC RMEs (incl. integrals)    ...        0.0 sec (  0.0%)
    SOC RMEs                      ...        0.0 sec (  0.0%)
@@ -4266,13 +4254,13 @@ CASSCF UV, CD spectra and dipole moments
 CASSCF TIMINGS
 --------------
 
-Total time                       ...        0.1 sec
-Sum of individual times          ...        0.1 sec ( 99.5%)
+Total time                       ...        0.0 sec
+Sum of individual times          ...        0.0 sec ( 98.1%)
 
 Calculation of AO operators
 Calculation of MO transformed quantities
 Configuration interaction steps
-   CI-setup phase                ...        0.1 sec ( 99.5%)
+   CI-setup phase                ...        0.0 sec ( 98.1%)
 Orbital improvement steps
 Properties                       ...        0.0 sec (  0.0%)
    SOC integral calculation      ...        0.0 sec (  0.0%)
@@ -4349,7 +4337,7 @@ Level              : Relaxed density
 State              :   0
 Multiplicity       :   1
 Irrep              :   0
-Energy             :    -0.9970876279754098 Eh
+Energy             :    -0.9970876279754100 Eh
 Relativity type    : 
 Basis              : AO
                                 X                 Y                 Z
@@ -4458,8 +4446,8 @@ Auxiliary 'external' fitting basis          ... NOT available
 
 Checking pre-screening integrals            ... done (  0.0 sec) Dimension = 2
 Save PGC pre-screening integrals            ... done (  0.0 sec) Dimension = 2
-Calculate PGC overlap integrals             ... done (  0.1 sec) Dimension = 2
-Calculating pre-screening integrals (ORCA)  ... done (  0.1 sec) Dimension = 2
+Calculate PGC overlap integrals             ... done (  0.0 sec) Dimension = 2
+Calculating pre-screening integrals (ORCA)  ... done (  0.0 sec) Dimension = 2
 Check shell pair data                       ... done (  0.0 sec)
 Shell pair information
 Shell pair cut-off parameter TPreSel        ...   1.0e-11
@@ -4477,8 +4465,8 @@ Smallest eigenvalue                        ... 8.068e-01
 Time for diagonalization                   ...    0.000 sec
 Threshold for overlap eigenvalues          ... 1.000e-07
 Number of eigenvalues below threshold      ... 0
-Time for construction of square roots      ...    0.044 sec
-Total time needed                          ...    0.044 sec
+Time for construction of square roots      ...    0.000 sec
+Total time needed                          ...    0.001 sec
 
 -------------------
 DFT GRID GENERATION
@@ -4519,14 +4507,14 @@ Total number of grid points                  ...     6658
 Total number of batches                      ...      106
 Average number of points per batch           ...       62
 Average number of grid points per atom       ...     3329
-Initializing property integral containers    ... done (  0.1 sec)
+Initializing property integral containers    ... done (  0.0 sec)
 
-SHARK setup successfully completed in   0.5 seconds
+SHARK setup successfully completed in   0.1 seconds
 
 Maximum memory used throughout the entire STARTUP-calculation: 2.7 MB
 Occupation numbers will be reassigned to an Aufbau configuration
              **** ENERGY FILE WAS UPDATED (Hidrogen_scan.en.tmp) ****
-Finished Guess after   0.3 sec
+Finished Guess after   0.0 sec
 Maximum memory used throughout the entire GUESS-calculation: 1.1 MB
 -------------------------------------------------------------------------------
                               ORCA-CASSCF
@@ -4693,23 +4681,23 @@ Coupling container construction done
 CASSCF TIMINGS
 --------------
 
-Total time                       ...        2.0 sec
-Sum of individual times          ...        1.2 sec ( 59.3%)
+Total time                       ...        0.1 sec
+Sum of individual times          ...        0.0 sec ( 52.6%)
 
 Calculation of AO operators
-   F(Core) operator              ...        0.0 sec (  0.0%)
-   G(Act) operator               ...        0.0 sec (  1.1%)
+   F(Core) operator              ...        0.0 sec (  0.5%)
+   G(Act) operator               ...        0.0 sec (  0.4%)
 Calculation of MO transformed quantities
-   J(MO) operators               ...        0.2 sec ( 11.6%)
+   J(MO) operators               ...        0.0 sec ( 39.0%)
    AO->MO one electron integrals ...        0.0 sec (  0.0%)
 Configuration interaction steps
-   CI-setup phase                ...        0.3 sec ( 14.6%)
-   CI-solution phase             ...        0.6 sec ( 28.8%)
-   Generation of densities       ...        0.0 sec (  0.0%)
+   CI-setup phase                ...        0.0 sec (  4.3%)
+   CI-solution phase             ...        0.0 sec (  7.3%)
+   Generation of densities       ...        0.0 sec (  0.1%)
 Orbital improvement steps
 CPCM steps
-   Total CPCM time               ...        0.0 sec (  1.1%)
-Properties                       ...        0.0 sec (  2.1%)
+   Total CPCM time               ...        0.0 sec (  0.2%)
+Properties                       ...        0.0 sec (  0.6%)
    SOC integral calculation      ...        0.0 sec (  0.0%)
    SSC RMEs (incl. integrals)    ...        0.0 sec (  0.0%)
    SOC RMEs                      ...        0.0 sec (  0.0%)
@@ -4769,13 +4757,13 @@ CASSCF UV, CD spectra and dipole moments
 CASSCF TIMINGS
 --------------
 
-Total time                       ...        0.1 sec
-Sum of individual times          ...        0.1 sec ( 99.4%)
+Total time                       ...        0.0 sec
+Sum of individual times          ...        0.0 sec ( 98.4%)
 
 Calculation of AO operators
 Calculation of MO transformed quantities
 Configuration interaction steps
-   CI-setup phase                ...        0.1 sec ( 99.4%)
+   CI-setup phase                ...        0.0 sec ( 98.4%)
 Orbital improvement steps
 Properties                       ...        0.0 sec (  0.0%)
    SOC integral calculation      ...        0.0 sec (  0.0%)
@@ -4852,14 +4840,14 @@ Level              : Relaxed density
 State              :   0
 Multiplicity       :   1
 Irrep              :   0
-Energy             :    -0.9721510672485760 Eh
+Energy             :    -0.9721510672485761 Eh
 Relativity type    : 
 Basis              : AO
                                 X                 Y                 Z
 Electronic contribution:     -0.000000000      -0.000000000      -0.000000000
 Nuclear contribution   :      0.000000000       0.000000000       0.000000000
                         -----------------------------------------
-Total Dipole Moment    :      0.000000000       0.000000000      -0.000000000
+Total Dipole Moment    :      0.000000000       0.000000000       0.000000000
                         -----------------------------------------
 Magnitude (a.u.)       :      0.000000000
 Magnitude (Debye)      :      0.000000000
@@ -4874,8 +4862,8 @@ Rotational constants in cm-1:             0.000000            11.664912         
 Rotational constants in MHz :             0.000000        349705.250088        349705.250088 
 
 Dipole components along the rotational axes: 
-x,y,z [a.u.] :    -0.000000     0.000000     0.000000 
-x,y,z [Debye]:    -0.000000     0.000000     0.000000 
+x,y,z [a.u.] :     0.000000     0.000000     0.000000 
+x,y,z [Debye]:     0.000000     0.000000     0.000000 
 
  
 
@@ -4980,8 +4968,8 @@ Smallest eigenvalue                        ... 8.553e-01
 Time for diagonalization                   ...    0.000 sec
 Threshold for overlap eigenvalues          ... 1.000e-07
 Number of eigenvalues below threshold      ... 0
-Time for construction of square roots      ...    0.044 sec
-Total time needed                          ...    0.044 sec
+Time for construction of square roots      ...    0.000 sec
+Total time needed                          ...    0.001 sec
 
 -------------------
 DFT GRID GENERATION
@@ -5022,14 +5010,14 @@ Total number of grid points                  ...     6660
 Total number of batches                      ...      106
 Average number of points per batch           ...       62
 Average number of grid points per atom       ...     3330
-Initializing property integral containers    ... done (  0.1 sec)
+Initializing property integral containers    ... done (  0.0 sec)
 
-SHARK setup successfully completed in   0.5 seconds
+SHARK setup successfully completed in   0.1 seconds
 
 Maximum memory used throughout the entire STARTUP-calculation: 2.7 MB
 Occupation numbers will be reassigned to an Aufbau configuration
              **** ENERGY FILE WAS UPDATED (Hidrogen_scan.en.tmp) ****
-Finished Guess after   0.3 sec
+Finished Guess after   0.0 sec
 Maximum memory used throughout the entire GUESS-calculation: 1.1 MB
 -------------------------------------------------------------------------------
                               ORCA-CASSCF
@@ -5196,23 +5184,23 @@ Coupling container construction done
 CASSCF TIMINGS
 --------------
 
-Total time                       ...        1.5 sec
-Sum of individual times          ...        0.8 sec ( 50.6%)
+Total time                       ...        0.1 sec
+Sum of individual times          ...        0.0 sec ( 53.8%)
 
 Calculation of AO operators
-   F(Core) operator              ...        0.0 sec (  0.0%)
-   G(Act) operator               ...        0.0 sec (  1.5%)
+   F(Core) operator              ...        0.0 sec (  0.6%)
+   G(Act) operator               ...        0.0 sec (  0.4%)
 Calculation of MO transformed quantities
-   J(MO) operators               ...        0.1 sec (  3.6%)
-   AO->MO one electron integrals ...        0.0 sec (  0.0%)
+   J(MO) operators               ...        0.0 sec ( 39.1%)
+   AO->MO one electron integrals ...        0.0 sec (  0.1%)
 Configuration interaction steps
-   CI-setup phase                ...        0.1 sec (  3.8%)
-   CI-solution phase             ...        0.6 sec ( 38.7%)
-   Generation of densities       ...        0.0 sec (  0.0%)
+   CI-setup phase                ...        0.0 sec (  5.1%)
+   CI-solution phase             ...        0.0 sec (  7.5%)
+   Generation of densities       ...        0.0 sec (  0.1%)
 Orbital improvement steps
 CPCM steps
-   Total CPCM time               ...        0.0 sec (  0.0%)
-Properties                       ...        0.0 sec (  3.0%)
+   Total CPCM time               ...        0.0 sec (  0.2%)
+Properties                       ...        0.0 sec (  0.7%)
    SOC integral calculation      ...        0.0 sec (  0.0%)
    SSC RMEs (incl. integrals)    ...        0.0 sec (  0.0%)
    SOC RMEs                      ...        0.0 sec (  0.0%)
@@ -5272,13 +5260,13 @@ CASSCF UV, CD spectra and dipole moments
 CASSCF TIMINGS
 --------------
 
-Total time                       ...        0.1 sec
-Sum of individual times          ...        0.0 sec ( 99.1%)
+Total time                       ...        0.0 sec
+Sum of individual times          ...        0.0 sec ( 98.4%)
 
 Calculation of AO operators
 Calculation of MO transformed quantities
 Configuration interaction steps
-   CI-setup phase                ...        0.0 sec ( 99.1%)
+   CI-setup phase                ...        0.0 sec ( 98.4%)
 Orbital improvement steps
 Properties                       ...        0.0 sec (  0.0%)
    SOC integral calculation      ...        0.0 sec (  0.0%)
@@ -5355,7 +5343,7 @@ Level              : Relaxed density
 State              :   0
 Multiplicity       :   1
 Irrep              :   0
-Energy             :    -0.9556805775482876 Eh
+Energy             :    -0.9556805775482877 Eh
 Relativity type    : 
 Basis              : AO
                                 X                 Y                 Z
@@ -5483,8 +5471,8 @@ Smallest eigenvalue                        ... 8.932e-01
 Time for diagonalization                   ...    0.000 sec
 Threshold for overlap eigenvalues          ... 1.000e-07
 Number of eigenvalues below threshold      ... 0
-Time for construction of square roots      ...    0.044 sec
-Total time needed                          ...    0.044 sec
+Time for construction of square roots      ...    0.000 sec
+Total time needed                          ...    0.001 sec
 
 -------------------
 DFT GRID GENERATION
@@ -5525,14 +5513,14 @@ Total number of grid points                  ...     6660
 Total number of batches                      ...      106
 Average number of points per batch           ...       62
 Average number of grid points per atom       ...     3330
-Initializing property integral containers    ... done (  0.1 sec)
+Initializing property integral containers    ... done (  0.0 sec)
 
-SHARK setup successfully completed in   0.5 seconds
+SHARK setup successfully completed in   0.1 seconds
 
 Maximum memory used throughout the entire STARTUP-calculation: 2.7 MB
 Occupation numbers will be reassigned to an Aufbau configuration
              **** ENERGY FILE WAS UPDATED (Hidrogen_scan.en.tmp) ****
-Finished Guess after   0.3 sec
+Finished Guess after   0.0 sec
 Maximum memory used throughout the entire GUESS-calculation: 1.1 MB
 -------------------------------------------------------------------------------
                               ORCA-CASSCF
@@ -5699,23 +5687,23 @@ Coupling container construction done
 CASSCF TIMINGS
 --------------
 
-Total time                       ...        2.0 sec
-Sum of individual times          ...        1.1 sec ( 55.6%)
+Total time                       ...        0.1 sec
+Sum of individual times          ...        0.0 sec ( 51.9%)
 
 Calculation of AO operators
-   F(Core) operator              ...        0.0 sec (  0.0%)
-   G(Act) operator               ...        0.0 sec (  1.1%)
+   F(Core) operator              ...        0.0 sec (  0.6%)
+   G(Act) operator               ...        0.0 sec (  0.5%)
 Calculation of MO transformed quantities
-   J(MO) operators               ...        0.2 sec ( 10.3%)
-   AO->MO one electron integrals ...        0.0 sec (  0.0%)
+   J(MO) operators               ...        0.0 sec ( 33.2%)
+   AO->MO one electron integrals ...        0.0 sec (  0.1%)
 Configuration interaction steps
-   CI-setup phase                ...        0.3 sec ( 13.7%)
-   CI-solution phase             ...        0.6 sec ( 27.3%)
-   Generation of densities       ...        0.0 sec (  0.0%)
+   CI-setup phase                ...        0.0 sec (  6.8%)
+   CI-solution phase             ...        0.0 sec (  9.7%)
+   Generation of densities       ...        0.0 sec (  0.1%)
 Orbital improvement steps
 CPCM steps
-   Total CPCM time               ...        0.0 sec (  1.1%)
-Properties                       ...        0.0 sec (  2.1%)
+   Total CPCM time               ...        0.0 sec (  0.2%)
+Properties                       ...        0.0 sec (  0.8%)
    SOC integral calculation      ...        0.0 sec (  0.0%)
    SSC RMEs (incl. integrals)    ...        0.0 sec (  0.0%)
    SOC RMEs                      ...        0.0 sec (  0.0%)
@@ -5775,13 +5763,13 @@ CASSCF UV, CD spectra and dipole moments
 CASSCF TIMINGS
 --------------
 
-Total time                       ...        0.1 sec
-Sum of individual times          ...        0.1 sec ( 99.4%)
+Total time                       ...        0.0 sec
+Sum of individual times          ...        0.0 sec ( 98.4%)
 
 Calculation of AO operators
 Calculation of MO transformed quantities
 Configuration interaction steps
-   CI-setup phase                ...        0.1 sec ( 99.4%)
+   CI-setup phase                ...        0.0 sec ( 98.4%)
 Orbital improvement steps
 Properties                       ...        0.0 sec (  0.0%)
    SOC integral calculation      ...        0.0 sec (  0.0%)
@@ -5858,14 +5846,14 @@ Level              : Relaxed density
 State              :   0
 Multiplicity       :   1
 Irrep              :   0
-Energy             :    -0.9456581843813922 Eh
+Energy             :    -0.9456581843813919 Eh
 Relativity type    : 
 Basis              : AO
                                 X                 Y                 Z
-Electronic contribution:     -0.000000000      -0.000000000       0.000000000
+Electronic contribution:     -0.000000000      -0.000000000      -0.000000000
 Nuclear contribution   :      0.000000000       0.000000000       0.000000000
                         -----------------------------------------
-Total Dipole Moment    :      0.000000000       0.000000000       0.000000000
+Total Dipole Moment    :      0.000000000       0.000000000      -0.000000000
                         -----------------------------------------
 Magnitude (a.u.)       :      0.000000000
 Magnitude (Debye)      :      0.000000000
@@ -5880,8 +5868,8 @@ Rotational constants in cm-1:             0.000000             7.831149         
 Rotational constants in MHz :             0.000000        234771.945002        234771.945002 
 
 Dipole components along the rotational axes: 
-x,y,z [a.u.] :     0.000000     0.000000     0.000000 
-x,y,z [Debye]:     0.000000     0.000000     0.000000 
+x,y,z [a.u.] :    -0.000000     0.000000     0.000000 
+x,y,z [Debye]:    -0.000000     0.000000     0.000000 
 
  
 
@@ -5967,8 +5955,8 @@ Auxiliary 'external' fitting basis          ... NOT available
 
 Checking pre-screening integrals            ... done (  0.0 sec) Dimension = 2
 Save PGC pre-screening integrals            ... done (  0.0 sec) Dimension = 2
-Calculate PGC overlap integrals             ... done (  0.1 sec) Dimension = 2
-Calculating pre-screening integrals (ORCA)  ... done (  0.1 sec) Dimension = 2
+Calculate PGC overlap integrals             ... done (  0.0 sec) Dimension = 2
+Calculating pre-screening integrals (ORCA)  ... done (  0.0 sec) Dimension = 2
 Check shell pair data                       ... done (  0.0 sec)
 Shell pair information
 Shell pair cut-off parameter TPreSel        ...   1.0e-11
@@ -5986,8 +5974,8 @@ Smallest eigenvalue                        ... 9.225e-01
 Time for diagonalization                   ...    0.000 sec
 Threshold for overlap eigenvalues          ... 1.000e-07
 Number of eigenvalues below threshold      ... 0
-Time for construction of square roots      ...    0.044 sec
-Total time needed                          ...    0.044 sec
+Time for construction of square roots      ...    0.000 sec
+Total time needed                          ...    0.001 sec
 
 -------------------
 DFT GRID GENERATION
@@ -6028,14 +6016,14 @@ Total number of grid points                  ...     6662
 Total number of batches                      ...      106
 Average number of points per batch           ...       62
 Average number of grid points per atom       ...     3331
-Initializing property integral containers    ... done (  0.1 sec)
+Initializing property integral containers    ... done (  0.0 sec)
 
-SHARK setup successfully completed in   0.5 seconds
+SHARK setup successfully completed in   0.1 seconds
 
 Maximum memory used throughout the entire STARTUP-calculation: 2.7 MB
 Occupation numbers will be reassigned to an Aufbau configuration
              **** ENERGY FILE WAS UPDATED (Hidrogen_scan.en.tmp) ****
-Finished Guess after   0.3 sec
+Finished Guess after   0.0 sec
 Maximum memory used throughout the entire GUESS-calculation: 1.1 MB
 -------------------------------------------------------------------------------
                               ORCA-CASSCF
@@ -6202,23 +6190,23 @@ Coupling container construction done
 CASSCF TIMINGS
 --------------
 
-Total time                       ...        2.0 sec
-Sum of individual times          ...        1.1 sec ( 56.7%)
+Total time                       ...        0.1 sec
+Sum of individual times          ...        0.0 sec ( 54.0%)
 
 Calculation of AO operators
-   F(Core) operator              ...        0.0 sec (  0.0%)
-   G(Act) operator               ...        0.0 sec (  1.1%)
+   F(Core) operator              ...        0.0 sec (  0.6%)
+   G(Act) operator               ...        0.0 sec (  0.4%)
 Calculation of MO transformed quantities
-   J(MO) operators               ...        0.2 sec ( 10.2%)
-   AO->MO one electron integrals ...        0.0 sec (  0.0%)
+   J(MO) operators               ...        0.0 sec ( 39.6%)
+   AO->MO one electron integrals ...        0.0 sec (  0.1%)
 Configuration interaction steps
-   CI-setup phase                ...        0.3 sec ( 14.8%)
-   CI-solution phase             ...        0.5 sec ( 27.3%)
-   Generation of densities       ...        0.0 sec (  0.0%)
+   CI-setup phase                ...        0.0 sec (  5.2%)
+   CI-solution phase             ...        0.0 sec (  7.2%)
+   Generation of densities       ...        0.0 sec (  0.1%)
 Orbital improvement steps
 CPCM steps
-   Total CPCM time               ...        0.0 sec (  1.1%)
-Properties                       ...        0.0 sec (  2.2%)
+   Total CPCM time               ...        0.0 sec (  0.2%)
+Properties                       ...        0.0 sec (  0.6%)
    SOC integral calculation      ...        0.0 sec (  0.0%)
    SSC RMEs (incl. integrals)    ...        0.0 sec (  0.0%)
    SOC RMEs                      ...        0.0 sec (  0.0%)
@@ -6278,13 +6266,13 @@ CASSCF UV, CD spectra and dipole moments
 CASSCF TIMINGS
 --------------
 
-Total time                       ...        0.1 sec
-Sum of individual times          ...        0.1 sec ( 99.3%)
+Total time                       ...        0.0 sec
+Sum of individual times          ...        0.0 sec ( 98.4%)
 
 Calculation of AO operators
 Calculation of MO transformed quantities
 Configuration interaction steps
-   CI-setup phase                ...        0.1 sec ( 99.3%)
+   CI-setup phase                ...        0.0 sec ( 98.4%)
 Orbital improvement steps
 Properties                       ...        0.0 sec (  0.0%)
    SOC integral calculation      ...        0.0 sec (  0.0%)
@@ -6361,14 +6349,14 @@ Level              : Relaxed density
 State              :   0
 Multiplicity       :   1
 Irrep              :   0
-Energy             :    -0.9399056857186026 Eh
+Energy             :    -0.9399056857186024 Eh
 Relativity type    : 
 Basis              : AO
                                 X                 Y                 Z
 Electronic contribution:     -0.000000000      -0.000000000      -0.000000000
 Nuclear contribution   :      0.000000000       0.000000000       0.000000000
                         -----------------------------------------
-Total Dipole Moment    :      0.000000000       0.000000000      -0.000000000
+Total Dipole Moment    :      0.000000000       0.000000000       0.000000000
                         -----------------------------------------
 Magnitude (a.u.)       :      0.000000000
 Magnitude (Debye)      :      0.000000000
@@ -6383,8 +6371,8 @@ Rotational constants in cm-1:             0.000000             6.587422         
 Rotational constants in MHz :             0.000000        197485.941622        197485.941622 
 
 Dipole components along the rotational axes: 
-x,y,z [a.u.] :    -0.000000     0.000000     0.000000 
-x,y,z [Debye]:    -0.000000     0.000000     0.000000 
+x,y,z [a.u.] :     0.000000     0.000000     0.000000 
+x,y,z [Debye]:     0.000000     0.000000     0.000000 
 
  
 
@@ -6470,8 +6458,8 @@ Auxiliary 'external' fitting basis          ... NOT available
 
 Checking pre-screening integrals            ... done (  0.0 sec) Dimension = 2
 Save PGC pre-screening integrals            ... done (  0.0 sec) Dimension = 2
-Calculate PGC overlap integrals             ... done (  0.1 sec) Dimension = 2
-Calculating pre-screening integrals (ORCA)  ... done (  0.1 sec) Dimension = 2
+Calculate PGC overlap integrals             ... done (  0.0 sec) Dimension = 2
+Calculating pre-screening integrals (ORCA)  ... done (  0.0 sec) Dimension = 2
 Check shell pair data                       ... done (  0.0 sec)
 Shell pair information
 Shell pair cut-off parameter TPreSel        ...   1.0e-11
@@ -6489,8 +6477,8 @@ Smallest eigenvalue                        ... 9.446e-01
 Time for diagonalization                   ...    0.000 sec
 Threshold for overlap eigenvalues          ... 1.000e-07
 Number of eigenvalues below threshold      ... 0
-Time for construction of square roots      ...    0.040 sec
-Total time needed                          ...    0.040 sec
+Time for construction of square roots      ...    0.000 sec
+Total time needed                          ...    0.001 sec
 
 -------------------
 DFT GRID GENERATION
@@ -6531,14 +6519,14 @@ Total number of grid points                  ...     6662
 Total number of batches                      ...      106
 Average number of points per batch           ...       62
 Average number of grid points per atom       ...     3331
-Initializing property integral containers    ... done (  0.1 sec)
+Initializing property integral containers    ... done (  0.0 sec)
 
-SHARK setup successfully completed in   0.5 seconds
+SHARK setup successfully completed in   0.1 seconds
 
 Maximum memory used throughout the entire STARTUP-calculation: 2.7 MB
 Occupation numbers will be reassigned to an Aufbau configuration
              **** ENERGY FILE WAS UPDATED (Hidrogen_scan.en.tmp) ****
-Finished Guess after   0.3 sec
+Finished Guess after   0.0 sec
 Maximum memory used throughout the entire GUESS-calculation: 1.1 MB
 -------------------------------------------------------------------------------
                               ORCA-CASSCF
@@ -6705,23 +6693,23 @@ Coupling container construction done
 CASSCF TIMINGS
 --------------
 
-Total time                       ...        2.0 sec
-Sum of individual times          ...        1.1 sec ( 58.0%)
+Total time                       ...        0.1 sec
+Sum of individual times          ...        0.0 sec ( 41.6%)
 
 Calculation of AO operators
-   F(Core) operator              ...        0.0 sec (  0.0%)
-   G(Act) operator               ...        0.0 sec (  1.1%)
+   F(Core) operator              ...        0.0 sec (  0.4%)
+   G(Act) operator               ...        0.0 sec (  0.4%)
 Calculation of MO transformed quantities
-   J(MO) operators               ...        0.2 sec ( 11.5%)
+   J(MO) operators               ...        0.0 sec ( 30.4%)
    AO->MO one electron integrals ...        0.0 sec (  0.0%)
 Configuration interaction steps
-   CI-setup phase                ...        0.3 sec ( 15.7%)
-   CI-solution phase             ...        0.5 sec ( 26.2%)
-   Generation of densities       ...        0.0 sec (  0.0%)
+   CI-setup phase                ...        0.0 sec (  3.1%)
+   CI-solution phase             ...        0.0 sec (  6.2%)
+   Generation of densities       ...        0.0 sec (  0.1%)
 Orbital improvement steps
 CPCM steps
-   Total CPCM time               ...        0.0 sec (  1.1%)
-Properties                       ...        0.0 sec (  2.3%)
+   Total CPCM time               ...        0.0 sec (  0.1%)
+Properties                       ...        0.0 sec (  0.8%)
    SOC integral calculation      ...        0.0 sec (  0.0%)
    SSC RMEs (incl. integrals)    ...        0.0 sec (  0.0%)
    SOC RMEs                      ...        0.0 sec (  0.0%)
@@ -6781,13 +6769,13 @@ CASSCF UV, CD spectra and dipole moments
 CASSCF TIMINGS
 --------------
 
-Total time                       ...        0.1 sec
-Sum of individual times          ...        0.1 sec ( 99.3%)
+Total time                       ...        0.0 sec
+Sum of individual times          ...        0.0 sec ( 98.4%)
 
 Calculation of AO operators
 Calculation of MO transformed quantities
 Configuration interaction steps
-   CI-setup phase                ...        0.1 sec ( 99.3%)
+   CI-setup phase                ...        0.0 sec ( 98.4%)
 Orbital improvement steps
 Properties                       ...        0.0 sec (  0.0%)
    SOC integral calculation      ...        0.0 sec (  0.0%)
@@ -6864,7 +6852,7 @@ Level              : Relaxed density
 State              :   0
 Multiplicity       :   1
 Irrep              :   0
-Energy             :    -0.9367267418608157 Eh
+Energy             :    -0.9367267418608162 Eh
 Relativity type    : 
 Basis              : AO
                                 X                 Y                 Z
@@ -6992,8 +6980,8 @@ Smallest eigenvalue                        ... 9.611e-01
 Time for diagonalization                   ...    0.000 sec
 Threshold for overlap eigenvalues          ... 1.000e-07
 Number of eigenvalues below threshold      ... 0
-Time for construction of square roots      ...    0.044 sec
-Total time needed                          ...    0.044 sec
+Time for construction of square roots      ...    0.000 sec
+Total time needed                          ...    0.001 sec
 
 -------------------
 DFT GRID GENERATION
@@ -7034,14 +7022,14 @@ Total number of grid points                  ...     6664
 Total number of batches                      ...      106
 Average number of points per batch           ...       62
 Average number of grid points per atom       ...     3332
-Initializing property integral containers    ... done (  0.1 sec)
+Initializing property integral containers    ... done (  0.0 sec)
 
-SHARK setup successfully completed in   0.5 seconds
+SHARK setup successfully completed in   0.1 seconds
 
 Maximum memory used throughout the entire STARTUP-calculation: 2.7 MB
 Occupation numbers will be reassigned to an Aufbau configuration
              **** ENERGY FILE WAS UPDATED (Hidrogen_scan.en.tmp) ****
-Finished Guess after   0.3 sec
+Finished Guess after   0.0 sec
 Maximum memory used throughout the entire GUESS-calculation: 1.1 MB
 -------------------------------------------------------------------------------
                               ORCA-CASSCF
@@ -7208,23 +7196,23 @@ Coupling container construction done
 CASSCF TIMINGS
 --------------
 
-Total time                       ...        2.2 sec
-Sum of individual times          ...        1.2 sec ( 54.1%)
+Total time                       ...        0.1 sec
+Sum of individual times          ...        0.0 sec ( 52.9%)
 
 Calculation of AO operators
-   F(Core) operator              ...        0.0 sec (  0.0%)
-   G(Act) operator               ...        0.0 sec (  1.0%)
+   F(Core) operator              ...        0.0 sec (  0.6%)
+   G(Act) operator               ...        0.0 sec (  0.5%)
 Calculation of MO transformed quantities
-   J(MO) operators               ...        0.2 sec (  9.8%)
-   AO->MO one electron integrals ...        0.0 sec (  0.0%)
+   J(MO) operators               ...        0.0 sec ( 38.3%)
+   AO->MO one electron integrals ...        0.0 sec (  0.1%)
 Configuration interaction steps
-   CI-setup phase                ...        0.3 sec ( 13.5%)
-   CI-solution phase             ...        0.6 sec ( 26.8%)
-   Generation of densities       ...        0.0 sec (  0.0%)
+   CI-setup phase                ...        0.0 sec (  5.1%)
+   CI-solution phase             ...        0.0 sec (  7.4%)
+   Generation of densities       ...        0.0 sec (  0.1%)
 Orbital improvement steps
 CPCM steps
-   Total CPCM time               ...        0.0 sec (  1.0%)
-Properties                       ...        0.0 sec (  1.9%)
+   Total CPCM time               ...        0.0 sec (  0.2%)
+Properties                       ...        0.0 sec (  0.7%)
    SOC integral calculation      ...        0.0 sec (  0.0%)
    SSC RMEs (incl. integrals)    ...        0.0 sec (  0.0%)
    SOC RMEs                      ...        0.0 sec (  0.0%)
@@ -7284,13 +7272,13 @@ CASSCF UV, CD spectra and dipole moments
 CASSCF TIMINGS
 --------------
 
-Total time                       ...        0.1 sec
-Sum of individual times          ...        0.1 sec ( 99.4%)
+Total time                       ...        0.0 sec
+Sum of individual times          ...        0.0 sec ( 98.1%)
 
 Calculation of AO operators
 Calculation of MO transformed quantities
 Configuration interaction steps
-   CI-setup phase                ...        0.1 sec ( 99.4%)
+   CI-setup phase                ...        0.0 sec ( 98.1%)
 Orbital improvement steps
 Properties                       ...        0.0 sec (  0.0%)
    SOC integral calculation      ...        0.0 sec (  0.0%)
@@ -7367,14 +7355,14 @@ Level              : Relaxed density
 State              :   0
 Multiplicity       :   1
 Irrep              :   0
-Energy             :    -0.9350119929176456 Eh
+Energy             :    -0.9350119929176465 Eh
 Relativity type    : 
 Basis              : AO
                                 X                 Y                 Z
 Electronic contribution:     -0.000000000      -0.000000000      -0.000000000
 Nuclear contribution   :      0.000000000       0.000000000       0.000000000
                         -----------------------------------------
-Total Dipole Moment    :      0.000000000       0.000000000       0.000000000
+Total Dipole Moment    :      0.000000000       0.000000000      -0.000000000
                         -----------------------------------------
 Magnitude (a.u.)       :      0.000000000
 Magnitude (Debye)      :      0.000000000
@@ -7389,8 +7377,8 @@ Rotational constants in cm-1:             0.000000             4.847931         
 Rotational constants in MHz :             0.000000        145337.318114        145337.318114 
 
 Dipole components along the rotational axes: 
-x,y,z [a.u.] :     0.000000     0.000000     0.000000 
-x,y,z [Debye]:     0.000000     0.000000     0.000000 
+x,y,z [a.u.] :    -0.000000     0.000000     0.000000 
+x,y,z [Debye]:    -0.000000     0.000000     0.000000 
 
  
 
@@ -7495,8 +7483,8 @@ Smallest eigenvalue                        ... 9.731e-01
 Time for diagonalization                   ...    0.000 sec
 Threshold for overlap eigenvalues          ... 1.000e-07
 Number of eigenvalues below threshold      ... 0
-Time for construction of square roots      ...    0.044 sec
-Total time needed                          ...    0.044 sec
+Time for construction of square roots      ...    0.000 sec
+Total time needed                          ...    0.001 sec
 
 -------------------
 DFT GRID GENERATION
@@ -7537,14 +7525,14 @@ Total number of grid points                  ...     6664
 Total number of batches                      ...      106
 Average number of points per batch           ...       62
 Average number of grid points per atom       ...     3332
-Initializing property integral containers    ... done (  0.1 sec)
+Initializing property integral containers    ... done (  0.0 sec)
 
-SHARK setup successfully completed in   0.5 seconds
+SHARK setup successfully completed in   0.1 seconds
 
 Maximum memory used throughout the entire STARTUP-calculation: 2.7 MB
 Occupation numbers will be reassigned to an Aufbau configuration
              **** ENERGY FILE WAS UPDATED (Hidrogen_scan.en.tmp) ****
-Finished Guess after   0.1 sec
+Finished Guess after   0.0 sec
 Maximum memory used throughout the entire GUESS-calculation: 1.1 MB
 -------------------------------------------------------------------------------
                               ORCA-CASSCF
@@ -7711,23 +7699,23 @@ Coupling container construction done
 CASSCF TIMINGS
 --------------
 
-Total time                       ...        0.3 sec
-Sum of individual times          ...        0.2 sec ( 81.6%)
+Total time                       ...        0.1 sec
+Sum of individual times          ...        0.0 sec ( 48.1%)
 
 Calculation of AO operators
-   F(Core) operator              ...        0.0 sec (  0.1%)
-   G(Act) operator               ...        0.0 sec (  0.1%)
+   F(Core) operator              ...        0.0 sec (  0.6%)
+   G(Act) operator               ...        0.0 sec (  0.4%)
 Calculation of MO transformed quantities
-   J(MO) operators               ...        0.2 sec ( 56.0%)
-   AO->MO one electron integrals ...        0.0 sec (  0.0%)
+   J(MO) operators               ...        0.0 sec ( 34.2%)
+   AO->MO one electron integrals ...        0.0 sec (  0.1%)
 Configuration interaction steps
-   CI-setup phase                ...        0.0 sec (  0.7%)
-   CI-solution phase             ...        0.1 sec ( 22.2%)
-   Generation of densities       ...        0.0 sec (  0.0%)
+   CI-setup phase                ...        0.0 sec (  4.5%)
+   CI-solution phase             ...        0.0 sec (  7.4%)
+   Generation of densities       ...        0.0 sec (  0.1%)
 Orbital improvement steps
 CPCM steps
-   Total CPCM time               ...        0.0 sec (  0.0%)
-Properties                       ...        0.0 sec (  2.5%)
+   Total CPCM time               ...        0.0 sec (  0.2%)
+Properties                       ...        0.0 sec (  0.7%)
    SOC integral calculation      ...        0.0 sec (  0.0%)
    SSC RMEs (incl. integrals)    ...        0.0 sec (  0.0%)
    SOC RMEs                      ...        0.0 sec (  0.0%)
@@ -7788,12 +7776,12 @@ CASSCF TIMINGS
 --------------
 
 Total time                       ...        0.0 sec
-Sum of individual times          ...        0.0 sec ( 98.9%)
+Sum of individual times          ...        0.0 sec ( 98.4%)
 
 Calculation of AO operators
 Calculation of MO transformed quantities
 Configuration interaction steps
-   CI-setup phase                ...        0.0 sec ( 98.9%)
+   CI-setup phase                ...        0.0 sec ( 98.3%)
 Orbital improvement steps
 Properties                       ...        0.0 sec (  0.0%)
    SOC integral calculation      ...        0.0 sec (  0.0%)
@@ -7870,7 +7858,7 @@ Level              : Relaxed density
 State              :   0
 Multiplicity       :   1
 Irrep              :   0
-Energy             :    -0.9341039084401723 Eh
+Energy             :    -0.9341039084401724 Eh
 Relativity type    : 
 Basis              : AO
                                 X                 Y                 Z
@@ -7979,8 +7967,8 @@ Auxiliary 'external' fitting basis          ... NOT available
 
 Checking pre-screening integrals            ... done (  0.0 sec) Dimension = 2
 Save PGC pre-screening integrals            ... done (  0.0 sec) Dimension = 2
-Calculate PGC overlap integrals             ... done (  0.1 sec) Dimension = 2
-Calculating pre-screening integrals (ORCA)  ... done (  0.1 sec) Dimension = 2
+Calculate PGC overlap integrals             ... done (  0.0 sec) Dimension = 2
+Calculating pre-screening integrals (ORCA)  ... done (  0.0 sec) Dimension = 2
 Check shell pair data                       ... done (  0.0 sec)
 Shell pair information
 Shell pair cut-off parameter TPreSel        ...   1.0e-11
@@ -7998,8 +7986,8 @@ Smallest eigenvalue                        ... 9.817e-01
 Time for diagonalization                   ...    0.000 sec
 Threshold for overlap eigenvalues          ... 1.000e-07
 Number of eigenvalues below threshold      ... 0
-Time for construction of square roots      ...    0.044 sec
-Total time needed                          ...    0.044 sec
+Time for construction of square roots      ...    0.000 sec
+Total time needed                          ...    0.001 sec
 
 -------------------
 DFT GRID GENERATION
@@ -8040,14 +8028,14 @@ Total number of grid points                  ...     6664
 Total number of batches                      ...      106
 Average number of points per batch           ...       62
 Average number of grid points per atom       ...     3332
-Initializing property integral containers    ... done (  0.1 sec)
+Initializing property integral containers    ... done (  0.0 sec)
 
-SHARK setup successfully completed in   0.5 seconds
+SHARK setup successfully completed in   0.1 seconds
 
 Maximum memory used throughout the entire STARTUP-calculation: 2.7 MB
 Occupation numbers will be reassigned to an Aufbau configuration
              **** ENERGY FILE WAS UPDATED (Hidrogen_scan.en.tmp) ****
-Finished Guess after   0.2 sec
+Finished Guess after   0.0 sec
 Maximum memory used throughout the entire GUESS-calculation: 1.1 MB
 -------------------------------------------------------------------------------
                               ORCA-CASSCF
@@ -8214,23 +8202,23 @@ Coupling container construction done
 CASSCF TIMINGS
 --------------
 
-Total time                       ...        1.8 sec
-Sum of individual times          ...        1.0 sec ( 54.4%)
+Total time                       ...        0.1 sec
+Sum of individual times          ...        0.0 sec ( 47.6%)
 
 Calculation of AO operators
-   F(Core) operator              ...        0.0 sec (  0.0%)
-   G(Act) operator               ...        0.0 sec (  1.2%)
+   F(Core) operator              ...        0.0 sec (  0.6%)
+   G(Act) operator               ...        0.0 sec (  0.4%)
 Calculation of MO transformed quantities
-   J(MO) operators               ...        0.2 sec ( 10.0%)
+   J(MO) operators               ...        0.0 sec ( 34.0%)
    AO->MO one electron integrals ...        0.0 sec (  0.0%)
 Configuration interaction steps
-   CI-setup phase                ...        0.2 sec ( 12.8%)
-   CI-solution phase             ...        0.5 sec ( 26.9%)
-   Generation of densities       ...        0.0 sec (  0.0%)
+   CI-setup phase                ...        0.0 sec (  3.4%)
+   CI-solution phase             ...        0.0 sec (  8.0%)
+   Generation of densities       ...        0.0 sec (  0.1%)
 Orbital improvement steps
 CPCM steps
-   Total CPCM time               ...        0.0 sec (  1.2%)
-Properties                       ...        0.0 sec (  2.4%)
+   Total CPCM time               ...        0.0 sec (  0.2%)
+Properties                       ...        0.0 sec (  0.8%)
    SOC integral calculation      ...        0.0 sec (  0.0%)
    SSC RMEs (incl. integrals)    ...        0.0 sec (  0.0%)
    SOC RMEs                      ...        0.0 sec (  0.0%)
@@ -8290,18 +8278,14 @@ CASSCF UV, CD spectra and dipole moments
 CASSCF TIMINGS
 --------------
 
-Total time                       ...        0.1 sec
-Sum of individual times          ...        0.1 sec ( 99.2%)
+Total time                       ...        0.0 sec
+Sum of individual times          ...        0.0 sec ( 98.5%)
 
 Calculation of AO operators
 Calculation of MO transformed quantities
 Configuration interaction steps
-   CI-setup phase                ...        0.1 sec ( 99.2%)
+   CI-setup phase                ...        0.0 sec ( 98.5%)
 Orbital improvement steps
-Properties                       ...        0.0 sec (  0.0%)
-   SOC integral calculation      ...        0.0 sec (  0.0%)
-   SSC RMEs (incl. integrals)    ...        0.0 sec (  0.0%)
-   SOC RMEs                      ...        0.0 sec (  0.0%)
 
 Maximum memory used throughout the entire CASSCF-calculation: 24.7 MB
 
@@ -8373,7 +8357,7 @@ Level              : Relaxed density
 State              :   0
 Multiplicity       :   1
 Irrep              :   0
-Energy             :    -0.9336318445303196 Eh
+Energy             :    -0.9336318445303190 Eh
 Relativity type    : 
 Basis              : AO
                                 X                 Y                 Z
@@ -8591,11 +8575,11 @@ List of optional additional citations
 
 Timings for individual modules:
 
-Sum of individual times          ...       52.701 sec (=   0.878 min)
-Startup calculation              ...        9.709 sec (=   0.162 min)  18.4 %
-SCF iterations                   ...        5.548 sec (=   0.092 min)  10.5 %
-CASSCF iterations                ...       33.000 sec (=   0.550 min)  62.6 %
-Property integrals               ...        1.715 sec (=   0.029 min)   3.3 %
-Property calculations            ...        2.731 sec (=   0.046 min)   5.2 %
+Sum of individual times          ...        6.725 sec (=   0.112 min)
+Startup calculation              ...        1.559 sec (=   0.026 min)  23.2 %
+SCF iterations                   ...        0.687 sec (=   0.011 min)  10.2 %
+CASSCF iterations                ...        3.141 sec (=   0.052 min)  46.7 %
+Property integrals               ...        0.687 sec (=   0.011 min)  10.2 %
+Property calculations            ...        0.650 sec (=   0.011 min)   9.7 %
                              ****ORCA TERMINATED NORMALLY****
-TOTAL RUN TIME: 0 days 0 hours 1 minutes 11 seconds 250 msec
+TOTAL RUN TIME: 0 days 0 hours 0 minutes 7 seconds 613 msec

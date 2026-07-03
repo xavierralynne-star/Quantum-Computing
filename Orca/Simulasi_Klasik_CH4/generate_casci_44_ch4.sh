@@ -1,45 +1,46 @@
 #!/bin/bash
-# generate_casci_44_ch4.sh
-# Membuat 21 input "CASCI" (2-step: HF -> CASSCF dengan MOREAD NoIter) untuk CH4
-# dari geometri hasil relaxed scan CASSCF CAS(4,4) (versi AWAL, sebelum diganti ke 8,8)
-#
-# CATATAN: Sama seperti versi (8,8), pendekatan MOREAD NoIter ini SECARA EFEKTIF
-# = CASSCF (orbital HF tetap dioptimasi ulang, NoIter tidak membekukan orbital).
-# Tapi karena CAS(4,4) BUKAN full valence (ada 4 orbital valence lain yang inactive),
-# CASCI vs CASSCF di sini DIPERKIRAKAN beda lebih nyata dibanding (8,8).
+# generate_casci_ch4_fixed.sh
+# CASCI membaca orbital LANGSUNG dari hasil CASSCF_1 (CH4_CASSCF_1.${i}.gbw)
+# Seri CASSCF_1 = rigid scan 16 titik, R = 0.50-3.00 Angstrom
+# Active space: CAS(4,4) -- konsisten dengan VQE
 
-for i in $(seq -f "%03g" 1 21); do
+# 16 titik dari R=0.50 sampai R=3.00 Angstrom
+R_VALUES=(0.50 0.6667 0.8333 1.00 1.1667 1.3333 1.50 1.6667 1.8333 2.00 2.1667 2.3333 2.50 2.6667 2.8333 3.00)
 
-    XYZFILE="CH4_CASSCF.${i}.xyz"
+for idx in $(seq 0 15); do
+    i=$(printf "%03d" $((idx + 1)))
+    R=${R_VALUES[$idx]}
+    GBWFILE="CH4_CASSCF_1.${i}.gbw"
 
-    if [ ! -f "$XYZFILE" ]; then
-        echo "File $XYZFILE tidak ditemukan, skip."
+    if [ ! -f "$GBWFILE" ]; then
+        echo "File $GBWFILE tidak ditemukan, skip titik $i."
         continue
     fi
 
-    # Ambil 5 baris koordinat saja (skip 2 baris header: jumlah atom & komentar)
-    GEOM=$(tail -n +3 "$XYZFILE")
-
-    # Tulis input 2-step: HF lalu CASSCF (MOREAD NoIter), CAS(4,4)
-    cat > CH4_CASCI_44_SP.${i}.inp << EOF
-! HF STO-3G
-* xyz 0 1
-${GEOM}
-*
-
-\$new_job
+    cat > CH4_CASCI_fixed.${i}.inp << EOF
 ! CASSCF STO-3G MOREAD NoIter
-%moinp "CH4_CASCI_44_SP.${i}.gbw"
-%casscf
-  nel  4
-  norb 4
+%moinp "${GBWFILE}"
+
+%pal
+  nprocs 4
 end
+
+%casscf
+  nel     4
+  norb    4
+  maxiter 1
+end
+
 * xyz 0 1
-${GEOM}
+C   0.000000   0.000000   0.000000
+H   0.000000   0.000000   ${R}
+H  -0.907297  -0.496407  -0.351129
+H   0.673211   0.167304  -0.843621
+H  -0.261596   0.958896   0.452753
 *
 EOF
 
-    echo "Titik $i selesai -> CH4_CASCI_44_SP.${i}.inp"
+    echo "Titik $i (R=${R} A) selesai -> CH4_CASCI_fixed.${i}.inp"
 done
 
-echo "Semua 21 input CASCI (4,4) siap dibuat!"
+echo "Semua 16 input CASCI fixed CH4 siap!"
