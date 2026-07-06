@@ -495,7 +495,7 @@ Iteration    Energy (Eh)           Delta-E    RMSDP     MaxDP     DIISErr   Damp
 ---------------------------------------S-O-S-C-F--------------------------------------
 Iteration    Energy (Eh)           Delta-E    RMSDP     MaxDP     MaxGrad    Time(sec)
 --------------------------------------------------------------------------------------
-    1      0.1641750000907782     0.00e+00  5.44e-16  6.66e-16  2.63e-16     0.1
+    1      0.1641750000907782     0.00e+00  5.44e-16  6.66e-16  2.63e-16     0.0
                *** Restarting incremental Fock matrix formation ***
     2      0.1641750000907782     0.00e+00  0.00e+00  0.00e+00  1.82e-16     0.0
                   *** Gradient check signals convergence ***
@@ -608,22 +608,22 @@ TIMINGS
 
 Total SCF time: 0 days 0 hours 0 min 0 sec 
 
-Total time                  ....       0.095 sec
-Sum of individual times     ....       0.085 sec  ( 89.1%)
+Total time                  ....       0.026 sec
+Sum of individual times     ....       0.018 sec  ( 70.0%)
 
-SCF preparation             ....       0.016 sec  ( 16.8%)
-Fock matrix formation       ....       0.065 sec  ( 68.2%)
-  Startup                   ....       0.000 sec  (  0.7% of F)
-  Coulomb+Exchange Fock     ....       0.063 sec  ( 96.9% of F)
+SCF preparation             ....       0.013 sec  ( 50.4%)
+Fock matrix formation       ....       0.002 sec  (  7.2%)
+  Startup                   ....       0.000 sec  ( 16.4% of F)
+  Coulomb+Exchange Fock     ....       0.000 sec  ( 17.9% of F)
 Diagonalization             ....       0.000 sec  (  0.0%)
-Density matrix formation    ....       0.001 sec  (  0.5%)
-Total Energy calculation    ....       0.000 sec  (  0.2%)
-Population analysis         ....       0.002 sec  (  1.6%)
-Orbital Transformation      ....       0.000 sec  (  0.4%)
+Density matrix formation    ....       0.000 sec  (  1.6%)
+Total Energy calculation    ....       0.000 sec  (  0.6%)
+Population analysis         ....       0.001 sec  (  5.5%)
+Orbital Transformation      ....       0.000 sec  (  1.1%)
 Orbital Orthonormalization  ....       0.000 sec  (  0.0%)
-DIIS solution               ....       0.001 sec  (  0.5%)
-SOSCF solution              ....       0.001 sec  (  0.7%)
-Finished LeanSCF after   0.1 sec
+DIIS solution               ....       0.000 sec  (  1.6%)
+SOSCF solution              ....       0.001 sec  (  2.1%)
+Finished LeanSCF after   0.0 sec
 
 Maximum memory used throughout the entire LEANSCF-calculation: 0.8 MB
 
@@ -923,7 +923,7 @@ SCF CONVERGENCE
 
 
 Total SCF time: 0 days 0 hours 0 min 0 sec 
-Finished LeanSCF after   0.1 sec
+Finished LeanSCF after   0.0 sec
 
 Maximum memory used throughout the entire LEANSCF-calculation: 1.0 MB
 
@@ -5409,9 +5409,9 @@ List of optional additional citations
 
 Timings for individual modules:
 
-Sum of individual times          ...        3.767 sec (=   0.063 min)
-Startup calculation              ...        1.467 sec (=   0.024 min)  38.9 %
-SCF iterations                   ...        1.693 sec (=   0.028 min)  44.9 %
-Property calculations            ...        0.607 sec (=   0.010 min)  16.1 %
+Sum of individual times          ...        3.387 sec (=   0.056 min)
+Startup calculation              ...        1.391 sec (=   0.023 min)  41.1 %
+SCF iterations                   ...        1.426 sec (=   0.024 min)  42.1 %
+Property calculations            ...        0.569 sec (=   0.009 min)  16.8 %
                              ****ORCA TERMINATED NORMALLY****
-TOTAL RUN TIME: 0 days 0 hours 0 minutes 4 seconds 570 msec
+TOTAL RUN TIME: 0 days 0 hours 0 minutes 4 seconds 11 msec

@@ -5,7 +5,7 @@
 #SBATCH --ntasks-per-node=4
 #SBATCH --cpus-per-task=1
 #SBATCH --error=error_fci.txt
-#SBATCH --mem=16GB
+#SBATCH --mem=8GB
 
 module load openmpi4/4.1.4
 module load nuclear/orca/6.0.1

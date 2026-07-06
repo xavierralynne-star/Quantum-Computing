@@ -343,7 +343,7 @@ Smallest eigenvalue                        ... 3.488e-02
 Time for diagonalization                   ...    0.000 sec
 Threshold for overlap eigenvalues          ... 1.000e-07
 Number of eigenvalues below threshold      ... 0
-Time for construction of square roots      ...    0.001 sec
+Time for construction of square roots      ...    0.000 sec
 Total time needed                          ...    0.001 sec
 
 -------------------
@@ -668,22 +668,22 @@ CASSCF TIMINGS
 --------------
 
 Total time                       ...        0.1 sec
-Sum of individual times          ...        0.0 sec ( 35.5%)
+Sum of individual times          ...        0.0 sec ( 37.8%)
 
 Calculation of AO operators
-   F(Core) operator              ...        0.0 sec (  0.4%)
-   G(Act) operator               ...        0.0 sec (  0.3%)
+   F(Core) operator              ...        0.0 sec (  0.5%)
+   G(Act) operator               ...        0.0 sec (  0.2%)
 Calculation of MO transformed quantities
-   J(MO) operators               ...        0.0 sec ( 23.4%)
+   J(MO) operators               ...        0.0 sec ( 27.3%)
    AO->MO one electron integrals ...        0.0 sec (  0.0%)
 Configuration interaction steps
-   CI-setup phase                ...        0.0 sec (  3.7%)
-   CI-solution phase             ...        0.0 sec (  6.5%)
+   CI-setup phase                ...        0.0 sec (  3.0%)
+   CI-solution phase             ...        0.0 sec (  6.0%)
    Generation of densities       ...        0.0 sec (  0.1%)
 Orbital improvement steps
 CPCM steps
-   Total CPCM time               ...        0.0 sec (  0.2%)
-Properties                       ...        0.0 sec (  1.0%)
+   Total CPCM time               ...        0.0 sec (  0.1%)
+Properties                       ...        0.0 sec (  0.5%)
    SOC integral calculation      ...        0.0 sec (  0.0%)
    SSC RMEs (incl. integrals)    ...        0.0 sec (  0.0%)
    SOC RMEs                      ...        0.0 sec (  0.0%)
@@ -1171,21 +1171,21 @@ CASSCF TIMINGS
 --------------
 
 Total time                       ...        0.0 sec
-Sum of individual times          ...        0.0 sec ( 55.8%)
+Sum of individual times          ...        0.0 sec ( 56.0%)
 
 Calculation of AO operators
-   F(Core) operator              ...        0.0 sec (  0.7%)
-   G(Act) operator               ...        0.0 sec (  0.4%)
+   F(Core) operator              ...        0.0 sec (  0.6%)
+   G(Act) operator               ...        0.0 sec (  0.5%)
 Calculation of MO transformed quantities
-   J(MO) operators               ...        0.0 sec ( 41.6%)
+   J(MO) operators               ...        0.0 sec ( 42.0%)
    AO->MO one electron integrals ...        0.0 sec (  0.1%)
 Configuration interaction steps
    CI-setup phase                ...        0.0 sec (  4.7%)
-   CI-solution phase             ...        0.0 sec (  7.4%)
+   CI-solution phase             ...        0.0 sec (  7.2%)
    Generation of densities       ...        0.0 sec (  0.1%)
 Orbital improvement steps
 CPCM steps
-   Total CPCM time               ...        0.0 sec (  0.3%)
+   Total CPCM time               ...        0.0 sec (  0.2%)
 Properties                       ...        0.0 sec (  0.7%)
    SOC integral calculation      ...        0.0 sec (  0.0%)
    SSC RMEs (incl. integrals)    ...        0.0 sec (  0.0%)
@@ -1247,17 +1247,13 @@ CASSCF TIMINGS
 --------------
 
 Total time                       ...        0.0 sec
-Sum of individual times          ...        0.0 sec ( 98.4%)
+Sum of individual times          ...        0.0 sec ( 98.3%)
 
 Calculation of AO operators
 Calculation of MO transformed quantities
 Configuration interaction steps
-   CI-setup phase                ...        0.0 sec ( 98.4%)
+   CI-setup phase                ...        0.0 sec ( 98.3%)
 Orbital improvement steps
-Properties                       ...        0.0 sec (  0.0%)
-   SOC integral calculation      ...        0.0 sec (  0.0%)
-   SSC RMEs (incl. integrals)    ...        0.0 sec (  0.0%)
-   SOC RMEs                      ...        0.0 sec (  0.0%)
 
 Maximum memory used throughout the entire CASSCF-calculation: 23.5 MB
 
@@ -1673,23 +1669,23 @@ Coupling container construction done
 CASSCF TIMINGS
 --------------
 
-Total time                       ...        0.1 sec
-Sum of individual times          ...        0.0 sec ( 48.9%)
+Total time                       ...        0.0 sec
+Sum of individual times          ...        0.0 sec ( 55.5%)
 
 Calculation of AO operators
-   F(Core) operator              ...        0.0 sec (  0.8%)
+   F(Core) operator              ...        0.0 sec (  0.6%)
    G(Act) operator               ...        0.0 sec (  0.4%)
 Calculation of MO transformed quantities
-   J(MO) operators               ...        0.0 sec ( 31.9%)
+   J(MO) operators               ...        0.0 sec ( 42.0%)
    AO->MO one electron integrals ...        0.0 sec (  0.1%)
 Configuration interaction steps
-   CI-setup phase                ...        0.0 sec (  5.8%)
-   CI-solution phase             ...        0.0 sec (  8.2%)
+   CI-setup phase                ...        0.0 sec (  4.7%)
+   CI-solution phase             ...        0.0 sec (  6.8%)
    Generation of densities       ...        0.0 sec (  0.1%)
 Orbital improvement steps
 CPCM steps
-   Total CPCM time               ...        0.0 sec (  0.3%)
-Properties                       ...        0.0 sec (  1.4%)
+   Total CPCM time               ...        0.0 sec (  0.2%)
+Properties                       ...        0.0 sec (  0.6%)
    SOC integral calculation      ...        0.0 sec (  0.0%)
    SSC RMEs (incl. integrals)    ...        0.0 sec (  0.0%)
    SOC RMEs                      ...        0.0 sec (  0.0%)
@@ -1750,12 +1746,12 @@ CASSCF TIMINGS
 --------------
 
 Total time                       ...        0.0 sec
-Sum of individual times          ...        0.0 sec ( 98.4%)
+Sum of individual times          ...        0.0 sec ( 98.3%)
 
 Calculation of AO operators
 Calculation of MO transformed quantities
 Configuration interaction steps
-   CI-setup phase                ...        0.0 sec ( 98.4%)
+   CI-setup phase                ...        0.0 sec ( 98.3%)
 Orbital improvement steps
 Properties                       ...        0.0 sec (  0.0%)
    SOC integral calculation      ...        0.0 sec (  0.0%)
@@ -2176,18 +2172,18 @@ Coupling container construction done
 CASSCF TIMINGS
 --------------
 
-Total time                       ...        0.1 sec
-Sum of individual times          ...        0.0 sec ( 53.9%)
+Total time                       ...        0.0 sec
+Sum of individual times          ...        0.0 sec ( 55.4%)
 
 Calculation of AO operators
-   F(Core) operator              ...        0.0 sec (  0.7%)
+   F(Core) operator              ...        0.0 sec (  0.6%)
    G(Act) operator               ...        0.0 sec (  0.4%)
 Calculation of MO transformed quantities
-   J(MO) operators               ...        0.0 sec ( 40.4%)
+   J(MO) operators               ...        0.0 sec ( 41.5%)
    AO->MO one electron integrals ...        0.0 sec (  0.1%)
 Configuration interaction steps
-   CI-setup phase                ...        0.0 sec (  4.5%)
-   CI-solution phase             ...        0.0 sec (  6.8%)
+   CI-setup phase                ...        0.0 sec (  4.3%)
+   CI-solution phase             ...        0.0 sec (  7.5%)
    Generation of densities       ...        0.0 sec (  0.1%)
 Orbital improvement steps
 CPCM steps
@@ -2679,23 +2675,23 @@ Coupling container construction done
 CASSCF TIMINGS
 --------------
 
-Total time                       ...        0.1 sec
-Sum of individual times          ...        0.0 sec ( 54.6%)
+Total time                       ...        0.0 sec
+Sum of individual times          ...        0.0 sec ( 55.2%)
 
 Calculation of AO operators
    F(Core) operator              ...        0.0 sec (  0.6%)
    G(Act) operator               ...        0.0 sec (  0.4%)
 Calculation of MO transformed quantities
-   J(MO) operators               ...        0.0 sec ( 39.6%)
-   AO->MO one electron integrals ...        0.0 sec (  0.0%)
+   J(MO) operators               ...        0.0 sec ( 41.6%)
+   AO->MO one electron integrals ...        0.0 sec (  0.1%)
 Configuration interaction steps
-   CI-setup phase                ...        0.0 sec (  4.6%)
-   CI-solution phase             ...        0.0 sec (  8.2%)
+   CI-setup phase                ...        0.0 sec (  4.3%)
+   CI-solution phase             ...        0.0 sec (  7.3%)
    Generation of densities       ...        0.0 sec (  0.1%)
 Orbital improvement steps
 CPCM steps
    Total CPCM time               ...        0.0 sec (  0.2%)
-Properties                       ...        0.0 sec (  0.8%)
+Properties                       ...        0.0 sec (  0.7%)
    SOC integral calculation      ...        0.0 sec (  0.0%)
    SSC RMEs (incl. integrals)    ...        0.0 sec (  0.0%)
    SOC RMEs                      ...        0.0 sec (  0.0%)
@@ -3182,23 +3178,23 @@ Coupling container construction done
 CASSCF TIMINGS
 --------------
 
-Total time                       ...        0.1 sec
+Total time                       ...        0.0 sec
 Sum of individual times          ...        0.0 sec ( 54.9%)
 
 Calculation of AO operators
-   F(Core) operator              ...        0.0 sec (  0.7%)
+   F(Core) operator              ...        0.0 sec (  0.6%)
    G(Act) operator               ...        0.0 sec (  0.4%)
 Calculation of MO transformed quantities
-   J(MO) operators               ...        0.0 sec ( 40.7%)
+   J(MO) operators               ...        0.0 sec ( 41.0%)
    AO->MO one electron integrals ...        0.0 sec (  0.1%)
 Configuration interaction steps
-   CI-setup phase                ...        0.0 sec (  5.5%)
-   CI-solution phase             ...        0.0 sec (  6.5%)
+   CI-setup phase                ...        0.0 sec (  4.9%)
+   CI-solution phase             ...        0.0 sec (  7.1%)
    Generation of densities       ...        0.0 sec (  0.1%)
 Orbital improvement steps
 CPCM steps
    Total CPCM time               ...        0.0 sec (  0.2%)
-Properties                       ...        0.0 sec (  0.6%)
+Properties                       ...        0.0 sec (  0.7%)
    SOC integral calculation      ...        0.0 sec (  0.0%)
    SSC RMEs (incl. integrals)    ...        0.0 sec (  0.0%)
    SOC RMEs                      ...        0.0 sec (  0.0%)
@@ -3259,12 +3255,12 @@ CASSCF TIMINGS
 --------------
 
 Total time                       ...        0.0 sec
-Sum of individual times          ...        0.0 sec ( 98.5%)
+Sum of individual times          ...        0.0 sec ( 98.4%)
 
 Calculation of AO operators
 Calculation of MO transformed quantities
 Configuration interaction steps
-   CI-setup phase                ...        0.0 sec ( 98.5%)
+   CI-setup phase                ...        0.0 sec ( 98.4%)
 Orbital improvement steps
 Properties                       ...        0.0 sec (  0.0%)
    SOC integral calculation      ...        0.0 sec (  0.0%)
@@ -3685,23 +3681,23 @@ Coupling container construction done
 CASSCF TIMINGS
 --------------
 
-Total time                       ...        0.1 sec
-Sum of individual times          ...        0.0 sec ( 55.0%)
+Total time                       ...        0.0 sec
+Sum of individual times          ...        0.0 sec ( 55.2%)
 
 Calculation of AO operators
    F(Core) operator              ...        0.0 sec (  0.6%)
    G(Act) operator               ...        0.0 sec (  0.4%)
 Calculation of MO transformed quantities
-   J(MO) operators               ...        0.0 sec ( 41.5%)
+   J(MO) operators               ...        0.0 sec ( 41.7%)
    AO->MO one electron integrals ...        0.0 sec (  0.1%)
 Configuration interaction steps
-   CI-setup phase                ...        0.0 sec (  4.2%)
-   CI-solution phase             ...        0.0 sec (  7.4%)
+   CI-setup phase                ...        0.0 sec (  4.3%)
+   CI-solution phase             ...        0.0 sec (  7.2%)
    Generation of densities       ...        0.0 sec (  0.1%)
 Orbital improvement steps
 CPCM steps
    Total CPCM time               ...        0.0 sec (  0.2%)
-Properties                       ...        0.0 sec (  0.6%)
+Properties                       ...        0.0 sec (  0.7%)
    SOC integral calculation      ...        0.0 sec (  0.0%)
    SSC RMEs (incl. integrals)    ...        0.0 sec (  0.0%)
    SOC RMEs                      ...        0.0 sec (  0.0%)
@@ -3762,12 +3758,12 @@ CASSCF TIMINGS
 --------------
 
 Total time                       ...        0.0 sec
-Sum of individual times          ...        0.0 sec ( 98.5%)
+Sum of individual times          ...        0.0 sec ( 98.4%)
 
 Calculation of AO operators
 Calculation of MO transformed quantities
 Configuration interaction steps
-   CI-setup phase                ...        0.0 sec ( 98.5%)
+   CI-setup phase                ...        0.0 sec ( 98.4%)
 Orbital improvement steps
 Properties                       ...        0.0 sec (  0.0%)
    SOC integral calculation      ...        0.0 sec (  0.0%)
@@ -3972,7 +3968,7 @@ Smallest eigenvalue                        ... 7.457e-01
 Time for diagonalization                   ...    0.000 sec
 Threshold for overlap eigenvalues          ... 1.000e-07
 Number of eigenvalues below threshold      ... 0
-Time for construction of square roots      ...    0.001 sec
+Time for construction of square roots      ...    0.000 sec
 Total time needed                          ...    0.001 sec
 
 -------------------
@@ -4188,18 +4184,18 @@ Coupling container construction done
 CASSCF TIMINGS
 --------------
 
-Total time                       ...        0.1 sec
-Sum of individual times          ...        0.0 sec ( 55.2%)
+Total time                       ...        0.0 sec
+Sum of individual times          ...        0.0 sec ( 55.1%)
 
 Calculation of AO operators
    F(Core) operator              ...        0.0 sec (  0.6%)
    G(Act) operator               ...        0.0 sec (  0.4%)
 Calculation of MO transformed quantities
-   J(MO) operators               ...        0.0 sec ( 40.1%)
+   J(MO) operators               ...        0.0 sec ( 40.9%)
    AO->MO one electron integrals ...        0.0 sec (  0.1%)
 Configuration interaction steps
-   CI-setup phase                ...        0.0 sec (  4.9%)
-   CI-solution phase             ...        0.0 sec (  8.1%)
+   CI-setup phase                ...        0.0 sec (  4.4%)
+   CI-solution phase             ...        0.0 sec (  7.9%)
    Generation of densities       ...        0.0 sec (  0.1%)
 Orbital improvement steps
 CPCM steps
@@ -4265,12 +4261,12 @@ CASSCF TIMINGS
 --------------
 
 Total time                       ...        0.0 sec
-Sum of individual times          ...        0.0 sec ( 98.3%)
+Sum of individual times          ...        0.0 sec ( 98.5%)
 
 Calculation of AO operators
 Calculation of MO transformed quantities
 Configuration interaction steps
-   CI-setup phase                ...        0.0 sec ( 98.3%)
+   CI-setup phase                ...        0.0 sec ( 98.5%)
 Orbital improvement steps
 Properties                       ...        0.0 sec (  0.0%)
    SOC integral calculation      ...        0.0 sec (  0.0%)
@@ -4475,7 +4471,7 @@ Smallest eigenvalue                        ... 8.068e-01
 Time for diagonalization                   ...    0.000 sec
 Threshold for overlap eigenvalues          ... 1.000e-07
 Number of eigenvalues below threshold      ... 0
-Time for construction of square roots      ...    0.001 sec
+Time for construction of square roots      ...    0.000 sec
 Total time needed                          ...    0.001 sec
 
 -------------------
@@ -4691,23 +4687,23 @@ Coupling container construction done
 CASSCF TIMINGS
 --------------
 
-Total time                       ...        0.1 sec
-Sum of individual times          ...        0.0 sec ( 54.1%)
+Total time                       ...        0.0 sec
+Sum of individual times          ...        0.0 sec ( 54.6%)
 
 Calculation of AO operators
    F(Core) operator              ...        0.0 sec (  0.6%)
    G(Act) operator               ...        0.0 sec (  0.4%)
 Calculation of MO transformed quantities
-   J(MO) operators               ...        0.0 sec ( 37.4%)
-   AO->MO one electron integrals ...        0.0 sec (  0.0%)
+   J(MO) operators               ...        0.0 sec ( 41.1%)
+   AO->MO one electron integrals ...        0.0 sec (  0.1%)
 Configuration interaction steps
-   CI-setup phase                ...        0.0 sec (  5.8%)
-   CI-solution phase             ...        0.0 sec (  8.8%)
+   CI-setup phase                ...        0.0 sec (  4.4%)
+   CI-solution phase             ...        0.0 sec (  7.2%)
    Generation of densities       ...        0.0 sec (  0.1%)
 Orbital improvement steps
 CPCM steps
-   Total CPCM time               ...        0.0 sec (  0.3%)
-Properties                       ...        0.0 sec (  0.8%)
+   Total CPCM time               ...        0.0 sec (  0.2%)
+Properties                       ...        0.0 sec (  0.7%)
    SOC integral calculation      ...        0.0 sec (  0.0%)
    SSC RMEs (incl. integrals)    ...        0.0 sec (  0.0%)
    SOC RMEs                      ...        0.0 sec (  0.0%)
@@ -4768,12 +4764,12 @@ CASSCF TIMINGS
 --------------
 
 Total time                       ...        0.0 sec
-Sum of individual times          ...        0.0 sec ( 98.5%)
+Sum of individual times          ...        0.0 sec ( 98.4%)
 
 Calculation of AO operators
 Calculation of MO transformed quantities
 Configuration interaction steps
-   CI-setup phase                ...        0.0 sec ( 98.5%)
+   CI-setup phase                ...        0.0 sec ( 98.4%)
 Orbital improvement steps
 Properties                       ...        0.0 sec (  0.0%)
    SOC integral calculation      ...        0.0 sec (  0.0%)
@@ -4978,7 +4974,7 @@ Smallest eigenvalue                        ... 8.553e-01
 Time for diagonalization                   ...    0.000 sec
 Threshold for overlap eigenvalues          ... 1.000e-07
 Number of eigenvalues below threshold      ... 0
-Time for construction of square roots      ...    0.001 sec
+Time for construction of square roots      ...    0.000 sec
 Total time needed                          ...    0.001 sec
 
 -------------------
@@ -5194,23 +5190,23 @@ Coupling container construction done
 CASSCF TIMINGS
 --------------
 
-Total time                       ...        0.1 sec
-Sum of individual times          ...        0.0 sec ( 52.8%)
+Total time                       ...        0.0 sec
+Sum of individual times          ...        0.0 sec ( 53.9%)
 
 Calculation of AO operators
    F(Core) operator              ...        0.0 sec (  0.6%)
    G(Act) operator               ...        0.0 sec (  0.4%)
 Calculation of MO transformed quantities
-   J(MO) operators               ...        0.0 sec ( 38.1%)
+   J(MO) operators               ...        0.0 sec ( 40.9%)
    AO->MO one electron integrals ...        0.0 sec (  0.1%)
 Configuration interaction steps
-   CI-setup phase                ...        0.0 sec (  4.9%)
-   CI-solution phase             ...        0.0 sec (  7.7%)
+   CI-setup phase                ...        0.0 sec (  4.1%)
+   CI-solution phase             ...        0.0 sec (  7.0%)
    Generation of densities       ...        0.0 sec (  0.1%)
 Orbital improvement steps
 CPCM steps
    Total CPCM time               ...        0.0 sec (  0.2%)
-Properties                       ...        0.0 sec (  0.7%)
+Properties                       ...        0.0 sec (  0.6%)
    SOC integral calculation      ...        0.0 sec (  0.0%)
    SSC RMEs (incl. integrals)    ...        0.0 sec (  0.0%)
    SOC RMEs                      ...        0.0 sec (  0.0%)
@@ -5271,12 +5267,12 @@ CASSCF TIMINGS
 --------------
 
 Total time                       ...        0.0 sec
-Sum of individual times          ...        0.0 sec ( 98.5%)
+Sum of individual times          ...        0.0 sec ( 98.4%)
 
 Calculation of AO operators
 Calculation of MO transformed quantities
 Configuration interaction steps
-   CI-setup phase                ...        0.0 sec ( 98.5%)
+   CI-setup phase                ...        0.0 sec ( 98.4%)
 Orbital improvement steps
 Properties                       ...        0.0 sec (  0.0%)
    SOC integral calculation      ...        0.0 sec (  0.0%)
@@ -5481,8 +5477,8 @@ Smallest eigenvalue                        ... 8.932e-01
 Time for diagonalization                   ...    0.000 sec
 Threshold for overlap eigenvalues          ... 1.000e-07
 Number of eigenvalues below threshold      ... 0
-Time for construction of square roots      ...    0.001 sec
-Total time needed                          ...    0.001 sec
+Time for construction of square roots      ...    0.000 sec
+Total time needed                          ...    0.000 sec
 
 -------------------
 DFT GRID GENERATION
@@ -5698,22 +5694,22 @@ CASSCF TIMINGS
 --------------
 
 Total time                       ...        0.1 sec
-Sum of individual times          ...        0.0 sec ( 52.8%)
+Sum of individual times          ...        0.0 sec ( 55.0%)
 
 Calculation of AO operators
    F(Core) operator              ...        0.0 sec (  0.6%)
-   G(Act) operator               ...        0.0 sec (  0.5%)
+   G(Act) operator               ...        0.0 sec (  0.3%)
 Calculation of MO transformed quantities
-   J(MO) operators               ...        0.0 sec ( 35.8%)
+   J(MO) operators               ...        0.0 sec ( 40.7%)
    AO->MO one electron integrals ...        0.0 sec (  0.1%)
 Configuration interaction steps
-   CI-setup phase                ...        0.0 sec (  5.0%)
-   CI-solution phase             ...        0.0 sec (  9.5%)
+   CI-setup phase                ...        0.0 sec (  5.4%)
+   CI-solution phase             ...        0.0 sec (  7.0%)
    Generation of densities       ...        0.0 sec (  0.1%)
 Orbital improvement steps
 CPCM steps
-   Total CPCM time               ...        0.0 sec (  0.4%)
-Properties                       ...        0.0 sec (  0.9%)
+   Total CPCM time               ...        0.0 sec (  0.2%)
+Properties                       ...        0.0 sec (  0.6%)
    SOC integral calculation      ...        0.0 sec (  0.0%)
    SSC RMEs (incl. integrals)    ...        0.0 sec (  0.0%)
    SOC RMEs                      ...        0.0 sec (  0.0%)
@@ -5774,12 +5770,12 @@ CASSCF TIMINGS
 --------------
 
 Total time                       ...        0.0 sec
-Sum of individual times          ...        0.0 sec ( 98.7%)
+Sum of individual times          ...        0.0 sec ( 98.4%)
 
 Calculation of AO operators
 Calculation of MO transformed quantities
 Configuration interaction steps
-   CI-setup phase                ...        0.0 sec ( 98.7%)
+   CI-setup phase                ...        0.0 sec ( 98.4%)
 Orbital improvement steps
 Properties                       ...        0.0 sec (  0.0%)
    SOC integral calculation      ...        0.0 sec (  0.0%)
@@ -6201,22 +6197,22 @@ CASSCF TIMINGS
 --------------
 
 Total time                       ...        0.1 sec
-Sum of individual times          ...        0.0 sec ( 51.9%)
+Sum of individual times          ...        0.0 sec ( 55.2%)
 
 Calculation of AO operators
    F(Core) operator              ...        0.0 sec (  0.6%)
    G(Act) operator               ...        0.0 sec (  0.4%)
 Calculation of MO transformed quantities
-   J(MO) operators               ...        0.0 sec ( 38.8%)
-   AO->MO one electron integrals ...        0.0 sec (  0.0%)
+   J(MO) operators               ...        0.0 sec ( 41.1%)
+   AO->MO one electron integrals ...        0.0 sec (  0.1%)
 Configuration interaction steps
-   CI-setup phase                ...        0.0 sec (  4.3%)
-   CI-solution phase             ...        0.0 sec (  7.0%)
+   CI-setup phase                ...        0.0 sec (  4.8%)
+   CI-solution phase             ...        0.0 sec (  7.3%)
    Generation of densities       ...        0.0 sec (  0.1%)
 Orbital improvement steps
 CPCM steps
    Total CPCM time               ...        0.0 sec (  0.2%)
-Properties                       ...        0.0 sec (  0.6%)
+Properties                       ...        0.0 sec (  0.7%)
    SOC integral calculation      ...        0.0 sec (  0.0%)
    SSC RMEs (incl. integrals)    ...        0.0 sec (  0.0%)
    SOC RMEs                      ...        0.0 sec (  0.0%)
@@ -6487,7 +6483,7 @@ Smallest eigenvalue                        ... 9.446e-01
 Time for diagonalization                   ...    0.000 sec
 Threshold for overlap eigenvalues          ... 1.000e-07
 Number of eigenvalues below threshold      ... 0
-Time for construction of square roots      ...    0.001 sec
+Time for construction of square roots      ...    0.000 sec
 Total time needed                          ...    0.001 sec
 
 -------------------
@@ -6704,22 +6700,22 @@ CASSCF TIMINGS
 --------------
 
 Total time                       ...        0.1 sec
-Sum of individual times          ...        0.0 sec ( 53.3%)
+Sum of individual times          ...        0.0 sec ( 54.9%)
 
 Calculation of AO operators
-   F(Core) operator              ...        0.0 sec (  0.5%)
+   F(Core) operator              ...        0.0 sec (  0.6%)
    G(Act) operator               ...        0.0 sec (  0.4%)
 Calculation of MO transformed quantities
-   J(MO) operators               ...        0.0 sec ( 38.3%)
+   J(MO) operators               ...        0.0 sec ( 40.4%)
    AO->MO one electron integrals ...        0.0 sec (  0.1%)
 Configuration interaction steps
-   CI-setup phase                ...        0.0 sec (  4.6%)
-   CI-solution phase             ...        0.0 sec (  8.4%)
+   CI-setup phase                ...        0.0 sec (  5.6%)
+   CI-solution phase             ...        0.0 sec (  7.0%)
    Generation of densities       ...        0.0 sec (  0.1%)
 Orbital improvement steps
 CPCM steps
    Total CPCM time               ...        0.0 sec (  0.2%)
-Properties                       ...        0.0 sec (  0.7%)
+Properties                       ...        0.0 sec (  0.6%)
    SOC integral calculation      ...        0.0 sec (  0.0%)
    SSC RMEs (incl. integrals)    ...        0.0 sec (  0.0%)
    SOC RMEs                      ...        0.0 sec (  0.0%)
@@ -6780,12 +6776,12 @@ CASSCF TIMINGS
 --------------
 
 Total time                       ...        0.0 sec
-Sum of individual times          ...        0.0 sec ( 98.5%)
+Sum of individual times          ...        0.0 sec ( 98.4%)
 
 Calculation of AO operators
 Calculation of MO transformed quantities
 Configuration interaction steps
-   CI-setup phase                ...        0.0 sec ( 98.5%)
+   CI-setup phase                ...        0.0 sec ( 98.4%)
 Orbital improvement steps
 Properties                       ...        0.0 sec (  0.0%)
    SOC integral calculation      ...        0.0 sec (  0.0%)
@@ -6990,7 +6986,7 @@ Smallest eigenvalue                        ... 9.611e-01
 Time for diagonalization                   ...    0.000 sec
 Threshold for overlap eigenvalues          ... 1.000e-07
 Number of eigenvalues below threshold      ... 0
-Time for construction of square roots      ...    0.001 sec
+Time for construction of square roots      ...    0.000 sec
 Total time needed                          ...    0.001 sec
 
 -------------------
@@ -7207,21 +7203,21 @@ CASSCF TIMINGS
 --------------
 
 Total time                       ...        0.1 sec
-Sum of individual times          ...        0.0 sec ( 57.9%)
+Sum of individual times          ...        0.0 sec ( 52.8%)
 
 Calculation of AO operators
-   F(Core) operator              ...        0.0 sec (  0.7%)
-   G(Act) operator               ...        0.0 sec (  0.4%)
+   F(Core) operator              ...        0.0 sec (  0.6%)
+   G(Act) operator               ...        0.0 sec (  0.3%)
 Calculation of MO transformed quantities
-   J(MO) operators               ...        0.0 sec ( 39.2%)
+   J(MO) operators               ...        0.0 sec ( 39.1%)
    AO->MO one electron integrals ...        0.0 sec (  0.1%)
 Configuration interaction steps
-   CI-setup phase                ...        0.0 sec (  9.1%)
+   CI-setup phase                ...        0.0 sec (  4.5%)
    CI-solution phase             ...        0.0 sec (  7.4%)
    Generation of densities       ...        0.0 sec (  0.1%)
 Orbital improvement steps
 CPCM steps
-   Total CPCM time               ...        0.0 sec (  0.3%)
+   Total CPCM time               ...        0.0 sec (  0.2%)
 Properties                       ...        0.0 sec (  0.6%)
    SOC integral calculation      ...        0.0 sec (  0.0%)
    SSC RMEs (incl. integrals)    ...        0.0 sec (  0.0%)
@@ -7710,21 +7706,21 @@ CASSCF TIMINGS
 --------------
 
 Total time                       ...        0.1 sec
-Sum of individual times          ...        0.0 sec ( 48.6%)
+Sum of individual times          ...        0.0 sec ( 53.7%)
 
 Calculation of AO operators
-   F(Core) operator              ...        0.0 sec (  0.8%)
+   F(Core) operator              ...        0.0 sec (  0.6%)
    G(Act) operator               ...        0.0 sec (  0.4%)
 Calculation of MO transformed quantities
-   J(MO) operators               ...        0.0 sec ( 34.0%)
+   J(MO) operators               ...        0.0 sec ( 39.8%)
    AO->MO one electron integrals ...        0.0 sec (  0.1%)
 Configuration interaction steps
-   CI-setup phase                ...        0.0 sec (  4.7%)
-   CI-solution phase             ...        0.0 sec (  7.6%)
+   CI-setup phase                ...        0.0 sec (  4.2%)
+   CI-solution phase             ...        0.0 sec (  7.8%)
    Generation of densities       ...        0.0 sec (  0.1%)
 Orbital improvement steps
 CPCM steps
-   Total CPCM time               ...        0.0 sec (  0.3%)
+   Total CPCM time               ...        0.0 sec (  0.2%)
 Properties                       ...        0.0 sec (  0.6%)
    SOC integral calculation      ...        0.0 sec (  0.0%)
    SSC RMEs (incl. integrals)    ...        0.0 sec (  0.0%)
@@ -8213,22 +8209,22 @@ CASSCF TIMINGS
 --------------
 
 Total time                       ...        0.1 sec
-Sum of individual times          ...        0.0 sec ( 53.9%)
+Sum of individual times          ...        0.0 sec ( 54.4%)
 
 Calculation of AO operators
-   F(Core) operator              ...        0.0 sec (  0.5%)
+   F(Core) operator              ...        0.0 sec (  0.6%)
    G(Act) operator               ...        0.0 sec (  0.4%)
 Calculation of MO transformed quantities
-   J(MO) operators               ...        0.0 sec ( 38.7%)
-   AO->MO one electron integrals ...        0.0 sec (  0.0%)
+   J(MO) operators               ...        0.0 sec ( 40.1%)
+   AO->MO one electron integrals ...        0.0 sec (  0.1%)
 Configuration interaction steps
-   CI-setup phase                ...        0.0 sec (  4.4%)
-   CI-solution phase             ...        0.0 sec (  8.8%)
+   CI-setup phase                ...        0.0 sec (  4.2%)
+   CI-solution phase             ...        0.0 sec (  8.2%)
    Generation of densities       ...        0.0 sec (  0.1%)
 Orbital improvement steps
 CPCM steps
    Total CPCM time               ...        0.0 sec (  0.2%)
-Properties                       ...        0.0 sec (  0.7%)
+Properties                       ...        0.0 sec (  0.6%)
    SOC integral calculation      ...        0.0 sec (  0.0%)
    SSC RMEs (incl. integrals)    ...        0.0 sec (  0.0%)
    SOC RMEs                      ...        0.0 sec (  0.0%)
@@ -8289,12 +8285,12 @@ CASSCF TIMINGS
 --------------
 
 Total time                       ...        0.0 sec
-Sum of individual times          ...        0.0 sec ( 98.4%)
+Sum of individual times          ...        0.0 sec ( 98.5%)
 
 Calculation of AO operators
 Calculation of MO transformed quantities
 Configuration interaction steps
-   CI-setup phase                ...        0.0 sec ( 98.4%)
+   CI-setup phase                ...        0.0 sec ( 98.5%)
 Orbital improvement steps
 Properties                       ...        0.0 sec (  0.0%)
    SOC integral calculation      ...        0.0 sec (  0.0%)
@@ -8589,11 +8585,11 @@ List of optional additional citations
 
 Timings for individual modules:
 
-Sum of individual times          ...        6.043 sec (=   0.101 min)
-Startup calculation              ...        1.483 sec (=   0.025 min)  24.5 %
-SCF iterations                   ...        0.687 sec (=   0.011 min)  11.4 %
-CASSCF iterations                ...        2.683 sec (=   0.045 min)  44.4 %
-Property integrals               ...        0.594 sec (=   0.010 min)   9.8 %
-Property calculations            ...        0.595 sec (=   0.010 min)   9.8 %
+Sum of individual times          ...        5.450 sec (=   0.091 min)
+Startup calculation              ...        1.407 sec (=   0.023 min)  25.8 %
+SCF iterations                   ...        0.602 sec (=   0.010 min)  11.1 %
+CASSCF iterations                ...        2.309 sec (=   0.038 min)  42.4 %
+Property integrals               ...        0.560 sec (=   0.009 min)  10.3 %
+Property calculations            ...        0.572 sec (=   0.010 min)  10.5 %
                              ****ORCA TERMINATED NORMALLY****
-TOTAL RUN TIME: 0 days 0 hours 0 minutes 8 seconds 238 msec
+TOTAL RUN TIME: 0 days 0 hours 0 minutes 6 seconds 129 msec

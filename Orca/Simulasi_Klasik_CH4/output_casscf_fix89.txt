@@ -1,6 +1,6 @@
 === RERUN CASSCF TITIK 8 DAN 9 (fix orbital switching) ===
-start_total=Fri Jul 3 19:46:04 WIB 2026
+start_total=Sat Jul 4 09:06:32 WIB 2026
 --- Titik 8 (R=1.6667 A), baca orbital dari titik 7 ---
 --- Titik 9 (R=1.8333 A), baca orbital dari titik 8 fix ---
-end_total=Fri Jul 3 19:46:04 WIB 2026
+end_total=Sat Jul 4 09:06:41 WIB 2026
 === SELESAI ===

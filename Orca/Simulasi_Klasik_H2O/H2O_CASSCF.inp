@@ -4,8 +4,8 @@
 end
 
 %casscf
-  nel  8
-  norb 6
+  nel  4
+  norb 4
 end
 
 %paras
